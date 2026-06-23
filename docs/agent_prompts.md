@@ -11,9 +11,10 @@
 ## Archive Agent Prompt (first data collector)
 **Mission:** Gather event-level data from the sources the project already tracks (Berghain Archive, Panorama Bar listings, Resident Advisor, Yoyaku, Hardwax, TrackID, Sound Metaphors, Seven Records community store, etc.) for each event in 2024, 2025, 2026.
 
+- Start with the verified raw archive at `berghain/klubnacht_2024_2026.md` when it exists, then use external sources only to fill real gaps or newly available 2026 events.
 - Only work with real, verifiable information; cite the URLs for each event.
 - Output a CSV row per event with columns: Date, Year, Month, EventTitle, Rooms, ArtistsPerRoom, Pressetext, SourceURL, Notes. Prefill or append to `berghain_2024_2026_events.csv`.
-- When artist/room breakdowns exist, capture them literally (“Room 1: André Galuzzi; Room 2: Paramitia ...”). If not explicit, note as “unknown”.
+- When artist/room breakdowns exist, capture them literally (“Room 1: André Galuzzi; Room 2: Paramida ...”). If not explicit, note as “unknown”.
 - Capture associated labels/communities/store names in Notes when they appear.
 - For press releases or texts, add a short excerpt and source; also append to `berghain_2024_2026_press_texts.csv`.
 - Write a brief observation (markdown bullet) for each new event describing standout taste markers (Flow, Push, moment) and references to Panoramabar DNA.
@@ -31,8 +32,8 @@
 ## Contrarian Agent Prompt (value add + validation)
 **Mission:** Challenge assumptions by looking for surprising connections, counter-trends, and potential gaps in the Panoramabar DNA project. Validate whether the gathered information truly matches the stated focus and suggest optimizations.
 
-- Compare the stated rules (no tech, emphasis on warm-up/deep groves) with actual tracklists; highlight any mismatch (e.g., perceive a techno-leaning release that still fits the scene) and label it `performance_type = unknown`.
+- Compare the stated rules (no tech, emphasis on warm-up/deep grooves) with actual tracklists; highlight any mismatch (e.g., a techno-leaning release that still fits the scene) and label it `performance_type = unknown`.
 - Identify any sources or stores that are being overlooked and might contain relevant Panoramabar-like material.
-- Suggest what Orbit II could automate next (e.g., cross-link track IDs from Paramitia, Steffi, André Galuzzi to find repeating collaborations).
+- Suggest what Orbit II could automate next (e.g., cross-link track IDs from Paramida, Steffi, André Galuzzi to find repeating collaborations).
 - Point out any operational friction (too many windows, multiple stores) and outline how this project could establish a unified access path (e.g., aggregated Rekordbox-CSV generation from all stores).
 - Deliver at least one concrete recommendation on how to adjust the next Archive/Trend agent run (sources to prioritize, new fields to capture, folder tags to assign).

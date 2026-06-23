@@ -4,7 +4,7 @@
 - Project: Orbit II (DJ research archive)
 - Phase: Sammlung
 - Focus: Panorama Bar, warm-up/deep grooves, minimal house, groove, closing sets
-- No judgments, no top lists, no final DNA yet
+- No judgments, no top lists, no final identity claims yet
 
 ## What we have
 - Berghain 2010 archive completed (events, artists, press texts, labels, communities, aesthetics)
@@ -13,7 +13,7 @@
 
 ## Next moves
 - Create CSV templates for events, artists, press texts, label/community/aesthetic mapping
-- Define agent prompts for Archive/Trend/Contrarian to collect new sources and validate DNA
+- Define agent prompts for Archive/Trend/Contrarian to collect new sources and validate source-backed patterns
 - Surface emerging terms from Panoramabar sets and associated stores/labels
 
 ## Immediate note
@@ -25,7 +25,7 @@
 - The 2024-01-06 event listed only Berghain; the source text explicitly says only the main Berghain floor was open.
 - Panorama Bar appeared from 2024-01-13 onward in this batch.
 - Säule appeared as an additional room on 2024-02-10 and 2024-02-17.
-- Removed placeholder/example CSV rows that used example.com sources so the current archive tables only contain source-backed rows from this run plus headers.
+- Removed placeholder/example CSV rows so the current archive tables only contain source-backed rows from this run plus headers.
 
 ### Archive handoff 2026-06-23
 - Added events:

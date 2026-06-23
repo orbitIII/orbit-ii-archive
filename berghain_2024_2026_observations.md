@@ -4,7 +4,7 @@
 - Project: Orbit II (DJ research archive)
 - Phase: Sammlung
 - Focus: Panorama Bar, warm-up/deep grooves, minimal house, groove, closing sets
-- No judgments, no top lists, no final DNA yet
+- No judgments, no top lists, no final identity claims yet
 
 ## What we have
 - Berghain 2010 archive completed (events, artists, press texts, labels, communities, aesthetics)
@@ -15,6 +15,13 @@
 ## Immediate note
 - Keep human-in-the-loop decisions (e.g., keep/delete tracks) but automate tagging, folder suggestions, and Rekordbox exports based on Panorama bar DNA.
 
+## Sammelphase run: 2024 January-February
+- Scope chosen for this run because the automation prompt's date range placeholder was empty and listed "2024 January-February" as the first example.
+- Official Berghain event archive pages verified eight Saturday Klubnacht entries from 2024-01-06 through 2024-02-24.
+- The 2024-01-06 event listed only Berghain; the source text explicitly says only the main Berghain floor was open.
+- Panorama Bar appeared from 2024-01-13 onward in this batch.
+- Säule appeared as an additional room on 2024-02-10 and 2024-02-17.
+- Removed placeholder/example CSV rows so the current archive tables only contain source-backed rows from this run plus headers.
 
 ## TrackID Import runs
 

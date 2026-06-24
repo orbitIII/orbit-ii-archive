@@ -2,22 +2,23 @@
 
 ## Scope
 
-The required archive inputs were read from:
+The initial overlap pass read these root CSV inputs before the Top 50 correction:
 
 - `berghain_2024_2026_artist_frequency.csv`
 - `berghain_2024_2026_artists_raw.csv`
 - `berghain_2024_2026_events.csv`
 
-Those files currently expose only two Panorama Bar / Berghain acts:
+Those CSVs were placeholder-sized at the time and exposed only two acts for external track research:
 
 1. Paramida
-2. André Galuzzi
+2. André Galluzzi
 
-Because the archive does not contain 50 distinct acts, this iteration processes the complete available act set rather than inventing missing artists. Public sources often spell the second artist as **André Galluzzi**; the CSV keeps the archive spelling in `top50_acts` and notes the public spelling where relevant.
+Follow-up work rebuilt the Top 50 Panorama Bar artist inputs from `berghain/klubnacht_2024_2026.md`; see `TOP50_PANORAMA_BAR_ARTISTS_REPORT.md` and `berghain_2024_2026_top50_panorama_bar_artists.csv`. The overlap CSV remains an incomplete seed for the two artists researched before that correction and should not be treated as complete for all 50 artists.
 
 ## Counts
 
-- Top 50 acts processed: 2 available archive acts
+- Corrected Top 50 Panorama Bar acts available: 50
+- External track-overlap acts processed so far: 2
 - Source pages searched: 11
 - Targeted overlap searches run: 6
 - Verified tracks written to CSV: 86
@@ -36,7 +37,7 @@ Because the archive does not contain 50 distinct acts, this iteration processes 
 - DJ Tracklists BBC Radio 1 Residency: `https://tracklists.thomaslaupstad.com/paramida-residency-2023-01-06-tracklist/`
 - DJ Tracklists R1s Wind Down Presents: `https://tracklists.thomaslaupstad.com/ostgut-ton-paramida-r1s-wind-down-presents-2021-04-17-tracklist-playlist/`
 
-### André Galuzzi / André Galluzzi
+### André Galluzzi
 
 - MixesDB Boiler Room Berlin: `https://www.mixesdb.com/w/2013-10-16_-_Andr%C3%A9_Galluzzi_@_Boiler_Room_Berlin`
 - Discogs Berghain 01: `https://www.discogs.com/release/586244-Andr%C3%A9-Galluzzi-Berghain-01`
@@ -63,11 +64,11 @@ No verified multi-act track overlap was discovered in this iteration.
 The strongest evidence clusters are single-act confirmations:
 
 - Paramida RA.723: 15 tracks verified by Resident Advisor and MixesDB.
-- André Galuzzi / André Galluzzi Berghain 01: 13 tracks verified by Discogs and se7en.ws release listings.
+- André Galluzzi Berghain 01: 13 tracks verified by Discogs and se7en.ws release listings.
 - Paramida Essential Mix 2024-03-09: 23 tracks verified by MixesDB.
 - Paramida BBC Radio 1 Residency 2023-01-06: 13 tracks verified by MixesDB and DJ Tracklists.
 - Paramida R1s Wind Down Presents 2021-04-17: 13 tracks verified by DJ Tracklists.
-- André Galuzzi / André Galluzzi Boiler Room Berlin 2013-10-16: 9 identified tracks verified by MixesDB.
+- André Galluzzi Boiler Room Berlin 2013-10-16: 9 identified tracks verified by MixesDB.
 
 All CSV rows are therefore `Medium` confidence: each has at least one public source and one URL, but no row is confirmed across multiple Top 50 acts.
 
@@ -83,14 +84,13 @@ The following evidence was excluded from the CSV:
 
 ## Missing sources and limitations
 
-- The archive inputs contain two acts, not 50, so the output cannot represent a true Top 50 matrix yet.
+- The corrected Top 50 artist inputs are now available, but external track-overlap research has not yet been expanded from the initial two seed artists to all 50.
 - No confirmed 1001Tracklists pages were found for the two available acts during this pass.
 - TrackID.net and SoundCloud comment evidence was searched conceptually but no reproducible, row-level source URL was found for a shared track.
-- Some pages use the public spelling "André Galluzzi" while the archive uses "André Galuzzi"; this should be normalized in a future archive pass.
 
 ## Recommendations for the next research iteration
 
-1. Expand the archive event data so the Top 50 selection is based on a meaningful ranked list rather than the current two-act subset.
+1. Run the external source pass for every artist in `berghain_2024_2026_top50_panorama_bar_artists.csv`.
 2. Add a normalized artist alias table before matching external sources, especially for diacritics and spelling variants.
 3. Store source snapshots or extracted tracklist text alongside the CSV to make future audits easier.
 4. Prioritize official mix pages, TrackID.net pages, 1001Tracklists pages, and source pages with stable URLs before using mirrored databases.

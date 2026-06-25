@@ -32,6 +32,7 @@
 | Top 50 Panorama Bar Artists | Available | 50 | 2026-06-24T21:15:58+00:00 | Repository root archive | `berghain_2024_2026_top50_panorama_bar_artists.csv` | 573eaed |
 | Track Evidence | Available | 98 | 2026-06-25T08:24:29+00:00 | Track evidence / overlap research | `berghain_2024_2026_top50_track_evidence_normalized.csv` | 2444a9c |
 | Track Overlaps | Available | 89 | 2026-06-24T23:01:26+00:00 | Track evidence / overlap research | `berghain_2024_2026_top50_track_overlaps.csv` | 901d568 |
+| TrackID Artist CSV Manifest | Available | 50 | Current branch update | TrackID.net archive output | `berghain_2024_2026_trackid_artist_csv_manifest.csv` | Current branch update |
 | Track Sources / Provider Index | Available | 300 | 2026-06-25T08:16:16+00:00 | Repository root archive | `berghain_2024_2026_top50_artist_set_source_index.csv` | d378c87 |
 | TrackID Artist Set Archive | Available | 838 | 2026-06-25T08:16:16+00:00 | TrackID.net archive output | `berghain_2024_2026_top50_artist_sets_trackid.csv` | d378c87 |
 | TrackID Overlaps | Available | 3 | 2026-06-24T23:01:26+00:00 | TrackID.net archive output | `berghain_2024_2026_top50_trackid_overlaps.csv` | 901d568 |
@@ -176,6 +177,11 @@
 ├── berghain_2024_2026_top50_track_evidence_normalized.csv
 ├── berghain_2024_2026_top50_track_overlaps.csv
 ├── berghain_2024_2026_top50_trackid_overlaps.csv
+├── berghain_2024_2026_trackid_artist_csv_manifest.csv
+├── data/
+│   ├── trackid_artist_csv/
+│   │   └── 50 per-artist TrackID CSV files
+│   └── trackid_csv_raw/
 ├── README.md
 ├── TOP50_ARTIST_SET_ARCHIVE_REPORT.md
 ├── TOP50_PANORAMA_BAR_ARTISTS_REPORT.md

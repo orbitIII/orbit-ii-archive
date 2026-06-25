@@ -1,0 +1,51 @@
+artist_rank,artist,local_csv_path,row_count,trackid_result_count,status,notes
+1,nd_baumecker,data/trackid_artist_csv/01_nd_baumecker.csv,20,39,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+2,Richard Akingbehin,data/trackid_artist_csv/02_richard_akingbehin.csv,20,25,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+3,BASHKKA,data/trackid_artist_csv/03_bashkka.csv,20,21,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+4,Gerd Janson,data/trackid_artist_csv/04_gerd_janson.csv,20,63,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+5,Mike Starr,data/trackid_artist_csv/05_mike_starr.csv,17,17,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+6,Ogazón,data/trackid_artist_csv/06_ogazon.csv,20,28,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+7,Paramida,data/trackid_artist_csv/07_paramida.csv,20,114,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+8,Cinthie,data/trackid_artist_csv/08_cinthie.csv,20,116,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+9,Gabrielle Kwarteng,data/trackid_artist_csv/09_gabrielle_kwarteng.csv,20,53,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+10,Lakuti,data/trackid_artist_csv/10_lakuti.csv,20,22,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+11,Massimiliano Pagliara,data/trackid_artist_csv/11_massimiliano_pagliara.csv,20,48,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+12,Roi Perez,data/trackid_artist_csv/12_roi_perez.csv,20,44,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+13,Soundstream,data/trackid_artist_csv/13_soundstream.csv,7,7,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+14,Cormac,data/trackid_artist_csv/14_cormac.csv,20,93,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+15,Tama Sumo,data/trackid_artist_csv/15_tama_sumo.csv,20,20,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+16,Alinka,data/trackid_artist_csv/16_alinka.csv,20,33,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+17,André Galluzzi,data/trackid_artist_csv/17_andre_galluzzi.csv,15,15,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+18,Budino,data/trackid_artist_csv/18_budino.csv,20,36,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+19,Nick Höppner,data/trackid_artist_csv/19_nick_hoeppner.csv,10,10,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+20,Ryan Elliott,data/trackid_artist_csv/20_ryan_elliott.csv,20,59,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+21,Sedef Adasï,data/trackid_artist_csv/21_sedef_adasi.csv,20,21,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+22,Victor,data/trackid_artist_csv/22_victor.csv,20,367,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+23,Virginia,data/trackid_artist_csv/23_virginia.csv,20,32,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+24,Marie Montexier,data/trackid_artist_csv/24_marie_montexier.csv,20,59,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+25,Stacey Hotwaxx Hale,data/trackid_artist_csv/25_stacey_hotwaxx_hale.csv,8,8,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+26,Tijana T,data/trackid_artist_csv/26_tijana_t.csv,20,27,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+27,Violetta,data/trackid_artist_csv/27_violetta.csv,4,4,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+28,Chloé,data/trackid_artist_csv/28_chloe.csv,20,204,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+29,Kikelomo,data/trackid_artist_csv/29_kikelomo.csv,20,41,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+30,Natalie Robinson,data/trackid_artist_csv/30_natalie_robinson.csv,20,26,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+31,Nathalie Seres,data/trackid_artist_csv/31_nathalie_seres.csv,9,9,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+32,Oracy,data/trackid_artist_csv/32_oracy.csv,1,1,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+33,Paquita Gordon,data/trackid_artist_csv/33_paquita_gordon.csv,20,28,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+34,Âme,data/trackid_artist_csv/34_ame.csv,20,566,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+35,Avalon Emerson,data/trackid_artist_csv/35_avalon_emerson.csv,20,48,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+36,Ed Davenport,data/trackid_artist_csv/36_ed_davenport.csv,8,8,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+37,Naomi,data/trackid_artist_csv/37_naomi.csv,20,182,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+38,Partok,data/trackid_artist_csv/38_partok.csv,13,13,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+39,Paula Tape,data/trackid_artist_csv/39_paula_tape.csv,20,53,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+40,Radio Slave,data/trackid_artist_csv/40_radio_slave.csv,20,39,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+41,Steffi,data/trackid_artist_csv/41_steffi.csv,20,32,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+42,Zombies In Miami,data/trackid_artist_csv/42_zombies_in_miami.csv,1,0,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+43,Binh,data/trackid_artist_csv/43_binh.csv,17,17,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+44,DJ Dustin,data/trackid_artist_csv/44_dj_dustin.csv,20,20,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+45,DJ Holographic,data/trackid_artist_csv/45_dj_holographic.csv,1,0,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+46,Franziska Berns,data/trackid_artist_csv/46_franziska_berns.csv,15,15,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+47,Gallegos,data/trackid_artist_csv/47_gallegos.csv,20,33,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+48,Hiroko Yamamura,data/trackid_artist_csv/48_hiroko_yamamura.csv,20,20,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+49,Katy De Jesus,data/trackid_artist_csv/49_katy_de_jesus.csv,12,12,created,Created from TrackID visible search archive; not an official TrackID export CSV.
+50,Loren,data/trackid_artist_csv/50_loren.csv,20,230,created,Created from TrackID visible search archive; not an official TrackID export CSV.

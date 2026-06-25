@@ -13,6 +13,25 @@ Es beantwortet:
 - Welche Ansichten braucht die Set-Vorbereitung?
 - Welche Ansichten braucht die Forschung?
 
+Die Leitfragen stehen in `docs/ORBIT_II_CORE_QUESTIONS.md`.
+
+---
+
+# 0. Core Question Layer
+
+Orbit II ist kein Selbstzweck-Datenarchiv. Jede Entität sollte mindestens eine der Kernfragen unterstützen:
+
+| Fragebereich | Architektur-Aufgabe | Aktuelle Evidenz |
+|---|---|---|
+| Digging | Tracks, Labels, Shops und Releases über Artists/Sets vergleichbar machen | `berghain_2024_2026_top50_artist_sets_trackid.csv`, `berghain_2024_2026_top50_track_evidence_normalized.csv` |
+| Musical Context | Track-Position, Vorher/Nachher-Kontext, Atmosphäre und Funktion erfassbar machen | `artist_set_tracks.csv` not yet available |
+| Collection Management | Ownership, Neuheitswert und Rekordbox-Zuordnung vorbereiten | `rekordbox_exports/*.csv` not yet available |
+| Set Preparation | Flow, Push, Layer, Atmosphere und Moment als Views auf Track Evidence bauen | `docs/future_flow.md`, `docs/agent_prompts.md` |
+| Research | Entwicklung von Panorama Bar, Artists, Communities und Labels nachvollziehen | `berghain_2024_2026_events.csv`, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_labels_communities_aesthetics.md` |
+| Knowledge Graph | Track → Artist → Set → Event → Label → Store → Community → Function → Rekordbox → Library → Sets verbinden | `knowledge_graph.*` not yet available |
+
+Wenn ein Dataset keine dieser Fragen beantwortet, sollte sein Wert neu geprüft werden.
+
 ---
 
 # 1. Zentrale Datenobjekte
@@ -31,7 +50,7 @@ Es beantwortet:
 | Track Overlap | Track taucht bei mehreren Top-50-Artists auf | `berghain_2024_2026_top50_track_overlaps.csv`, `berghain_2024_2026_top50_trackid_overlaps.csv` |
 | Label | Label eines Tracks / Artists / Releases | Track- und Artist-Dateien |
 | Community / Aesthetic | Labels, Stores, Szenen, Begriffe | `berghain_2024_2026_labels_communities_aesthetics.md` |
-| Report | Forschungs-/Validierungsstand | `*_REPORT.md` |
+| Report | Forschungs-/Validierungsstand | vorhandene Report-Dateien, z. B. `TRACKID_OVERLAP_REPORT.md`, `TOP50_ARTIST_SET_ARCHIVE_REPORT.md` |
 | Automation | Agenten / Workflows | `docs/automation_plan.md`, `docs/agent_prompts.md` |
 | Rekordbox Folder Logic | Flow, Push, Moment etc. | `docs/future_flow.md`, `docs/agent_prompts.md` |
 
@@ -229,14 +248,14 @@ ORBIT II
 
 Diese fehlen noch als echte Datasets:
 
-| Fehlendes Objekt | Datei | Warum wichtig |
-|---|---|---|
-| Canonical Track | `canonical_tracks.csv` | gleiche Tracks / Schreibweisen zusammenführen |
-| Artist Alias | `artist_aliases.csv` | Victor, Âme, Naomi, Chloé etc. disambiguieren |
-| Artist Set Tracks | `artist_set_tracks.csv` | Tracklisten aus Sets normalisieren |
-| Knowledge Graph | `knowledge_graph.*` | Events, Artists, Tracks, Labels verbinden |
-| Rekordbox Export | `rekordbox_exports/*.csv` | Flow / Push / Moment exportieren |
-| Store Catalog | `stores.csv` | Hardwax, Yoyaku, Bandcamp etc. strukturiert einbinden |
+| Fehlendes Objekt | Datei | Status | Warum wichtig |
+|---|---|---|---|
+| Canonical Track | `canonical_tracks.csv` | Not yet available. | gleiche Tracks / Schreibweisen zusammenführen |
+| Artist Alias | `artist_aliases.csv` | Not yet available. | Victor, Âme, Naomi, Chloé etc. disambiguieren |
+| Artist Set Tracks | `artist_set_tracks.csv` | Not yet available. | Tracklisten aus Sets normalisieren |
+| Knowledge Graph | `knowledge_graph.*` | Not yet available. | Events, Artists, Tracks, Labels verbinden |
+| Rekordbox Export | `rekordbox_exports/*.csv` | Not yet available. | Flow / Push / Moment exportieren |
+| Store Catalog | `stores.csv` | Not yet available. | Hardwax, Yoyaku, Bandcamp etc. strukturiert einbinden |
 
 ---
 
@@ -244,9 +263,9 @@ Diese fehlen noch als echte Datasets:
 
 Als nächstes sollte Orbit II diese Reihenfolge bekommen:
 
-1. `artist_aliases.csv`
-2. `canonical_tracks.csv`
-3. `artist_set_tracks.csv`
+1. `artist_aliases.csv` — Not yet available.
+2. `canonical_tracks.csv` — Not yet available.
+3. `artist_set_tracks.csv` — Not yet available.
 4. Knowledge Graph
 5. Rekordbox Export Views
 
@@ -290,10 +309,10 @@ Die Architektur trennt vier Hauptbedürfnisse:
 
 Die nächsten fehlenden Kernobjekte sind:
 
-- `artist_aliases.csv`
-- `canonical_tracks.csv`
-- `artist_set_tracks.csv`
-- `knowledge_graph.*`
-- `rekordbox_exports/*.csv`
+- `artist_aliases.csv` — Not yet available.
+- `canonical_tracks.csv` — Not yet available.
+- `artist_set_tracks.csv` — Not yet available.
+- `knowledge_graph.*` — Not yet available.
+- `rekordbox_exports/*.csv` — Not yet available.
 
 Diese Objekte machen aus dem aktuellen Archiv ein vollständiges, filterbares DJ-Research- und Set-Vorbereitungs-System.

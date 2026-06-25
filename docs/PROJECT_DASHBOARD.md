@@ -62,8 +62,8 @@
 | `TOP50_PANORAMA_BAR_ARTISTS_REPORT.md` | `berghain/klubnacht_2024_2026.md`, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_top50_panorama_bar_artists.csv` |
 | `TRACKID_OVERLAP_REPORT.md` | `berghain_2024_2026_top50_panorama_bar_artists.csv`, `berghain_2024_2026_top50_track_overlaps.csv`, `berghain_2024_2026_top50_trackid_overlaps.csv` |
 | `TRACK_OVERLAP_REPORT.md` | `TOP50_PANORAMA_BAR_ARTISTS_REPORT.md`, `berghain/klubnacht_2024_2026.md`, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_events.csv`, `berghain_2024_2026_top50_panorama_bar_artists.csv` |
-| `docs/agent_prompts.md` | `berghain_2024_2026_*.csv`, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_events.csv`, `berghain_2024_2026_labels_communities_aesthetics.md`, `berghain_2024_2026_observations.md`, `berghain_2024_2026_press_texts.csv`, `docs/automation_plan.md` |
-| `docs/automation_plan.md` | `berghain_2024_2026_*.csv`, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_events.csv`, `berghain_2024_2026_observations.md`, `berghain_2024_2026_press_texts.csv`, `berghain_2024_2026_labels_communities_aesthetics.md`, `docs/agent_prompts.md` |
+| `docs/agent_prompts.md` | all `berghain_2024_2026` CSVs, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_events.csv`, `berghain_2024_2026_labels_communities_aesthetics.md`, `berghain_2024_2026_observations.md`, `berghain_2024_2026_press_texts.csv`, `docs/automation_plan.md` |
+| `docs/automation_plan.md` | all `berghain_2024_2026` CSVs, `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_artists_raw.csv`, `berghain_2024_2026_events.csv`, `berghain_2024_2026_observations.md`, `berghain_2024_2026_press_texts.csv`, `berghain_2024_2026_labels_communities_aesthetics.md`, `docs/agent_prompts.md` |
 | `docs/future_flow.md` | `berghain_2024_2026_artist_frequency.csv`, `berghain_2024_2026_labels_communities_aesthetics.md`, `berghain_2024_2026_observations.md` |
 
 ## Research
@@ -71,6 +71,7 @@
 | Status | Module | Evidence |
 | --- | --- | --- |
 | ✅ | Berghain Archive | `berghain/klubnacht_2024_2026.md`, `berghain_2024_2026_events.csv` |
+| ✅ | Core Questions | `docs/ORBIT_II_CORE_QUESTIONS.md` |
 | ✅ | Top 50 Artists | `berghain_2024_2026_top50_panorama_bar_artists.csv` |
 | ✅ | TrackID Sources | `berghain_2024_2026_top50_artist_sets_trackid.csv`, `berghain_2024_2026_top50_artist_set_source_index.csv` |
 | 🟡 | Track Canonicalization | `berghain_2024_2026_top50_track_evidence_normalized.csv`; `canonical_tracks.csv` not yet available. |
@@ -155,6 +156,8 @@
 │   ├── agent_prompts.md
 │   ├── automation_plan.md
 │   ├── future_flow.md
+│   ├── ORBIT_II_CORE_QUESTIONS.md
+│   ├── ORBIT_II_INFORMATION_ARCHITECTURE.md
 │   └── PROJECT_DASHBOARD.md
 ├── berghain_2024_2026_artist_frequency.csv
 ├── berghain_2024_2026_artists_raw.csv
@@ -186,6 +189,7 @@
 
 | Priority | Datasets requiring work | Reason |
 | --- | --- | --- |
+| Align every dataset to core questions | `docs/ORBIT_II_CORE_QUESTIONS.md`, `docs/PROJECT_DASHBOARD.md` | New datasets should answer at least one core question: digging, musical context, collection management, set preparation, research, or graph relationships. |
 | Canonicalize tracks | `berghain_2024_2026_top50_track_evidence_normalized.csv`, `berghain_2024_2026_top50_track_overlaps.csv` | Missing `canonical_tracks.csv`; required to merge variants and recompute overlaps. |
 | Create artist alias/disambiguation table | `berghain_2024_2026_top50_artist_sets_trackid.csv`, `TOP50_ARTIST_SET_ARCHIVE_REPORT.md` | Broad-name searches flagged for Victor, Âme, Naomi, Chloé, Loren. |
 | Extract TrackID set tracklists into normalized table | `berghain_2024_2026_top50_artist_sets_trackid.csv` | Report recommends `artist_set_tracks.csv`; not yet available. |

@@ -75,27 +75,36 @@ Outlier if: confidence < 55%, BPM outside p10–p90, genre outside top 15, or si
 3. Use **playlists, not folders**, for visible track lists (folders need a child playlist)
 4. `pyrekordbox` dependency: `pip3 install pyrekordbox`
 
-## Roadmap: Remmex → Rekordbox pipeline
+## Remmex integration
 
-Information still needed before auto-download:
+Base URL: `https://srv.remmex.com/#/media/releases?date=YYYY-MM-DD`
 
-| Field | Source today | Needed for Remmex |
-|-------|--------------|-------------------|
-| Artist + Title | Rekordbox / scores | Search query |
-| Label | Rekordbox | Filter / verify match |
-| BPM + Key | Rekordbox | Pre-check against profile rules |
-| Confidence score | ORBIT analysis | Accept / reject threshold |
-| Playlist target | `orbit_playlists.json` | Which folder to file under |
-| File format | TBD | WAV / FLAC / MP3 preference |
-| Duplicate detection | Content ID | Avoid double imports |
+### List view fields
 
-Planned flow:
+| Field | In list | Notes |
+|-------|---------|-------|
+| Release ID | `#7967355` | Display ID in UI |
+| Download ID | ZIP URL | `/dwnld/release/{id}.zip?mp3` |
+| Artist, Title, Label, Genre | yes | Genre lowercase (e.g. `house`) |
+| BPM, Key | **no** | Only after download / Rekordbox import |
 
-1. Candidate track scored against `orbit_core_profile_rules.json` (or FLOW/PUSH profile)
-2. If score ≥ threshold → search Remmex
-3. Download audio → import to Rekordbox collection
-4. Add to target playlist via `pyrekordbox` (`add_to_playlist`)
-5. Re-run analysis to refresh outliers
+### Scripts
+
+```bash
+# 1. Export releases from open Remmex page (browser automation) → remmex/releases-DATE.json
+# 2. Score against ORBIT profile (BPM rule disabled for list view)
+python3 scripts/score_remmex_releases.py remmex/releases-2026-06-25.json --profile orbit_core
+python3 scripts/score_remmex_releases.py remmex/releases-2026-06-25.json --profile orbit_flow
+```
+
+Genre tag mapping Remmex → Rekordbox is handled in `score_remmex_releases.py`.
+
+### Pipeline (planned)
+
+```
+Remmex date feed → pre-score (genre/artist/label) → ZIP download → Rekordbox import
+→ BPM/Key analysis → final score → add to ORBIT playlist
+```
 
 ## Git
 

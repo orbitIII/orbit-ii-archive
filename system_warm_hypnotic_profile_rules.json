@@ -1,0 +1,366 @@
+{
+  "source": "rekordbox/exports/warm_hypnotic_snapshot.csv",
+  "playlist_name": "WARM HYPNOTIC (SYSTEM)",
+  "profile": {
+    "track_count": 56,
+    "bpm": {
+      "min": 120.0,
+      "max": 133.31,
+      "mean": 126.01,
+      "median": 125.99,
+      "stdev": 2.46,
+      "p10": 123.0,
+      "p90": 129.0
+    },
+    "keys_top10": [
+      [
+        "Ebm",
+        7
+      ],
+      [
+        "Fm",
+        6
+      ],
+      [
+        "Gm",
+        5
+      ],
+      [
+        "Bbm",
+        5
+      ],
+      [
+        "Dm",
+        4
+      ],
+      [
+        "Am",
+        4
+      ],
+      [
+        "Em",
+        4
+      ],
+      [
+        "Abm",
+        4
+      ],
+      [
+        "Cm",
+        3
+      ],
+      [
+        "Bm",
+        2
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Minimal",
+        23
+      ],
+      [
+        "Deep House",
+        10
+      ],
+      [
+        "Tech House",
+        8
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        3
+      ],
+      [
+        "Minimal / Deep Tech",
+        3
+      ],
+      [
+        "Minimal  Deep Tech",
+        3
+      ],
+      [
+        "House",
+        2
+      ],
+      [
+        "unknown",
+        2
+      ],
+      [
+        "Techno",
+        1
+      ],
+      [
+        "Electronica",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Silat Beksi",
+        3
+      ],
+      [
+        "RQZ",
+        2
+      ],
+      [
+        "Nick Beringer & Philipp Boston",
+        2
+      ],
+      [
+        "Karcelen",
+        2
+      ],
+      [
+        "Rh.cher",
+        1
+      ],
+      [
+        "Jon Sable, Kenny Sterling",
+        1
+      ],
+      [
+        "A1 Blind Box",
+        1
+      ],
+      [
+        "Altitude",
+        1
+      ],
+      [
+        "Markus Suckut",
+        1
+      ],
+      [
+        "Camiel Daamen",
+        1
+      ],
+      [
+        "Youandewan",
+        1
+      ],
+      [
+        "IZA",
+        1
+      ],
+      [
+        "Mr. Lady",
+        1
+      ],
+      [
+        "Tikiman, Rhauder, Paul St. Hilaire",
+        1
+      ],
+      [
+        "Daniel Law",
+        1
+      ],
+      [
+        "Terry Francis feat. Ricardo Afonso",
+        1
+      ],
+      [
+        "Aleqs Notal",
+        1
+      ],
+      [
+        "Submod",
+        1
+      ],
+      [
+        "Vlad Arapasu",
+        1
+      ],
+      [
+        "Chaos In the CBD",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Afterhours",
+        7
+      ],
+      [
+        "In Dust We Trust",
+        3
+      ],
+      [
+        "unknown",
+        3
+      ],
+      [
+        "Certain Circles",
+        3
+      ],
+      [
+        "Freeborn Records",
+        2
+      ],
+      [
+        "Eclipser Chaser",
+        2
+      ],
+      [
+        "Berg Audio",
+        2
+      ],
+      [
+        "Dreams On Wax",
+        2
+      ],
+      [
+        "SECRET SOCIETY CHILE",
+        1
+      ],
+      [
+        "Blind Box Series",
+        1
+      ],
+      [
+        "Assemble Music",
+        1
+      ],
+      [
+        "SCKT",
+        1
+      ],
+      [
+        "Morris Audio",
+        1
+      ],
+      [
+        "Sushitech",
+        1
+      ],
+      [
+        "PURISM Wave",
+        1
+      ],
+      [
+        "Hallucienda",
+        1
+      ],
+      [
+        "RDV Music",
+        1
+      ],
+      [
+        "Ethernal",
+        1
+      ],
+      [
+        "LOK Records",
+        1
+      ],
+      [
+        "Faith Beat",
+        1
+      ]
+    ],
+    "key_unique": 17,
+    "genre_unique": 10,
+    "artist_unique": 51,
+    "label_unique": 40
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 123.0,
+      "max": 129.0,
+      "weight": 0.3,
+      "description": "BPM between 123.0 and 129.0 (WARM HYPNOTIC (SYSTEM) p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Minimal",
+        "Deep House",
+        "Tech House",
+        "Techno (Raw / Deep / Hypnotic)",
+        "Minimal / Deep Tech",
+        "Minimal  Deep Tech",
+        "House",
+        "unknown"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent WARM HYPNOTIC (SYSTEM) genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Ebm",
+        "Fm",
+        "Gm",
+        "Bbm",
+        "Dm",
+        "Am",
+        "Em",
+        "Abm"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent WARM HYPNOTIC (SYSTEM) keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Afterhours",
+        "In Dust We Trust",
+        "unknown",
+        "Certain Circles",
+        "Freeborn Records",
+        "Eclipser Chaser",
+        "Berg Audio",
+        "Dreams On Wax",
+        "SECRET SOCIETY CHILE",
+        "Blind Box Series",
+        "Assemble Music",
+        "SCKT",
+        "Morris Audio",
+        "Sushitech",
+        "PURISM Wave"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent WARM HYPNOTIC (SYSTEM) labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "A1 Blind Box",
+        "Aleqs Notal",
+        "Altitude",
+        "Camiel Daamen",
+        "Chaos In the CBD",
+        "Daniel Law",
+        "IZA",
+        "Jon Sable, Kenny Sterling",
+        "Karcelen",
+        "Markus Suckut",
+        "Mr. Lady",
+        "Nick Beringer & Philipp Boston",
+        "RQZ",
+        "Rh.cher",
+        "Silat Beksi",
+        "Submod",
+        "Terry Francis feat. Ricardo Afonso",
+        "Tikiman, Rhauder, Paul St. Hilaire",
+        "Vlad Arapasu",
+        "Youandewan"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 WARM HYPNOTIC (SYSTEM) artists or exact match in corpus"
+    }
+  ]
+}

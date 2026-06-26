@@ -26,7 +26,21 @@ ORBIT II
 └── AUSGEsortiert     ← outliers moved out of FLOW
 ```
 
-SYSTEM tree (separate reference): `DRIVING FLOW`, `DRIVING PUSH`, etc.
+SYSTEM tree (separate world — do not merge with ORBIT):
+
+```
+SYSTEM
+├── MOMENT DEEP
+├── MOMENT Driving
+├── DRIVING FLOW
+├── DRIVING PUSH
+├── WARM / WARM HYPNOTIC
+└── WIRED
+```
+
+Outliers from any ORBIT or SYSTEM playlist go to **ORBIT II → AUSGEsortiert** for later sorting.
+Tracks are **never deleted** from the Rekordbox library — only removed from the source playlist
+and added to AUSGEsortiert. Use `sort_ausgesortiert.py` when ready to distribute further.
 
 ## Config
 
@@ -45,6 +59,22 @@ python3 scripts/analyze_orbit_playlists.py --all
 
 # Move ORBIT FLOW outliers → AUSGEsortiert (closes Rekordbox first)
 python3 scripts/curate_orbit_flow.py
+
+# Analyze MOMENT DEEP / MOMENT Driving
+python3 scripts/analyze_orbit_playlists.py --slug system_moment_deep --slug orbit_moment_deep
+python3 scripts/analyze_orbit_playlists.py --slug system_moment_driving
+
+# Analyze DRIVING PUSH
+python3 scripts/analyze_orbit_playlists.py --slug system_driving_push
+
+# One-pass DRIVING PUSH curation → WARM / WIRED (do not loop)
+python3 scripts/curate_driving_push.py
+
+# Move outliers → AUSGEsortiert (single pass only — do not loop)
+python3 scripts/curate_to_ausgesortiert.py --slug system_moment_driving
+
+# Sort AUSGEsortiert → ARCHIV / SYSTEM folders
+python3 scripts/sort_ausgesortiert.py
 ```
 
 ### Outputs (repo root)

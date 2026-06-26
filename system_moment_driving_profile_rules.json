@@ -1,0 +1,343 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/moment_driving_snapshot.csv",
+  "playlist_name": "MOMENT Driving (SYSTEM)",
+  "profile": {
+    "track_count": 37,
+    "bpm": {
+      "min": 127.0,
+      "max": 133.0,
+      "mean": 130.09,
+      "median": 130.0,
+      "stdev": 1.88,
+      "p10": 127.84,
+      "p90": 133.0
+    },
+    "keys_top10": [
+      [
+        "Am",
+        6
+      ],
+      [
+        "Ebm",
+        6
+      ],
+      [
+        "Gm",
+        4
+      ],
+      [
+        "Abm",
+        4
+      ],
+      [
+        "Bbm",
+        3
+      ],
+      [
+        "Fm",
+        3
+      ],
+      [
+        "Dbm",
+        2
+      ],
+      [
+        "Cm",
+        2
+      ],
+      [
+        "Dm",
+        1
+      ],
+      [
+        "Em",
+        1
+      ]
+    ],
+    "genres_top15": [
+      [
+        "House",
+        21
+      ],
+      [
+        "Tech House",
+        5
+      ],
+      [
+        "Minimal / Deep Tech",
+        5
+      ],
+      [
+        "Minimal",
+        4
+      ],
+      [
+        "Deep House",
+        2
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Munir Nadir",
+        2
+      ],
+      [
+        "Kolter",
+        2
+      ],
+      [
+        "CRYME",
+        2
+      ],
+      [
+        "Steffi, Virginia",
+        1
+      ],
+      [
+        "Big Miz",
+        1
+      ],
+      [
+        "Zombies in Miami",
+        1
+      ],
+      [
+        "Giammarco Orsini, Pancratio",
+        1
+      ],
+      [
+        "Easttown",
+        1
+      ],
+      [
+        "Rob Pearson & Robin Ball",
+        1
+      ],
+      [
+        "Ozzie Guven",
+        1
+      ],
+      [
+        "Guest (UK)",
+        1
+      ],
+      [
+        "Big Miz, Bessa (Sco)",
+        1
+      ],
+      [
+        "Dennis Quin",
+        1
+      ],
+      [
+        "Voodoos & Taboos",
+        1
+      ],
+      [
+        "Dafs",
+        1
+      ],
+      [
+        "LondonGround",
+        1
+      ],
+      [
+        "Armando",
+        1
+      ],
+      [
+        "Locky & Mad.Again",
+        1
+      ],
+      [
+        "Naone",
+        1
+      ],
+      [
+        "Theta State",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Happiness Therapy",
+        2
+      ],
+      [
+        "Creatures Of The Night",
+        2
+      ],
+      [
+        "Koltrax",
+        2
+      ],
+      [
+        "Limousine Dream",
+        2
+      ],
+      [
+        "Dekmantel",
+        1
+      ],
+      [
+        "One Trip To Avyon",
+        1
+      ],
+      [
+        "Cecille",
+        1
+      ],
+      [
+        "Evasive Records",
+        1
+      ],
+      [
+        "neXup recz",
+        1
+      ],
+      [
+        "BienAimer Music",
+        1
+      ],
+      [
+        "Signatune Records",
+        1
+      ],
+      [
+        "Dennis Quin",
+        1
+      ],
+      [
+        "Duality Trax",
+        1
+      ],
+      [
+        "Seduction Records",
+        1
+      ],
+      [
+        "We Are Pyramid",
+        1
+      ],
+      [
+        "High Fashion Digital",
+        1
+      ],
+      [
+        "UVAR",
+        1
+      ],
+      [
+        "Safe Trip",
+        1
+      ],
+      [
+        "Casa Theta Records",
+        1
+      ],
+      [
+        "theBasement Discos",
+        1
+      ]
+    ],
+    "key_unique": 15,
+    "genre_unique": 5,
+    "artist_unique": 34,
+    "label_unique": 33
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 127.84,
+      "max": 133.0,
+      "weight": 0.3,
+      "description": "BPM between 127.84 and 133.0 (MOMENT Driving (SYSTEM) p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "House",
+        "Tech House",
+        "Minimal / Deep Tech",
+        "Minimal",
+        "Deep House"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent MOMENT Driving (SYSTEM) genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Am",
+        "Ebm",
+        "Gm",
+        "Abm",
+        "Bbm",
+        "Fm",
+        "Dbm",
+        "Cm"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent MOMENT Driving (SYSTEM) keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Happiness Therapy",
+        "Creatures Of The Night",
+        "Koltrax",
+        "Limousine Dream",
+        "Dekmantel",
+        "One Trip To Avyon",
+        "Cecille",
+        "Evasive Records",
+        "neXup recz",
+        "BienAimer Music",
+        "Signatune Records",
+        "Dennis Quin",
+        "Duality Trax",
+        "Seduction Records",
+        "We Are Pyramid"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent MOMENT Driving (SYSTEM) labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Armando",
+        "Big Miz",
+        "Big Miz, Bessa (Sco)",
+        "CRYME",
+        "Dafs",
+        "Dennis Quin",
+        "Easttown",
+        "Giammarco Orsini, Pancratio",
+        "Guest (UK)",
+        "Kolter",
+        "Locky & Mad.Again",
+        "LondonGround",
+        "Munir Nadir",
+        "Naone",
+        "Ozzie Guven",
+        "Rob Pearson & Robin Ball",
+        "Steffi, Virginia",
+        "Theta State",
+        "Voodoos & Taboos",
+        "Zombies in Miami"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 MOMENT Driving (SYSTEM) artists or exact match in corpus"
+    }
+  ]
+}

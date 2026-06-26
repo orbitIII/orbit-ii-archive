@@ -1,0 +1,34 @@
+track_id,name,artist,label,genre,bpm,key,confidence_score,is_outlier,outlier_reasons,rules_matched,rules_failed
+258308777,I Feel It (Original Mix),Francesco Forgione,Miniline,Minimal / Deep Tech,130.0,Abm,40.0,yes,low_confidence; bpm_outside_p10_p90,genre_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8; label_in_top15
+104414759,Que vas tu faire VINYL ONLY ,A1 Lazer Man,Undergroove Records,Deep House,130.0,Cm,40.0,yes,low_confidence; bpm_outside_p10_p90,genre_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8; label_in_top15
+197938100,House Nation Under a Groove,Da Rebels,20/20 Vision,House,121.66,A,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+18507118,Love Away (Douglas Greed Remix),Mike Starr & Mama,Clepsydra,Tech House,123.0,Fm,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+151054762,The Subtle Hustle,Wiremü,Modeight,Minimal / Deep Tech,130.0,Am,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+140467199,Seven Sisters (Original Mix),Alkalino,Audaz,Deep House,130.0,Gm,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+104715504,Never Tell Me,Chris Stussy,Large Music,House,121.0,Gm,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+25431002,Soul Patrol,Chris Stussy,Large Music,House,121.0,Gm,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+245693020,Take Your Time (Original),Gemini,Cyclo Recordings,Deep House,127.99,Ebm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+165589581,Alter (Simon Hinter Remix),Ackermann,Safe Space,Deep House,128.96,C,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+140807799,Neptunes Android,Adam Collins & Mister Ali,ubiyu,Minimal / Deep Tech,128.0,E,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+79805056,Deux Trois ,DJ Merci,I'm In Love,House,125.0,Ab,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+228934180,Nobody ft Cromie,Soul Of Hex,Freerange Records,Deep House,124.0,Fm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+160813283,Feels Good (Joss Moog Funky Remix),Wreal,Layers Label,Deep House,124.0,Gm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+81965113,Waitin' (Original Mix),Mihai Popoviciu,Berg Audio,Minimal / Deep Tech,128.0,Bbm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+73757465,Jest 4 Me (BHQ Instrumental),Alexander East,Afterhours,Deep House,127.03,F#m,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+143207290,Chikko Vox (Vocal Mix),"Dano, Joeski",Red Melon Records,House,129.0,Fm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+109818588,A2 Active Meditation VINYL ONLY ,Kerouac,Murmurations,Tech House,127.0,Fm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+29984222,Fukai (Original Mix),"Traumer, Anton, antraum",omakase_dgtl,Minimal  Deep Tech,125.0,Em,85.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+51116537,U Need Me (Original Mix),Lump,Contexterrior,"House, Deep House/Deep Tech",124.0,Em,85.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+95420860,B1 Typical Of You VINYL ONLY ,"Jake Childs, Paul Dyne",Undergroove,House,125.01,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+258980845,tarde (melchior productions ltd late mix),Nina Kraviz,Nina Kraviz Music,Minimal / Deep Tech,125.0,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+88878640,Change (Original Mix),Mike Starr,Biotop,Deep House,125.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+135787415,Small Dawg  (Original Mix),Silat Beksi,Silat Beksi Music,Minimal / Deep Tech,127.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+19440220,On the floor (Original Vocal Mix),"Tuccillo, Kindbud",House of Tucci,Deep House,125.0,Em,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+1288473,Dirtiest Clean (Delano Smith Dirty Dub),"Daniel Solar, Delano Smith",Kolour Recordings,Deep House,125.0,Bm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+25669835,Off The Hook (MAW Dub),Jody Watley,Defected,House,125.04,Bm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+131610700,It's Time To Care,Franck Roger,Seasons Limited,Deep House,127.0,F#m,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+131198343,Spark It Up (Extended Mix) [feat. Miss Patty],Saison,Big Love Music,House,125.0,F#m,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+178770270,Undescribed2 (She's Blank) (Original Mix),DJ QU,Syncrophone,Deep House,127.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+99892636,Besides (Original Mix),Oleg Poliakov,Bass Culture Records,Deep House,125.0,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+143074837,A1 The Answer VINYL ONLY ,Shonky & Alexander Skancke,Stoned Pilot,House,126.5,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+72841734,Nasty Girl (Original Mix),Phil Weeks,Robsoul Recordings,House,124.01,A,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,

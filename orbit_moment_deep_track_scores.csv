@@ -1,0 +1,26 @@
+track_id,name,artist,label,genre,bpm,key,confidence_score,is_outlier,outlier_reasons,rules_matched,rules_failed
+211768856,Geomagnetic Storm,grad u,Redscale,House,123.99,Bb,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+220601374,Howl012.2 VINYL ONLY,Nudge,Howl,Deep House,122.98,Am,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+203971098,Deep In (Hardspace Mix),Stephen Brown,LF RMX,Techno,130.0,Em,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+60589527,Jiggy Jiggy (Original Mix),Nathan Coles,Is This,Tech House,125.8,Dm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+118841545,B1 Sex Pills VINYL ONLY ,Sweely,Display,House,130.0,Cm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+35606719,Boogie Nightscream (Original Mix),Silat Beksi,Rawax,Tech House,128.0,A,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+136878150,B1 Flip Side VINYL ONLY ,Silat Beksi,Afterhours,Minimal,126.99,E,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+255695060,A2 Request Line VINYL ONLY ,Silat Beksi,Raru Movement,Minimal,125.81,G,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+233008759,Real One - The Realmixes Pt.1 (Roberto Rodriguez Stamping the Ground Mix),Moritz Piske,Opossum Recordings,House,124.0,Eb,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+94010895,B2 Du Jour VINYL ONLY ,Cosmjn,PATH,Minimal,127.0,Gm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+140106026,Feel (Alejo Ruiz (AR) Remix),Bastien,DMN TRAXX,Minimal / Deep Tech,127.0,Gm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+76974450,Let's Freak (Arnaud D Remix),sanXero featuring Mr. V & Louie Vega,Strictly Rhythm,House,124.0,Dbm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+248397292,Spiritual Thing (Original Mix),Red Pig Flower,Kuukou Records,Minimal / Deep Tech,126.0,Am,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+100649088,Do Or Donut (Original Mix),Silat Beksi,Cadenza,Deep Tech,126.0,Ebm,85.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+193437230,B1 Ignus Fatuus (Verrina & Ventura Remix) VINYL ONLY ,Oshana,BodyParts Vinyl,Minimal,124.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+199674422,Ontic (Rolando Understand's Remix),Skudge,Skudge Records,Techno,129.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+49471076,DNA,Burnski,Constant Sound,Tech House,125.0,Abm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+134639380,You Know!,Eddie Fowlkes,City Boy Music (US),House,128.0,Dbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+111344711,Sense Data (Ouzo Hallon Dub),Mattias El Mansouri,Phonica Recordings,House,129.0,Dbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+199542918,C2 Future (Howl Ensemble Remix) VINYL ONLY ,Halo Varga,All Inn Records,Tech House,127.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+152398303,Nobody ft Cromie,Soul Of Hex,Freerange Records,Deep House,124.0,Fm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+216856680,Trade Whisperer (CRYME Remix),EyeofPsi,DESSERT,Deep House,130.0,Fm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+229056298,Dub Affectif,"Bambounou, Priori",Bambe,Minimal / Deep Tech,130.0,Fm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+170086235,Feel That (Franck Roger Remix),"Risk Assessment, KE, Franck Roger",Reel People Music,Deep House,124.0,Ebm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+160454639,A1 Bunda VINYL ONLY ,Philip Chernikov,down2earth,House,125.99,Bb,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,

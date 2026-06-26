@@ -38,6 +38,60 @@
       "source": "txt",
       "role": "system_reference",
       "description": "SYSTEM reference for driving flow energy."
+    },
+    {
+      "slug": "system_moment_deep",
+      "label": "MOMENT DEEP (SYSTEM)",
+      "names": ["MOMENT DEEP "],
+      "parent": "SYSTEM",
+      "source": "db",
+      "role": "system_moment",
+      "description": "SYSTEM deep-moment reference pool (slow, emotional, deep house)."
+    },
+    {
+      "slug": "orbit_moment_deep",
+      "label": "ORBIT MOMENT DEEP",
+      "names": ["ORBIT MOMENT DEEP"],
+      "parent": "ORBIT II",
+      "source": "db",
+      "role": "orbit_moment",
+      "description": "ORBIT deep-moment curation for DJ use."
+    },
+    {
+      "slug": "system_moment_driving",
+      "label": "MOMENT Driving (SYSTEM)",
+      "names": ["MOMENT Driving "],
+      "parent": "SYSTEM",
+      "source": "db",
+      "role": "system_moment",
+      "description": "SYSTEM driving-moment reference pool (groove-forward, not peak)."
+    },
+    {
+      "slug": "system_warm_hypnotic",
+      "label": "WARM HYPNOTIC (SYSTEM)",
+      "names": ["WARM HYPNOTIC"],
+      "parent": "SYSTEM",
+      "source": "db",
+      "role": "system_warm",
+      "description": "SYSTEM warm hypnotic reference pool (minimal, deep, slow groove)."
+    },
+    {
+      "slug": "system_warm",
+      "label": "WARM (SYSTEM)",
+      "names": ["WARM"],
+      "parent": "SYSTEM",
+      "source": "db",
+      "role": "system_warm",
+      "description": "SYSTEM warm-up reference pool (slow, deep, opening energy)."
+    },
+    {
+      "slug": "system_driving_push",
+      "label": "DRIVING PUSH (SYSTEM)",
+      "names": ["DRIVING PUSH"],
+      "parent": "SYSTEM",
+      "source": "db",
+      "role": "system_push",
+      "description": "SYSTEM peak driving energy — faster and harder than DRIVING FLOW."
     }
   ],
   "comparisons": [

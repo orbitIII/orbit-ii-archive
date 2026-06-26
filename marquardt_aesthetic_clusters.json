@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "anchor": "svenmarquardt",
+  "updated": "2026-06-26",
+  "clusters": {
+    "club_techno": {
+      "label": "Club / Techno / Berghain",
+      "description": "Berghain-Ostgut-Orbit, Residents, Kollektive, Club-Labels",
+      "aesthetic_signals": ["all-black", "minimal-design", "berlin-club", "techno-goth", "no-flash-club-doc"],
+      "cities": ["Berlin", "Tbilisi"],
+      "handles": [
+        "ostgut_ton",
+        "marceldettmann",
+        "ben_klock",
+        "rodhad_wsnwg",
+        "_lolsnake_",
+        "weeeirdos",
+        "mischa.fanghaenel",
+        "nachts_berlin",
+        "khidiclub",
+        "unarchivedwisdom",
+        "berghain_panoramabar",
+        "andregalluzzi_official"
+      ]
+    },
+    "gallery_photo": {
+      "label": "Galerie / Foto / Analog",
+      "description": "Galerien, Ausstellungsorte, analoge SW-Porträtfotografie",
+      "aesthetic_signals": ["analog-bw", "high-contrast", "gallery-figurative", "exhibition-doc", "portrait"],
+      "cities": ["Berlin", "Hamburg", "NYC", "Tbilisi"],
+      "handles": [
+        "svenmarquardt",
+        "galeriedeschler",
+        "deichtorhallenhamburg",
+        "c24gallery",
+        "photosintese",
+        "lars_murasch",
+        "streetmoments.nyc"
+      ]
+    },
+    "fashion_pfw": {
+      "label": "Fashion PFW / Global Street Style",
+      "description": "Paris Fashion Week, Street Style, Luxury Retail, Runway-Orbit",
+      "aesthetic_signals": ["pfw", "street-style", "front-row", "luxury-street", "editorial-flash"],
+      "cities": ["Paris", "Milan", "NYC"],
+      "handles": [
+        "thestyleograph",
+        "jeremy.melloul",
+        "bestimageagency",
+        "antoniolieu",
+        "scovvv",
+        "willychavarria",
+        "maluma",
+        "michelgaubert",
+        "visualisation_",
+        "austral.paris"
+      ]
+    },
+    "fashion_berlin": {
+      "label": "Fashion Berlin / Next Gen",
+      "description": "Berliner Mode-Community, Stores, Next-Gen-Designer, Concept Stores",
+      "aesthetic_signals": ["berlin-fashion", "next-gen-design", "concept-store", "community-fashion"],
+      "cities": ["Berlin"],
+      "handles": [
+        "platte.berlin",
+        "ankeschloeder",
+        "kerstingeffert",
+        "numeroberlin",
+        "blackbirdberlin",
+        "raufaser.atelier",
+        "voostore",
+        "rukhglobal",
+        "hannibalstore"
+      ]
+    },
+    "art_club": {
+      "label": "Art Club / Immersive",
+      "description": "Art & Social Clubs, immersive Nächte, Berlin Confidential",
+      "aesthetic_signals": ["art-club", "flash-portrait", "immersive", "red-filter-video", "underground"],
+      "cities": ["Berlin"],
+      "handles": ["studio1111berlin"]
+    },
+    "pr_editorial": {
+      "label": "PR / Editorial / Kultur",
+      "description": "Agenturen, Magazine, Brand-Culture, Schreiben über Szene",
+      "aesthetic_signals": ["cultural-marketing", "editorial", "magazine", "brand-culture"],
+      "cities": ["Berlin", "NYC", "London"],
+      "handles": [
+        "boldberlin",
+        "nici_oh",
+        "kinfolk",
+        "itsdavidkane"
+      ]
+    },
+    "music_model": {
+      "label": "Musik / Model / Crossover",
+      "description": "Musiker und Models mit SW-Video- und Fashion-Ästhetik",
+      "aesthetic_signals": ["sw-video", "leather", "model-shoot", "band-promo"],
+      "cities": ["Berlin"],
+      "handles": ["theuerkorn", "anjaschneiderofficial"]
+    },
+    "weak_signal": {
+      "label": "Schwach / Unbekannt",
+      "description": "Geringes Signal oder nur Mutual-Follower — manuell prüfen",
+      "aesthetic_signals": [],
+      "cities": ["Berlin"],
+      "handles": [
+        "karolinaahhhh",
+        "_atavem",
+        "cabbage742",
+        "5pnips.mp3",
+        "isabellebogomas",
+        "korbinianglacier",
+        "soderbergofficial",
+        "iamlucaeck",
+        "richertbeil",
+        "sabine_roethig",
+        "christoph__faust"
+      ]
+    }
+  },
+  "cross_cluster": {
+    "boldberlin": ["pr_editorial", "fashion_berlin"],
+    "nici_oh": ["pr_editorial", "fashion_pfw"],
+    "kerstingeffert": ["fashion_berlin", "pr_editorial"],
+    "marceldettmann": ["club_techno", "gallery_photo"],
+    "mischa.fanghaenel": ["club_techno", "gallery_photo"],
+    "khidiclub": ["club_techno", "gallery_photo"],
+    "streetmoments.nyc": ["gallery_photo", "pr_editorial"]
+  },
+  "filter_presets": {
+    "marquardt_core": {
+      "description": "Höchste Nähe zu Marquardts visueller DNA",
+      "clusters": ["gallery_photo", "club_techno", "art_club"],
+      "min_proximity": 85
+    },
+    "fashion_orbit": {
+      "description": "Mode + Editorial ohne reiner Techno-DJ",
+      "clusters": ["fashion_pfw", "fashion_berlin", "pr_editorial"],
+      "min_proximity": 75
+    },
+    "berlin_only": {
+      "description": "Nur Berlin-verankerte Accounts",
+      "cities_contains": "Berlin",
+      "min_proximity": 70
+    }
+  }
+}

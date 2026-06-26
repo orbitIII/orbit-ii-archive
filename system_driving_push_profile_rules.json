@@ -1,0 +1,370 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/driving_push_snapshot.csv",
+  "playlist_name": "DRIVING PUSH (SYSTEM)",
+  "profile": {
+    "track_count": 50,
+    "bpm": {
+      "min": 124.88,
+      "max": 137.0,
+      "mean": 130.15,
+      "median": 130.0,
+      "stdev": 3.2,
+      "p10": 126.0,
+      "p90": 135.0
+    },
+    "keys_top10": [
+      [
+        "Abm",
+        9
+      ],
+      [
+        "Am",
+        5
+      ],
+      [
+        "Bbm",
+        5
+      ],
+      [
+        "Dm",
+        4
+      ],
+      [
+        "Gm",
+        3
+      ],
+      [
+        "F#m",
+        3
+      ],
+      [
+        "Eb",
+        3
+      ],
+      [
+        "Fm",
+        3
+      ],
+      [
+        "Ebm",
+        2
+      ],
+      [
+        "Ab",
+        2
+      ]
+    ],
+    "genres_top15": [
+      [
+        "House",
+        18
+      ],
+      [
+        "Tech House",
+        11
+      ],
+      [
+        "Deep House",
+        5
+      ],
+      [
+        "Minimal / Deep Tech",
+        5
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        4
+      ],
+      [
+        "Techno (Peak Time / Driving)",
+        2
+      ],
+      [
+        "Deep Tech",
+        1
+      ],
+      [
+        "Techno (Peak Time  Driving)",
+        1
+      ],
+      [
+        "Techno",
+        1
+      ],
+      [
+        "Minimal",
+        1
+      ],
+      [
+        "Techno (Peak Time / Driving / Hard)",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "CRYME",
+        3
+      ],
+      [
+        "Subb-an",
+        3
+      ],
+      [
+        "Ben Reymann, CRYME",
+        2
+      ],
+      [
+        "Mr. G",
+        2
+      ],
+      [
+        "Dino Lenny",
+        2
+      ],
+      [
+        "Ketiov",
+        1
+      ],
+      [
+        "Maco",
+        1
+      ],
+      [
+        "Deep Colors",
+        1
+      ],
+      [
+        "DJ Haus, Confidential Recipe",
+        1
+      ],
+      [
+        "Anja Schneider",
+        1
+      ],
+      [
+        "Didier Sinclair, DJ Chris Pi",
+        1
+      ],
+      [
+        "Andre Zimmer",
+        1
+      ],
+      [
+        "Reformed Society",
+        1
+      ],
+      [
+        "Munir Nadir",
+        1
+      ],
+      [
+        "SW37",
+        1
+      ],
+      [
+        "Erol Alkan",
+        1
+      ],
+      [
+        "Bress Underground",
+        1
+      ],
+      [
+        "Big Miz",
+        1
+      ],
+      [
+        "DJ City",
+        1
+      ],
+      [
+        "Matheiu",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "SEVEN",
+        6
+      ],
+      [
+        "R.A.N.D. Muzik Recordings",
+        3
+      ],
+      [
+        "Phoenix G",
+        2
+      ],
+      [
+        "Serial Records",
+        2
+      ],
+      [
+        "R&S Records",
+        2
+      ],
+      [
+        "Happiness Therapy",
+        2
+      ],
+      [
+        "Certain Circles",
+        2
+      ],
+      [
+        "...is serving",
+        2
+      ],
+      [
+        "Running Back",
+        1
+      ],
+      [
+        "BienAimer Music",
+        1
+      ],
+      [
+        "Adesso Music",
+        1
+      ],
+      [
+        "Dance Trax",
+        1
+      ],
+      [
+        "Sous Music",
+        1
+      ],
+      [
+        "fabric Records",
+        1
+      ],
+      [
+        "UNCAGE",
+        1
+      ],
+      [
+        "Odd One Tape",
+        1
+      ],
+      [
+        "Synewave",
+        1
+      ],
+      [
+        "Phantasy Sound",
+        1
+      ],
+      [
+        "Tribute Records",
+        1
+      ],
+      [
+        "Vitamina Musica",
+        1
+      ]
+    ],
+    "key_unique": 18,
+    "genre_unique": 11,
+    "artist_unique": 43,
+    "label_unique": 37
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 126.0,
+      "max": 135.0,
+      "weight": 0.3,
+      "description": "BPM between 126.0 and 135.0 (DRIVING PUSH (SYSTEM) p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "House",
+        "Tech House",
+        "Deep House",
+        "Minimal / Deep Tech",
+        "Techno (Raw / Deep / Hypnotic)",
+        "Techno (Peak Time / Driving)",
+        "Deep Tech",
+        "Techno (Peak Time  Driving)"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent DRIVING PUSH (SYSTEM) genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Abm",
+        "Am",
+        "Bbm",
+        "Dm",
+        "Gm",
+        "F#m",
+        "Eb",
+        "Fm"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent DRIVING PUSH (SYSTEM) keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "SEVEN",
+        "R.A.N.D. Muzik Recordings",
+        "Phoenix G",
+        "Serial Records",
+        "R&S Records",
+        "Happiness Therapy",
+        "Certain Circles",
+        "...is serving",
+        "Running Back",
+        "BienAimer Music",
+        "Adesso Music",
+        "Dance Trax",
+        "Sous Music",
+        "fabric Records",
+        "UNCAGE"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent DRIVING PUSH (SYSTEM) labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Andre Zimmer",
+        "Anja Schneider",
+        "Ben Reymann, CRYME",
+        "Big Miz",
+        "Bress Underground",
+        "CRYME",
+        "DJ City",
+        "DJ Haus, Confidential Recipe",
+        "Deep Colors",
+        "Didier Sinclair, DJ Chris Pi",
+        "Dino Lenny",
+        "Erol Alkan",
+        "Ketiov",
+        "Maco",
+        "Matheiu",
+        "Mr. G",
+        "Munir Nadir",
+        "Reformed Society",
+        "SW37",
+        "Subb-an"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 DRIVING PUSH (SYSTEM) artists or exact match in corpus"
+    }
+  ]
+}

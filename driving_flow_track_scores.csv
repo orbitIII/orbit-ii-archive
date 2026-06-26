@@ -1,0 +1,59 @@
+track_id,name,artist,label,genre,bpm,key,confidence_score,is_outlier,outlier_reasons,rules_matched,rules_failed
+50,Home,Lewis Boardman,Cadenza Records,Tech house,121.0,Bm,15.0,yes,low_confidence; bpm_outside_p10_p90; singleton_genre_in_flow,artist_in_flow_corpus,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15
+55,Dream System (Original Mix),Johnny D,Golden Gate Club Records,Deep Tech,131.0,Ebm,15.0,yes,low_confidence; bpm_outside_p10_p90; singleton_genre_in_flow,artist_in_flow_corpus,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15
+38,You Don't Say (Original Mix),"Bruno Pronsato, Richard Rozen",Logistic Records,Minimal / Deep Tech,120.0,F#,40.0,yes,low_confidence; bpm_outside_p10_p90,genre_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8; label_in_top15
+9,Pleasures and Treasures (Original Mix),Silverlining,Silverlining Dubs,Deep House,132.03,Gm,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+35,Asylum (G-Man Version 2),Orlando Voorn,Triangle.Records,Minimal,134.0,Cm,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+26,Pampero (Original Mix),Marco Carola,Plus 8 Records,Techno (Peak Time / Driving),124.0,Abm,60.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; key_in_top8; artist_in_flow_corpus,genre_in_top8; label_in_top15
+2,Blacklight (Original Mix),Black Jazz Consortium,fabric Records (US),House,123.33,Dm,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+10,Exopaq (Original Mix),"Malin Genie, Frits Wentink",Bobby Donny,Minimal / Deep Tech,136.0,Am,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+14,50005 B,Wax,,Techno,131.0,Am,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+16,Fancy Dance (Original Mix),Cuttler,Moral Fiber,Minimal / Deep Tech,130.0,Em,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+17,Clouds,Shaun Reeves & Tuccillo,Fabric,Tech House,125.0,Em,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+30,B1 Drive VINYL ONLY,Doubtingthomas,Gaazol,Deep House,128.0,Dbm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+37,Whisper Track (Dub),Jerome Sydenham & Argy,Ibadan Records,Deep House,128.0,Fm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+42,700007A,Wax,Wax,House,126.0,Eb,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+43,Breeze (Original Mix),Markus Suckut,Rekids,Minimal / Deep Tech,124.0,Eb,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+44,Get Social (Dub Mix),Paolo Rocco,La Vie En Rose,Deep House,125.0,Ab,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+45,Symbiosis IV,D&B Productions,Sushitech Records,House,128.0,Ab,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+47,A2 Leaving VINYL ONLY,Melodie & Robert Roman,ubiyu,Minimal,124.0,Dbm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+49,Danger,Eddie Richards,Sweatbox Records,Tech House,125.0,F#,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+53,Whisper (Original Mix),East End Dubs,Eastenderz,Minimal / Deep Tech,127.0,Bb,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+56,Bitter Sweat (Original Mix),Steve O'Sullivan,Convent,Deep House,128.0,Ebm,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+12,TV Fury (Original Mix),Youandewan,Small Hours,Electronica,129.0,Am,85.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+13,B1 Greed VINYL ONLY,Diego Krause,Forax,Minimal,127.0,Am,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+15,Castellammare (Priku Remix),Bar-tolomeo,BAR Musica,Minimal / Deep Tech,127.0,Am,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+18,Symbiosis I (Original Mix),"Delano Smith, Brawther, D&B Productions",Sushitech,Techno (Raw / Deep / Hypnotic),128.7,Bm,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+20,B1 Dub Waves (Vinyl Speed Adjust Remix) VINYL ONLY,Stephan Bazbaz,No Waves,Minimal,126.0,F#m,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+22,Control Room (Original Mix),"Dan Formless, Tileff",Subtatic,Minimal,124.0,Abm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+23,Evasion (Original Mix),Medu,Tip Tap Records,Minimal / Deep Tech,126.02,Abm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+24,A1 Infinite O’Clock VINYL ONLY,Silat Beksi,Afterhours,Minimal,126.99,Abm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+27,Datura,Andre Galluzzi & Daniel Stefanik,Invade Records,Minimal,127.0,Bbm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+29,A2 Untitled 2 VINYL ONLY,Mark Ambrose,Curated by Time,Tech House,124.87,Bbm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+31,Satisfaction (Tuccillo Dub Mix),AKA Adeline,Liveism,Minimal / Deep Tech,127.0,Cm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+34,Huk (Original Mix),Janeret,Rawax,Minimal,125.0,Cm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+36,Somaj Technics VINYL ONLY,B2 Priku,Berg Audio,Minimal,127.99,Fm,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+39,Triumphant  (Original Mix),D'Julz,Bass Culture Records,House,128.0,A,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+41,B1pres107,"Chez Damier, Ron Trent & M.D",Prescription,House,124.03,E,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+48,Howl008.3 VINYL ONLY,Dana Ruh,Howl,Minimal,125.0,F#m,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+51,To the Music (DJ QU Remix),"Willie Graff, Tuccillo",Strength Music Recordings,Deep House,125.0,Abm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+52,Waiting feat. Emma Barber (Original Mix),"Enzo Leep, Emma Barber, Alffie, Enzo Leep & Alffie",Get Physical Music,Minimal / Deep Tech,127.0,E,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+54,I'm A Freak,Paul Johnson,Music Is Love Records,House,129.77,F#m,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+1,Keep It VINYL ONLY,Porter,Certain Circles,Tech House,125.98,Dm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+3,Mind Twister (Original Mix),Kolter,Berg Audio,Minimal / Deep Tech,130.0,Dm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+4,Would VINYL ONLY,A1 Blind Box,Blind Box Series,Minimal,127.0,Dm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+5,B1 Solstice VINYL ONLY,Disk,Whiteloops,Tech House,125.81,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+6,Pinger (Original Mix),Youandewan,Eclipser Chaser,Minimal,125.0,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+7,Breakout (Thomas Stieler Rework),Mike Starr,Biotop,Tech House,125.0,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+8,Terry's House (Original Mix),Terry Lee Brown Junior,Plastic City,House,129.87,Gm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+11,Control (Steve O'Sullivan Reconstruction),"Tikiman, Rhauder, Paul St. Hilaire",Sushitech,Deep House,126.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+19,Undescribed3(Execute) (Rolando Remix) (Execute),DJ QU,Syncrophone,Techno (Raw / Deep / Hypnotic),127.0,F#m,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+21,Node 03 (Original Mix),"Rico Scott, Leigh Hunt",Bobby Donny,Deep House,126.0,Abm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+25,Houdini,D'Julz,Bass Culture Records,House,125.0,Abm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+28,B1 Disposer VINYL ONLY,Malin Genie & Per Hammar,De Vloer,Minimal,128.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+32,Colchonero (Duomek Remix),Tom Pooks,,House,127.0,Cm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+33,Snel Dubb,Per Hammar x Malin Genie,De Vloer,Techno,128.0,Cm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+40,Symbiosis IV (Original Mix),"Delano Smith, Brawther, D&B Productions",Sushitech,Techno (Raw / Deep / Hypnotic),128.0,E,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+46,B2 Smoothin’ It Out VINYL ONLY,Jay Tripwire,Repeat,Deep House,127.99,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+57,C2 Helicopter Feat Terry Francis (Eddie’s Smooth Landing Mix) VINYL ONLY,Eddie Richards,Repeat,Tech House,126.98,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+58,Undescribed3 (Execute) (Original Mix),DJ QU,Syncrophone,Tech House,125.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,

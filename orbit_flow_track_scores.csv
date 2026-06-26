@@ -1,0 +1,37 @@
+track_id,name,artist,label,genre,bpm,key,confidence_score,is_outlier,outlier_reasons,rules_matched,rules_failed
+26,Love Is The Message (For Those Who Didn't Hear It),Ani,Rush Hour,Classic House,122.38,Db,15.0,yes,low_confidence; bpm_outside_p10_p90; singleton_genre_in_flow,artist_in_flow_corpus,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15
+22,Count the dead and wait for morning (129bpm version),"Ackermann, Vinicius Honorio",Safe Space,House,129.0,Ab,40.0,yes,low_confidence; bpm_outside_p10_p90,genre_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8; label_in_top15
+7,Street Walk (Original Mix),SOST,Phonogramme,Minimal  Deep Tech,131.0,Ebm,55.0,yes,bpm_outside_p10_p90; singleton_genre_in_flow,genre_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8
+16,No Aura (Original Mix),Steve O'Sullivan,Phonogramme,Minimal / Deep Tech,130.0,Eb,55.0,yes,bpm_outside_p10_p90,genre_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90; key_in_top8
+20,A2 Porcetta (Mf Dub) VINYL ONLY,Young Adults,Mood Waves,Minimal,130.04,A,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+21,Just A Little Bit,Arturo Garces,Robsoul Essential,House,121.0,Abm,55.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; artist_in_flow_corpus,bpm_within_p10_p90; label_in_top15
+30,Concentration,Dub Taylor,Sender Records,Techno,123.0,F#m,60.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; key_in_top8; artist_in_flow_corpus,genre_in_top8; label_in_top15
+31,One Man Riot (Original Mix),Tom Ellis,Convent,Minimal House,124.0,Ebm,60.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; label_in_top15; artist_in_flow_corpus,genre_in_top8; key_in_top8
+1,When Is Deep (Idealist Remix),Anton Kubikov,AE Recordings,Techno (Peak Time / Driving),122.0,Dm,70.0,yes,bpm_outside_p10_p90,genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,bpm_within_p10_p90
+19,B2 Blue Stick VINYL ONLY,Dan Ghenacia & Chris Carrier,Apollonia,Tech House,123.89,F,70.0,no,,bpm_within_p10_p90; genre_in_top8; artist_in_flow_corpus,key_in_top8; label_in_top15
+10,6AM (Original Mix),Fred P,Get Physical Music,Electronica / Downtempo,124.0,Cm,75.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; key_in_top8; label_in_top15; artist_in_flow_corpus,genre_in_top8
+12,D1 Future (Pola Remix) VINYL ONLY,Halo Varga,All Inn Records,Tech House,126.0,Bm,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+14,A2 Nairobi Market (Ted Amber Remix) VINYL ONLY,Zenk,Purple Print,Minimal,127.0,Ab,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+15,Nine Lights VINYL ONLY,B1 Floog,Berg Audio,Minimal,126.0,Eb,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+17,B1 Golden Ideas Dub VINYL ONLY,Deep Moments,Deep Moments,Tech House,126.0,C,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+23,Ghost Dancing (Original Mix),"Gideon Jackson, Daniel Poli",Fabric,Tech House,125.0,F#m,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+24,Boogie Nightscream (Original Mix),Silat Beksi,Rawax,Tech House,128.0,A,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+25,Dirty Basement (Original Mix),Kelvin K,Nordic Trax,House,125.98,Bbm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+27,3 Way (Original Mix),Head Nodding Society,Only1 Music,House,124.01,Cm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+28,Damaja (Original Mix),"Dan Formless, Tileff",Subtatic,Minimal,123.0,Fm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+29,Funny Gait,DiSKOP,Whiteloops,Minimal,125.86,Dm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+32,Last Lullaby (David Alvarado Remix),Digital South,Lucidflow,Deep House,126.0,Abm,85.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; artist_in_flow_corpus,label_in_top15
+34,C2 Medown (Fractured Mix) VINYL ONLY,Eddie Richards,Repeat,Tech House,127.99,Db,85.0,no,,bpm_within_p10_p90; genre_in_top8; label_in_top15; artist_in_flow_corpus,key_in_top8
+2,Haus (Chris Carrier Remix) VINYL ONLY,Blind Box feat Hector Moralez,Blind Box Series,House,125.2,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+3,B1 Indulge VINYL ONLY,Subb-an,Blind Box Series,Tech House,127.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+4,Rebirth Vinyl Only,Tecture,Certain Circles,Minimal,125.99,F#m,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+5,07 DuB  (Original Mix),Satoshi Tomiie,Phonogramme,Minimal / Deep Tech,126.0,Abm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+6,Ronja,NonniMal,Thule Records,Techno (Peak Time / Driving),128.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+8,Ms Dos,Yamen & EDA,One Records,House,125.0,Abm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+9,Underwater Bounce (DJ Popup Remix),Rhode & Brown,Permanent Vacation,Indie Dance,127.0,Bbm,100.0,yes,singleton_genre_in_flow,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+11,B1 Underskopje VINYL ONLY,Eddie Richards,Repeat,Tech House,127.99,Cm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+13,A1 Push VINYL ONLY,Subb-an,Blind Box Series,Tech House,126.0,Fm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+18,B1 Xenon VINYL ONLY,iO (Mulen),Mulen,Tech House,127.03,A,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+33,A2 Push (Dana Ruh Remix) VINYL ONLY,Subb-an,Blind Box Series,Tech House,126.0,Am,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+35,B2 The Future VINYL ONLY,Eddie Richards,Repeat,Tech House,127.98,Fm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,
+36,Under (Original Mix),Tommy Vicari Jnr,Convent,Deep House,128.0,Bbm,100.0,no,,bpm_within_p10_p90; genre_in_top8; key_in_top8; label_in_top15; artist_in_flow_corpus,

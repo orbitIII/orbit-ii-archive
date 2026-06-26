@@ -1,0 +1,370 @@
+{
+  "source": "/Users/alanwillson/Documents/rekordbox/CueConv/RB LIBARY TEXT/DRIVING FLOW.txt",
+  "playlist_name": "DRIVING FLOW (SYSTEM)",
+  "profile": {
+    "track_count": 58,
+    "bpm": {
+      "min": 120.0,
+      "max": 136.0,
+      "mean": 126.89,
+      "median": 127.0,
+      "stdev": 2.73,
+      "p10": 124.0,
+      "p90": 130.0
+    },
+    "keys_top10": [
+      [
+        "Am",
+        8
+      ],
+      [
+        "Abm",
+        7
+      ],
+      [
+        "Gm",
+        5
+      ],
+      [
+        "Cm",
+        5
+      ],
+      [
+        "Dm",
+        4
+      ],
+      [
+        "F#m",
+        4
+      ],
+      [
+        "Bbm",
+        4
+      ],
+      [
+        "E",
+        3
+      ],
+      [
+        "Em",
+        2
+      ],
+      [
+        "Bm",
+        2
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Minimal",
+        13
+      ],
+      [
+        "Minimal / Deep Tech",
+        10
+      ],
+      [
+        "House",
+        9
+      ],
+      [
+        "Deep House",
+        9
+      ],
+      [
+        "Tech House",
+        8
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        3
+      ],
+      [
+        "Techno",
+        2
+      ],
+      [
+        "Electronica",
+        1
+      ],
+      [
+        "Techno (Peak Time / Driving)",
+        1
+      ],
+      [
+        "Tech house",
+        1
+      ],
+      [
+        "Deep Tech",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Youandewan",
+        2
+      ],
+      [
+        "Wax",
+        2
+      ],
+      [
+        "Delano Smith, Brawther, D&B Productions",
+        2
+      ],
+      [
+        "DJ QU",
+        2
+      ],
+      [
+        "D'Julz",
+        2
+      ],
+      [
+        "Eddie Richards",
+        2
+      ],
+      [
+        "Porter",
+        1
+      ],
+      [
+        "Black Jazz Consortium",
+        1
+      ],
+      [
+        "Kolter",
+        1
+      ],
+      [
+        "A1 Blind Box",
+        1
+      ],
+      [
+        "Disk",
+        1
+      ],
+      [
+        "Mike Starr",
+        1
+      ],
+      [
+        "Terry Lee Brown Junior",
+        1
+      ],
+      [
+        "Silverlining",
+        1
+      ],
+      [
+        "Malin Genie, Frits Wentink",
+        1
+      ],
+      [
+        "Tikiman, Rhauder, Paul St. Hilaire",
+        1
+      ],
+      [
+        "Diego Krause",
+        1
+      ],
+      [
+        "Bar-tolomeo",
+        1
+      ],
+      [
+        "Cuttler",
+        1
+      ],
+      [
+        "Shaun Reeves & Tuccillo",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Sushitech",
+        3
+      ],
+      [
+        "Berg Audio",
+        2
+      ],
+      [
+        "Bobby Donny",
+        2
+      ],
+      [
+        "unknown",
+        2
+      ],
+      [
+        "Syncrophone",
+        2
+      ],
+      [
+        "Bass Culture Records",
+        2
+      ],
+      [
+        "De Vloer",
+        2
+      ],
+      [
+        "Repeat",
+        2
+      ],
+      [
+        "Certain Circles",
+        1
+      ],
+      [
+        "fabric Records (US)",
+        1
+      ],
+      [
+        "Blind Box Series",
+        1
+      ],
+      [
+        "Whiteloops",
+        1
+      ],
+      [
+        "Eclipser Chaser",
+        1
+      ],
+      [
+        "Biotop",
+        1
+      ],
+      [
+        "Plastic City",
+        1
+      ],
+      [
+        "Silverlining Dubs",
+        1
+      ],
+      [
+        "Small Hours",
+        1
+      ],
+      [
+        "Forax",
+        1
+      ],
+      [
+        "BAR Musica",
+        1
+      ],
+      [
+        "Moral Fiber",
+        1
+      ]
+    ],
+    "key_unique": 18,
+    "genre_unique": 11,
+    "artist_unique": 52,
+    "label_unique": 49
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 124.0,
+      "max": 130.0,
+      "weight": 0.3,
+      "description": "BPM between 124.0 and 130.0 (DRIVING FLOW (SYSTEM) p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Minimal",
+        "Minimal / Deep Tech",
+        "House",
+        "Deep House",
+        "Tech House",
+        "Techno (Raw / Deep / Hypnotic)",
+        "Techno",
+        "Electronica"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent DRIVING FLOW (SYSTEM) genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Am",
+        "Abm",
+        "Gm",
+        "Cm",
+        "Dm",
+        "F#m",
+        "Bbm",
+        "E"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent DRIVING FLOW (SYSTEM) keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Sushitech",
+        "Berg Audio",
+        "Bobby Donny",
+        "unknown",
+        "Syncrophone",
+        "Bass Culture Records",
+        "De Vloer",
+        "Repeat",
+        "Certain Circles",
+        "fabric Records (US)",
+        "Blind Box Series",
+        "Whiteloops",
+        "Eclipser Chaser",
+        "Biotop",
+        "Plastic City"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent DRIVING FLOW (SYSTEM) labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "A1 Blind Box",
+        "Bar-tolomeo",
+        "Black Jazz Consortium",
+        "Cuttler",
+        "D'Julz",
+        "DJ QU",
+        "Delano Smith, Brawther, D&B Productions",
+        "Diego Krause",
+        "Disk",
+        "Eddie Richards",
+        "Kolter",
+        "Malin Genie, Frits Wentink",
+        "Mike Starr",
+        "Porter",
+        "Shaun Reeves & Tuccillo",
+        "Silverlining",
+        "Terry Lee Brown Junior",
+        "Tikiman, Rhauder, Paul St. Hilaire",
+        "Wax",
+        "Youandewan"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 DRIVING FLOW (SYSTEM) artists or exact match in corpus"
+    }
+  ]
+}

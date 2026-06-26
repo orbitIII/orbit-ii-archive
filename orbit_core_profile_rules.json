@@ -1,0 +1,374 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/core_snapshot.csv",
+  "playlist_name": "ORBIT CORE",
+  "profile": {
+    "track_count": 64,
+    "bpm": {
+      "min": 122.0,
+      "max": 138.0,
+      "mean": 128.84,
+      "median": 128.0,
+      "stdev": 3.53,
+      "p10": 124.3,
+      "p90": 133.7
+    },
+    "keys_top10": [
+      [
+        "Gm",
+        10
+      ],
+      [
+        "Am",
+        8
+      ],
+      [
+        "Em",
+        6
+      ],
+      [
+        "Fm",
+        6
+      ],
+      [
+        "Dm",
+        5
+      ],
+      [
+        "Abm",
+        4
+      ],
+      [
+        "Ab",
+        3
+      ],
+      [
+        "F#m",
+        3
+      ],
+      [
+        "Cm",
+        3
+      ],
+      [
+        "Bbm",
+        3
+      ]
+    ],
+    "genres_top15": [
+      [
+        "House",
+        35
+      ],
+      [
+        "Deep House",
+        10
+      ],
+      [
+        "Tech House",
+        4
+      ],
+      [
+        "Minimal",
+        3
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        3
+      ],
+      [
+        "Deep Tech",
+        2
+      ],
+      [
+        "Minimal / Deep Tech",
+        2
+      ],
+      [
+        "Minimal House",
+        1
+      ],
+      [
+        "Techno",
+        1
+      ],
+      [
+        "Techno (Raw  Deep  Hypnotic)",
+        1
+      ],
+      [
+        "Indie Dance",
+        1
+      ],
+      [
+        "Classic House",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Subb-an",
+        7
+      ],
+      [
+        "Soul of Hex",
+        4
+      ],
+      [
+        "Okain",
+        4
+      ],
+      [
+        "Ferrari",
+        4
+      ],
+      [
+        "Ground16",
+        3
+      ],
+      [
+        "Pancratio",
+        2
+      ],
+      [
+        "Davy, stbr",
+        2
+      ],
+      [
+        "Baka G",
+        2
+      ],
+      [
+        "Coke, Stoned & Baileys",
+        2
+      ],
+      [
+        "iO (Mulen)",
+        1
+      ],
+      [
+        "Markus Suckut",
+        1
+      ],
+      [
+        "Christoph Faust",
+        1
+      ],
+      [
+        "Asphalt DJ",
+        1
+      ],
+      [
+        "Paolo Macrì",
+        1
+      ],
+      [
+        "CRYME",
+        1
+      ],
+      [
+        "Radio Slave",
+        1
+      ],
+      [
+        "Azaad",
+        1
+      ],
+      [
+        "Laylla Dane",
+        1
+      ],
+      [
+        "CucaRafa & CRYME",
+        1
+      ],
+      [
+        "Bashkka, Don Esquivel",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "SEVEN",
+        12
+      ],
+      [
+        "Faith Beat",
+        9
+      ],
+      [
+        "R.A.N.D. Muzik Recordings",
+        4
+      ],
+      [
+        "Major Records NYC",
+        4
+      ],
+      [
+        "Talman Records",
+        4
+      ],
+      [
+        "X-Kalay",
+        2
+      ],
+      [
+        "Safe Space",
+        2
+      ],
+      [
+        "Eastenderz",
+        2
+      ],
+      [
+        "Surreal",
+        2
+      ],
+      [
+        "a.2aum",
+        2
+      ],
+      [
+        "Cecille",
+        1
+      ],
+      [
+        "SCKT",
+        1
+      ],
+      [
+        "Rutilance Recordings",
+        1
+      ],
+      [
+        "Rekids",
+        1
+      ],
+      [
+        "Love On Cropsey",
+        1
+      ],
+      [
+        "Sub Series",
+        1
+      ],
+      [
+        "All Inn",
+        1
+      ],
+      [
+        "Room Trax",
+        1
+      ],
+      [
+        "km 4.5",
+        1
+      ],
+      [
+        "Repeat",
+        1
+      ]
+    ],
+    "key_unique": 19,
+    "genre_unique": 12,
+    "artist_unique": 43,
+    "label_unique": 31
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 124.3,
+      "max": 133.7,
+      "weight": 0.3,
+      "description": "BPM between 124.3 and 133.7 (ORBIT CORE p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "House",
+        "Deep House",
+        "Tech House",
+        "Minimal",
+        "Techno (Raw / Deep / Hypnotic)",
+        "Deep Tech",
+        "Minimal / Deep Tech",
+        "Minimal House"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent ORBIT CORE genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Gm",
+        "Am",
+        "Em",
+        "Fm",
+        "Dm",
+        "Abm",
+        "Ab",
+        "F#m"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent ORBIT CORE keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "SEVEN",
+        "Faith Beat",
+        "R.A.N.D. Muzik Recordings",
+        "Major Records NYC",
+        "Talman Records",
+        "X-Kalay",
+        "Safe Space",
+        "Eastenderz",
+        "Surreal",
+        "a.2aum",
+        "Cecille",
+        "SCKT",
+        "Rutilance Recordings",
+        "Rekids",
+        "Love On Cropsey"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent ORBIT CORE labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Asphalt DJ",
+        "Azaad",
+        "Baka G",
+        "Bashkka, Don Esquivel",
+        "CRYME",
+        "Christoph Faust",
+        "Coke, Stoned & Baileys",
+        "CucaRafa & CRYME",
+        "Davy, stbr",
+        "Ferrari",
+        "Ground16",
+        "Laylla Dane",
+        "Markus Suckut",
+        "Okain",
+        "Pancratio",
+        "Paolo Macrì",
+        "Radio Slave",
+        "Soul of Hex",
+        "Subb-an",
+        "iO (Mulen)"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 ORBIT CORE artists or exact match in corpus"
+    }
+  ]
+}

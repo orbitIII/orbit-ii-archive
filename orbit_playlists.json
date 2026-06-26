@@ -1,0 +1,59 @@
+{
+  "rekordbox_db": "~/Library/Pioneer/rekordbox/master.db",
+  "txt_export_dir": "~/Documents/rekordbox/CueConv/RB LIBARY TEXT",
+  "orbit_ii_id": "782203010",
+  "playlists": [
+    {
+      "slug": "orbit_core",
+      "label": "ORBIT CORE",
+      "names": ["CORE"],
+      "parent": "ORBIT II",
+      "source": "db",
+      "role": "reference_corpus",
+      "description": "Essential reference tracks for ORBIT. Highest bar for artist/label/genre fit."
+    },
+    {
+      "slug": "orbit_flow",
+      "label": "ORBIT FLOW",
+      "names": ["ORBIT FLOW"],
+      "parent": "ORBIT II",
+      "source": "txt",
+      "role": "energy_profile",
+      "description": "ORBIT flow-state playlist. Curated against measurable BPM/genre/key rules."
+    },
+    {
+      "slug": "orbit_archiv",
+      "label": "ORBIT ARCHIV",
+      "names": ["ARCHIV"],
+      "parent": "ORBIT II",
+      "source": "db",
+      "role": "archive_pool",
+      "description": "Broader archive pool under ORBIT II."
+    },
+    {
+      "slug": "driving_flow",
+      "label": "DRIVING FLOW (SYSTEM)",
+      "names": ["DRIVING FLOW"],
+      "parent": "SYSTEM",
+      "source": "txt",
+      "role": "system_reference",
+      "description": "SYSTEM reference for driving flow energy."
+    }
+  ],
+  "comparisons": [
+    {
+      "slug": "flow_system",
+      "label": "ORBIT FLOW vs DRIVING FLOW",
+      "a": "orbit_flow",
+      "b": "driving_flow",
+      "report": "FLOW_COMPARISON_REPORT.md"
+    },
+    {
+      "slug": "core_archiv",
+      "label": "ORBIT CORE vs ARCHIV",
+      "a": "orbit_core",
+      "b": "orbit_archiv",
+      "report": "CORE_ARCHIV_COMPARISON_REPORT.md"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "source": "/Users/alanwillson/Documents/rekordbox/CueConv/RB LIBARY TEXT/ ORBIT FLOW.txt",
+  "playlist_name": "ORBIT FLOW",
+  "profile": {
+    "track_count": 36,
+    "bpm": {
+      "min": 121.0,
+      "max": 131.0,
+      "mean": 126.06,
+      "median": 126.0,
+      "stdev": 2.27,
+      "p10": 123.0,
+      "p90": 128.5
+    },
+    "keys_top10": [
+      [
+        "Bbm",
+        5
+      ],
+      [
+        "Abm",
+        4
+      ],
+      [
+        "F#m",
+        3
+      ],
+      [
+        "Cm",
+        3
+      ],
+      [
+        "Fm",
+        3
+      ],
+      [
+        "A",
+        3
+      ],
+      [
+        "Dm",
+        2
+      ],
+      [
+        "Am",
+        2
+      ],
+      [
+        "Ebm",
+        2
+      ],
+      [
+        "Ab",
+        2
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Tech House",
+        12
+      ],
+      [
+        "House",
+        6
+      ],
+      [
+        "Minimal",
+        6
+      ],
+      [
+        "Techno (Peak Time / Driving)",
+        2
+      ],
+      [
+        "Minimal / Deep Tech",
+        2
+      ],
+      [
+        "Deep House",
+        2
+      ],
+      [
+        "Minimal  Deep Tech",
+        1
+      ],
+      [
+        "Indie Dance",
+        1
+      ],
+      [
+        "Electronica / Downtempo",
+        1
+      ],
+      [
+        "Classic House",
+        1
+      ],
+      [
+        "Techno",
+        1
+      ],
+      [
+        "Minimal House",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Subb-an",
+        3
+      ],
+      [
+        "Eddie Richards",
+        3
+      ],
+      [
+        "Anton Kubikov",
+        1
+      ],
+      [
+        "Blind Box feat Hector Moralez",
+        1
+      ],
+      [
+        "Tecture",
+        1
+      ],
+      [
+        "Satoshi Tomiie",
+        1
+      ],
+      [
+        "NonniMal",
+        1
+      ],
+      [
+        "SOST",
+        1
+      ],
+      [
+        "Yamen & EDA",
+        1
+      ],
+      [
+        "Rhode & Brown",
+        1
+      ],
+      [
+        "Fred P",
+        1
+      ],
+      [
+        "Halo Varga",
+        1
+      ],
+      [
+        "Zenk",
+        1
+      ],
+      [
+        "B1 Floog",
+        1
+      ],
+      [
+        "Steve O'Sullivan",
+        1
+      ],
+      [
+        "Deep Moments",
+        1
+      ],
+      [
+        "iO (Mulen)",
+        1
+      ],
+      [
+        "Dan Ghenacia & Chris Carrier",
+        1
+      ],
+      [
+        "Young Adults",
+        1
+      ],
+      [
+        "Arturo Garces",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Blind Box Series",
+        4
+      ],
+      [
+        "Phonogramme",
+        3
+      ],
+      [
+        "Repeat",
+        3
+      ],
+      [
+        "Convent",
+        2
+      ],
+      [
+        "AE Recordings",
+        1
+      ],
+      [
+        "Certain Circles",
+        1
+      ],
+      [
+        "Thule Records",
+        1
+      ],
+      [
+        "One Records",
+        1
+      ],
+      [
+        "Permanent Vacation",
+        1
+      ],
+      [
+        "Get Physical Music",
+        1
+      ],
+      [
+        "All Inn Records",
+        1
+      ],
+      [
+        "Purple Print",
+        1
+      ],
+      [
+        "Berg Audio",
+        1
+      ],
+      [
+        "Deep Moments",
+        1
+      ],
+      [
+        "Mulen",
+        1
+      ],
+      [
+        "Apollonia",
+        1
+      ],
+      [
+        "Mood Waves",
+        1
+      ],
+      [
+        "Robsoul Essential",
+        1
+      ],
+      [
+        "Safe Space",
+        1
+      ],
+      [
+        "Fabric",
+        1
+      ]
+    ],
+    "key_unique": 15,
+    "genre_unique": 12,
+    "artist_unique": 32,
+    "label_unique": 28
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 123.0,
+      "max": 128.5,
+      "weight": 0.3,
+      "description": "BPM between 123.0 and 128.5 (ORBIT FLOW p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Tech House",
+        "House",
+        "Minimal",
+        "Techno (Peak Time / Driving)",
+        "Minimal / Deep Tech",
+        "Deep House",
+        "Minimal  Deep Tech",
+        "Indie Dance"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent ORBIT FLOW genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Bbm",
+        "Abm",
+        "F#m",
+        "Cm",
+        "Fm",
+        "A",
+        "Dm",
+        "Am"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent ORBIT FLOW keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Blind Box Series",
+        "Phonogramme",
+        "Repeat",
+        "Convent",
+        "AE Recordings",
+        "Certain Circles",
+        "Thule Records",
+        "One Records",
+        "Permanent Vacation",
+        "Get Physical Music",
+        "All Inn Records",
+        "Purple Print",
+        "Berg Audio",
+        "Deep Moments",
+        "Mulen"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent ORBIT FLOW labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Anton Kubikov",
+        "Arturo Garces",
+        "B1 Floog",
+        "Blind Box feat Hector Moralez",
+        "Dan Ghenacia & Chris Carrier",
+        "Deep Moments",
+        "Eddie Richards",
+        "Fred P",
+        "Halo Varga",
+        "NonniMal",
+        "Rhode & Brown",
+        "SOST",
+        "Satoshi Tomiie",
+        "Steve O'Sullivan",
+        "Subb-an",
+        "Tecture",
+        "Yamen & EDA",
+        "Young Adults",
+        "Zenk",
+        "iO (Mulen)"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 ORBIT FLOW artists or exact match in corpus"
+    }
+  ]
+}

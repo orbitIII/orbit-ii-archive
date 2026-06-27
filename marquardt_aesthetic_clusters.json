@@ -138,6 +138,42 @@
       ]
     }
   },
+  "affekt_signals": {
+    "description": "Affekt-Tags aus orbit_affekt_prinzipien.json — für Profile-Scoring und Sammelphase",
+    "source": "orbit_affekt_prinzipien.json",
+    "by_cluster": {
+      "gallery_photo": {
+        "lead_gefuehle": ["einsamkeit", "katharsis", "lust", "ohnmacht"],
+        "medium_lead": "fotografie",
+        "extern_refs": ["Nan Goldin", "Juergen Teller", "Deana Lawson"]
+      },
+      "club_techno": {
+        "lead_gefuehle": ["sucht", "dissoziation", "ekstase", "ohnmacht"],
+        "medium_lead": "film",
+        "extern_refs": ["Enter the Void", "Berlin Bouncer", "Christiane F."]
+      },
+      "art_club": {
+        "lead_gefuehle": ["dissoziation", "ekstase", "adhs"],
+        "medium_lead": "film",
+        "extern_refs": ["Climax", "Paris Is Burning"]
+      },
+      "fashion_berlin": {
+        "lead_gefuehle": ["wut", "lust", "subversion"],
+        "medium_lead": "mode",
+        "extern_refs": ["Rick Owens", "Hood By Air", "Martine Rose"]
+      },
+      "fashion_pfw": {
+        "lead_gefuehle": ["lust", "ohnmacht", "einsamkeit"],
+        "medium_lead": "mode",
+        "extern_refs": ["Alexander McQueen", "Willy Chavarria"]
+      },
+      "music_model": {
+        "lead_gefuehle": ["wut", "dissoziation", "lust"],
+        "medium_lead": "film",
+        "extern_refs": ["Luca Eck", "Gaspar Noé music-video grammar"]
+      }
+    }
+  },
   "cross_cluster": {
     "boldberlin": ["pr_editorial", "fashion_berlin"],
     "nici_oh": ["pr_editorial", "fashion_pfw"],
@@ -165,13 +201,20 @@
       "tension": "wagnerian-institutional × bleak-club-dark",
       "gesamtwerk_exemplar": true
     },
-    {
-      "id": "gstar_voo_11plus1",
-      "file": "orbit_verflechtungen.json",
-      "handles": ["svenmarquardt", "voostore"],
-      "tension": "club-portrait × fashion-retail"
-    }
-  ],
+      {
+        "id": "gstar_voo_11plus1",
+        "file": "orbit_verflechtungen.json",
+        "handles": ["svenmarquardt", "voostore"],
+        "tension": "club-portrait × fashion-retail"
+      },
+      {
+        "id": "nachtblende_slide",
+        "file": "orbit_verflechtungen.json",
+        "handles": ["svenmarquardt", "marceldettmann", "lars_murasch", "ostgut_ton", "khidiclub"],
+        "tension": "gallery-exhibition × immersive-av",
+        "gesamtwerk_exemplar": "immersive_install"
+      }
+    ],
   "filter_presets": {
     "marquardt_core": {
       "description": "Höchste Nähe zu Marquardts visueller DNA",

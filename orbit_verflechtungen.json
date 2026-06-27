@@ -197,20 +197,60 @@
         { "handle": "voostore", "branches": ["fashion_berlin", "art", "marketing"], "proximity": 83 }
       ],
       "deep_spec": "orbit_verflechtungen_deep.json → weaves.gstar_voo_11plus1"
+    },
+    {
+      "id": "nachtblende_slide",
+      "label": "Foto × Sound × Licht — Slide AV",
+      "summary": "NACHTBLENDE Istanbul 2023 — Marquardt Ausstellung + Slide (Dettmann live + Murasch visuals). Vorläufer von Heartbroken; ORBIT immersive_install Exemplar.",
+      "tension": {
+        "pole_a": { "mood": "gallery-exhibition", "signal": "25-years-club-doc", "anchor": "svenmarquardt" },
+        "pole_b": { "mood": "immersive-av", "signal": "digital-composition-slide", "anchor": "lars_murasch" },
+        "synthesis": "Analoge Club-Fotografie trifft experimentelles Live-AV — Foto und Sound fließen zusammen (harmony between music and image)"
+      },
+      "nodes": [
+        { "handle": "svenmarquardt", "name": "Sven Marquardt", "branches": ["aesthetics", "art", "film", "music"], "cluster": ["gallery_photo", "club_techno"], "proximity": 100, "roles": ["photographer", "exhibition_lead"] },
+        { "handle": "marceldettmann", "name": "Marcel Dettmann", "branches": ["music", "art", "film"], "cluster": ["club_techno", "gallery_photo"], "proximity": 91, "roles": ["slide_live_dj", "portrait_subject"] },
+        { "handle": "lars_murasch", "name": "Lars Murasch", "branches": ["art", "film", "aesthetics"], "cluster": ["gallery_photo"], "proximity": 86, "roles": ["lighting_designer", "slide_visuals"] },
+        { "handle": "ostgut_ton", "name": "Ostgut Ton", "branches": ["music", "aesthetics"], "cluster": ["club_techno"], "proximity": 90, "roles": ["label_context"] }
+      ],
+      "edges": [
+        { "from": "svenmarquardt", "to": "marceldettmann", "type": "creative_collab", "source": "NACHTBLENDE / Black Box", "note": "Second major AV collab after Black Box (Lagos, Vancouver, Polygon Gallery)" },
+        { "from": "marceldettmann", "to": "lars_murasch", "type": "slide_av", "project": "Slide", "note": "Experimental live — music + digital image composition" },
+        { "from": "svenmarquardt", "to": "lars_murasch", "type": "slide_av", "project": "Slide", "note": "Photography flows with sound; human connection + passage of time" },
+        { "from": "svenmarquardt", "to": "khidiclub", "type": "institutional_parallel", "note": "Both Goethe-Institut club-as-gallery exhibitions" }
+      ],
+      "branch_bindings": {
+        "aesthetics": { "tags": ["analog-bw", "club-doc-25-years", "east-berlin-1987", "portrait-subject"], "rule": "Gallery by day (10-19) — exhibition not club flash" },
+        "music": { "opening": "Dettmann Slide live — experimental not peak", "exhibition": "ORBIT MOMENT DEEP", "avoid": ["ORBIT FLOW", "commercial house"] },
+        "art": { "format": "solo_exhibition + opening_av", "venue": "Yapı Kredi bomontiada Istanbul", "partner": "Goethe-Institut Istanbul" },
+        "film": { "look": "slide-teaser", "subject": "multisensory-journey", "references": ["Black Box AV doc"] },
+        "marketing": { "narrative": "25 years Berlin club culture — free admission", "credits": "Marquardt + Dettmann + Murasch equal on opening night" }
+      },
+      "gesamtwerk_template": {
+        "id": "nachtblende",
+        "title": "NACHTBLENDE + Slide",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "deep_spec": "orbit_verflechtungen_deep.json → weaves.nachtblende_slide",
+        "exemplar": "immersive_install"
+      },
+      "dates": { "opening": "2023-11-09", "run": "2023-11-09 — 2023-11-26", "city": "Istanbul" }
     }
   ],
 
   "deep_layer": "orbit_verflechtungen_deep.json",
 
   "index_by_handle": {
-    "svenmarquardt": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1"],
+    "svenmarquardt": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1", "nachtblende_slide"],
     "_lolsnake_": ["marquardt_sauele_weeeirdos"],
     "weeeirdos": ["marquardt_sauele_weeeirdos"],
     "saeule_berlin": ["marquardt_sauele_weeeirdos"],
     "berghain_panoramabar": ["marquardt_sauele_weeeirdos"],
-    "ostgut_ton": ["marquardt_sauele_weeeirdos"],
+    "ostgut_ton": ["marquardt_sauele_weeeirdos", "nachtblende_slide"],
     "anjaschneiderofficial": ["heartbroken_wagner"],
     "galeriedeschler": ["heartbroken_wagner"],
-    "voostore": ["gstar_voo_11plus1"]
+    "voostore": ["gstar_voo_11plus1"],
+    "marceldettmann": ["nachtblende_slide"],
+    "lars_murasch": ["nachtblende_slide"],
+    "khidiclub": ["nachtblende_slide"]
   }
 }

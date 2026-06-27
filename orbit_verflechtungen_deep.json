@@ -1,20 +1,27 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-06-27",
-  "description": "Tiefen-Schicht — Szenen, Credits, Räume, Sonic-Paletten, Timelines. Ergänzt orbit_verflechtungen.json.",
+  "description": "Tiefen-Schicht — Szenen, Credits, Räume, Sonic-Paletten, Timelines, Kunstprinzipien. Ergänzt orbit_verflechtungen.json.",
 
   "hub": {
     "handle": "svenmarquardt",
     "role": "ORBIT anchor — alle Weaves laufen durch ihn",
-    "weave_ids": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1"]
+    "weave_ids": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1", "nachtblende_slide"]
   },
 
   "weaves": {
     "marquardt_sauele_weeeirdos": {
       "depth": "collab + institution + queer platform",
+      "kunst_prinzipien": ["subversion", "synaesthesie", "ritual", "koerper", "katharsis"],
+      "affekt_bundle": "queer_subversive_joy",
+      "affekt_gefuehle": ["ekstase", "lust", "wut", "dissoziation"],
+      "affekt_defizit": "rassismus_ausgrenzung",
 
       "collab_lolsnake_metal_mag": {
         "title": "Lolsnake × Sven Marquardt — Metal Magazine",
+        "affekt_bundle": "aftermath_portrait",
+        "affekt_gefuehle": ["einsamkeit", "katharsis", "sucht", "lust"],
+        "affekt_defizit": "allein_sein",
         "url": "https://metalmagazine.eu/en/post/lolsnake",
         "location": {
           "name": "Haus der Visionäre",
@@ -121,6 +128,10 @@
 
     "heartbroken_wagner": {
       "depth": "gesamtwerk exemplar — alle 5 Zweige, institutionell-operatic",
+      "kunst_prinzipien": ["transzendenz", "gesamtwerk", "katharsis", "synaesthesie", "alchemie"],
+      "affekt_bundle": "heartbroken_intensity",
+      "affekt_gefuehle": ["einsamkeit", "wut", "ekstase", "ohnmacht"],
+      "affekt_defizit": "keine_mutter_kein_halt",
 
       "project": {
         "title": "Heartbroken",
@@ -204,7 +215,8 @@
           "Kunst: Projektion SW-Porträts im dunklen Raum",
           "Film: Institutional doc tone — Felsenreitschule scale",
           "Marketing: Dual credit + festival bridge narrative",
-          "Ästhetik: Disturbing Beauty / Wagnerian dark portrait grammar"
+          "Ästhetik: Disturbing Beauty / Wagnerian dark portrait grammar",
+          "Prinzipien: transzendenz (Opernhaus-Skala) + gesamtwerk (Projektion × Set) + katharsis (emotional, nicht dancefloor)"
         ],
         "anti_patterns": ["Dancefloor peak set", "Bright opera kitsch", "Marquardt as side-act only"]
       },
@@ -219,6 +231,7 @@
 
     "gstar_voo_11plus1": {
       "depth": "fashion × club × gallery — Berlin Art Week",
+      "kunst_prinzipien": ["koerper", "ritual", "zeitlosigkeit", "katharsis"],
 
       "project": {
         "title": "11+1",
@@ -241,6 +254,96 @@
         { "handle": "voostore", "proximity": 83 },
         { "handle": "svenmarquardt", "proximity": 100 }
       ]
+    },
+
+    "nachtblende_slide": {
+      "depth": "immersive AV — Foto × Sound × Licht × Raum",
+
+      "project": {
+        "title": "NACHTBLENDE",
+        "subtitle": "Slide AV (opening night)",
+        "creators": ["svenmarquardt", "marceldettmann", "lars_murasch"],
+        "venue": "Yapı Kredi bomontiada, Istanbul",
+        "partner": "Goethe-Institut Istanbul",
+        "dates": { "opening": "2023-11-09", "run_end": "2023-11-26", "hours": "10:00-19:00 daily except Monday", "admission": "free" }
+      },
+
+      "exhibition_content": {
+        "scope": "25 years Berlin club culture and subcultures",
+        "subjects": ["artists", "friends", "colleagues", "Dettmann portrait among others"],
+        "historical": "East Berlin 1987 — two years before Wall fall",
+        "marquardt_arc": "Punk/new wave 80s → pause after 1989 → return late 90s → Berghain 2004"
+      },
+
+      "slide_av": {
+        "description": "Digital image composition — photography and sound flowing together",
+        "dettmann_role": "Experimental live performance — insight into recent musical career",
+        "murasch_role": "Lighting designer + visual artist — sonic-visual depth",
+        "marquardt_quote_logic": "Journey through history of relationship and artist collaboration; human connection + passage of time",
+        "prior_collab": {
+          "title": "Black Box",
+          "type": "audio-visual installation",
+          "venues": ["Lagos", "Vancouver/Polygon Gallery", "global tour"],
+          "note": "NACHTBLENDE Slide = second major Dettmann × Marquardt AV work"
+        }
+      },
+
+      "branch_deep": {
+        "aesthetics": {
+          "tags": ["analog-bw", "club-doc", "portrait-series", "1987-east-berlin"],
+          "grade": "Gallery daylight 10-19 — not nightclub flash",
+          "disturbing_beauty_link": "NY Art Week 2023 Disturbing Beauty → Heartbroken chain"
+        },
+        "music": {
+          "opening_night": "Dettmann Slide live — experimental, pulsating, reduced",
+          "playlist": "ORBIT MOMENT DEEP + SYSTEM edge (not peak Klubnacht)",
+          "sonic": "Harmony between music and image — photo rhythm matches cut rhythm"
+        },
+        "art": {
+          "format": "Solo exhibition + one-night AV gesamtwerk",
+          "institutional": "Goethe-Institut — same pattern as KHIDI Tbilisi 2018 Marquardt show",
+          "precedent_for": "heartbroken_wagner (projection + live music)"
+        },
+        "film": {
+          "slide_teaser": "RA published opening teaser",
+          "edit": "Slow hypnotic; digital composition overlays on SW stills",
+          "sound": "Diegetic live performance doc"
+        },
+        "marketing": {
+          "frame": "25 years Berlin club culture — Istanbul bridge",
+          "credits_opening": "Marquardt exhibition + Dettmann live + Murasch Slide",
+          "free_access": "Democratic gallery — not ticketed club"
+        }
+      },
+
+      "gesamtwerk_template": {
+        "id": "nachtblende",
+        "title": "NACHTBLENDE + Slide Opening",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "checklist": [
+          "Ausstellung: 25 Jahre Club-Doc SW-Porträts (Gallery hours)",
+          "Opening: Slide live — Dettmann + Murasch + Marquardt photos unified",
+          "Musik: Experimental live ORBIT MOMENT DEEP adjacency",
+          "Film: Teaser + opening night doc — multisensory not explain",
+          "Marketing: Goethe-Institut + free admission + trio credit"
+        ],
+        "anti_patterns": ["Club flyer aesthetic in gallery", "Peak techno set at opening", "AV ohne Foto-Substanz"]
+      },
+
+      "timeline": [
+        { "year": "pre-2023", "event": "Black Box AV — Dettmann × Marquardt global (Lagos, Vancouver)" },
+        { "year": 2023, "event": "Disturbing Beauty NY Art Week — triggers Heartbroken chain" },
+        { "year": 2023, "event": "NACHTBLENDE opens Istanbul 9 Nov; Slide opening night" },
+        { "year": 2023, "event": "Exhibition runs through 26 Nov" },
+        { "year": 2024, "event": "Schneider invites Marquardt Heartbroken after Disturbing Beauty" }
+      ],
+
+      "nodes": [
+        { "handle": "svenmarquardt", "proximity": 100 },
+        { "handle": "marceldettmann", "proximity": 91 },
+        { "handle": "lars_murasch", "proximity": 86 },
+        { "handle": "khidiclub", "proximity": 91, "parallel": "goethe_exhibition" }
+      ]
     }
   },
 
@@ -262,15 +365,33 @@
       "to": "gstar_voo_11plus1",
       "link": "Berlin club culture → street portrait — Voo Store Kreuzberg",
       "tension": "Säule queer-color vs 11+1 streetwear-denim — same Marquardt lens"
+    },
+    {
+      "from": "nachtblende_slide",
+      "to": "heartbroken_wagner",
+      "link": "NACHTBLENDE Slide = template for Heartbroken (projection + live music + dark space)",
+      "shared_format": "foto × sound × raum als eine einheit"
+    },
+    {
+      "from": "nachtblende_slide",
+      "to": "marquardt_sauele_weeeirdos",
+      "link": "Same Berghain institution — gallery doc vs Säule queer peak",
+      "shared_anchor": "svenmarquardt"
+    },
+    {
+      "from": "nachtblende_slide",
+      "to": "gstar_voo_11plus1",
+      "link": "Marquardt portrait-series exhibitions — club subjects as art",
+      "shared_mood": "25 years / homage to club culture"
     }
   ],
 
   "orbit_branch_matrix": {
     "description": "Welcher Weave füttert welchen Zweig am stärksten",
-    "aesthetics": { "primary_weave": "marquardt_sauele_weeeirdos", "secondary": "gstar_voo_11plus1" },
-    "music": { "primary_weave": "heartbroken_wagner", "secondary": "marquardt_sauele_weeeirdos" },
-    "art": { "primary_weave": "heartbroken_wagner", "secondary": "marquardt_sauele_weeeirdos" },
-    "film": { "primary_weave": "marquardt_sauele_weeeirdos", "secondary": "heartbroken_wagner" },
-    "marketing": { "primary_weave": "gstar_voo_11plus1", "secondary": "heartbroken_wagner" }
+    "aesthetics": { "primary_weave": "marquardt_sauele_weeeirdos", "secondary": "nachtblende_slide" },
+    "music": { "primary_weave": "heartbroken_wagner", "secondary": "nachtblende_slide" },
+    "art": { "primary_weave": "nachtblende_slide", "secondary": "heartbroken_wagner" },
+    "film": { "primary_weave": "nachtblende_slide", "secondary": "marquardt_sauele_weeeirdos" },
+    "marketing": { "primary_weave": "gstar_voo_11plus1", "secondary": "nachtblende_slide" }
   }
 }

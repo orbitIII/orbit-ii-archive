@@ -25,6 +25,7 @@
         "khidiclub",
         "unarchivedwisdom",
         "berghain_panoramabar",
+        "saeule_berlin",
         "andregalluzzi_official",
         "christoph__faust",
         "iamlucaeck"
@@ -94,7 +95,7 @@
       "description": "Art & Social Clubs, immersive Nächte, Berlin Confidential",
       "aesthetic_signals": ["art-club", "flash-portrait", "immersive", "red-filter-video", "underground"],
       "cities": ["Berlin"],
-      "handles": ["studio1111berlin"]
+      "handles": ["studio1111berlin", "weeeirdos", "_lolsnake_", "saeule_berlin"]
     },
     "pr_editorial": {
       "label": "PR / Editorial / Kultur",
@@ -144,8 +145,33 @@
     "marceldettmann": ["club_techno", "gallery_photo"],
     "mischa.fanghaenel": ["club_techno", "gallery_photo"],
     "khidiclub": ["club_techno", "gallery_photo"],
-    "streetmoments.nyc": ["gallery_photo", "pr_editorial"]
+    "streetmoments.nyc": ["gallery_photo", "pr_editorial"],
+    "weeeirdos": ["club_techno", "art_club"],
+    "_lolsnake_": ["club_techno", "art_club"],
+    "saeule_berlin": ["club_techno", "art_club"],
+    "svenmarquardt": ["gallery_photo", "club_techno"]
   },
+  "weaves": [
+    {
+      "id": "marquardt_sauele_weeeirdos",
+      "file": "orbit_verflechtungen.json",
+      "handles": ["svenmarquardt", "_lolsnake_", "weeeirdos", "saeule_berlin", "berghain_panoramabar", "ostgut_ton"],
+      "tension": "bleak × subversive-joy"
+    },
+    {
+      "id": "heartbroken_wagner",
+      "file": "orbit_verflechtungen.json",
+      "handles": ["svenmarquardt", "anjaschneiderofficial", "galeriedeschler"],
+      "tension": "wagnerian-institutional × bleak-club-dark",
+      "gesamtwerk_exemplar": true
+    },
+    {
+      "id": "gstar_voo_11plus1",
+      "file": "orbit_verflechtungen.json",
+      "handles": ["svenmarquardt", "voostore"],
+      "tension": "club-portrait × fashion-retail"
+    }
+  ],
   "filter_presets": {
     "marquardt_core": {
       "description": "Höchste Nähe zu Marquardts visueller DNA",
@@ -161,6 +187,13 @@
       "description": "Nur Berlin-verankerte Accounts",
       "cities_contains": "Berlin",
       "min_proximity": 70
+    },
+    "subversive_joy": {
+      "description": "Queer-club Ausnahme — Farbe + Community innerhalb institutionell-underground",
+      "include_clusters": ["club_techno", "art_club"],
+      "include_moods": ["subversive-joy", "queer-community", "magnetic"],
+      "include_handles": ["weeeirdos", "_lolsnake_", "saeule_berlin"],
+      "min_proximity": 85
     }
   }
 }

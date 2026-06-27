@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "updated": "2026-06-27",
+  "description": "Tiefen-Schicht — Szenen, Credits, Räume, Sonic-Paletten, Timelines. Ergänzt orbit_verflechtungen.json.",
+
+  "hub": {
+    "handle": "svenmarquardt",
+    "role": "ORBIT anchor — alle Weaves laufen durch ihn",
+    "weave_ids": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1"]
+  },
+
+  "weaves": {
+    "marquardt_sauele_weeeirdos": {
+      "depth": "collab + institution + queer platform",
+
+      "collab_lolsnake_metal_mag": {
+        "title": "Lolsnake × Sven Marquardt — Metal Magazine",
+        "url": "https://metalmagazine.eu/en/post/lolsnake",
+        "location": {
+          "name": "Haus der Visionäre",
+          "handle": null,
+          "city": "Berlin",
+          "signal": "waterfront-atelier;natural-light;artist-residency-vibe"
+        },
+        "duration": "full_day",
+        "mood_brief": "Aftermath of a party — behind the scenes after DJ set; vulnerable, honest, almost fragile space",
+        "visual_semantics": {
+          "marquardt_contribution": ["texture", "contrast", "true-essence-portrait", "raw-unfiltered"],
+          "lolsnake_contribution": ["color-in-music-image", "natural-mixed-uncanny", "charisma-injection"],
+          "paradox": "Marquardt ist analog-bw-Künstler — hier bewusst texture + contrast + colour als Bild der DJ-Musik",
+          "berghain_parallel": "Raw and honest wie Tür-Policy — ästhetische Integrität statt Pose"
+        },
+        "creative_process": {
+          "origin": "Social Media — Lolsnake decade+ Berghain regular, never met IRL first",
+          "method": "Free-flowing; ideas exchanged but leaned into mutual strengths; no over-structuring",
+          "lolsnake_quote_logic": "Clear inner vision, but collaborative orbit around it — other person's input = most interesting results"
+        },
+        "team_credits": {
+          "talent": "_lolsnake_",
+          "photography": "svenmarquardt",
+          "styling": "Danny Muster",
+          "makeup_hair": "Saskia Krause",
+          "production_assistant": "Hardy Paetke",
+          "location": "Haus der Visionäre"
+        },
+        "downstream": {
+          "groove_podcast_508": "Photo credit Sven Marquardt; 3h reimagined set — ethereal dub ↔ straightforward techno",
+          "numero_nl_interview": "In Conversation with Lolsnake — collab as transformative, perspective-challenging"
+        }
+      },
+
+      "space_saeule": {
+        "opened": 2017,
+        "meaning": "Säule = column — ground floor Berghain",
+        "architecture": {
+          "position": "Side of Lab.Oratory entrance; facing naked-man statue at main stairs",
+          "design": "More meticulous than main floor + Panorama; separate entablatures; minimalist wooden arches",
+          "lighting": "Monochrome hues on concrete pillars synced to music; sustained RED ceiling + back wall — industrial piping in relief",
+          "orbit_signal": "Red-filter immersive — connects to studio1111berlin art_club grammar"
+        },
+        "programming": {
+          "weekend": "Chill/rest area during Klubnacht — sometimes live act",
+          "thursday": "Independent series since June 2023 relaunch; experimental + leftfield + queer",
+          "weeeirdos_slot": "June 8 2023: Abyss X, Chippy Nonstop, Miss Parker, Schacke",
+          "door": "Normal Selection — vibe + audience balance curated"
+        },
+        "weeeirdos_in_saeule": {
+          "since": "Residency post-OHM move 2023",
+          "platform_logic": "Emerging local artists from underrepresented groups; visibility via Säule as stepping-off point",
+          "sonic_range": "Metallic techno, angelic trance, squishy acid, cosmic bleep — maelstrom of textures"
+        }
+      },
+
+      "sonic_palette": {
+        "_lolsnake_": {
+          "genres": ["metallic-techno", "angelic-trance", "acid", "cosmic-blep", "ethereal-dub"],
+          "energy": "hypnotic-magnetic-heady",
+          "orbit_playlist": "SYSTEM WIRED / SYSTEM DRIVING PUSH",
+          "not": "ORBIT FLOW — zu leftfield/peak für Panorama-Logik"
+        },
+        "weeeirdos_lineup_refs": ["Ellen Allien", "Chippy Nonstop", "Parrish Smith", "Schacke", "Abyss X"],
+        "marquardt_adjacent_dj": "Christoph Faust — already in ORBIT CORE; house-minimal bridge"
+      },
+
+      "branch_deep": {
+        "aesthetics": {
+          "shot_list": ["close-portrait-after-set", "texture-skin-fabric", "color-accent-single-frame", "negative-space-haus-visionaere"],
+          "grade": "High contrast; grain optional; colour allowed in weave only",
+          "typography": "WEEEIRDOS ☯ ☻ — maximal flyer vs Marquardt minimal bio"
+        },
+        "music": {
+          "pre_sauele": "ORBIT MOMENT DEEP — gallery-intimate warmup",
+          "sauele_peak": "SYSTEM — acid/trance/metallic",
+          "after": "ORBIT CORE edge — reduced house comedown",
+          "bpm_hint": "124-132 ORBIT zone vs 135+ SYSTEM peak moments"
+        },
+        "art": {
+          "format": "Portrait-as-exhibition — Metal Mag editorial = gallery spread",
+          "2017_origin": "Weeeirdos began as live music + performance + visual art hybrid"
+        },
+        "film": {
+          "edit_rhythm": "Hypnotic slow cut for Marquardt frames; faster for WEEEIRDOS Boiler Room",
+          "sound_design": "Diegetic club ambient; no voiceover",
+          "reference_duration": "30s teaser / 3h groove podcast as longform pole"
+        },
+        "marketing": {
+          "credit_block": "Photo: Sven Marquardt | Talent: Lolsnake | Styling: Danny Muster | MUA: Saskia Krause | Loc: Haus der Visionäre",
+          "announce_pattern": "Platform first (@weeeirdos) → residency (@saeule_berlin) → lineup → door policy",
+          "email": "danielle@weeeirdos.com"
+        }
+      },
+
+      "timeline": [
+        { "year": 2017, "event": "WEEEIRDOS founded as hybrid live/performance/visual" },
+        { "year": 2017, "event": "Säule opens at Berghain" },
+        { "year": 2023, "event": "WEEEIRDOS moves to Säule residency; Boiler Room Berlin" },
+        { "year": 2023, "event": "Marquardt × Lolsnake Metal Magazine shoot — Haus der Visionäre" },
+        { "year": 2026, "event": "Groove Podcast 508 — Marquardt photo credit" }
+      ]
+    },
+
+    "heartbroken_wagner": {
+      "depth": "gesamtwerk exemplar — alle 5 Zweige, institutionell-operatic",
+
+      "project": {
+        "title": "Heartbroken",
+        "subtitle": "Wagner × Electronic × Photography",
+        "creators": ["anjaschneiderofficial", "svenmarquardt"],
+        "institution": "Salzburg Easter Festival (Osterfestspiele)",
+        "venue": "Felsenreitschule Salzburg",
+        "premiere": "2026-04-02T22:00",
+        "source_material": "Der Ring des Nibelungen — urban technoid dubby reinterpretation",
+        "name_origin": "Named by Marquardt + Schneider together"
+      },
+
+      "creative_logic": {
+        "schneider": "Urban, technoid, dubby — dark and mysterious; not clinging to Wagner literally",
+        "marquardt": "Dark space for visuals; bridge festival tradition ↔ club/electronic culture",
+        "connection_prior": "Schneider inspired by Marquardt exhibition Disturbing Beauty — photography already Wagnerian",
+        "gesamtwerk": "One experience — photos projected while Schneider DJ sets; staged together"
+      },
+
+      "releases": {
+        "label": "Sous Music / SoUs",
+        "ep": {
+          "title": "Heartbroken EP",
+          "tracks": 4,
+          "part1": "2026-04-02",
+          "collaborators": ["Toni Planet", "João Tinen (opera vocal, Berlin-based Brazilian)"],
+          "character": "Not dancefloor-oriented; most emotional/introspective Schneider work"
+        },
+        "follow_up": {
+          "title": "Artbroken",
+          "catalog": "SOUS059",
+          "release": "2026-04-24"
+        }
+      },
+
+      "visual_music_binding": {
+        "projection": "Marquardt photographs on stage during live set",
+        "mood": "Dark, mysterious, dystopian Nibelungen — raw emotional immersive",
+        "wagner_marquardt_bridge": "Operatic scale + club darkness — same bleak-intimate ORBIT core",
+        "orbit_playlist": "ORBIT MOMENT DEEP exclusively — not SYSTEM, not FLOW",
+        "genre_tags": ["dubby", "technoid", "electronic-opera", "conceptual"]
+      },
+
+      "branch_deep": {
+        "aesthetics": {
+          "reference_exhibition": "Disturbing Beauty (Marquardt — triggered project)",
+          "tags": ["wagnerian-portrait", "dark-space", "projected-fine-art", "operatic-scale"]
+        },
+        "music": {
+          "primary": "ORBIT MOMENT DEEP",
+          "secondary": "ORBIT ARCHIV for non-dancefloor experimental",
+          "avoid": "Peak techno — this is opera-house not Säule"
+        },
+        "art": {
+          "format": "Interdisciplinary live — museum-quality photo × DJ × opera vocal",
+          "precedent": "NACHTBLENDE (Dettmann × Marquardt) — same foto×sound×raum logic"
+        },
+        "film": {
+          "document": "Felsenreitschule performance doc — slow, dark, projected stills",
+          "not": "Club doc flash — institutional camera distance"
+        },
+        "marketing": {
+          "institution_voice": "Festival tradition meets innovation — bridge narrative",
+          "dual_billing": "Anja Schneider (music) + Sven Marquardt (visual atmosphere) — equal credit",
+          "press_angle": "Berghain door + Wagner — Kurier/Queer Salzburg framing"
+        }
+      },
+
+      "nodes": [
+        { "handle": "anjaschneiderofficial", "proximity": 92, "weave_role": "music_lead" },
+        { "handle": "svenmarquardt", "proximity": 100, "weave_role": "visual_lead" },
+        { "handle": "galeriedeschler", "proximity": 85, "weave_role": "gallery_orbit" }
+      ],
+
+      "gesamtwerk_template": {
+        "id": "heartbroken",
+        "title": "Heartbroken — Wagner × Club × Galerie",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "checklist": [
+          "Musik: ORBIT MOMENT DEEP Pool — dubby, technoid, emotional",
+          "Kunst: Projektion SW-Porträts im dunklen Raum",
+          "Film: Institutional doc tone — Felsenreitschule scale",
+          "Marketing: Dual credit + festival bridge narrative",
+          "Ästhetik: Disturbing Beauty / Wagnerian dark portrait grammar"
+        ],
+        "anti_patterns": ["Dancefloor peak set", "Bright opera kitsch", "Marquardt as side-act only"]
+      },
+
+      "timeline": [
+        { "year": 2024, "event": "Schneider receives Salzburg Easter Festival request — Wagner electronic evening" },
+        { "year": 2024, "event": "Post Marquardt collab / Disturbing Beauty — Schneider invites Marquardt" },
+        { "year": 2026, "event": "Premiere Felsenreitschule 2 Apr; Heartbroken EP pt.1" },
+        { "year": 2026, "event": "Artbroken SOUS059 24 Apr" }
+      ]
+    },
+
+    "gstar_voo_11plus1": {
+      "depth": "fashion × club × gallery — Berlin Art Week",
+
+      "project": {
+        "title": "11+1",
+        "partners": ["G-Star RAW", "svenmarquardt", "voostore"],
+        "location": "Voo Store Berlin — Kreuzberg",
+        "timing": "Berlin Art Week",
+        "concept": "12 portraits — 11 street-scouted talents + Clara Cuvé; club culture as fashion homage"
+      },
+
+      "marquardt_quote_logic": "Homage to club culture — emotion, togetherness, closeness, fleeting moments — not commerce first",
+      "branch_binding": {
+        "aesthetics": "Portrait series — each talent different fashion personality",
+        "fashion_berlin": "voostore as venue — concept store + gallery",
+        "marketing": "Collaboration credits — denim × photography × nightlife",
+        "music": "ORBIT CORE — Panorama-adjacent not Säule",
+        "film": "Exhibition doc + street-scout narrative"
+      },
+
+      "nodes": [
+        { "handle": "voostore", "proximity": 83 },
+        { "handle": "svenmarquardt", "proximity": 100 }
+      ]
+    }
+  },
+
+  "weave_relations": [
+    {
+      "from": "marquardt_sauele_weeeirdos",
+      "to": "heartbroken_wagner",
+      "link": "Marquardt hub — Lolsnake collab led to Disturbing Beauty era → Heartbroken invite",
+      "shared_mood": "raw, honest, dark, portrait-as-art"
+    },
+    {
+      "from": "heartbroken_wagner",
+      "to": "gstar_voo_11plus1",
+      "link": "Marquardt portrait-series logic — club talents as fashion subjects",
+      "shared_format": "12-portrait exhibition structure"
+    },
+    {
+      "from": "marquardt_sauele_weeeirdos",
+      "to": "gstar_voo_11plus1",
+      "link": "Berlin club culture → street portrait — Voo Store Kreuzberg",
+      "tension": "Säule queer-color vs 11+1 streetwear-denim — same Marquardt lens"
+    }
+  ],
+
+  "orbit_branch_matrix": {
+    "description": "Welcher Weave füttert welchen Zweig am stärksten",
+    "aesthetics": { "primary_weave": "marquardt_sauele_weeeirdos", "secondary": "gstar_voo_11plus1" },
+    "music": { "primary_weave": "heartbroken_wagner", "secondary": "marquardt_sauele_weeeirdos" },
+    "art": { "primary_weave": "heartbroken_wagner", "secondary": "marquardt_sauele_weeeirdos" },
+    "film": { "primary_weave": "marquardt_sauele_weeeirdos", "secondary": "heartbroken_wagner" },
+    "marketing": { "primary_weave": "gstar_voo_11plus1", "secondary": "heartbroken_wagner" }
+  }
+}

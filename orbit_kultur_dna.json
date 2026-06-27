@@ -1,0 +1,380 @@
+{
+  "version": 1,
+  "name": "ORBIT",
+  "updated": "2026-06-27",
+  "mission": "ORBIT ist eine Kultur-DNA — kein Genre, kein Kanal, kein Moodboard allein. Fünf Zweige (Ästhetik, Musik, Kunst, Film, Marketing) teilen denselben Kern und fließen in ein Gesamtwerk.",
+  "verflechtungen": "orbit_verflechtungen.json",
+  "verflechtungen_deep": "orbit_verflechtungen_deep.json",
+  "hub_handle": "svenmarquardt",
+
+  "core_dna": {
+    "essence": "Berliner Nacht als Kunstform: analog, intim, institutionell-unterground, zwischen Club, Galerie und Mode — nie glatt, nie mainstream.",
+    "origin": "Panorama Bar / Berlin Confidential / Galerie-Club-Crossover (Referenz: Marquardt-Orbit, Berghain 2024–2026)",
+    "tension_axis": {
+      "label": "Bleak × Subversive Joy",
+      "pole_a": { "mood": "bleak", "visual": "analog-bw", "reference": "svenmarquardt" },
+      "pole_b": { "mood": "subversive-joy", "visual": "bold-color-accent", "reference": "weeeirdos" },
+      "bridge": { "space": "saeule_berlin", "collab": "_lolsnake_ × svenmarquardt", "weave_id": "marquardt_sauele_weeeirdos" },
+      "secondary_axis": {
+        "label": "Institution × Gesamtwerk",
+        "reference": "heartbroken_wagner",
+        "rule": "Foto × Musik × Raum als eine Einheit — NACHTBLENDE / Heartbroken Modell"
+      },
+      "rule": "Beide Pole dürfen im selben Gesamtwerk coexistieren — Spannung ist Feature, nicht Bug"
+    },
+    "mood_axes": {
+      "primary": ["intimate", "bleak", "staged", "underground", "institutional", "timeless"],
+      "secondary": ["conceptual", "immersive", "editorial", "reduced", "body-as-subject", "subversive-joy"],
+      "forbidden": ["euphoric-pop", "festival-bro", "clean-influencer", "bright-commercial", "ironic-meme"]
+    },
+    "visual_grammar": {
+      "palette": ["black", "grey", "analog-bw", "single-accent-red-or-leather"],
+      "palette_exceptions": {
+        "subversive_joy": ["bold-color-accent", "yin-yang-maximal", "queer-portrait"],
+        "when": "club_techno + art_club + queer-platform (weeeirdos, saeule_berlin)"
+      },
+      "texture": ["grain", "high-contrast", "daylight-not-flash", "material-leather-cotton-concrete"],
+      "composition": ["portrait-close", "negative-space", "exhibition-doc", "no-busy-layout"]
+    },
+    "spatial_anchors": ["Berlin", "Paris", "NYC", "Tbilisi"],
+    "tone_of_voice": {
+      "de": "präzise, düster-warm, ohne Hype. Kurze Sätze. Kein Marketing-Sprech.",
+      "en": "precise, bleak-warm, no hype. Short sentences. No brand-speak."
+    },
+    "litmus_question": "Fühlt sich das an wie eine Galerie-Nacht in Berlin — oder wie PFW-Front-Row / Festival / Influencer-Content?"
+  },
+
+  "branches": {
+    "aesthetics": {
+      "label": "Ästhetik",
+      "role": "Visuelle Grammatik — Referenzprofile, Cluster, Filter, Bildsprache für alle anderen Zweige",
+      "outputs": [
+        "aesthetic_profiles.csv",
+        "aesthetic_clusters.json",
+        "mood-boards",
+        "typography-and-layout-rules",
+        "photography-briefs"
+      ],
+      "reference_corpora": [
+        "marquardt_aesthetic_profiles.csv",
+        "marquardt_aesthetic_clusters.json",
+        "berghain_2024_2026_labels_communities_aesthetics.md"
+      ],
+      "clusters_map": {
+        "gallery_photo": "Kern — analog SW, Porträt, Ausstellung",
+        "club_techno": "Institutionell-unterground; all black ODER subversive-joy Ausnahme (WEEEIRDOS)",
+        "art_club": "Immersiv, flash-portrait, confidential, queer-platform",
+        "fashion_berlin": "Next-gen, community, concept store",
+        "fashion_pfw": "Editorial, street-style — Kontext, nicht Default",
+        "music_model": "Crossover SW-Video, Leder, Körper",
+        "pr_editorial": "Discovery-Quelle, nicht visuelle Hauptlinie"
+      },
+      "handlungen": [
+        "Neue Profile nur mit cluster_primary + proximity_score — weak_signal manuell prüfen",
+        "Preset marquardt_core für höchste DNA-Nähe; fashion_orbit nur für Editorial-Kontexte",
+        "Jedes Visual gegen visual_grammar und litmus_question prüfen",
+        "Cross-Cluster-Accounts (Dettmann, Mischa Fanghaenel, nici_oh, weeeirdos) als Brücken dokumentieren",
+        "Verflechtungen in orbit_verflechtungen.json pflegen — weave_id in Profil-notes"
+      ]
+    },
+
+    "music": {
+      "label": "Musik",
+      "role": "Hörbare DNA — Rekordbox-Playlists, Scoring, Remmex-Pipeline",
+      "outputs": [
+        "orbit_playlists.json",
+        "{slug}_profile_rules.json",
+        "{slug}_track_scores.csv",
+        "rekordbox/exports/*_snapshot.csv"
+      ],
+      "playlist_map": {
+        "ORBIT CORE": "Referenz-Corpus — House/Deep, 124–134 BPM, Moll, institutionell",
+        "ORBIT FLOW": "Groove-Zustand — warm aber reduced, Panorama-Bar-Logik",
+        "ORBIT MOMENT DEEP": "Galerie-Nacht — intimate, conceptual, exhibition-energy",
+        "ORBIT ARCHIV": "Breiter Pool, noch nicht zugeordnet",
+        "AUSGEsortiert": "Passt nicht — nie löschen, später sortieren",
+        "SYSTEM": "Separater Baum — Push/Peak/Warm, nicht mit ORBIT mergen"
+      },
+      "aesthetic_alignment": {
+        "gallery_photo + art_club": ["ORBIT MOMENT DEEP", "ORBIT CORE (Rand)"],
+        "club_techno_house": ["ORBIT CORE", "ORBIT FLOW"],
+        "club_techno_peak": ["SYSTEM DRIVING PUSH", "SYSTEM WIRED"],
+        "club_techno_queer_sauele": ["SYSTEM WIRED", "SYSTEM DRIVING PUSH"],
+        "fashion_pfw": ["Editorial-Set — eigener Kontext, nicht Default-ORBIT"],
+        "music_model": ["ORBIT MOMENT DEEP", "ORBIT ARCHIV"]
+      },
+      "handlungen": [
+        "Pass 1: messbare Rules (BPM, Genre, Key, Label, Artist)",
+        "Pass 2: ästhetischer Veto gegen core_dna.mood_axes.forbidden",
+        "Artist-Seeds aus aesthetics/music_model + club_techno (z.B. Christoph Faust als Validierungs-Anker)",
+        "Remmex pre-score mit orbit_core, final-score nach BPM/Key-Import",
+        "Peak-Techno nie in ORBIT FLOW — Klubnacht ≠ Galerie-Nacht",
+        "Säule/WEEEIRDOS → SYSTEM; Marquardt-Galerie-Nacht → ORBIT MOMENT DEEP"
+      ]
+    },
+
+    "art": {
+      "label": "Kunst",
+      "role": "Räume, Ausstellungen, Künstler:innen, Installationen — wo ORBIT physisch oder digital sichtbar wird",
+      "outputs": [
+        "exhibition-concepts",
+        "artist-collab-briefs",
+        "installation-specs",
+        "gallery-partnership-list"
+      ],
+      "reference_signals": [
+        "galeriedeschler",
+        "c24gallery",
+        "studioxnoire",
+        "khidiclub",
+        "nachts_berlin",
+        "lars_murasch / NACHTBLENDE",
+        "mischa.fanghaenel / NACHTS",
+        "weeeirdos / saeule_berlin",
+        "_lolsnake_ × svenmarquardt"
+      ],
+      "formats": {
+        "exhibition": "SW-Porträt-Serien, Stageless/Rudel-Linie, Körper als Motiv",
+        "immersive": "Club-as-gallery (NACHTS, KHIDI, Studio IIII)",
+        "collab": "Foto × Musik × Licht (Dettmann × Marquardt × Murasch; Lolsnake × Marquardt raw/honest)",
+        "pop_up": "Berlin Confidential — Potsdamer Str / Auguststr / Kreuzberg concept stores"
+      },
+      "handlungen": [
+        "Künstler:innen aus gallery_photo + art_club Clustern priorisieren",
+        "Ausstellungen mit Musik-Zweig verzahnen (Heartbroken-Modell: Schneider × Marquardt)",
+        "Keine White-Cube-Generic-Art — immer Berlin-/Club-/Mode-Kontext",
+        "Goethe-Institut / institutionelle Partner wie bei KHIDI-Show als Referenz für Reichweite",
+        "WEEEIRDOS-Hybrid-Ursprung (2017): Live + Performance + Visual → Art-Branch Template"
+      ]
+    },
+
+    "film": {
+      "label": "Film / Video",
+      "role": "Bewegtbild — Dokumentation, Installation, Social, Runway-adjacent",
+      "outputs": [
+        "video-briefs",
+        "edit-specs",
+        "documentary-references",
+        "reel-templates"
+      ],
+      "grammar": {
+        "look": ["grain", "analog-bw-or-desaturated", "high-contrast", "slow-or-hypnotic-cut"],
+        "sound": ["reduced", "club-ambient-not-drop", "diegetic-or-silent-with-sub"],
+        "subject": ["portrait", "door/bouncer-pov", "exhibition-install", "backstage-not-frontstage"],
+        "references": [
+          "Berlin Bouncer (doc)",
+          "NACHTBLENDE / Slide AV",
+          "Heartbroken exhibition video",
+          "Luca Eck SW music-video aesthetic",
+          "WEEEIRDOS Boiler Room Berlin 2023",
+          "Lolsnake × Marquardt collab tone (Metal Mag: raw, honest)"
+        ]
+      },
+      "branch_links": {
+        "from_aesthetics": "photo_aesthetic + video_aesthetic Tags aus Profil-CSV",
+        "to_music": "Soundtrack aus ORBIT MOMENT DEEP / CORE, nie Peak-Techno als Default",
+        "to_marketing": "Teaser 15–30s, kein Erklär-Video; Stimmung vor Information"
+      },
+      "handlungen": [
+        "Kein Flash-Club-Doku-Look — Marquardt: Tageslicht, gestellt",
+        "Fashion-Film nur im fashion_orbit-Kontext, nicht ORBIT-Default",
+        "Immersive Loops für Art-Branch (red-filter, grain) — Studio IIII-Signal",
+        "Langform (Doc/Talk) für institutionelle Partner; Kurzform für Social"
+      ]
+    },
+
+    "marketing": {
+      "label": "Marketing / Kommunikation",
+      "role": "Wie ORBIT nach außen tritt — ohne die DNA zu verwässern",
+      "outputs": [
+        "copy-templates",
+        "campaign-briefs",
+        "partner-outreach",
+        "event-communication",
+        "newsletter/editorial"
+      ],
+      "channels": {
+        "primary": ["instagram", "editorial-partners", "gallery-press", "club-flyer-minimal"],
+        "secondary": ["newsletter", "podcast-guest", "pfw-front-row-presence"],
+        "avoid": ["tiktok-trend-audio", "influencer-seeding-generic", "festival-sponsor-speak"]
+      },
+      "voice_rules": [
+        "Curator voice, nicht Brand voice (Referenz: boldberlin, Kinfolk — polished-yet-edgy)",
+        "Bio-Struktur: Rolle → Ort → Request/Link — wie Marquardt-Bio, nicht Feature-List",
+        "PFW-Dates / Exhibition-Dates als temporäre Layer, nicht permanente Identität",
+        "Collaboration credits sichtbar (@galerie, @assistant, @agency) — Netzwerk als Content"
+      ],
+      "partner_tiers": {
+        "tier_1_core": ["Galerien", "Club-Institutionen (Berghain/Säule)", "Berlin Fashion Hubs (PLATTE, Voo)", "Queer Platforms (WEEEIRDOS)"],
+        "tier_2_bridge": ["PR/Editorial (BOLD, Numéro)", "Fashion PFW (Styleograph, Antonioli)"],
+        "tier_3_context": ["Celebrity/Pop (nur Event-Kontext, nicht DNA-Träger)"]
+      },
+      "handlungen": [
+        "Jede Kampagne gegen litmus_question und tone_of_voice prüfen",
+        "Marketing folgt Ästhetik — nie umgekehrt",
+        "Events: Galerie-Nacht > Product Launch",
+        "sm@boldberlin-Modell: klare Request-Adresse, Assistant-Credit, Gallery-Credit",
+        "danielle@weeeirdos.com-Modell: Platform → Residency → Mail — queer community voice"
+      ]
+    }
+  },
+
+  "crossflow": {
+    "description": "Wie die Zweige zusammenfließen — keine Silos",
+    "flows": [
+      {
+        "id": "verflechtung_weave",
+        "from": "aesthetics",
+        "to": ["music", "art", "film", "marketing"],
+        "rule": "orbit_verflechtungen.json branch_bindings pro weave_id — alle Zweige gleichzeitig binden"
+      },
+      {
+        "id": "marquardt_lolsnake_film",
+        "from": "art",
+        "to": "film",
+        "rule": "Collab-Ton raw/honest — keine Over-Production; Metal Mag Referenz"
+      },
+      {
+        "id": "weeeirdos_sauele_music",
+        "from": "marketing",
+        "to": "music",
+        "rule": "Säule-Residency-Announce → SYSTEM Playlist; nicht ORBIT FLOW"
+      },
+      {
+        "id": "aesthetics_to_all",
+        "from": "aesthetics",
+        "to": ["music", "art", "film", "marketing"],
+        "rule": "visual_grammar + clusters sind Master-Referenz für alle Outputs"
+      },
+      {
+        "id": "music_to_film",
+        "from": "music",
+        "to": "film",
+        "rule": "Soundtrack-Pool aus ORBIT MOMENT DEEP / CORE; BPM/Energy match cut rhythm"
+      },
+      {
+        "id": "art_to_marketing",
+        "from": "art",
+        "to": "marketing",
+        "rule": "Ausstellung/Event ist Content — Press aus gallery_photo-Netzwerk, nicht Ad-Copy"
+      },
+      {
+        "id": "film_to_aesthetics",
+        "from": "film",
+        "to": "aesthetics",
+        "rule": "Neue Video-Frames zurück in Profil-CSV als video_aesthetic Tags"
+      },
+      {
+        "id": "marketing_to_music",
+        "from": "marketing",
+        "to": "music",
+        "rule": "Event-Kontext bestimmt Playlist (Galerie-Nacht → MOMENT DEEP; Club → SYSTEM)"
+      }
+    ],
+    "bridge_accounts": {
+      "note": "Accounts die mehrere Zweige gleichzeitig tragen — aus marquardt cross_cluster",
+      "examples": {
+        "marceldettmann": ["music", "art", "film"],
+        "mischa.fanghaenel": ["art", "film", "aesthetics"],
+        "nici_oh": ["marketing", "aesthetics", "fashion-context"],
+        "boldberlin": ["marketing", "aesthetics"],
+        "anjaschneiderofficial": ["music", "art", "film"],
+        "weeeirdos": ["music", "art", "marketing", "aesthetics"],
+        "_lolsnake_": ["music", "art", "film", "aesthetics"],
+        "saeule_berlin": ["music", "art", "aesthetics"],
+        "svenmarquardt": ["aesthetics", "art", "film", "marketing", "music"]
+      }
+    },
+    "active_weave": "marquardt_sauele_weeeirdos",
+    "gesamtwerk_exemplar": "heartbroken_wagner"
+  },
+
+  "gesamtwerk": {
+    "label": "Gesamtwerk",
+    "description": "Ein ORBIT-Projekt ist erst vollständig, wenn mindestens zwei Zweige sichtbar verknüpft sind",
+    "project_types": [
+      {
+        "id": "galerie_nacht",
+        "branches": ["art", "music", "aesthetics", "film"],
+        "example": "Ausstellung + ORBIT MOMENT DEEP Set + SW-Doku + Minimal-Invite"
+      },
+      {
+        "id": "editorial_drop",
+        "branches": ["aesthetics", "marketing", "film"],
+        "example": "PFW-Präsenz + Styleograph-Netzwerk + 30s grain reel — kein ORBIT CORE Sound"
+      },
+      {
+        "id": "club_institutional",
+        "branches": ["music", "aesthetics", "marketing"],
+        "example": "Ostgut-Orbit Flyer + SYSTEM Push Pool + all-black visual"
+      },
+      {
+        "id": "heartbroken",
+        "weave_id": "heartbroken_wagner",
+        "branches": ["aesthetics", "music", "art", "film", "marketing"],
+        "example": "Schneider DJ + Marquardt Projektion + Wagner dubby + Felsenreitschule — alle 5 Zweige",
+        "template": "orbit_verflechtungen_deep.json → weaves.heartbroken_wagner.gesamtwerk_template",
+        "exemplar": true
+      },
+      {
+        "id": "sauele_verflechtung",
+        "weave_id": "marquardt_sauele_weeeirdos",
+        "branches": ["aesthetics", "music", "art", "film", "marketing"],
+        "example": "Marquardt SW-Porträt + WEEEIRDOS Color-Flyer + Säule SYSTEM-Set + raw collab film + dual-credit marketing",
+        "template": "orbit_verflechtungen.json → gesamtwerk_template.sauele_verflechtung"
+      },
+      {
+        "id": "immersive_install",
+        "branches": ["art", "film", "music"],
+        "example": "NACHTBLENDE-Modell: Licht + Sound + Raum als eine Einheit"
+      }
+    ],
+    "completion_checklist": [
+      "Passt visual_grammar?",
+      "Passt mood_axes (kein forbidden signal)?",
+      "Welcher branch ist Lead — welche sind Support?",
+      "Ist music-Playlist kontextkorrekt (ORBIT vs SYSTEM vs Editorial)?",
+      "Marketing-Copy im tone_of_voice?",
+      "Neue Referenzen zurück in aesthetics-CSV?",
+      "Verflechtung aktiv? (orbit_verflechtungen.json weave_id)",
+      "Tension axis respektiert — bleak UND subversive-joy erlaubt?"
+    ]
+  },
+
+  "filter_presets": {
+    "orbit_core_culture": {
+      "description": "Höchste DNA-Nähe — Default für alles ORBIT",
+      "include_clusters": ["gallery_photo", "club_techno", "art_club"],
+      "include_moods": ["intimate", "bleak", "institutional", "underground"],
+      "exclude_clusters": ["weak_signal"],
+      "min_proximity": 80
+    },
+    "editorial_context": {
+      "description": "PFW / Fashion / PR — eigener Modus, nicht ORBIT Default",
+      "include_clusters": ["fashion_pfw", "fashion_berlin", "pr_editorial"],
+      "min_proximity": 75
+    },
+    "berlin_anchor": {
+      "description": "Nur Berlin-verankerte Referenzen",
+      "cities_contains": "Berlin",
+      "min_proximity": 70
+    },
+    "subversive_joy": {
+      "description": "Queer-club innerhalb ORBIT — WEEEIRDOS/Säule/Lolsnake",
+      "include_weave": "marquardt_sauele_weeeirdos",
+      "include_moods": ["subversive-joy", "queer-community", "magnetic", "hypnotic"],
+      "min_proximity": 85
+    }
+  },
+
+  "file_index": {
+    "dna": "orbit_kultur_dna.json",
+    "verflechtungen": "orbit_verflechtungen.json",
+    "verflechtungen_deep": "orbit_verflechtungen_deep.json",
+    "aesthetics": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],
+    "music": ["orbit_playlists.json", "docs/rekordbox_orbit.md"],
+    "archive": ["berghain_2024_2026_labels_communities_aesthetics.md", "berghain_2024_2026_observations.md"],
+    "scripts_aesthetics": ["scripts/extract_marquardt_following.py", "scripts/merge_marquardt_following.py"],
+    "scripts_music": ["scripts/analyze_orbit_playlists.py", "scripts/score_remmex_releases.py"]
+  }
+}

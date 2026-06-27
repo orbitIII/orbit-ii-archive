@@ -1,7 +1,12 @@
 {
   "version": 1,
   "anchor": "svenmarquardt",
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
+  "following_status": {
+    "expected": 364,
+    "extracted_partial": 16,
+    "note": "Full list: python3 scripts/extract_marquardt_following.py --username YOUR_IG"
+  },
   "clusters": {
     "club_techno": {
       "label": "Club / Techno / Berghain",
@@ -20,7 +25,9 @@
         "khidiclub",
         "unarchivedwisdom",
         "berghain_panoramabar",
-        "andregalluzzi_official"
+        "andregalluzzi_official",
+        "christoph__faust",
+        "iamlucaeck"
       ]
     },
     "gallery_photo": {
@@ -35,7 +42,9 @@
         "c24gallery",
         "photosintese",
         "lars_murasch",
-        "streetmoments.nyc"
+        "streetmoments.nyc",
+        "studioxnoire",
+        "ingegrognard"
       ]
     },
     "fashion_pfw": {
@@ -53,7 +62,10 @@
         "maluma",
         "michelgaubert",
         "visualisation_",
-        "austral.paris"
+        "austral.paris",
+        "sabine_roethig",
+        "numero_netherlands",
+        "ingegrognard"
       ]
     },
     "fashion_berlin": {
@@ -70,7 +82,11 @@
         "raufaser.atelier",
         "voostore",
         "rukhglobal",
-        "hannibalstore"
+        "hannibalstore",
+        "soderbergofficial",
+        "richertbeil",
+        "numero_netherlands",
+        "salty.nacho"
       ]
     },
     "art_club": {
@@ -89,7 +105,8 @@
         "boldberlin",
         "nici_oh",
         "kinfolk",
-        "itsdavidkane"
+        "itsdavidkane",
+        "sabine_roethig"
       ]
     },
     "music_model": {
@@ -97,7 +114,13 @@
       "description": "Musiker und Models mit SW-Video- und Fashion-Ästhetik",
       "aesthetic_signals": ["sw-video", "leather", "model-shoot", "band-promo"],
       "cities": ["Berlin"],
-      "handles": ["theuerkorn", "anjaschneiderofficial"]
+      "handles": [
+        "theuerkorn",
+        "anjaschneiderofficial",
+        "korbinianglacier",
+        "iamlucaeck",
+        "salty.nacho"
+      ]
     },
     "weak_signal": {
       "label": "Schwach / Unbekannt",
@@ -110,12 +133,7 @@
         "cabbage742",
         "5pnips.mp3",
         "isabellebogomas",
-        "korbinianglacier",
-        "soderbergofficial",
-        "iamlucaeck",
-        "richertbeil",
-        "sabine_roethig",
-        "christoph__faust"
+        "flieder_und_beton"
       ]
     }
   },

@@ -207,7 +207,14 @@
       "heartbroken": ["transzendenz", "gesamtwerk", "katharsis", "synaesthesie"],
       "sauele_verflechtung": ["subversion", "synaesthesie", "ritual", "koerper"],
       "immersive_install": ["alchemie", "synaesthesie", "gesamtwerk", "transzendenz"],
-      "raw_collab": ["katharsis", "koerper", "zeitlosigkeit", "leere"]
+      "raw_collab": ["katharsis", "koerper", "zeitlosigkeit", "leere"],
+      "arthaus_film": ["zeitlosigkeit", "katharsis", "gesamtwerk", "leere"],
+      "arthaus_aftermath": ["katharsis", "synaesthesie", "leere"],
+      "arthaus_institution": ["transzendenz", "ritual", "gesamtwerk", "zeitlosigkeit"]
+    },
+    "referenz_prinzipien": {
+      "arthaus": "orbit_referenz_arthaus.json → arthaus_prinzipien",
+      "regel": "Externe Prinzipien (ARTHAUS) mappen auf kunst_prinzipien — nicht parallel führen ohne Link"
     },
     "litmus_extension": "Aktiviert das Werk mindestens zwei Kunstprinzipien mit echter Spannung — oder ist es nur Stil-Dekor?"
   },
@@ -343,9 +350,11 @@
           "Heartbroken exhibition video",
           "Luca Eck SW music-video aesthetic",
           "WEEEIRDOS Boiler Room Berlin 2023",
-          "Lolsnake × Marquardt collab tone (Metal Mag: raw, honest)"
+          "Lolsnake × Marquardt collab tone (Metal Mag: raw, honest)",
+          "ARTHAUS — arthaus_prinzipien (orbit_referenz_arthaus.json)"
         ]
       },
+      "arthaus_prinzipien_lead": ["kein_happy_end", "playlist_danach", "sorgsame_kuration", "geschichte_statt_hype"],
       "branch_links": {
         "from_aesthetics": "photo_aesthetic + video_aesthetic Tags aus Profil-CSV",
         "to_music": "Soundtrack aus ORBIT MOMENT DEEP / CORE, nie Peak-Techno als Default",
@@ -356,8 +365,17 @@
         "Fashion-Film nur im fashion_orbit-Kontext, nicht ORBIT-Default",
         "Immersive Loops für Art-Branch (red-filter, grain) — Studio IIII-Signal",
         "Langform (Doc/Talk) für institutionelle Partner; Kurzform für Social",
-        "Schnitt und Sound gegen kunst_prinzipien.synaesthesie + katharsis prüfen"
-      ]
+        "Schnitt und Sound gegen kunst_prinzipien.synaesthesie + katharsis prüfen",
+        "Sammelphase Film: orbit_referenz_arthaus.json — Watchlist nach Affekt + arthaus_prinzipien",
+        "Film-Ende: kein Happy End default — ARTHAUS kein_happy_end; Playlist danach statt Drop"
+      ],
+      "referenz_plattformen": {
+        "arthaus": {
+          "file": "orbit_referenz_arthaus.json",
+          "url": "https://www.arthaus.de",
+          "role": "Arthouse-Katalog + Kino + Magazin — arthaus_prinzipien"
+        }
+      }
     },
 
     "marketing": {
@@ -590,6 +608,8 @@
     "kunst_prinzipien": "orbit_kultur_dna.json → kunst_prinzipien",
     "affekt_prinzipien": "orbit_affekt_prinzipien.json",
     "identitaet": "orbit_identitaet.json",
+    "referenz_arthaus": "orbit_referenz_arthaus.json",
+    "werk_pour_cet_instant": "orbit_werk_pour_cet_instant.json",
     "verflechtungen": "orbit_verflechtungen.json",
     "verflechtungen_deep": "orbit_verflechtungen_deep.json",
     "aesthetics": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],

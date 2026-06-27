@@ -34,7 +34,7 @@
     },
     "2_destillieren": {
       "label": "Destillieren",
-      "status": "nächster_schritt",
+      "status": "begonnen",
       "input": ["Sammelphase-Outputs", "kunst_prinzipien", "affekt_prinzipien", "eigene Reaktionen"],
       "output": ["identitaet_profil (unten)", "pole_wahl", "affekt_kern", "forbidden_personal"],
       "regel": "Was bleibt, wenn du alles wegnimmst, was nicht wehtut oder nicht begeistert?",
@@ -79,22 +79,31 @@
     "handle": null,
     "stadt_anker": null,
     "pole": {
-      "primary": null,
+      "primary": "bridge",
       "options": ["bleak", "subversive_joy", "bridge"],
-      "bridge_note": "Bridge = du trägst beide Pole bewusst, wie marquardt_sauele_weeeirdos"
+      "bridge_note": "Pour Cet Instant: Beton-Grau + rotes Kleid — bleak mit Intensitäts-Akzent der verlässt",
+      "source_werk": "orbit_werk_pour_cet_instant.json"
     },
     "affekt_kern": {
-      "primary": null,
-      "secondary": null,
-      "struktur_defizit": null,
-      "comment": "Aus orbit_affekt_prinzipien.json — deine wiederkehrenden Gefühle"
+      "primary": "einsamkeit;dissoziation",
+      "secondary": "ohnmacht",
+      "struktur_defizit": "keine_mutter_kein_halt",
+      "comment": "Abgeleitet aus Pour Cet Instant VO — Anpassung als Renoncement",
+      "source_werk": "orbit_werk_pour_cet_instant.json"
     },
-    "kunst_prinzipien_kern": [],
-    "medium_lead": null,
-    "medium_support": [],
-    "forbidden_personal": [],
-    "essence_in_einem_satz": null,
+    "kunst_prinzipien_kern": ["leere", "katharsis", "koerper", "transzendenz", "alchemie"],
+    "medium_lead": "film",
+    "medium_support": ["foto", "mode", "musik", "marketing"],
+    "forbidden_personal": ["happy-end", "Erklär-Video", "triumph-montage", "therapy-speak", "euphoric-pop", "influencer-content"],
+    "essence_in_einem_satz": "Arbeit über den Moment nach dem Verlust — wenn der Körper schon weiß und der Geist nachkommt.",
     "bio_entwurf": null,
+    "erstes_werk": {
+      "title": "Pour Cet Instant",
+      "file": "orbit_werk_pour_cet_instant.json",
+      "source_pdf": "Pour Cet Instant – Drehbuch (finale Arthouse-fassung) 3.pdf",
+      "status": "drehbuch_final",
+      "gesamtwerk_potential": true
+    },
     "referenz_spiegel": {
       "description": "Wer spiegelt welchen Teil von dir — nicht zum Kopieren",
       "examples": []
@@ -147,6 +156,10 @@
         "verboten": ["festival-sponsor-speak", "tiktok-hype", "toxic-positivity", "ironic-meme"]
       },
       "referenz_orbit": ["boldberlin", "kinfolk", "danielle@weeeirdos.com-Modell"],
+      "arthaus_stimme": {
+        "file": "orbit_referenz_arthaus.json → arthaus_prinzipien.geschichte_statt_hype",
+        "regeln": ["Kontext vor Meinung", "Affekt benennen (Trauer, Verlorenheit)", "Top-5/Story-Format statt Clickbait", "Kein Happy End in der Copy"]
+      },
       "outputs": ["bio-final", "copy-templates", "email-signatur", "podcast-intro-30s"],
       "check": "Klingt es nach Galerie-Nacht — oder nach Product Launch?"
     },
@@ -229,6 +242,20 @@
         "filter": "Metal Mag raw/honest — oder Over-Produced?"
       },
       "referenz_orbit": ["Berlin Bouncer", "Lolsnake collab tone", "NACHTBLENDE", "Heartbroken doc"],
+      "sammelquellen": [
+        {
+          "name": "ARTHAUS",
+          "url": "https://www.arthaus.de",
+          "file": "orbit_referenz_arthaus.json",
+          "nutzen": "Watchlist, Kino, Magazin — arthaus_prinzipien als Film+Stimme-Operator"
+        }
+      ],
+      "arthaus_checks": [
+        "besonderer_film — passt litmus, nicht Mainstream?",
+        "sorgsame_kuration — weniger veröffentlichen, höhere Dichte?",
+        "kein_happy_end — bleibt Wunde offen?",
+        "playlist_danach — was hört/spürst du nach dem Cut?"
+      ],
       "outputs": ["video-brief", "edit-spec", "reel-template", "documentary-pitch"],
       "check": "Bewegt sich der Film wie du fühlst — oder wie Referenz es schon gemacht hat?"
     }
@@ -339,7 +366,8 @@
       "Du gibst zurück — neue Referenz ins Archiv, nicht nur konsumieren",
       "litmus_endziel bestanden"
     ],
-    "phase_aktuell": "1_sammeln → bereit für 2_destillieren"
+    "phase_aktuell": "2_destillieren — Pour Cet Instant als erster Identitäts-Anker",
+    "erstes_werk": "orbit_werk_pour_cet_instant.json"
   },
 
   "integration": {

@@ -316,6 +316,19 @@
     ]
   },
 
+  "referenz_plattformen": {
+    "film": {
+      "arthaus": {
+        "file": "orbit_referenz_arthaus.json",
+        "url": "https://www.arthaus.de",
+        "label": "ARTHAUS — Besondere Filme (StudioCanal)",
+        "orbit_rolle": "Film-Identität + curator voice: arthaus_prinzipien (12 Operatoren)",
+        "affekt_lead": ["einsamkeit", "sucht", "dissoziation", "ohnmacht"],
+        "prinzipien_kern": ["besonderer_film", "kein_happy_end", "playlist_danach", "sorgsame_kuration", "geschichte_statt_hype"]
+      }
+    }
+  },
+
   "integration": {
     "kunst_prinzipien_map": {
       "katharsis": ["sucht", "einsamkeit", "wut", "ohnmacht"],

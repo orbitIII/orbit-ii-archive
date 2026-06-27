@@ -8,8 +8,10 @@
   "pages": 4,
   "language": { "dialogue": "none", "voice_over": "fr", "subtitles": "en" },
   "source": {
-    "file": "/Users/alanwillson/Downloads/Pour Cet Instant – Drehbuch (finale Arthouse-fassung) 3.pdf",
-    "status": "drehbuch_final"
+    "file": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
+    "original_filename": "Pour Cet Instant – Drehbuch (finale Arthouse-fassung) 3.pdf",
+    "status": "drehbuch_final",
+    "shoot": "2026-08"
   },
   "role_in_orbit": "Erstes Identitäts-Werk — Proof dass ORBIT nicht nur Referenz ist, sondern Output. Phase 2→3 Brücke.",
 

@@ -100,7 +100,7 @@
     "erstes_werk": {
       "title": "Pour Cet Instant",
       "file": "orbit_werk_pour_cet_instant.json",
-      "source_pdf": "Pour Cet Instant – Drehbuch (finale Arthouse-fassung) 3.pdf",
+      "source_pdf": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
       "status": "drehbuch_final",
       "gesamtwerk_potential": true
     },

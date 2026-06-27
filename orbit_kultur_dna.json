@@ -610,6 +610,7 @@
     "identitaet": "orbit_identitaet.json",
     "referenz_arthaus": "orbit_referenz_arthaus.json",
     "werk_pour_cet_instant": "orbit_werk_pour_cet_instant.json",
+    "pour_cet_instant_drehbuch": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
     "verflechtungen": "orbit_verflechtungen.json",
     "verflechtungen_deep": "orbit_verflechtungen_deep.json",
     "aesthetics": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],

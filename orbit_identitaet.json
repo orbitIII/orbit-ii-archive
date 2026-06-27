@@ -4,6 +4,15 @@
   "name": "ORBIT Identität",
   "parent": "orbit_kultur_dna.json",
   "purpose": "ORBIT ist am Ende nicht Referenz — ORBIT bist du. Archiv, DNA und Prinzipien sind Werkzeug, bis Kleidung, Stimme, Musik, Kunst, Foto und Film aus einem Kern kommen.",
+  "extraktion": "orbit_extraktion.json",
+
+  "extraktions_haltung": {
+    "statement": "Privilegierte Netzwerke haben Ressourcen, Ästhetik und Kapital unter sich verteilt. ORBIT extrahiert ihre Operatoren und akkumuliert kulturelles + ökonomisches Kapital für Umverteilung — Sichtbarkeit für Abweichung. Soziales Kapital ist keine Fortschritts-Währung; Freundlichkeit und ehrliche Arbeit ersetzen Konkurrenz.",
+    "mittelpunkt": "identitaet_profil + eigenes Werk (Pour Cet Instant)",
+    "referenz": "Scan-Material — zerlegen, filtern, überführen, umverteilen",
+    "litmus": "Extrahiere ich einen Operator — oder kopiere ich eine Person?",
+    "file": "orbit_umverteilung.json"
+  },
 
   "endziel": {
     "statement": "Eine künstlerische Identität, die du lebst — nicht nachspielst.",
@@ -41,6 +50,7 @@
       "fragen": [
         "Welche 2 Affekte sind immer da — auch wenn alles andere wechselt?",
         "Bleak oder Subversive Joy — wo stehst du auf der Spannungsachse?",
+        "Queer, heteronormativ oder dazwischen — wo steht ORBIT auf der Positionierungsachse?",
         "Welches Strukturdefizit erkennst du in deiner eigenen Arbeit (Halt, Allein, Ausgrenzung)?",
         "Was ist dein Forbidden — was machst du nie, auch wenn es trendy ist?",
         "Welches Medium ist Lead — Foto, Film, Musik, Mode?"
@@ -74,15 +84,31 @@
   },
 
   "identitaet_profil": {
-    "description": "Dein Profil — ausfüllen in Phase 2. Referenz-Hub (Marquardt) ist Anker, nicht Vorlage.",
+    "description": "Dein Profil — Phase 2. Referenz-Scans sind Material, nicht Vorlage.",
     "holder": null,
     "handle": null,
     "stadt_anker": null,
     "pole": {
       "primary": "bridge",
+      "axis": "bleak_x_subversive_joy",
       "options": ["bleak", "subversive_joy", "bridge"],
       "bridge_note": "Pour Cet Instant: Beton-Grau + rotes Kleid — bleak mit Intensitäts-Akzent der verlässt",
       "source_werk": "orbit_werk_pour_cet_instant.json"
+    },
+    "positionierung": {
+      "axis": "queer_x_heteronormativ",
+      "primary": "bridge",
+      "label": "zwischen queer und heteronormativ",
+      "statement": "ORBIT positioniert sich zwischen queer und heteronormativ — nicht als Label, sondern als Spannungsfeld: Norm-Nähe und Abweichung im selben Werk erlaubt.",
+      "pole_a": "heteronormativ — Paar-Script, Default-Narrativ, Mainstream-Form",
+      "pole_b": "queer — Plattform, Subversion, Community, explizite Abweichung",
+      "bridge_note": "Weder reine Norm noch reine Queer-Marketing-Ästhetik — Mitte als Haltung",
+      "referenz_operatoren": {
+        "heteronorm_side": "editorial-portrait-form, relationship-as-effort (Pour Cet Instant VO)",
+        "queer_side": "weeeirdos community voice, subversive-joy, Säule-Logik",
+        "bridge": "Pour Cet Instant — Liebe/Anpassung/Verzicht ohne explizites Label"
+      },
+      "forbidden": ["rainbow-washing", "hetero-only als Default", "queer als Gimmick"]
     },
     "affekt_kern": {
       "primary": "einsamkeit;dissoziation",
@@ -133,7 +159,7 @@
         "daily": "Basis + ein Material-Akzent — nie mehr als ein Impuls-Farbstück",
         "club": "Institutionell all-black ODER subversive-joy Layer — Kontext wählt",
         "galerie": "Leder/darkwear + staged — nicht casual-influencer",
-        "filter": "Liegt es auf der Spannungsachse? Fühlt es sich an wie Panzer oder Einladung?"
+        "filter": "Liegt es auf der Spannungsachse (Bleak/Joy)? Auf der Positionierungsachse (queer/heteronorm/bridge)?"
       },
       "referenz_orbit": ["svenmarquardt", "willychavarria", "richertbeil", "soderbergofficial", "voostore", "platte.berlin"],
       "outputs": ["capsule-wardrobe-list", "material-board", "lookbook-eigene-portraits"],
@@ -309,9 +335,10 @@
       }
     ],
     "referenz_vs_identitaet": {
-      "referenz": "Marquardt, WEEEIRDOS, Heartbroken — Input, Anker, Validierung",
+      "referenz": "Scan-Batches (marquardt_*, Weaves) — Rohstoff. Superpowers extrahieren, Personen nicht verehren.",
       "identitaet": "Was du machst, wenn niemand zuschaut — und trotzdem ORBIT bleibt",
-      "regel": "Referenz beantwortet: Ist das möglich? Identität beantwortet: Ist das ich?"
+      "regel": "Referenz beantwortet: Welcher Operator? Identität beantwortet: Ist das ich?",
+      "file": "orbit_extraktion.json"
     }
   },
 
@@ -346,7 +373,8 @@
     "description": "ORBIT in 60 Sekunden — morgens oder vor jeder Entscheidung",
     "fragen": [
       "Welcher Affekt ist heute Lead?",
-      "Bleak oder Joy — oder Bridge?",
+      "Bleak, Joy oder Bridge?",
+      "Queer, heteronormativ oder Bridge — Positionierung?",
       "Welches Medium arbeite ich heute?",
       "Passt das zu forbidden_personal?",
       "Würde ich das in 3 Jahren noch so machen?"

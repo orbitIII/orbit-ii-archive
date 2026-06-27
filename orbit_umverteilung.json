@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Umverteilung",
+  "parent": "docs/orbit_masterplan.md",
+  "links": ["orbit_extraktion.json", "orbit_identitaet.json", "orbit_affekt_prinzipien.json"],
+
+  "mission": {
+    "statement": "ORBIT hilft bei der Umverteilung kulturellen und ökonomischen Kapitals — nicht durch Nachahmung privilegierter Netzwerke, sondern durch Extraktion ihrer Mechanismen und Aufbau eines eigenen Systems, das Abweichung sichtbar macht.",
+    "endziel": "Gleichgewicht im Kulturellen: Sichtbarkeit und Anhäufung von kulturellem + ökonomischem Kapital — ohne dass das Spiel des sozialen Kapitals (Netzwerk-Schmeichelei, Konkurrenz, Gatekeeping) der Weg nach vorn ist.",
+    "fortschritt_durch": [
+      "ein guter Mensch sein und sein Bestes geben",
+      "Freundlichkeit statt Konkurrenz",
+      "ehrliche Arbeit am Werk — nicht Performance von Zugehörigkeit",
+      "Discoverability statt Dauer-Performance",
+      "Solidarität und gegenseitige Sichtbarkeit"
+    ],
+    "nicht": [
+      "Soziales Kapital akkumulieren als Hauptstrategie",
+      "Tür-Logik kopieren ohne Einladung",
+      "Trauma als Look verkaufen",
+      "Konkurrenz-Ästhetik (Festival-Bro, Influencer-Race)",
+      "Wellness-Marketing als Ersatz für Substanz"
+    ]
+  },
+
+  "kapital_modell": {
+    "beschreibung": "Angelehnt an Bourdieu — aber ORBIT verschiebt die Gewichtung bewusst",
+    "arten": {
+      "kulturelles_kapital": {
+        "definition": "Sichtbarkeit, Grammatik, Werk, Ausstellung, Film, Stimme — was bleibt und andere trifft",
+        "orbit_ziel": "akkumulieren und teilen — ORBIT als Speicher und Verstärker",
+        "mechanik": ["Gesamtwerk veröffentlichen", "Discoverability-Assets", "Credit-Logik ohne Hierachie", "Serie statt One-Hit"]
+      },
+      "oekonomisches_kapital": {
+        "definition": "Geld, faire Vergütung, Patronage, Umlage, gemeinsame Mittel",
+        "orbit_ziel": "Mechaniken extrahieren (Lumbung, Mutual Aid, Coops) — umverteilen statt horten",
+        "mechanik": ["sliding-scale", "surplus pooling", "artist livelihood support", "kein reiner Markt-Transaction-Frame"]
+      },
+      "soziales_kapital": {
+        "definition": "Netzwerk, Intro, Gate, Bekanntheit bei Entscheider:innen",
+        "orbit_haltung": "entwertet als Fortschritts-Währung — nicht verbieten, aber nicht optimieren",
+        "regel": "Freundlichkeit und Zuverlässigkeit ersetzen Schmeichelei und Konkurrenz. Kein ORBIT-Score für 'wer kennt wen'."
+      },
+      "symbolisches_kapital": {
+        "definition": "Prestige, Institution, Name — historisch bei Privilegierten konzentriert",
+        "orbit_ziel": "extrahieren (wie Galerie-Opening funktioniert) ohne Prestige zu übernehmen",
+        "mechanik": ["curator voice ohne Front-Row", "Pop-up vor Opernhaus wenn nötig"]
+      }
+    },
+    "umverteilungs_formel": "Extraktion (Scan) → ORBIT-Speicher (DNA/Werkzeug) → Sichtbarkeit (Output) → Gemeinschaft (Abweichung, Solidarity) → ökonomische Mechanik — ohne Social-Capital-Rennen"
+  },
+
+  "zielgruppe": {
+    "label": "Abweichung — zwischen queer und heteronormativ",
+    "beschreibung": "ORBIT positioniert sich zwischen queer und heteronormativ: nicht reine Norm, nicht reine Subversion als Dekor. Wer nicht in Konkurrenz-Gatekeeping passt — queer, migrant, Klasse, Körper, Affekt — und Werke, die Norm-Nähe und Abweichung zugleich tragen.",
+    "signale": [
+      "Abweichung von Norm + Mainstream-Ästhetik",
+      "Freundlichkeit als Praxis, nicht als Taktik",
+      "Werk statt Netzwerk-Performance",
+      "Community statt Ranking"
+    ],
+    "orbit_bietet": [
+      "Sichtbarkeit ohne Klub-Tür",
+      "Grammatik und Werkzeug aus extrahiertem Kapital",
+      "Community-Logik (Solidarity, nicht Ranking)",
+      "Affekt-Ethik — keine Pathologisierung",
+      "Discoverability — Assets die bleiben, kein Dauer-Bühnen-Zwang"
+    ]
+  },
+
+  "orbit_als_akkumulator": {
+    "metapher": "ORBIT ist kein Fan-Club — ORBIT ist Lager + Schmelze + Verstärker für umverteiltes kulturelles Kapital",
+    "speicher": [
+      "orbit_kultur_dna.json — extrahierte Grammatik",
+      "orbit_extraktion.json — Pipeline",
+      "orbit_werk_* — eigener Output",
+      "reference_scan batches — kartografiertes Rohmaterial",
+      "orbit_kapital_recherche.json — Modelle und Quellen"
+    ],
+    "output_kanal": [
+      "Film (Pour Cet Instant) — Proof",
+      "Discoverability (Langform-Assets, nicht Algorithmus-Sklave)",
+      "Gemeinschaftseinladung — wer resoniert, nicht wer rankt",
+      "später: ORBIT-Plattform / Newsletter / Pop-up als eigene Institution"
+    ],
+    "regel": "Jede Extraktion muss fragen: Wem dient die Sichtbarkeit — Privilegierten weniger — oder Abweichung und Gemeinschaft?"
+  },
+
+  "ethos_fortschritt": {
+    "alt_system": "Konkurrenz → soziales Kapital → Gate → Sichtbarkeit für Wenige",
+    "orbit_system": "Ehrliche Arbeit → Werk → Freundlichkeit → geteilte Sichtbarkeit → kulturelles + ökonomisches Kapital für Viele",
+    "litmus": [
+      "Komme ich vorwärts durch Freundlichkeit — oder durch Netzwerk-Spiel?",
+      "Macht diese Sichtbarkeit Abweichung sichtbar — oder bestätigt sie Norm?",
+      "Verkauft das Wunde als Look?",
+      "Akkumuliert ORBIT Kapital für die Gemeinschaft — oder für ein Ego?"
+    ]
+  },
+
+  "recherche_prioritaeten": {
+    "description": "Nächste Scans — maximal Information für Umverteilung sammeln",
+    "batch_02_solidarity_economy": {
+      "status": "recherche_gestartet",
+      "thema": "Mutual Aid, Lumbung, Coops, Solidarity Grantmaking",
+      "orbit_nutzen": "ökonomische Umverteilungs-Mechaniken"
+    },
+    "batch_04_berlin_care_queer": {
+      "status": "recherche_gestartet",
+      "thema": "Berlin queer/care/migrant art bridges — Freundlichkeit, Sanctuary",
+      "orbit_nutzen": "positive Gegenmodelle zu Gatekeeping"
+    },
+    "batch_01_berlin_club_gallery": {
+      "status": "eingefroren",
+      "file": "marquardt_* / orbit_verflechtungen*",
+      "orbit_nutzen": "Extraktion privilegierter Grammatik — nicht Verehrung"
+    }
+  },
+
+  "integration": {
+    "masterplan": "docs/orbit_masterplan.md",
+    "extraktion": "orbit_extraktion.json",
+    "recherche_detail": "orbit_kapital_recherche.json",
+    "affekt_ethik": "orbit_affekt_prinzipien.json → ethik_rahmen",
+    "positiv_operator_im_scan": "weeeirdos / saeule_berlin — subversive joy + community voice (marquardt_sauele_weeeirdos weave)"
+  }
+}

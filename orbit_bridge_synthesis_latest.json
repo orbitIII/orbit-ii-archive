@@ -1,0 +1,340 @@
+{
+  "generated": "2026-06-27",
+  "masterplan": {
+    "path": "docs/orbit_masterplan.md",
+    "found": true,
+    "stand": "2026-06-27",
+    "phase": "2",
+    "phase_name": "Destillieren",
+    "phase_status": "AKTIV",
+    "phase_gate": "Kein neuer Marquardt-Weave, kein Instagram-Scrape, keine Foto-Spec-Recherche **ohne Bezug zu Pour Cet Instant** — bis Visual Brief + `referenz_spiegel` stehen.",
+    "diese_woche": [
+      "1. **Visual Brief** für *Pour Cet Instant* schreiben (aus `orbit_werk_pour_cet_instant.json` → `visual_grammar_orbit` + `production_orbit`)",
+      "2. **referenz_spiegel** — 5 Operatoren: z.B. Marquardt-Scan = Ritual/Tür-Logik (nicht dein Film); Pour Cet Instant = dein Kern; WEEEIRDOS = subversive-joy-Operator",
+      "3. **Sound-Entscheidung** — VO + Stille final 30s; Musik nur wenn dokumentiert warum",
+      "4. **Marquardt-Recherche pausieren** — Gate bis Visual Brief committed"
+    ],
+    "naechster_task": "1. **Visual Brief** für *Pour Cet Instant* schreiben (aus `orbit_werk_pour_cet_instant.json` → `visual_grammar_orbit` + `production_orbit`)",
+    "phase2_exit_tasks": [
+      {
+        "task": "Visual Brief Pour Cet Instant",
+        "output": "1 Seite: Licht, Palette, Stills, Verboten",
+        "file": "`filme/pour_cet_instant/visual_brief.md` (neu)"
+      },
+      {
+        "task": "referenz_spiegel",
+        "output": "5 Einträge: **welcher Operator** spiegelt welchen Teil von **dir** — nicht welche Person du bewunderst",
+        "file": "`orbit_identitaet.json`"
+      },
+      {
+        "task": "Bio-Entwurf",
+        "output": "Rolle → Ort → Request (1 Absatz)",
+        "file": "`orbit_identitaet.json` → `bio_entwurf`"
+      },
+      {
+        "task": "Sound-Entscheidung",
+        "output": "VO-only vs. MOMENT DEEP under — festlegen",
+        "file": "`orbit_werk_pour_cet_instant.json`"
+      },
+      {
+        "task": "Eigene Foto-CI",
+        "output": "Dein Setup — nicht Marquardts Nikon kopieren",
+        "file": "`orbit_identitaet.json` → `werkzeug.foto` Ergänzung"
+      }
+    ],
+    "session_regel_ref": "docs/orbit_masterplan.md §12"
+  },
+  "masterplan_binding": {
+    "path": "docs/orbit_masterplan.md",
+    "authority": "Bei Widerspruch gilt der Masterplan bis er aktualisiert wird.",
+    "sections": {
+      "extraktion": "0",
+      "umverteilung_bridge": "0b",
+      "phasen_gate": "2",
+      "dna_fest": "4",
+      "phase2_exit": "7",
+      "diese_woche": "8",
+      "nicht_jetzt": "9",
+      "entscheidungsfilter": "10",
+      "session_regel_ai": "12"
+    },
+    "phase_gate": "Kein neuer Weave, kein Instagram-Scrape, keine Foto-Spec-Recherche ohne Bezug zu Pour Cet Instant — bis Visual Brief + referenz_spiegel stehen.",
+    "bridge_to_tasks": {
+      "visual_brief": [
+        "visual_tension",
+        "form_queer_feeling"
+      ],
+      "referenz_spiegel": [
+        "institution_community",
+        "credit_kindness"
+      ],
+      "sound_entscheidung": [
+        "narrative_bridge"
+      ],
+      "phase2_all": [
+        "visibility",
+        "narrative_bridge"
+      ]
+    },
+    "session_regel": [
+      "Lies docs/orbit_masterplan.md + orbit_extraktion.json",
+      "Mittelpunkt = Identität, nie Referenz-Person",
+      "Prüfe Phase-Gate (Abschnitt 7 + 9)",
+      "Arbeite an Abschnitt 8 — nächster offener Task",
+      "Referenz-Recherche nur wenn Pour Cet Instant oder offener Phase-2-Task",
+      "Keine neuen JSON-Layer ohne Eintrag in Abschnitt 6 oder 7"
+    ]
+  },
+  "bridge_for_current_task": {
+    "task": "1. **Visual Brief** für *Pour Cet Instant* schreiben (aus `orbit_werk_pour_cet_instant.json` → `visual_grammar_orbit` + `production_orbit`)",
+    "rule_ids": [
+      "visual_tension",
+      "form_queer_feeling"
+    ],
+    "rules": [
+      {
+        "id": "form_queer_feeling",
+        "hetero": "editorial-portrait-form",
+        "queer": "queer-gaze",
+        "bridge": "Form aus Editorial — Gefühl aus Abweichung"
+      },
+      {
+        "id": "visual_tension",
+        "hetero": "analog-bw",
+        "queer": "bold-color-accent",
+        "bridge": "SW-Base + ein Akzent — nicht beide Pole voll"
+      }
+    ]
+  },
+  "axis": {
+    "id": "queer_x_heteronormativ",
+    "dna_path": "orbit_kultur_dna.json → core_dna.tension_axis.tertiary_axis",
+    "identitaet_path": "orbit_identitaet.json → identitaet_profil.positionierung",
+    "orbit_position": "bridge",
+    "rule": "Das Beste aus beiden Welten — ohne either-pole-as-total-identity"
+  },
+  "orbit_position": "bridge",
+  "from_heteronormativ": {
+    "operators": [
+      "default-couple-narrative",
+      "mainstream-relationship-script",
+      "editorial-portrait-form",
+      "exhibition-hours-not-club-flash",
+      "institutional-distance",
+      "curator-voice",
+      "G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs."
+    ],
+    "profile_hits": [
+      {
+        "handle": "svenmarquardt",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "analog-bw;high-contrast;portrait;daylight",
+        "mood": "bleak;intimate;staged;underground"
+      },
+      {
+        "handle": "galeriedeschler",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "figurative-art;sw-portrait;exhibition-doc",
+        "mood": "established;figurative;body-as-art"
+      },
+      {
+        "handle": "boldberlin",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "editorial-mix;curated-lifestyle",
+        "mood": "polished-yet-edgy;curator-voice"
+      },
+      {
+        "handle": "nici_oh",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "editorial;y3-campaign",
+        "mood": "professional;club-fashion-bridge"
+      },
+      {
+        "handle": "bestimageagency",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "celebrity-fashion;pfw",
+        "mood": "commercial-fashion"
+      },
+      {
+        "handle": "scovvv",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "pfw-candid",
+        "mood": "pfw"
+      },
+      {
+        "handle": "isabellebogomas",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "",
+        "mood": ""
+      },
+      {
+        "handle": "visualisation_",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "",
+        "mood": ""
+      },
+      {
+        "handle": "voostore",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "store-editorial;visual-culture",
+        "mood": "kreuzberg;curated"
+      }
+    ],
+    "weaves": [
+      "gstar_voo_11plus1"
+    ]
+  },
+  "from_queer": {
+    "operators": [
+      "queer-platform",
+      "subversive-joy",
+      "bold-color-accent",
+      "community-voice",
+      "bridge-not-gate",
+      "dual-credit",
+      "freundlichkeit-as-praxis",
+      "Beide Pole im selben Frame erlaubt — Spannung statt Einheitslook",
+      "Säule-Nacht ≠ Panorama-Bar-Flow; Kontext wählt Playlist",
+      "Club-as-gallery + queer platform — KHIDI/Studio IIII-Logik mit subversive-joy Layer",
+      "Joint Announcement: zwei Stimmen, ein institutioneller Ort (Berghain/Säule)",
+      "bleak",
+      "analog-bw",
+      "Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution."
+    ],
+    "profile_hits": [
+      {
+        "handle": "svenmarquardt",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "analog-bw;high-contrast;portrait;daylight",
+        "mood": "bleak;intimate;staged;underground"
+      },
+      {
+        "handle": "_lolsnake_",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "sw-portrait;texture-contrast;color-in-music-image;haus-visionaere",
+        "mood": "intense;queer-techno;subversive-joy;vulnerable-post-set"
+      },
+      {
+        "handle": "weeeirdos",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "yin-yang-branding;bold-color-accent;flyer-maximal;queer-portrait",
+        "mood": "subversive-joy;queer-community;magnetic;hypnotic"
+      },
+      {
+        "handle": "saeule_berlin",
+        "clusters": [
+          null,
+          null
+        ],
+        "photo_aesthetic": "red-filter-lighting;concrete-pillar;monochrome-hue;experimental-leftfield",
+        "mood": "institutional;underground;hypnotic;red-immersive"
+      }
+    ],
+    "weaves": [
+      "marquardt_sauele_weeeirdos"
+    ]
+  },
+  "bridge_synthesis": [
+    {
+      "id": "form_queer_feeling",
+      "hetero": "editorial-portrait-form",
+      "queer": "queer-gaze",
+      "bridge": "Form aus Editorial — Gefühl aus Abweichung"
+    },
+    {
+      "id": "institution_community",
+      "hetero": "exhibition-opening",
+      "queer": "community-voice",
+      "bridge": "Galerie-Ritual ohne Exklusion"
+    },
+    {
+      "id": "credit_kindness",
+      "hetero": "curator-voice",
+      "queer": "dual-credit",
+      "bridge": "Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel"
+    },
+    {
+      "id": "visual_tension",
+      "hetero": "analog-bw",
+      "queer": "bold-color-accent",
+      "bridge": "SW-Base + ein Akzent — nicht beide Pole voll"
+    },
+    {
+      "id": "narrative_bridge",
+      "hetero": "relationship-as-effort",
+      "queer": "body-before-norm",
+      "bridge": "Pour Cet Instant: Anpassung/Verzicht ohne Label"
+    },
+    {
+      "id": "visibility",
+      "hetero": "discoverability-assets",
+      "queer": "bridge-not-gate",
+      "bridge": "Sichtbarkeit ohne Tür — Assets die bleiben"
+    }
+  ],
+  "forbidden_strip": [
+    "rainbow-washing",
+    "hetero-only-default",
+    "queer-as-gimmick",
+    "door-as-status",
+    "social-capital-as-currency",
+    "competition-as-default"
+  ],
+  "litmus": [
+    "Habe ich von BEIDEN Polen etwas Genommen — oder nur einen?",
+    "Ist es Bridge — oder Kompromiss (beide halb)?",
+    "Forbidden strip angewendet?",
+    "Passt zu Pour Cet Instant / identitaet_profil?"
+  ],
+  "werk_binding": {
+    "title": "Pour Cet Instant",
+    "heteronorm_signals": [
+      "Liebe als Anstrengung",
+      "Anpassung als Renoncement",
+      "Paar-Form ohne Happy End"
+    ],
+    "queer_signals": [
+      "Körper vor Norm",
+      "Loslassen ohne hetero-Script-Auflösung",
+      "Abweichung ohne Label"
+    ],
+    "bridge_regel": "Französisch-VO und Körper-Drama — zwischen Regimen, nicht zugeordnet"
+  },
+  "next_command": "python3 scripts/orbit_bridge_synthesis.py --markdown"
+}

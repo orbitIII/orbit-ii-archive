@@ -3,9 +3,11 @@
   "updated": "2026-06-27",
   "description": "Tiefen-Schicht — Szenen, Credits, Räume, Sonic-Paletten, Timelines, Kunstprinzipien. Ergänzt orbit_verflechtungen.json.",
 
-  "hub": {
+  "reference_scan_entry": {
     "handle": "svenmarquardt",
-    "role": "ORBIT anchor — alle Weaves laufen durch ihn",
+    "role": "Knoten im ersten Referenz-Scan — hohe Dokumentationsdichte, kein ORBIT-Zentrum",
+    "batch": "ref_scan_berlin_club_gallery_01",
+    "see": "orbit_extraktion.json",
     "weave_ids": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1", "nachtblende_slide"]
   },
 
@@ -351,7 +353,7 @@
     {
       "from": "marquardt_sauele_weeeirdos",
       "to": "heartbroken_wagner",
-      "link": "Marquardt hub — Lolsnake collab led to Disturbing Beauty era → Heartbroken invite",
+      "link": "Scan-Knoten svenmarquardt — Lolsnake collab → Disturbing Beauty era → Heartbroken invite",
       "shared_mood": "raw, honest, dark, portrait-as-art"
     },
     {

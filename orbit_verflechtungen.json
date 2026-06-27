@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-06-27",
-  "description": "Verflechtungen — konkrete Knoten, Kanten und Gesamtwerk-Bindings zwischen Profilen und ORBIT-Zweigen",
+  "description": "Verflechtungen — Case Studies aus Referenz-Scan ref_scan_berlin_club_gallery_01. Knoten/Kanten/Gesamtwerk-Bindings zum Extrahieren von Operatoren — nicht ORBIT-Mittelpunkt. Siehe orbit_extraktion.json.",
 
   "weaves": [
     {

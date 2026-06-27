@@ -88,9 +88,17 @@
   },
 
   "spannungsachse": {
-    "pole": "bridge",
+    "aesthetic_pole": "bridge",
+    "aesthetic_note": "Beton-Grau + rotes Kleid — bleak mit Intensitäts-Akzent der verlässt",
+    "positionierung": {
+      "axis": "queer_x_heteronormativ",
+      "pole": "bridge",
+      "heteronorm_signals": ["Liebe als Anstrengung", "Anpassung als Renoncement", "Paar-Form ohne Happy End"],
+      "queer_signals": ["Körper vor Norm", "Loslassen ohne hetero-Script-Auflösung", "Abweichung ohne Label"],
+      "regel": "Französisch-VO und Körper-Drama — zwischen Regimen, nicht zugeordnet"
+    },
     "bleak": "Beton-Grau, Verzicht, Erschöpfung, leerer Stuhl",
-    "accent": "Rot — subversive joy als Erinnerung an Intensität, die losgelassen wird",
+    "accent": "Rot — Intensität die losgelassen wird",
     "regel": "Rot erscheint, wird berührt, verlässt den Frame — Spannung ohne Coexistenz am Ende"
   },
 

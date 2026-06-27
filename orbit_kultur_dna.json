@@ -8,7 +8,13 @@
   "identitaet": "orbit_identitaet.json",
   "verflechtungen": "orbit_verflechtungen.json",
   "verflechtungen_deep": "orbit_verflechtungen_deep.json",
-  "hub_handle": "svenmarquardt",
+  "extraktion": "orbit_extraktion.json",
+  "orbit_center": "orbit_identitaet.json",
+  "reference_scan": {
+    "batch": "ref_scan_berlin_club_gallery_01",
+    "entry_node": "svenmarquardt",
+    "role": "Erster Kartografier-Punkt — dokumentierte Verflechtung, nicht ORBIT-Mittelpunkt"
+  },
 
   "core_dna": {
     "essence": "Berliner Nacht als Kunstform: analog, intim, institutionell-unterground, zwischen Club, Galerie und Mode — nie glatt, nie mainstream.",
@@ -22,6 +28,27 @@
         "label": "Institution × Gesamtwerk",
         "reference": "heartbroken_wagner",
         "rule": "Foto × Musik × Raum als eine Einheit — NACHTBLENDE / Heartbroken Modell"
+      },
+      "tertiary_axis": {
+        "label": "Queer × Heteronormativ",
+        "orbit_position": "bridge",
+        "pole_a": {
+          "label": "heteronormativ",
+          "signals": ["default-couple-narrative", "mainstream-relationship-script", "PFW-hetero-editorial", "happy-couple-frame", "normative-body-roles"],
+          "reference_scan": "gstar_voo_11plus1, fashion_pfw, commercial-portrait"
+        },
+        "pole_b": {
+          "label": "queer",
+          "signals": ["queer-platform", "subversive-joy", "non-norm-body", "community-voice", "explicit-deviation"],
+          "reference_scan": "weeeirdos, saeule_berlin, _lolsnake_, queer_art_bridge"
+        },
+        "bridge": {
+          "label": "zwischen den Polen",
+          "orbit_meaning": "ORBIT steht bewusst zwischen queer und heteronormativ — weder reine Norm, noch reine Subversion als Dekor. Abweichung und Nähe zur Norm dürfen coexistieren; Spannung ist Identität.",
+          "operators": ["between-poles", "norm-adjacent-not-normative", "queer-signal-without-rainbow-wash", "hetero-form-queer-feeling-or-inverse"],
+          "forbidden": ["rainbow-washing", "hetero-only-default", "queer-as-gimmick", "either-pole-as-total-identity"]
+        },
+        "rule": "Position ist Mitte — nicht Kompromiss, sondern bewusste Spannung zwischen den Regimen"
       },
       "rule": "Beide Pole dürfen im selben Gesamtwerk coexistieren — Spannung ist Feature, nicht Bug"
     },
@@ -561,6 +588,7 @@
       "Neue Referenzen zurück in aesthetics-CSV?",
       "Verflechtung aktiv? (orbit_verflechtungen.json weave_id)",
       "Tension axis respektiert — bleak UND subversive-joy erlaubt?",
+      "Positionierungsachse respektiert — queer/heteronorm/bridge bewusst?",
       "Mindestens 2 kunst_prinzipien aktiv? (principle_combinations prüfen)",
       "Prinzipien-Kombination erzeugt Spannung — nicht nur Stil-Tags?",
       "Affekt: 2+ Hauptgefühle aktiv? (orbit_affekt_prinzipien.json)",
@@ -604,6 +632,12 @@
   },
 
   "file_index": {
+    "masterplan": "docs/orbit_masterplan.md",
+    "extraktion": "orbit_extraktion.json",
+    "umverteilung": "orbit_umverteilung.json",
+    "kapital_recherche": "orbit_kapital_recherche.json",
+    "bridge_automation": "orbit_bridge_automation.json",
+    "bridge_synthesis_latest": "orbit_bridge_synthesis_latest.json",
     "dna": "orbit_kultur_dna.json",
     "kunst_prinzipien": "orbit_kultur_dna.json → kunst_prinzipien",
     "affekt_prinzipien": "orbit_affekt_prinzipien.json",
@@ -613,7 +647,7 @@
     "pour_cet_instant_drehbuch": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
     "verflechtungen": "orbit_verflechtungen.json",
     "verflechtungen_deep": "orbit_verflechtungen_deep.json",
-    "aesthetics": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],
+    "reference_scan_batch_01": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],
     "music": ["orbit_playlists.json", "docs/rekordbox_orbit.md"],
     "archive": ["berghain_2024_2026_labels_communities_aesthetics.md", "berghain_2024_2026_observations.md"],
     "scripts_aesthetics": ["scripts/extract_marquardt_following.py", "scripts/merge_marquardt_following.py"],

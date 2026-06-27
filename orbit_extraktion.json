@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Extraktion",
+  "parent": "docs/orbit_masterplan.md",
+  "purpose": "Referenz ist Rohstoff — nicht Idol, nicht Mittelpunkt. Privilegierte Netzwerke haben Ästhetik, Kapital und Zugang über Jahrhunderte verteilt; ORBIT extrahiert die Operatoren und baut daraus ein eigenes System.",
+
+  "orbit_center": {
+    "handle": null,
+    "file": "orbit_identitaet.json",
+    "werk_anker": "orbit_werk_pour_cet_instant.json",
+    "regel": "Mittelpunkt bist du — dein Affekt, dein Werk, deine Entscheidung. Niemand aus dem Referenz-Scan darf ORBIT ersetzen."
+  },
+
+  "prinzip": {
+    "statement": "Wir nutzen die Superpowers, die sich privilegierte weiße Netzwerke über Generationen erarbeitet haben — nicht um sie zu verehren, sondern um sie zu zerlegen, zu verstehen und in unser System zu überführen.",
+    "metapher": "Referenz-Scan = Erzkarte. Extraktion = Schmelze. ORBIT = Legierung aus dem, was uns trägt — minus dem, was uns fremd bleibt.",
+    "nicht": [
+      "Marquardt als Mittelpunkt oder Vorbild-Persona",
+      "Fan-Archiv oder Door-Culture-Tourismus",
+      "Ästhetik kopieren ohne Affekt-Destillation",
+      "Dankbarkeit gegenüber Gates, die uns ausschließen",
+      "Referenz-Nachbau als Endprodukt"
+    ],
+    "sondern": [
+      "Grammatik extrahieren (Licht, Raum, Ritual, Credit-Logik)",
+      "Institutionelle Mechanik verstehen (Galerie, Club, Goethe, PFW)",
+      "Netzwerk-Topologie kartieren — wer verbindet wen, mit welchem Kapital",
+      "Operatoren in orbit_kultur_dna.json und werkzeug.* überführen",
+      "Output machen, der aus eigenem Affekt kommt (Pour Cet Instant)"
+    ]
+  },
+
+  "was_wir_extrahieren": {
+    "aesthetik": {
+      "label": "Visuelle Grammatik",
+      "beispiele": ["analog-bw", "daylight-not-flash", "negative-space", "single-accent-red", "institutional-distance"],
+      "quelle": "reference_scan → visual_grammar in orbit_kultur_dna.json",
+      "orbit_filter": "Passt zu affekt_kern? Passt zu Pour Cet Instant? Sonst verwerfen."
+    },
+    "kapital": {
+      "label": "Kulturelles & institutionelles Kapital",
+      "beispiele": ["Galerie-Opening-Rhythmus", "Goethe-Institut-Reichweite", "Ostgut-Ton-Visual-System", "PFW-Front-Row-Presence", "curator-voice statt brand-voice"],
+      "quelle": "Weaves, branch_bindings, marketing tier_1",
+      "orbit_filter": "Mechanik lernen — Zugang nicht voraussetzen. Pop-up vor Opernhaus, wenn nötig."
+    },
+    "ritual": {
+      "label": "Institutionelle Superpower",
+      "beispiele": ["Tür-Logik / Selection", "Series-not-one-off", "dual-credit", "exhibition-hours-not-club-flash", "request-flow"],
+      "quelle": "kunst_prinzipien.ritual, Berghain-Institution",
+      "orbit_filter": "Ritual ohne Exklusion — ORBIT-Tür ist eigene Regel, nicht Berghain-Kopie."
+    },
+    "gesamtwerk": {
+      "label": "Cross-Medium-Binding",
+      "beispiele": ["Foto × Musik × Raum", "NACHTBLENDE/Slide", "Heartbroken-Modell", "immersive_install"],
+      "quelle": "orbit_verflechtungen*.json",
+      "orbit_filter": "Format übernehmen — Inhalt aus eigenem Werk."
+    },
+    "netzwerk": {
+      "label": "Verflechtungs-Topologie",
+      "beispiele": ["wer kollaboriert mit wem", "welcher Cluster trägt welchen Zweig", "bridge_accounts"],
+      "quelle": "marquardt_aesthetic_profiles.csv, weaves",
+      "orbit_filter": "Karte, nicht Mitgliedschaft. Kein Netzwerk-Jacking."
+    }
+  },
+
+  "reference_scan": {
+    "description": "Erster Scan-Batch — historischer Dateiname marquardt_*; kein Personen-Mittelpunkt",
+    "batch_id": "ref_scan_berlin_club_gallery_01",
+    "entry_node": "svenmarquardt",
+    "entry_node_role": "Erster Kartografier-Punkt wegen dokumentierter Verflechtung — nicht ORBIT-Identität",
+    "files": [
+      "marquardt_aesthetic_profiles.csv",
+      "marquardt_aesthetic_clusters.json",
+      "orbit_verflechtungen.json",
+      "orbit_verflechtungen_deep.json"
+    ],
+    "weaves_as_case_studies": [
+      "marquardt_sauele_weeeirdos",
+      "heartbroken_wagner",
+      "gstar_voo_11plus1",
+      "nachtblende_slide"
+    ],
+    "naechste_scans_geplant": [
+      "NACHTS/Fanghaenel — Gegen-Scan gleiche Institution, andere Technik",
+      "ARTHaus — Film-Stimme",
+      "eigene Netzwerke — wenn Phase 3"
+    ]
+  },
+
+  "extraktions_pipeline": [
+    {
+      "step": 1,
+      "name": "Scannen",
+      "action": "Netzwerk/Profil/Quelle dokumentieren — neutral, mit URL",
+      "output": "CSV, Weave, Observation",
+      "regel": "Kein proximity=100 als 'heilig' — nur Dichte der Dokumentation"
+    },
+    {
+      "step": 2,
+      "name": "Zerlegen",
+      "action": "Was ist Grammatik, was ist Person, was ist Kapital, was ist Gate?",
+      "output": "Tags, branch_bindings, kunst_prinzipien",
+      "regel": "Person und Operatoren trennen"
+    },
+    {
+      "step": 3,
+      "name": "Filtern",
+      "action": "Gegen affekt_kern, forbidden_personal, litmus_endziel",
+      "output": "Behalten / Verwerfen / Später",
+      "regel": "Mehr verwerfen als behalten — Destillation"
+    },
+    {
+      "step": 4,
+      "name": "Überführen",
+      "action": "Operatoren in werkzeug.* und eigenes Werk",
+      "output": "Pour Cet Instant, identitaet_profil, eigene Regeln",
+      "regel": "Extrakt ohne Quellen-Attribution als Persona — Attribution nur bei Kollab"
+    },
+    {
+      "step": 5,
+      "name": "Output",
+      "action": "Gesamtwerk veröffentlichen / zeigen",
+      "output": "Film, Set, Ausstellung — ORBIT sichtbar",
+      "regel": "Referenz-Scan pausiert bis Output steht"
+    },
+    {
+      "step": 6,
+      "name": "Umverteilen",
+      "action": "Kulturelles + ökonomisches Kapital in ORBIT akkumulieren und der Zielgruppe zugänglich machen",
+      "output": "Werkzeug, Discoverability, Solidarity-Mechanik — siehe orbit_umverteilung.json",
+      "regel": "Fortschritt durch Freundlichkeit und Werk — nicht durch soziales-Kapital-Spiel. Fokus: Abweichung sichtbar machen."
+    }
+  ],
+
+  "litmus_extraktion": [
+    "Extrahiere ich einen Operator — oder kopiere ich eine Person?",
+    "Würde der Referenz-Scan ohne diesen Namen noch funktionieren?",
+    "Trägt das MEINEN affekt_kern — oder ihren Mythos?",
+    "Baue ich Zugang — oder simuliere ich Gatekeeping?",
+    "Ist ORBIT nach dieser Extraktion erkennbar als meins?"
+  ],
+
+  "integration": {
+    "masterplan": "docs/orbit_masterplan.md",
+    "identitaet": "orbit_identitaet.json",
+    "dna": "orbit_kultur_dna.json",
+    "umverteilung": "orbit_umverteilung.json",
+    "recherche": "orbit_kapital_recherche.json",
+    "verflechtungen": "orbit_verflechtungen.json — Case Studies, kein Zentrum"
+  }
+}

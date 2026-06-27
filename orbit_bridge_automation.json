@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Bridge — Best of Both Worlds",
+  "description": "Automatisierung: Operatoren aus queer × heteronormativ extrahieren, filtern, synthetisieren — Bridge als Output, nicht Kompromiss.",
+  "parent": "docs/orbit_masterplan.md",
+
+  "masterplan_binding": {
+    "path": "docs/orbit_masterplan.md",
+    "authority": "Bei Widerspruch gilt der Masterplan bis er aktualisiert wird.",
+    "sections": {
+      "extraktion": "0",
+      "umverteilung_bridge": "0b",
+      "phasen_gate": "2",
+      "dna_fest": "4",
+      "phase2_exit": "7",
+      "diese_woche": "8",
+      "nicht_jetzt": "9",
+      "entscheidungsfilter": "10",
+      "session_regel_ai": "12"
+    },
+    "phase_gate": "Kein neuer Weave, kein Instagram-Scrape, keine Foto-Spec-Recherche ohne Bezug zu Pour Cet Instant — bis Visual Brief + referenz_spiegel stehen.",
+    "bridge_to_tasks": {
+      "visual_brief": ["visual_tension", "form_queer_feeling"],
+      "referenz_spiegel": ["institution_community", "credit_kindness"],
+      "sound_entscheidung": ["narrative_bridge"],
+      "phase2_all": ["visibility", "narrative_bridge"]
+    },
+    "session_regel": [
+      "Lies docs/orbit_masterplan.md + orbit_extraktion.json",
+      "Mittelpunkt = Identität, nie Referenz-Person",
+      "Prüfe Phase-Gate (Abschnitt 7 + 9)",
+      "Arbeite an Abschnitt 8 — nächster offener Task",
+      "Referenz-Recherche nur wenn Pour Cet Instant oder offener Phase-2-Task",
+      "Keine neuen JSON-Layer ohne Eintrag in Abschnitt 6 oder 7"
+    ]
+  },
+
+  "axis": {
+    "id": "queer_x_heteronormativ",
+    "dna_path": "orbit_kultur_dna.json → core_dna.tension_axis.tertiary_axis",
+    "identitaet_path": "orbit_identitaet.json → identitaet_profil.positionierung",
+    "orbit_position": "bridge",
+    "rule": "Das Beste aus beiden Welten — ohne either-pole-as-total-identity"
+  },
+
+  "pole_sources": {
+    "heteronormativ": {
+      "label": "heteronormativ",
+      "operators_from_dna": [
+        "default-couple-narrative",
+        "mainstream-relationship-script",
+        "editorial-portrait-form",
+        "exhibition-hours-not-club-flash",
+        "institutional-distance",
+        "curator-voice"
+      ],
+      "profile_cluster_match": ["fashion_pfw", "fashion_berlin", "pr_editorial"],
+      "profile_tag_match": ["fashion-editorial", "pfw", "streetwear-denim", "portrait-series"],
+      "weave_ids": ["gstar_voo_11plus1"],
+      "handles_priority": ["galeriedeschler", "voostore", "boldberlin", "nici_oh"]
+    },
+    "queer": {
+      "label": "queer",
+      "operators_from_dna": [
+        "queer-platform",
+        "subversive-joy",
+        "bold-color-accent",
+        "community-voice",
+        "bridge-not-gate",
+        "dual-credit",
+        "freundlichkeit-as-praxis"
+      ],
+      "profile_cluster_match": ["art_club", "club_techno"],
+      "profile_tag_match": ["queer", "subversive-joy", "weeeirdos", "magnetic", "community"],
+      "weave_ids": ["marquardt_sauele_weeeirdos"],
+      "handles_priority": ["weeeirdos", "_lolsnake_", "saeule_berlin", "queer_art_bridge"]
+    }
+  },
+
+  "synthesis_rules": {
+    "keep_from_both": [
+      { "id": "form_queer_feeling", "hetero": "editorial-portrait-form", "queer": "queer-gaze", "bridge": "Form aus Editorial — Gefühl aus Abweichung" },
+      { "id": "institution_community", "hetero": "exhibition-opening", "queer": "community-voice", "bridge": "Galerie-Ritual ohne Exklusion" },
+      { "id": "credit_kindness", "hetero": "curator-voice", "queer": "dual-credit", "bridge": "Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel" },
+      { "id": "visual_tension", "hetero": "analog-bw", "queer": "bold-color-accent", "bridge": "SW-Base + ein Akzent — nicht beide Pole voll" },
+      { "id": "narrative_bridge", "hetero": "relationship-as-effort", "queer": "body-before-norm", "bridge": "Pour Cet Instant: Anpassung/Verzicht ohne Label" },
+      { "id": "visibility", "hetero": "discoverability-assets", "queer": "bridge-not-gate", "bridge": "Sichtbarkeit ohne Tür — Assets die bleiben" }
+    ],
+    "strip_always": [
+      "rainbow-washing",
+      "hetero-only-default",
+      "queer-as-gimmick",
+      "door-as-status",
+      "social-capital-as-currency",
+      "competition-as-default"
+    ],
+    "litmus": [
+      "Habe ich von BEIDEN Polen etwas Genommen — oder nur einen?",
+      "Ist es Bridge — oder Kompromiss (beide halb)?",
+      "Forbidden strip angewendet?",
+      "Passt zu Pour Cet Instant / identitaet_profil?"
+    ]
+  },
+
+  "outputs": {
+    "json": "orbit_bridge_synthesis_latest.json",
+    "markdown": "docs/orbit_bridge_synthesis_latest.md",
+    "werk_default": "orbit_werk_pour_cet_instant.json"
+  },
+
+  "run": {
+    "command": "python3 scripts/orbit_bridge_synthesis.py",
+    "flags": {
+      "write_md": "--markdown",
+      "werk": "--werk orbit_werk_pour_cet_instant.json"
+    }
+  },
+
+  "cursor_automation_instructions": "docs/orbit_bridge_automation_instructions.md",
+
+  "cursor_automation_prompt": "Lies docs/orbit_bridge_automation_instructions.md und führe alle Schritte 1–7 aus. Kurzfassung: (1) Masterplan §12 + orbit_bridge_automation.json lesen. (2) python3 scripts/orbit_bridge_synthesis.py --markdown. (3) Beide Pole + Bridge prüfen. (4) bridge_for_current_task vs §8-Task. (5) Phase-Gate einhalten. (6) Agent-Review in docs/orbit_bridge_synthesis_latest.md schreiben. (7) Litmus §10. Kein Commit ohne User. Kein neuer Weave/Scrape/JSON-Layer."
+}

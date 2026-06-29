@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Prinzipien-Index",
+  "description": "Master-Register — jedes Werk folgt Kunstprinzipien; jede Arbeit folgt der Arbeitsweise. Vier Schichten: Ausgangspunkt → Kunst → Affekt im Werk (optional) → Referenz.",
+
+  "pflicht_regel": {
+    "statement": "Kein ORBIT-Output ohne benannte Prinzipien. Kein ORBIT-Arbeiten ohne Arbeitsweise im Hinterkopf.",
+    "minimum": {
+      "arbeitsweise": "Immer — orbit_arbeitsweise.json (Diagnose als Bedingung, nicht als Werk-Thema)",
+      "kunst_prinzipien": 2,
+      "affekt_im_werk": "Optional — nur wenn das Werk emotionalen Inhalt trägt",
+      "ethik": true,
+      "identitaet_check": "Trägt es DEIN Kern — nicht nur Referenz? (orbit_fundament.json → pour_cet_filter)"
+    },
+    "workflow": [
+      "0. Arbeitsweise: ein Lead, nächster konkreter Schritt, Closure (orbit_arbeitsweise.json)",
+      "1. Prinzipien benennen (IDs aus diesem Index)",
+      "2. Gegen forbidden prüfen (kunst + affekt + ethik)",
+      "3. In Werk-JSON oder Log eintragen",
+      "4. Erst dann veröffentlichen / drehen / posten"
+    ],
+    "litmus": "Könntest du die aktiven Prinzipien in einem Satz erklären — ohne Stil-Wörter?"
+  },
+
+  "schichten": {
+    "0_ausgangspunkt": {
+      "label": "Arbeitsweise / Ausgangspunkt",
+      "source": "orbit_arbeitsweise.json",
+      "description": "Borderline, ADHS, Dissoziation, Sucht — Diagnose der Person die ORBIT macht. Bestimmt WIE das System gebaut ist, nicht WORÜBER jedes Werk handelt.",
+      "pflicht": "immer",
+      "ids": ["borderline", "adhs", "dissoziation", "sucht"]
+    },
+    "1_klassisch": {
+      "label": "Klassische Kunstprinzipien",
+      "source": "orbit_kultur_dna.json → kunst_prinzipien (erweitert)",
+      "description": "Antike bis modern — zeitlos, nicht trendig",
+      "ids": [
+        "mimesis",
+        "katharsis",
+        "pathos",
+        "das_erhabene",
+        "abjekt",
+        "metamorphose",
+        "transzendenz",
+        "alchemie",
+        "synaesthesie",
+        "schwelle",
+        "spaltung",
+        "nacht"
+      ]
+    },
+    "2_orbit_kern": {
+      "label": "ORBIT-Kernprinzipien",
+      "source": "orbit_kultur_dna.json → kunst_prinzipien",
+      "description": "Aus Berlin-Club-Galerie-DNA destilliert",
+      "ids": [
+        "gesamtwerk",
+        "ritual",
+        "subversion",
+        "leere",
+        "koerper",
+        "zeitlosigkeit"
+      ]
+    },
+    "3_affekt": {
+      "label": "Affekt im Werk (optional)",
+      "source": "orbit_affekt_prinzipien.json",
+      "description": "Emotionale Grammatik im Output — wenn das Werk Stimmung trägt. Nicht Synonym für «über meine Diagnose».",
+      "hauptgefuehle": [
+        "sucht",
+        "adhs",
+        "dissoziation",
+        "wut",
+        "einsamkeit",
+        "ekstase",
+        "lust",
+        "ohnmacht"
+      ],
+      "struktur_defizite": [
+        "keine_mutter_kein_halt",
+        "allein_sein",
+        "rassismus_ausgrenzung"
+      ],
+      "persoenlichkeits_operator": "borderline_als_operator"
+    },
+    "4_referenz_extern": {
+      "label": "Externe Referenz-Prinzipien",
+      "source": "orbit_referenz_arthaus.json → arthaus_prinzipien; orbit_referenz_mam_paris.json → mam_prinzipien",
+      "description": "Film/Kurator-Stimme (ARTHAUS) + Paris-Moderne (MAM) — mappen auf Schicht 1+2",
+      "files": {
+        "arthaus": "orbit_referenz_arthaus.json",
+        "mam_paris": "orbit_referenz_mam_paris.json"
+      }
+    }
+  },
+
+  "vollstaendige_liste": {
+    "kunst_klassisch_neu": {
+      "metamorphose": "orbit_kultur_dna.json → kunst_prinzipien.metamorphose",
+      "schwelle": "orbit_kultur_dna.json → kunst_prinzipien.schwelle",
+      "spaltung": "orbit_kultur_dna.json → kunst_prinzipien.spaltung",
+      "das_erhabene": "orbit_kultur_dna.json → kunst_prinzipien.das_erhabene",
+      "abjekt": "orbit_kultur_dna.json → kunst_prinzipien.abjekt",
+      "nacht": "orbit_kultur_dna.json → kunst_prinzipien.nacht",
+      "pathos": "orbit_kultur_dna.json → kunst_prinzipien.pathos",
+      "mimesis": "orbit_kultur_dna.json → kunst_prinzipien.mimesis"
+    },
+    "kunst_orbit_bestehend": {
+      "alchemie": "orbit_kultur_dna.json → kunst_prinzipien.alchemie",
+      "transzendenz": "orbit_kultur_dna.json → kunst_prinzipien.transzendenz",
+      "gesamtwerk": "orbit_kultur_dna.json → kunst_prinzipien.gesamtwerk",
+      "ritual": "orbit_kultur_dna.json → kunst_prinzipien.ritual",
+      "katharsis": "orbit_kultur_dna.json → kunst_prinzipien.katharsis",
+      "synaesthesie": "orbit_kultur_dna.json → kunst_prinzipien.synaesthesie",
+      "subversion": "orbit_kultur_dna.json → kunst_prinzipien.subversion",
+      "leere": "orbit_kultur_dna.json → kunst_prinzipien.leere",
+      "koerper": "orbit_kultur_dna.json → kunst_prinzipien.koerper",
+      "zeitlosigkeit": "orbit_kultur_dna.json → kunst_prinzipien.zeitlosigkeit"
+    },
+    "affekt": "orbit_affekt_prinzipien.json",
+    "werk_beispiel": {
+      "pour_cet_instant": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "einsamkeit", "dissoziation", "keine_mutter_kein_halt"]
+    }
+  },
+
+  "forschung": {
+    "agent_prompt": "docs/prinzipien_research_agent.md",
+    "log": "orbit_prinzipien_forschung_log.md",
+    "vorschlaege": "orbit_prinzipien_vorschlaege.json",
+    "regel": "Neue Prinzipien nur über Forschungs-Log + menschliche Freigabe — nie automatisch in DNA mergen"
+  },
+
+  "integration": {
+    "arbeitsweise": "orbit_arbeitsweise.json",
+    "dna": "orbit_kultur_dna.json",
+    "fundament": "orbit_fundament.json",
+    "affekt": "orbit_affekt_prinzipien.json",
+    "identitaet": "orbit_identitaet.json",
+    "arthaus": "orbit_referenz_arthaus.json",
+    "mam_paris": "orbit_referenz_mam_paris.json",
+    "checklist": "orbit_kultur_dna.json → gesamtwerk.completion_checklist"
+  }
+}

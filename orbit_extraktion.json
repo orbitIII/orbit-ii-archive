@@ -65,7 +65,8 @@
   },
 
   "reference_scan": {
-    "description": "Erster Scan-Batch — historischer Dateiname marquardt_*; kein Personen-Mittelpunkt",
+    "description": "Scan-Batches — historischer Dateiname marquardt_* in Batch 01; kein Personen-Mittelpunkt",
+    "fundament": "orbit_kultur_dna.json → referenz_fundament",
     "batch_id": "ref_scan_berlin_club_gallery_01",
     "entry_node": "svenmarquardt",
     "entry_node_role": "Erster Kartografier-Punkt wegen dokumentierter Verflechtung — nicht ORBIT-Identität",
@@ -83,7 +84,8 @@
     ],
     "naechste_scans_geplant": [
       "NACHTS/Fanghaenel — Gegen-Scan gleiche Institution, andere Technik",
-      "ARTHaus — Film-Stimme",
+      "Paris MAM — erledigt: orbit_referenz_mam_paris.json",
+      "ARTHaus — erledigt: orbit_referenz_arthaus.json",
       "eigene Netzwerke — wenn Phase 3"
     ]
   },

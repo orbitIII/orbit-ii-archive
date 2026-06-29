@@ -59,13 +59,16 @@
   },
 
   "kunst_prinzipien": {
-    "aktiv": ["leere", "katharsis", "koerper", "transzendenz", "alchemie"],
-    "kombination_id": "arthaus_aftermath",
+    "aktiv": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "spaltung", "mimesis", "alchemie"],
+    "kombination_id": "pour_cet_instant",
     "begruendung": {
+      "metamorphose": "Rot verlässt den Frame — Loslassen als Formwandel ohne Sieg",
+      "schwelle": "Balkontür offen — Moment vor dem Act, nicht Spektakel des Falls",
       "leere": "Leere Hand, leerer Stuhl, «Nichts passiert»",
       "katharsis": "Loslassen ohne Triumph — Erschöpfung, nicht Entscheidung",
-      "koerper": "Körper vor Gedanken; Finger zittern, reflexhaft ins Nichts",
       "transzendenz": "«Ce moment suffit» — profaner Raum wird Moment",
+      "spaltung": "Lächeln oder Nachgeben — zwei Wahrheiten, keine Auflösung",
+      "mimesis": "Finger zittern wie Finger zittern — Körper vor Idee",
       "alchemie": "Aus Grau + einem Rot + Stille → Intensität ohne Addition"
     }
   },

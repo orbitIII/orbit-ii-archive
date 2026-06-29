@@ -1,7 +1,14 @@
 {
   "version": 1,
   "updated": "2026-06-27",
-  "description": "Verflechtungen — Case Studies aus Referenz-Scan ref_scan_berlin_club_gallery_01. Knoten/Kanten/Gesamtwerk-Bindings zum Extrahieren von Operatoren — nicht ORBIT-Mittelpunkt. Siehe orbit_extraktion.json.",
+  "description": "Verflechtungen — Case Studies aus Referenz-Scan ref_scan_berlin_club_gallery_01. Knoten/Kanten/Gesamtwerk-Bindings zum Extrahieren von Operatoren — nicht ORBIT-Mittelpunkt. Paris/ARTHAUS: orbit_fundament.json → paris_case_bundles.",
+
+  "case_study_regel": {
+    "gewicht": "alle gleich — kein active_weave",
+    "saeule": "berlin_club_gallery",
+    "marquardt_hinweis": "svenmarquardt = häufiger Knoten wegen Batch-01-Dichte — nicht Projekt-Owner",
+    "fundament": "orbit_fundament.json → weave_katalog"
+  },
 
   "weaves": [
     {

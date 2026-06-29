@@ -1,13 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-06-27",
   "name": "ORBIT Affekt-Schicht",
   "parent": "orbit_kultur_dna.json",
-  "description": "Emotionale und strukturelle Operatoren — Foto × Film × Mode als Affekt-Grammatik. Ergänzt kunst_prinzipien um die Innenwelt, aus der die ORBIT-Ästhetik kommt.",
+  "prinzipien_index": "orbit_prinzipien_index.json",
+  "arbeitsweise": "orbit_arbeitsweise.json",
+  "description": "Zwei Ebenen: (1) Arbeitsweise — Diagnose als Ausgangspunkt, siehe orbit_arbeitsweise.json. (2) Affekt im Werk — emotionale Grammatik in Foto/Film/Mode, wenn ein Output Gefühl trägt. Nicht jedes Werk ist «über» Borderline/ADHS — aber jedes ORBIT-Arbeiten geht von jemandem aus, der damit lebt.",
+
+  "ausgangspunkt_hinweis": {
+    "statement": "Borderline, ADHS, Dissoziation, Sucht sind hier primär Werkzeug-Beschreibungen für Output-Grammatik — die Begründung WARUM ORBIT so strukturiert ist, steht in orbit_arbeitsweise.json.",
+    "regel": "Affekt-IDs in einem Werk benennen, wenn das Werk diese Stimmung trägt — nicht, um die Diagnose des Macher:in zu outen.",
+    "file": "orbit_arbeitsweise.json → ausgangspunkt"
+  },
 
   "ethik_rahmen": {
-    "rule": "Affekt ist Material, keine Diagnose. Kein Künstler:in wird pathologisiert; keine Selbstverletzung romantisiert.",
-    "borderline_hinweis": "Borderline als ästhetischer Operator — beschreibt Intensität, Spaltung, Bindungsangst und Identitätsfluktuation als Bildsprache. Kein DSM-Tool, kein Stigma-Label für Personen.",
+    "rule": "Diagnose ist Ausgangspunkt der Arbeit, nicht Pflicht-Thema. Kein Künstler:in wird pathologisiert; keine Selbstverletzung romantisiert. Öffentliche Nennung der eigenen Diagnose nur wenn gewollt.",
+    "borderline_hinweis": "Borderline erklärt warum ORBIT Spannung ohne Mittelweg und externe Struktur braucht — in Werken optional als Spaltungs-Operator, nicht als DSM-Label.",
     "forbidden_global": [
       "trauma-porn",
       "self-harm-ästhetik",
@@ -21,8 +29,9 @@
 
   "borderline_als_operator": {
     "label": "Borderline als Persönlichkeits-Operator",
-    "definition": "Extreme emotional reactivity, split perception, fear of abandonment, unstable self-image — nicht als Krankheit, sondern als künstlerische Grundhaltung: alles oder nichts, Nähe und Riss im selben Frame.",
-    "orbit_meaning": "ORBIT lebt auf der Spannungsachse Bleak × Subversive Joy — das ist borderline-adjacent by design: kein Mittelweg, kein glattes Branding, Spannung als Feature.",
+    "ebene": "werk_optional — arbeitsweise siehe orbit_arbeitsweise.json → ausgangspunkt.borderline",
+    "definition": "Extreme emotional reactivity, split perception, fear of abandonment, unstable self-image — im Werk: alles oder nichts, Nähe und Riss im selben Frame. Als Arbeitsgrund: ORBIT braucht Achsen, Ritual und Checklists.",
+    "orbit_meaning": "ORBIT lebt auf der Spannungsachse Bleak × Subversive Joy — im Werk Spannung als Feature. Als System: keine glatte Produktivität, sondern Rahmen für jemanden mit BPD-Nähe.",
     "operators": [
       "split-perception",
       "idealization-devaluation-cycle",
@@ -58,6 +67,7 @@
     "gefuehle": {
       "sucht": {
         "label": "Sucht",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.sucht",
         "definition": "Compulsion loop — Wiederholung ohne Sättigung; Nacht als Rückkehrzwang.",
         "operators": ["loop", "compulsion", "aftermath", "never-enough", "ritual-without-exit"],
         "fotografie": ["aftermath-mood", "repeated-portrait-series", "grain-as-hangover", "same-face-different-night"],
@@ -70,6 +80,7 @@
       },
       "adhs": {
         "label": "ADHS",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.adhs",
         "definition": "Hyperfokus ↔ Zerstreuung — der Schnitt springt, das Auge findet zehn Anker gleichzeitig.",
         "operators": ["fragment", "hyperfocus-cut", "scatter-then-lock", "impulse-frame", "parallel-attention"],
         "fotografie": ["flash-portrait", "street-candid", "multiple-subjects-one-frame", "studioxnoire energy"],
@@ -82,6 +93,7 @@
       },
       "dissoziation": {
         "label": "Dissoziation",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.dissoziation",
         "definition": "Körper anwesend, Geist woanders — schweben, abstumpfen, aus der Decke schauen.",
         "operators": ["out-of-body-pov", "float", "numb-hyperreal", "temporal-slip", "voice-over-inner"],
         "fotografie": ["negative-space-around-body", "blur-at-edges", "mirror-double", "daylight-not-flash uncanny"],
@@ -100,7 +112,7 @@
         "film": ["Antichrist tone", "static-frame-tension", "industrial-techno-sync", "no-release-cut"],
         "mode": ["leather", "hardware", "Rick Owens silhouette", "McQueen trauma tailoring", "techno-goth armor"],
         "musik": ["metallic-techno", "SYSTEM DRIVING PUSH", "industrial-techno", "Luca Eck dystopian"],
-        "orbit_signals": ["Marquardt door authority", "Disturbing Beauty", "Berghain rejection narrative"],
+        "orbit_signals": ["institutional door ritual", "Disturbing Beauty", "Berghain rejection narrative", "Pour Cet Instant — Anpassung als Verzicht"],
         "referenzen": ["Alexander McQueen", "Rick Owens", "Antichrist", "Luca Eck / Trauma Bar", "Berlin Bouncer"],
         "forbidden": ["rage-as-edgelord", "violence aestheticized without context"]
       },
@@ -112,8 +124,8 @@
         "film": ["In the Mood for Love pace", "single-subject frame", "Berlin Bouncer — outside looking in", "slow walk home"],
         "mode": ["all-black isolation", "oversized coat as shell", "no-eye-contact styling"],
         "musik": ["ORBIT MOMENT DEEP intimate", "minor-key", "space-between-tracks", "non-dancefloor"],
-        "orbit_signals": ["Lolsnake collab — alone after set", "Marquardt negative-space grammar", "11+1 fleeting moments quote"],
-        "referenzen": ["Edward Hopper (painting)", "In the Mood for Love", "Lonely in the Rain (sonic ref)", "Kinfolk Marquardt feature tone"],
+        "orbit_signals": ["aftermath post-set solitude", "negative-space grammar (gallery_photo)", "Pour Cet Instant — leerer Stuhl", "11+1 fleeting moments quote"],
+        "referenzen": ["Edward Hopper (painting)", "In the Mood for Love", "Lonely in the Rain (sonic ref)", "MAM Soutine/Rouault bleak", "Pour Cet Instant"],
         "forbidden": ["loneliness as influencer-sad", "aesthetic solitude without weight"]
       },
       "ekstase": {
@@ -136,7 +148,7 @@
         "film": ["Intimacy (Chéreau) tone", "slow touch not explicit", "queer-portrait doc"],
         "mode": ["leather", "bandage-top", "gender-fluid", "avant-garde-draping", "skin visible with agency"],
         "musik": ["vocal-as-body", "deep house warmth", "ORBIT FLOW sensual reduced"],
-        "orbit_signals": ["Marquardt body-as-subject", "Lolsnake natural-uncanny", "Stageless/Rudel line"],
+        "orbit_signals": ["body-as-subject portrait", "aftermath uncanny", "Stageless/Rudel line", "Modigliani presence (MAM)"],
         "referenzen": ["Nan Goldin intimacy", "Ren Hang", "Tom of Finland (graphic ref)", "Willy Chavarria body politics"],
         "forbidden": ["objectification", "influencer-thirst", "pornographic framing"]
       },
@@ -178,7 +190,7 @@
           "film": "last person leaving frame",
           "mode": "one look no entourage"
         },
-        "orbit_exemplars": ["Marquardt portrait grammar", "Lolsnake post-set", "Heartbroken solitary EP character"],
+        "orbit_exemplars": ["gallery_photo portrait grammar", "aftermath post-set", "Heartbroken solitary EP character", "Pour Cet Instant — Körper vor Idee"],
         "kunst_prinzipien_link": ["katharsis", "leere", "koerper"]
       },
       "rassismus_ausgrenzung": {
@@ -213,14 +225,14 @@
       "role": "Stillstand des Affekts — der Moment nach dem Impuls",
       "grammar": ["analog-bw", "high-contrast", "portrait-close", "negative-space", "aftermath", "grain", "daylight-not-flash", "raw-unfiltered"],
       "lead_gefuehle": ["einsamkeit", "katharsis", "lust", "ohnmacht"],
-      "orbit_anchors": ["svenmarquardt", "mischa.fanghaenel", "streetmoments.nyc", "thestyleograph", "ingegrognard"],
+      "orbit_anchors": ["Pour Cet Instant (eigen)", "gallery_photo-Cluster", "MAM École de Paris", "mischa.fanghaenel", "ingegrognard"],
       "extern_korpus": ["Nan Goldin", "Wolfgang Tillmans", "Dana Lixenberg", "Deana Lawson", "Juergen Teller", "Ren Hang", "Larry Fink"]
     },
     "film": {
       "role": "Affekt in Zeit — Schnitt als emotionaler Rhythmus (Borderline/ADHS-Logik)",
       "grammar": ["grain", "slow-or-hypnotic-cut", "hypnotic-cut", "raw/honest", "institutional-camera-distance", "diegetic-or-silent", "red-filter", "boiler-room-berlin"],
       "lead_gefuehle": ["dissoziation", "sucht", "ekstase", "adhs"],
-      "orbit_anchors": ["Berlin Bouncer", "NACHTBLENDE", "Heartbroken doc", "WEEEIRDOS Boiler Room", "Lolsnake Metal Mag tone"],
+      "orbit_anchors": ["Pour Cet Instant", "ARTHAUS kein_happy_end", "Berlin Bouncer", "NACHTBLENDE", "MAM de Chirico/Richter spaltung"],
       "extern_korpus": ["Enter the Void", "Climax", "Christiane F.", "Paris Is Burning", "Safe", "Antichrist", "In the Mood for Love", "Gummo", "Requiem for a Dream"]
     },
     "mode": {
@@ -232,7 +244,7 @@
     },
     "cross_medium_rules": [
       "Foto stillt, Film bewegt, Mode berührt — ein Affekt, drei Geschwindigkeiten",
-      "SW-Foto + Color-Mode-Akzent = Borderline-Split erlaubt (marquardt_sauele_weeeirdos)",
+      "SW-Foto + Color-Mode-Akzent = Borderline-Split erlaubt (bleak × subversive_joy — weave sauele oder Pour Cet Instant grey×red)",
       "Film-Schnitt folgt ADHS-Logik nur wenn Dissoziation oder Ekstase Lead-Affekt ist",
       "Mode-Leder verbindet Wut + Lust + Ohnmacht — Material ist Affekt",
       "Aftermath ist Foto-Default; Ekstase ist Film-Default; Panzer ist Mode-Default"
@@ -279,7 +291,7 @@
   },
 
   "referenz_korpus_erweitert": {
-    "description": "Quellen außerhalb Marquardt-Orbit — nach Affekt-Nähe sortiert, für Sammelphase",
+    "description": "Quellen außerhalb Berlin-Batch-01 — nach Affekt-Nähe sortiert, für Sammelphase",
     "fotografie": [
       { "name": "Nan Goldin", "affekt": ["sucht", "lust", "einsamkeit"], "work": "Ballad of Sexual Dependency" },
       { "name": "Wolfgang Tillmans", "affekt": ["einsamkeit", "lust", "adhs"], "work": "Berlin nightlife; Freischwimmer" },
@@ -349,7 +361,7 @@
       "Affekt-Kombination benannt? (affekt_kombinationen)"
     ],
     "sammelphase_fields": {
-      "note": "Für marquardt_aesthetic_profiles.csv und neue Referenzen",
+      "note": "Für berlin_club_gallery_profiles (Batch 01) und neue Referenzen — Operator-Tag, nicht Person-Score",
       "columns_to_add": ["affekt_primary", "affekt_secondary", "struktur_defizit", "medium_lead"],
       "example_row": "handle,name,...,affekt_primary=einsamkeit;lust,affekt_secondary=sucht,struktur_defizit=allein_sein,medium_lead=fotografie"
     }

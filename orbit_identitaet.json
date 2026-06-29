@@ -4,11 +4,19 @@
   "name": "ORBIT Identität",
   "parent": "orbit_kultur_dna.json",
   "purpose": "ORBIT ist am Ende nicht Referenz — ORBIT bist du. Archiv, DNA und Prinzipien sind Werkzeug, bis Kleidung, Stimme, Musik, Kunst, Foto und Film aus einem Kern kommen.",
+  "arbeitsweise": "orbit_arbeitsweise.json",
   "extraktion": "orbit_extraktion.json",
+
+  "ausgangspunkt": {
+    "statement": "Wer ORBIT macht, hat Borderline, ADHS, Dissoziation und/oder Sucht — nicht als Thema, sondern als Ausgangspunkt. ORBIT passt Arbeitsweise, Struktur und Tempo daran an.",
+    "file": "orbit_arbeitsweise.json",
+    "nicht_pflicht_im_werk": "Du musst nicht über deine Diagnose arbeiten. Du arbeitest MIT ihr — das System ist dafür gebaut.",
+    "litmus": "Hilft ORBIT dir heute zu arbeiten — oder fordert es neurotypisches Durchhalten?"
+  },
 
   "extraktions_haltung": {
     "statement": "Privilegierte Netzwerke haben Ressourcen, Ästhetik und Kapital unter sich verteilt. ORBIT extrahiert ihre Operatoren und akkumuliert kulturelles + ökonomisches Kapital für Umverteilung — Sichtbarkeit für Abweichung. Soziales Kapital ist keine Fortschritts-Währung; Freundlichkeit und ehrliche Arbeit ersetzen Konkurrenz.",
-    "mittelpunkt": "identitaet_profil + eigenes Werk (Pour Cet Instant)",
+    "mittelpunkt": "identitaet_profil + eigenes Werk (Pour Cet Instant) — Referenz-Säulen Berlin / Paris / Film gleichgewichtig",
     "referenz": "Scan-Material — zerlegen, filtern, überführen, umverteilen",
     "litmus": "Extrahiere ich einen Operator — oder kopiere ich eine Person?",
     "file": "orbit_umverteilung.json"
@@ -37,7 +45,7 @@
       "label": "Sammeln",
       "status": "aktiv",
       "input": ["Referenzprofile", "Events", "Tracks", "Affekt-Quellen", "Verflechtungen"],
-      "output": ["marquardt_aesthetic_profiles.csv", "orbit_playlists.json", "orbit_affekt_prinzipien.json", "Berghain-Archiv"],
+      "output": ["Referenz-Profile (Batch 01 Berlin-Scan)", "orbit_playlists.json", "orbit_referenz_mam_paris.json", "orbit_referenz_arthaus.json", "orbit_affekt_prinzipien.json", "Berghain-Archiv"],
       "regel": "Nur echte Daten — nichts erfinden. Alles ist Material, noch nicht du.",
       "exit": "Du kannst 10 Referenzen benennen und sagen, welches Gefühl sie tragen — nicht welches Genre."
     },
@@ -117,7 +125,7 @@
       "comment": "Abgeleitet aus Pour Cet Instant VO — Anpassung als Renoncement",
       "source_werk": "orbit_werk_pour_cet_instant.json"
     },
-    "kunst_prinzipien_kern": ["leere", "katharsis", "koerper", "transzendenz", "alchemie"],
+    "kunst_prinzipien_kern": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "spaltung"],
     "medium_lead": "film",
     "medium_support": ["foto", "mode", "musik", "marketing"],
     "forbidden_personal": ["happy-end", "Erklär-Video", "triumph-montage", "therapy-speak", "euphoric-pop", "influencer-content"],
@@ -140,7 +148,9 @@
     "description": "ORBIT als tägliches Werkzeug pro Medium — jede Sektion: Grammatik, Entscheidung, Output, Check",
     "global_check": [
       "Passt visual_grammar / tone_of_voice?",
-      "Min. 2 kunst_prinzipien + 2 Affekte aktiv?",
+      "Min. 2 kunst_prinzipien + Ethik? (orbit_prinzipien_index.json)",
+      "Affekt im Werk nur wenn das Werk es trägt — nicht Diagnose als Pflicht-Thema",
+      "Arbeitsweise-Check: ein Lead, ein nächster Schritt, Closure geplant? (orbit_arbeitsweise.json)",
       "Forbidden verletzt?",
       "litmus_question + litmus_endziel?",
       "Ist das ich — oder Referenz-Nachbau?"
@@ -243,11 +253,11 @@
       },
       "entscheidungen": {
         "shoot": "Aftermath > Peak — Einsamkeit und Katharsis default",
-        "licht": "Tageslicht gestellt (Marquardt) — nicht Ringlight-Influencer",
+        "licht": "Tageslicht gestellt — gallery_photo-Cluster (Batch 01); Pour Cet Instant: Sonne schräg, daylight-not-flash",
         "serie": "Series-not-one-off — ORBIT ARCHIV-Denke",
         "filter": "Würde das Bild in Galerie Deschler hängen — oder auf TikTok?"
       },
-      "referenz_orbit": ["svenmarquardt", "mischa.fanghaenel", "photosintese", "ingegrognard"],
+      "referenz_orbit": ["Pour Cet Instant (eigen)", "gallery_photo-Cluster: mischa.fanghaenel, photosintese", "MAM: Soutine, Modigliani, Rouault", "ingegrognard"],
       "outputs": ["photography-brief-template", "eigene portrait-series", "exhibition-doc"],
       "check": "Foto stillt — zeigt es was übrig bleibt wenn der Bass stoppt?"
     },
@@ -267,13 +277,18 @@
         "soundtrack": "Kontext wählt Pool — nie generisch",
         "filter": "Metal Mag raw/honest — oder Over-Produced?"
       },
-      "referenz_orbit": ["Berlin Bouncer", "Lolsnake collab tone", "NACHTBLENDE", "Heartbroken doc"],
+      "referenz_orbit": ["Pour Cet Instant", "orbit_referenz_arthaus.json", "Berlin Bouncer tone", "NACHTBLENDE", "MAM: de Chirico, Richter (Spaltung)"],
       "sammelquellen": [
         {
           "name": "ARTHAUS",
           "url": "https://www.arthaus.de",
           "file": "orbit_referenz_arthaus.json",
           "nutzen": "Watchlist, Kino, Magazin — arthaus_prinzipien als Film+Stimme-Operator"
+        },
+        {
+          "name": "MAM Paris",
+          "file": "orbit_referenz_mam_paris.json",
+          "nutzen": "Moderne Operatoren — figuration_narrative, mur_gesamtwerk, concept_comme_oeuvre"
         }
       ],
       "arthaus_checks": [
@@ -289,7 +304,9 @@
 
   "persona_synthese": {
     "description": "Wie aus ORBIT-Archiv DEINE Identität wird",
-    "formel": "Referenz × Affekt × Prinzip × Entscheidung = Persona",
+    "formel": "Eigenes Werk (Filter) × Affekt × Prinzip (2+ Säulen) × Entscheidung = Persona",
+    "formel_alt": "Referenz × Affekt × Prinzip — ohne Werk-Filter (veraltet)",
+    "fundament": "orbit_fundament.json → persona_formel_neu",
     "schritte": [
       {
         "step": 1,
@@ -401,6 +418,9 @@
   "integration": {
     "files": {
       "dna": "orbit_kultur_dna.json",
+      "prinzipien_index": "orbit_prinzipien_index.json",
+      "arbeitsweise": "orbit_arbeitsweise.json",
+      "prinzipien_research": "docs/prinzipien_research_agent.md",
       "kunst_prinzipien": "orbit_kultur_dna.json → kunst_prinzipien",
       "affekt": "orbit_affekt_prinzipien.json",
       "identitaet": "orbit_identitaet.json",

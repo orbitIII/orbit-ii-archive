@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-27
+# ORBIT Bridge Synthesis — 2026-07-02
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -92,5 +92,32 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-02  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief Pour Cet Instant — **done** (`filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, keine Foto-Spec-Recherche; Arbeit nur am §8-Task mit direktem Pour-Cet-Instant-Bezug
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (Grau-Base + rotes Akzent-Objekt) direkt in Licht, Palette und Stills übersetzt
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — negative space, daylight-not-flash, curator-voice-Form ohne Club-Flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot als Objekt; Körper weiß vor Norm, Loslassen ohne Label
+- **Bridge:** Editorial-Rahmen und institutionelle Leere halten das Bild; ein rotes Objekt und körperliche Ambiguität tragen die Abweichung — Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` (Bridge-Regeln: `institution_community`, `credit_kindness`)
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Brief leitet aus Pour Cet Instant + `identitaet_profil.positionierung` ab; Referenz liefert Operatoren (Licht, Form), nicht Marquardt als Mittelpunkt.
+
+### Entscheidungsfilter §10 (Kurz)
+| Filter | Antwort |
+|---|---|
+| Affekt Lead | Einsamkeit, Dissoziation — aftermath |
+| Bleak / Joy / Bridge | Bridge (Beton-Grau + rotes Objekt das verlässt) |
+| Medium Lead | Film |
+| forbidden_personal | nicht verletzt |
+| 3-Jahre-Test | ja — grain, daylight, single-accent bleiben ORBIT |
+| Ich oder Mythos? | Ich — Essence-Satz und Werk-Spec führen |
 

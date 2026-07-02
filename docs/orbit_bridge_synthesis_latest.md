@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-27
+# ORBIT Bridge Synthesis — 2026-07-02
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -92,5 +92,23 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-02  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** Visual Brief für *Pour Cet Instant* — **done** (`filme/pour_cet_instant/visual_brief.md`)  
+**Danach:** referenz_spiegel — 5 Operatoren in `orbit_identitaet.json` — **offen**
+
+### Masterplan
+- **Gate eingehalten:** ja — kein neuer Weave, kein Scrape, keine Foto-Spec-Recherche; Arbeit nur am §8-Task mit direktem Pour-Cet-Instant-Bezug
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer Gefühl im Brief-Look-Abschnitt) und `visual_tension` (Grau-Base + ein Rot-Akzent in Palette/Look/Stills)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `daylight-not-flash` — Galerie-Porträt-Form, institutionelle Distanz ohne Club-Flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot als Abweichungs-Impuls; Körper vor Norm, ohne Label
+- **Bridge:** Editorial-Rahmen und negative space halten den Frame; ein rotes Objekt trägt Intensität und verlässt ihn — Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples`: welcher **Operator** (nicht Person) spiegelt welchen Teil von dir; Bridge-Regeln `institution_community` + `credit_kindness` als Leitfaden
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — der Brief leitet aus Pour Cet Instant + `identitaet_profil` ab; Referenz-Operatoren (Marquardt daylight, WEEEIRDOS Akzent) sind Filter, nicht Mittelpunkt.
 

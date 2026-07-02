@@ -827,6 +827,7 @@
     "bridge_automation": "orbit_bridge_automation.json",
     "bridge_synthesis_latest": "orbit_bridge_synthesis_latest.json",
     "fundament": "orbit_fundament.json",
+    "orbit_lab": "app/orbit-lab/index.html",
     "arbeitsweise": "orbit_arbeitsweise.json",
     "prinzipien_index": "orbit_prinzipien_index.json",
     "prinzipien_forschung_log": "orbit_prinzipien_forschung_log.md",

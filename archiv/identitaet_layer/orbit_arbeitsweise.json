@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Arbeitsweise",
+  "parent": "orbit_identitaet.json",
+  "description": "Warum ORBIT so gebaut ist, wie es gebaut ist. Borderline, ADHS, Dissoziation, Sucht sind hier nicht Werkthema — sie sind der Ausgangspunkt der Person, die ORBIT macht. Das System passt sich an diese Realität an, statt sie zu pathologisieren oder zu verstecken.",
+
+  "kern_statement": {
+    "deutsch": "ORBIT ist nicht ein Projekt über Borderline, ADHS, Dissoziation oder Sucht. ORBIT ist ein Arbeits- und Identitätssystem für jemanden, der mit genau diesen Diagnosen lebt und arbeitet. Die Diagnose ist nicht das Motiv — sie ist die Bedingung. Deshalb: Ritual statt Willenskraft, Archiv statt Vergessen, Reduktion statt Überforderung, äußere Struktur statt innerer Chaos-Steuerung.",
+    "english": "ORBIT is not a project about BPD, ADHD, dissociation, or addiction. It is a workflow and identity system for someone who lives and works with these diagnoses. The diagnosis is not the subject — it is the starting condition.",
+    "nicht": [
+      "Therapie-Ersatz",
+      "Diagnose als Marketing-Story",
+      "Trauma-Porn als Output",
+      "Selbst-Pathologisierung in der Öffentlichkeit",
+      "Neurotypische Produktivitäts-Logik (Hustle, Daily Grind, Delete & Restart)"
+    ],
+    "litmus": "Unterstützt diese Entscheidung jemanden mit BPD/ADHS/Dissoziation/Sucht beim Arbeiten — oder bestraft sie ihn?"
+  },
+
+  "ausgangspunkt": {
+    "label": "Diagnose als Ausgangspunkt — nicht als Thema",
+    "regel": "In identitaet_profil und internen Dateien benannt. In öffentlichem Werk nur, wenn du es willst — nie als Pflicht-Thema.",
+    "diagnosen": {
+      "borderline": {
+        "id": "borderline",
+        "label": "Borderline (BPD)",
+        "bedeutet_fuer_arbeit": "Extreme Spannung zwischen Nähe und Riss, Identitätsfluktuation, Impuls, Angst vor Verlassen — ohne äußere Struktur wird jede Entscheidung zur Krise.",
+        "orbit_antwort": [
+          "Feste Achsen (bleak × subversive_joy, queer × heteronorm) statt endloser Selbstdefinition",
+          "Spannungsachse und Prinzipien-Kombinationen halten Widerspruch — kein glattes Either/Or nötig",
+          "forbidden_personal + ethik_rahmen als externe Grenze vor Impuls-Publish",
+          "completion_checklist vor Release — nicht im Affekt entscheiden",
+          "Kollab-Credits klar — Verlassen/Abwertung durch Unklarheit vermeiden",
+          "ORBIT ARCHIV: nichts löschen — Rückfall in Selbstvernichtung blockieren",
+          "Ritual-Frame (Tür, Request, Säule-Logik) kanalisiert Impuls"
+        ],
+        "arbeitsregeln": [
+          "Eine pole-Wahl pro Phase — nicht täglich wechseln",
+          "Vor Post/Dreh: 24h Pause wenn möglich, oder Checklist",
+          "Bei Split: zurück zu identitaet_profil.essence — nicht zu Pinterest",
+          "Kritik externalisieren (Agent/Datei) — nicht als Angriff auf Identität lesen"
+        ],
+        "verboten_im_system": ["Alles-oder-nichts-Projekte ohne Exit", "Identität an ein Werk binden", "Öffentliche Selbst-Diagnose als Branding ohne Wahl"]
+      },
+      "adhs": {
+        "id": "adhs",
+        "label": "ADHS",
+        "bedeutet_fuer_arbeit": "Hyperfokus-Fenster, Zerstreuung, Start-Schwierigkeit, parallele Ideen — klassische To-Do-Listen scheitern.",
+        "orbit_antwort": [
+          "Sammelphase legitim: ARCHIV sammelt ohne sofort Sortieren",
+          "Ein Lead-Medium pro Werk (medium_lead) — Rest ist Support",
+          "Rekordbox-Ordner / Presets = Entscheidungen vorab",
+          "JSON-Dateien als externes Gedächtnis — du musst nicht alles im Kopf halten",
+          "Agenten für langweilige Wiederholung (Archive, Prinzipien-Research)",
+          "30-Sekunden-Filter (Phase 4): Passt das zu mir? — schnelle Entscheidungshilfe",
+          "Hyperfokus-Fenster nutzen: wenn da, sofort in ARCHIV/Werk-JSON capturen"
+        ],
+        "arbeitsregeln": [
+          "Max. 1 aktives Werk + 1 Sammel-Thread gleichzeitig",
+          "Capture first, destill later — Phase 1→2 existiert deshalb",
+          "Tasks in kleine Einheiten (1 Szene, 1 Track, 1 Look) — nicht Gesamtwerk in einem Tag",
+          "Timer bei Sucht-analogem Loop (Tracks sammeln, Profile scrollen)",
+          "Körperliche Anker: vor Session Wasser, Timer, konkreter Output"
+        ],
+        "verboten_im_system": ["Unstrukturierte Offenheit ohne Lead", "Scham für unvollständige Phasen", "Scatter als Fehler statt als Phase"]
+      },
+      "dissoziation": {
+        "id": "dissoziation",
+        "label": "Dissoziation",
+        "bedeutet_fuer_arbeit": "Körper da, Geist woanders — abstrakte Pläne fühlen sich unreal; Große Visionen ohne konkrete nächste Handlung.",
+        "orbit_antwort": [
+          "Konkrete Dateien statt vager Vision (werk-JSON, shotlist, eine Szene)",
+          "identitaet_profil.essence_in_einem_satz — Anker wenn du schwebst",
+          "Mimesis/Körper-Prinzipien: Körper vor Idee in Briefings",
+          "Pour Cet Instant-Logik: was der Körper tut, bevor der Geist nachkommt",
+          "Grounding in Mode/Material (Leder, Gewicht, Stoff) als Arbeitshilfe optional",
+          "Langsame Schnitte / Aftermath als Default — nicht ADHS-Schnitt als Pflicht"
+        ],
+        "arbeitsregeln": [
+          "Nächster Schritt immer physisch benennbar (Datei öffnen, Kamera laden, 1 Take)",
+          "Nach langer Session: Grounding-Protokoll (5 Min still, kein Screen)",
+          "Bei Float: nicht planen — eine Sache aus file_index öffnen und weitermachen",
+          "VO/Schrift als Brücke wenn Bild schwer (wie Pour Cet Instant)"
+        ],
+        "verboten_im_system": ["Nur Vision-Dokumente ohne nächste Handlung", "Überforderung durch parallele Abstraktionsebenen"]
+      },
+      "sucht": {
+        "id": "sucht",
+        "label": "Sucht / Zwang",
+        "bedeutet_fuer_arbeit": "Compulsion loops — Nacht, Wiederholung, nie genug; Produktivität kann zur Sucht werden.",
+        "orbit_antwort": [
+          "Nacht und Ritual als kanalisierte Loops (Klubnacht, NACHTBLENDE) — nicht als eskapist Default",
+          "ORBIT ARCHIV: Sammeln ist erlaubt — aber AUSGEsortiert, nie löschen, statt endlos neu anfangen",
+          "Playlist danach (ARTHAUS) als Closure-Ritual nach Session",
+          "Berghain-Tür-Logik: Selection — nicht alles reinlassen",
+          "Sucht-Loop in Musik (hypnotic, reduced) als bewusstes Werkzeug — nicht als Lebensmodus"
+        ],
+        "arbeitsregeln": [
+          "Ende jeder Nacht-Session mit festem Closure (1 Track danach, Notiz, Datei speichern)",
+          "Kein «noch ein Track / noch ein Profil» ohne Timer",
+          "Substanz nie als ORBIT-Ästhetik romantisieren — Nacht ja, Glamour-Sucht nein",
+          "Wenn Compulsion übernimmt: wechsel Medium (Foto still statt Film/Tracks)"
+        ],
+        "verboten_im_system": ["Yolo-Ästhetik", "Romantisierung von Substanz", "Endlos-Sammeln ohne Destill-Phase"]
+      }
+    },
+    "struktur_hintergrund": {
+      "keine_mutter_kein_halt": "Erklärt warum ORBIT externe Struktur braucht (Checklists, Dateien, Ritual) statt inneren Halt vorauszusetzen.",
+      "allein_sein": "Erklärt Solo-Arbeit als Default — Kollab optional mit klaren Credits, nicht als soziale Pflicht.",
+      "regel": "Strukturdefizite sind Kontext für System-Design — nicht automatisch Werk-Inhalt."
+    }
+  },
+
+  "system_design_ableitung": {
+    "description": "Von Ausgangspunkt → ORBIT-Feature. Begründung für jeden, der fragt warum es so läuft.",
+    "mapping": [
+      { "feature": "Phasen 1–5 (identitaet.json)", "grund": "ADHS: ein Schritt sichtbar; Borderline: nicht alles auf einmal identitätsrelevant" },
+      { "feature": "ORBIT ARCHIV — nie löschen", "grund": "Borderline: Selbstvernichtung; Sucht: nochmal von null" },
+      { "feature": "kunst_prinzipien + Checklist", "grund": "Borderline/Dissoziation: externe Entscheidung vor Impuls" },
+      { "feature": "medium_lead pro Werk", "grund": "ADHS: parallele Ideen → ein Lead" },
+      { "feature": "forbidden + ethik_rahmen", "grund": "Borderline: Grenzen vor Öffentlichkeit; Sucht: keine Romantisierung" },
+      { "feature": "Agenten (Archive, Prinzipien)", "grund": "ADHS: langweilige Wiederholung auslagern" },
+      { "feature": "Reduktion / Leere / single-accent", "grund": "Dissoziation/Überlast: weniger gleichzeitig halten" },
+      { "feature": "Ritual / Schwelle / Tür", "grund": "Sucht/Borderline: Übergang markieren, Impuls rahmen" },
+      { "feature": "affekt_in_werk (optional)", "grund": "Gefühle dürfen im Werk sein — müssen nicht Diagnose sein" }
+    ]
+  },
+
+  "zwei_ebenen": {
+    "ebene_1_arbeitsweise": {
+      "label": "Wie du arbeitest",
+      "source": "orbit_arbeitsweise.json",
+      "pflicht": "Immer — für jeden, der ORBIT benutzt",
+      "inhalt": "Diagnose als Bedingung → Regeln, Features, Verbote im System"
+    },
+    "ebene_2_affekt_im_werk": {
+      "label": "Was ein Werk trägt",
+      "source": "orbit_affekt_prinzipien.json → hauptgefuehle",
+      "pflicht": "Nur wenn das Werk emotionalen Inhalt trägt — nicht «über meine Diagnose»",
+      "inhalt": "Einsamkeit, Katharsis, Spaltung im Bild — unabhängig vom Ausgangspunkt"
+    },
+    "beispiel": {
+      "werk": "Pour Cet Instant",
+      "arbeitsweise": "Borderline-Spannung ohne Auflösung → Checklist vor Dreh; Dissoziation → Körper vor VO; ADHS → 4 Seiten, ein Raum",
+      "werk_affekt": "Einsamkeit, Dissoziation im Bild — nicht «Film über BPD»"
+    }
+  },
+
+  "taegliche_arbeits_checkliste": [
+    "Welches Fenster habe ich — Hyperfokus, Float, oder Compulsion?",
+    "Ein Lead-Medium heute — welches?",
+    "Nächster konkreter Schritt (Datei, Take, eine Zeile)?",
+    "Bin ich am Ausgeben oder am Sammeln — beides ok, aber benennen",
+    "Vor Publish: completion_checklist + forbidden",
+    "Session-Ende: Closure (speichern, playlist danach, Timer aus)"
+  ],
+
+  "integration": {
+    "identitaet": "orbit_identitaet.json",
+    "affekt_werk": "orbit_affekt_prinzipien.json",
+    "prinzipien_index": "orbit_prinzipien_index.json",
+    "dna": "orbit_kultur_dna.json"
+  }
+}

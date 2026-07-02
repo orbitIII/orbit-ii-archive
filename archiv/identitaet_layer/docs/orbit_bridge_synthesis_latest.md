@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-02
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,27 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-02  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen** (`orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` leer)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, kein Foto-CI ohne Shoot-Bezug; Visual Brief als erlaubter §8-Task umgesetzt
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + Abweichungs-Gefühl in Kadrierung/Raum) · `visual_tension` (Grau-Base + ein Rot-Akzent, nicht beide Pole voll)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (negative space, curator-voice-Raum)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (ein Rot-Akzent; Körper vor Norm, Loslassen ohne Script-Auflösung)
+- **Bridge:** Pour Cet Instant hält Editorial-Klarheit der Form — Intensität und Abweichung sitzen im Körper und einem roten Objekt, nicht in Regenbogen- oder Paar-Default.
+
+### Nächster Schritt
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` eintragen (welcher Operator spiegelt welchen Teil von **dir**; Bridge-Regeln: `institution_community`, `credit_kindness`). Keine Personen als Mittelpunkt.
+
+### Litmus §10
+- Affekt Lead: Einsamkeit + Dissoziation — Brief trägt aftermath, nicht Triumph
+- Pole: **Bridge** (Beton-Grau + rotes Kleid)
+- Medium: Film
+- `forbidden_personal`: nicht verletzt (kein Happy End, kein Erklär-Video)
+- 3-Jahre-Test: ja — daylight-real, single-accent, keine Trend-Ästhetik
+- **Ich oder Mythos?** Ich — Operatoren extrahiert, Werk und `identitaet_profil.positionierung` als Mittelpunkt; Marquardt nur als Scan-Batch-01-Rohstoff, nicht als Look-Vorbild
 

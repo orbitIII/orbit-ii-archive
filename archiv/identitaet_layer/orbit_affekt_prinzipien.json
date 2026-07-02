@@ -1,0 +1,369 @@
+{
+  "version": 2,
+  "updated": "2026-06-27",
+  "name": "ORBIT Affekt-Schicht",
+  "parent": "orbit_kultur_dna.json",
+  "prinzipien_index": "orbit_prinzipien_index.json",
+  "arbeitsweise": "orbit_arbeitsweise.json",
+  "description": "Zwei Ebenen: (1) Arbeitsweise — Diagnose als Ausgangspunkt, siehe orbit_arbeitsweise.json. (2) Affekt im Werk — emotionale Grammatik in Foto/Film/Mode, wenn ein Output Gefühl trägt. Nicht jedes Werk ist «über» Borderline/ADHS — aber jedes ORBIT-Arbeiten geht von jemandem aus, der damit lebt.",
+
+  "ausgangspunkt_hinweis": {
+    "statement": "Borderline, ADHS, Dissoziation, Sucht sind hier primär Werkzeug-Beschreibungen für Output-Grammatik — die Begründung WARUM ORBIT so strukturiert ist, steht in orbit_arbeitsweise.json.",
+    "regel": "Affekt-IDs in einem Werk benennen, wenn das Werk diese Stimmung trägt — nicht, um die Diagnose des Macher:in zu outen.",
+    "file": "orbit_arbeitsweise.json → ausgangspunkt"
+  },
+
+  "ethik_rahmen": {
+    "rule": "Diagnose ist Ausgangspunkt der Arbeit, nicht Pflicht-Thema. Kein Künstler:in wird pathologisiert; keine Selbstverletzung romantisiert. Öffentliche Nennung der eigenen Diagnose nur wenn gewollt.",
+    "borderline_hinweis": "Borderline erklärt warum ORBIT Spannung ohne Mittelweg und externe Struktur braucht — in Werken optional als Spaltungs-Operator, nicht als DSM-Label.",
+    "forbidden_global": [
+      "trauma-porn",
+      "self-harm-ästhetik",
+      "BPD als Beleidigung oder Meme",
+      "Rassismus als Stil-Dekor ohne Konfrontation",
+      "Sucht romantisieren",
+      "psychiatrisierte Personen outen oder diagnostizieren"
+    ],
+    "litmus": "Trägt das Werk die Wunde — oder konsumiert es Leid als Look?"
+  },
+
+  "borderline_als_operator": {
+    "label": "Borderline als Persönlichkeits-Operator",
+    "ebene": "werk_optional — arbeitsweise siehe orbit_arbeitsweise.json → ausgangspunkt.borderline",
+    "definition": "Extreme emotional reactivity, split perception, fear of abandonment, unstable self-image — im Werk: alles oder nichts, Nähe und Riss im selben Frame. Als Arbeitsgrund: ORBIT braucht Achsen, Ritual und Checklists.",
+    "orbit_meaning": "ORBIT lebt auf der Spannungsachse Bleak × Subversive Joy — im Werk Spannung als Feature. Als System: keine glatte Produktivität, sondern Rahmen für jemanden mit BPD-Nähe.",
+    "operators": [
+      "split-perception",
+      "idealization-devaluation-cycle",
+      "abandonment-fear-as-composition",
+      "identity-flux",
+      "emotional-lability-as-rhythm",
+      "impuls-within-ritual-frame"
+    ],
+    "kunst_prinzipien_link": ["katharsis", "subversion", "synaesthesie", "gesamtwerk"],
+    "medium_expression": {
+      "fotografie": "SW-Split: harte Kontrastkante; Porträt das liebt und zurückstößt; Aftermath — Nähe nach dem Riss",
+      "film": "Schnitt zwischen Ekstase und Leere; POV-Wechsel; Kamera die näher kommt und sich entzieht",
+      "mode": "Leder/Haut als zweite Haut; Bandagen; All-Black als Panzer; plötzlicher Color-Break als Impuls"
+    },
+    "orbit_exemplars": [
+      "Lolsnake × Marquardt — vulnerable post-set, almost fragile",
+      "Bleak × Subversive Joy tension axis",
+      "Heartbroken — emotional ohne dancefloor, Opernhaus-Intensität",
+      "Berghain door — Nähe verweigert / Nähe gewährt"
+    ],
+    "referenz_korpus": [
+      { "name": "Nan Goldin", "medium": "fotografie", "work": "The Ballad of Sexual Dependency", "signal": "intimacy-addiction-loss-cycle; raw domestic" },
+      { "name": "Larry Clark / Harmony Korine", "medium": "film", "work": "Kids; Gummo", "signal": "youth-impulsivity; no-hold" },
+      { "name": "Gaspar Noé", "medium": "film", "work": "Enter the Void; Climax", "signal": "dissociation-neon-transcendence; addiction-loop" },
+      { "name": "Lars von Trier", "medium": "film", "work": "Antichrist; Melancholia", "signal": "grief-rage-split; depression-as-landscape" },
+      { "name": "Ren Hang", "medium": "fotografie", "work": "Bodies in isolation", "signal": "body-intimacy-exclusion; raw tenderness" },
+      { "name": "Juergen Teller", "medium": "fotografie", "work": "Go-Sees; Marc Jacobs campaigns", "signal": "unflattering-truth; fashion-without-gloss" }
+    ]
+  },
+
+  "hauptgefuehle": {
+    "description": "Primäre Affekte — jedes Gefühl hat Signale in Foto, Film, Mode und Musik",
+    "gefuehle": {
+      "sucht": {
+        "label": "Sucht",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.sucht",
+        "definition": "Compulsion loop — Wiederholung ohne Sättigung; Nacht als Rückkehrzwang.",
+        "operators": ["loop", "compulsion", "aftermath", "never-enough", "ritual-without-exit"],
+        "fotografie": ["aftermath-mood", "repeated-portrait-series", "grain-as-hangover", "same-face-different-night"],
+        "film": ["hypnotic-loop", "single-location-obsession", "Christiane F. tone", "no-closure-ending"],
+        "mode": ["uniform-as-addiction", "all-black-repeat", "leather-second-skin", "same-silhouette-variation"],
+        "musik": ["hypnotic", "ORBIT FLOW compulsion", "SYSTEM repetitive peak"],
+        "orbit_signals": ["Berghain regular decade+", "Panorama Bar reduced groove loop", "ORBIT ARCHIV — sammeln ohne Sortieren"],
+        "referenzen": ["Nan Goldin", "Requiem for a Dream", "Enter the Void", "Berlin Bouncer — door as fix"],
+        "forbidden": ["party-promo", "yolo-aesthetic", "glamorized binge"]
+      },
+      "adhs": {
+        "label": "ADHS",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.adhs",
+        "definition": "Hyperfokus ↔ Zerstreuung — der Schnitt springt, das Auge findet zehn Anker gleichzeitig.",
+        "operators": ["fragment", "hyperfocus-cut", "scatter-then-lock", "impulse-frame", "parallel-attention"],
+        "fotografie": ["flash-portrait", "street-candid", "multiple-subjects-one-frame", "studioxnoire energy"],
+        "film": ["jump-cut", "boiler-room-berlin", "parallel-narrative", "Gummo fragment logic"],
+        "mode": ["layered-look", "accessory-overload-within-black", "weeeirdos flyer-maximal", "gender-fluid mix"],
+        "musik": ["BPM-shift within set", "leftfield-in-institution", "ethereal-dub ↔ straightforward techno"],
+        "orbit_signals": ["Lolsnake sonic range — maelstrom of textures", "WEEEIRDOS hybrid origins 2017"],
+        "referenzen": ["Harmony Korine", "Safdie Brothers (Heaven Knows What)", "Boiler Room Berlin 2023"],
+        "forbidden": ["ADHS as quirk-marketing", "scatter without intent"]
+      },
+      "dissoziation": {
+        "label": "Dissoziation",
+        "ebene": "werk_grammatik — arbeitsweise: orbit_arbeitsweise.json → ausgangspunkt.dissoziation",
+        "definition": "Körper anwesend, Geist woanders — schweben, abstumpfen, aus der Decke schauen.",
+        "operators": ["out-of-body-pov", "float", "numb-hyperreal", "temporal-slip", "voice-over-inner"],
+        "fotografie": ["negative-space-around-body", "blur-at-edges", "mirror-double", "daylight-not-flash uncanny"],
+        "film": ["floating-camera", "Enter the Void POV", "slow-or-hypnotic-cut", "diegetic-or-silent-with-sub", "red-filter dissociative"],
+        "mode": ["draping-as-cocoon", "sunglasses-indoor", "androgyn", "fabric-veil"],
+        "musik": ["ethereal-dub", "angelic-trance", "ORBIT MOMENT DEEP float", "reduced ambient between tracks"],
+        "orbit_signals": ["Säule red ceiling — room swallows body", "NACHTBLENDE immersive", "Heartbroken projection — self outside self"],
+        "referenzen": ["Enter the Void", "Safe (Todd Haynes)", "Climax", "Aphex Twin × Chris Cunningham"],
+        "forbidden": ["dissociation as cool-filter only", "out-of-body ohne emotional cost"]
+      },
+      "wut": {
+        "label": "Wut",
+        "definition": "Gefahr unter der Oberfläche — nicht Schreien, sondern gepresst; Leder, Beton, Industrial.",
+        "operators": ["compressed-rage", "surface-calm-violence-under", "industrial-texture", "rejection-as-weapon"],
+        "fotografie": ["high-contrast", "leather-darkwear", "gestellt-not-relaxed", "door/bouncer-pov"],
+        "film": ["Antichrist tone", "static-frame-tension", "industrial-techno-sync", "no-release-cut"],
+        "mode": ["leather", "hardware", "Rick Owens silhouette", "McQueen trauma tailoring", "techno-goth armor"],
+        "musik": ["metallic-techno", "SYSTEM DRIVING PUSH", "industrial-techno", "Luca Eck dystopian"],
+        "orbit_signals": ["institutional door ritual", "Disturbing Beauty", "Berghain rejection narrative", "Pour Cet Instant — Anpassung als Verzicht"],
+        "referenzen": ["Alexander McQueen", "Rick Owens", "Antichrist", "Luca Eck / Trauma Bar", "Berlin Bouncer"],
+        "forbidden": ["rage-as-edgelord", "violence aestheticized without context"]
+      },
+      "einsamkeit": {
+        "label": "Einsamkeit",
+        "definition": "Allein in der Menge — oder allein nach der Menge; Leere die bleibt wenn der Bass stoppt.",
+        "operators": ["alone-in-crowd", "aftermath-solitude", "negative-space", "no-return-message"],
+        "fotografie": ["negative-space", "portrait-close solitary", "exhibition-doc empty room", "aftermath-of-party"],
+        "film": ["In the Mood for Love pace", "single-subject frame", "Berlin Bouncer — outside looking in", "slow walk home"],
+        "mode": ["all-black isolation", "oversized coat as shell", "no-eye-contact styling"],
+        "musik": ["ORBIT MOMENT DEEP intimate", "minor-key", "space-between-tracks", "non-dancefloor"],
+        "orbit_signals": ["aftermath post-set solitude", "negative-space grammar (gallery_photo)", "Pour Cet Instant — leerer Stuhl", "11+1 fleeting moments quote"],
+        "referenzen": ["Edward Hopper (painting)", "In the Mood for Love", "Lonely in the Rain (sonic ref)", "MAM Soutine/Rouault bleak", "Pour Cet Instant"],
+        "forbidden": ["loneliness as influencer-sad", "aesthetic solitude without weight"]
+      },
+      "ekstase": {
+        "label": "Ekstase",
+        "definition": "Außerhalb des Körpers durch Körper — Nacht als Auflösung; nicht Euphorie-Pop, sondern institutionelle Trance.",
+        "operators": ["trance", "body-dissolve-in-beat", "red-light-transcendence", "hours-not-minutes"],
+        "fotografie": ["red-filter-video", "blur-in-motion restrained", "Säule monochrome hue"],
+        "film": ["hypnotic-cut", "boiler-room-berlin", "Climax single-take descent", "immersive-install loop"],
+        "mode": ["open-dress-code", "techno-goth transcendence", "sweat-as-material", "bold-color-accent peak"],
+        "musik": ["angelic-trance", "hypnotic-magnetic-heady", "ORBIT CORE institutional trance", "SYSTEM WIRED"],
+        "orbit_signals": ["Säule red sync", "Panorama Bar groove dissolve", "subversive_joy pole"],
+        "referenzen": ["Climax", "Paris Is Burning — ballroom ecstasy", "Boiler Room Berlin 2023", "Khidi immersive"],
+        "forbidden": ["festival-bro euphoria", "euphoric-pop", "EDM-hands-up"]
+      },
+      "lust": {
+        "label": "Lust",
+        "definition": "Verlangen ohne Pornografie — Haut, Leder, Nähe, Blick; Körper als Subjekt nicht Ware.",
+        "operators": ["desire-as-tension", "skin-material", "proximity-not-exposure", "queer-gaze"],
+        "fotografie": ["portrait-close", "body-as-subject", "true-essence-portrait", "leather-texture"],
+        "film": ["Intimacy (Chéreau) tone", "slow touch not explicit", "queer-portrait doc"],
+        "mode": ["leather", "bandage-top", "gender-fluid", "avant-garde-draping", "skin visible with agency"],
+        "musik": ["vocal-as-body", "deep house warmth", "ORBIT FLOW sensual reduced"],
+        "orbit_signals": ["body-as-subject portrait", "aftermath uncanny", "Stageless/Rudel line", "Modigliani presence (MAM)"],
+        "referenzen": ["Nan Goldin intimacy", "Ren Hang", "Tom of Finland (graphic ref)", "Willy Chavarria body politics"],
+        "forbidden": ["objectification", "influencer-thirst", "pornographic framing"]
+      },
+      "ohnmacht": {
+        "label": "Ohnmacht",
+        "definition": "Macht asymmetrisch — Tür, Institution, Rassismus, kein Halt; der Körper kann nichts erzwingen.",
+        "operators": ["door-rejected", "institutional-power", "helpless-gaze", "wait-outside", "system-over-individual"],
+        "fotografie": ["door/bouncer-pov", "subject below camera", "concrete-over-human", "exclusion-frame"],
+        "film": ["Berlin Bouncer", "static humiliation without melodrama", "institutional-camera-distance", "no-happy-resolution"],
+        "mode": ["uniform imposed", "dress-code-as-gate", "all-black not chosen but required"],
+        "musik": ["reduced helpless", "dubby powerless", "silence-as-composition"],
+        "orbit_signals": ["Berghain Selection", "Normal Selection Säule", "Request-Adresse — permission required"],
+        "referenzen": ["Berlin Bouncer doc", "Paris Is Burning — rejection", "Dana Lixenberg Imperial Courts"],
+        "forbidden": ["ohnmacht als cool-door-mystique ohne Kritik", "Gatekeeping romantisieren"]
+      }
+    }
+  },
+
+  "struktur_defizite": {
+    "description": "Bindungs- und Haltelosigkeit als ästhetische Grundstruktur — nicht biografisch behaupten, sondern als Bildlogik",
+    "defizite": {
+      "keine_mutter_kein_halt": {
+        "label": "Keine Mutter / kein Halt",
+        "definition": "Fehlende containment — niemand fängt auf; Beton statt Polster; Institution ersetzt Familie schlecht.",
+        "operators": ["concrete-not-fabric", "institution-as-surrogate-parent", "no-soft-landing", "orphan-architecture"],
+        "fotografie": ["concrete-pillar", "industrial-space", "hard-light", "child-adult-in-same-frame (Stageless)"],
+        "film": ["institutional hall", "Felsenreitschule scale without warmth", "Grey Gardens decay"],
+        "mode": ["hard-material", "leather-not-wool", "armor-not-embrace", "denim raw edge G-Star"],
+        "orbit_signals": ["Berghain as home-not-home", "Galerie as cold container", "Säule concrete pillars"],
+        "referenzen": ["Grey Gardens", "G-Star RAW 11+1", "Berghain architecture", "Deichtorhallen industrial"],
+        "kunst_prinzipien_link": ["ritual", "leere", "transzendenz"]
+      },
+      "allein_sein": {
+        "label": "Allein sein",
+        "definition": "Default-Zustand — Community ist temporär (Nacht), danach wieder allein.",
+        "operators": ["solo-portrait", "aftermath", "no-crowd-in-frame", "walk-home"],
+        "medium_binding": {
+          "fotografie": "single subject negative space",
+          "film": "last person leaving frame",
+          "mode": "one look no entourage"
+        },
+        "orbit_exemplars": ["gallery_photo portrait grammar", "aftermath post-set", "Heartbroken solitary EP character", "Pour Cet Instant — Körper vor Idee"],
+        "kunst_prinzipien_link": ["katharsis", "leere", "koerper"]
+      },
+      "rassismus_ausgrenzung": {
+        "label": "Rassismus / Ausgrenzung",
+        "definition": "Wer nicht passt, bleibt draußen — Tür, Stadt, Szene, Modeindustrie. ORBIT antwortet mit Platform-Logik, nicht mit Diversity-Washing.",
+        "operators": ["door-as-border", "underrepresented-groups-platform", "visibility-as-politics", "exclusion-made-visible"],
+        "fotografie": ["Deana Lawson staged Black intimacy", "Dana Lixenberg Imperial Courts", "street-scouted not cast", "11+1 scouted talents"],
+        "film": ["Paris Is Burning", "Tangerine", "Moonlight", "Berlin Bouncer — who gets in"],
+        "mode": ["Willy Chavarria identity politics", "Hood By Air", "Martine Rose", "WEEEIRDOS underrepresented platform", "rukhglobal"],
+        "orbit_signals": [
+          "WEEEIRDOS: emerging local artists from underrepresented groups",
+          "Säule as stepping-off point",
+          "Khidi queer platform Tbilisi",
+          "Normal Selection — vibe + audience balance (critique gatekeeping)"
+        ],
+        "referenzen": [
+          { "name": "Paris Is Burning", "medium": "film", "signal": "ballroom-exclusion-community" },
+          { "name": "Deana Lawson", "medium": "fotografie", "signal": "Black-staged-intimacy" },
+          { "name": "Willy Chavarria", "medium": "mode", "handle": "willychavarria", "signal": "identity-luxury-street" },
+          { "name": "Jennie Livingston", "medium": "film", "signal": "queer-of-color-archive" },
+          { "name": "rukhglobal", "medium": "mode", "handle": "rukhglobal", "signal": "berlin-global-fashion-bridge" }
+        ],
+        "kunst_prinzipien_link": ["subversion", "ritual", "koerper"],
+        "forbidden": ["rainbow-washing", "tokenism", "exclusion-as-mystique", "white-default-cast"]
+      }
+    }
+  },
+
+  "medium_matrix": {
+    "description": "Foto × Film × Mode — gemeinsame Affekt-Grammatik",
+    "fotografie": {
+      "role": "Stillstand des Affekts — der Moment nach dem Impuls",
+      "grammar": ["analog-bw", "high-contrast", "portrait-close", "negative-space", "aftermath", "grain", "daylight-not-flash", "raw-unfiltered"],
+      "lead_gefuehle": ["einsamkeit", "katharsis", "lust", "ohnmacht"],
+      "orbit_anchors": ["Pour Cet Instant (eigen)", "gallery_photo-Cluster", "MAM École de Paris", "mischa.fanghaenel", "ingegrognard"],
+      "extern_korpus": ["Nan Goldin", "Wolfgang Tillmans", "Dana Lixenberg", "Deana Lawson", "Juergen Teller", "Ren Hang", "Larry Fink"]
+    },
+    "film": {
+      "role": "Affekt in Zeit — Schnitt als emotionaler Rhythmus (Borderline/ADHS-Logik)",
+      "grammar": ["grain", "slow-or-hypnotic-cut", "hypnotic-cut", "raw/honest", "institutional-camera-distance", "diegetic-or-silent", "red-filter", "boiler-room-berlin"],
+      "lead_gefuehle": ["dissoziation", "sucht", "ekstase", "adhs"],
+      "orbit_anchors": ["Pour Cet Instant", "ARTHAUS kein_happy_end", "Berlin Bouncer", "NACHTBLENDE", "MAM de Chirico/Richter spaltung"],
+      "extern_korpus": ["Enter the Void", "Climax", "Christiane F.", "Paris Is Burning", "Safe", "Antichrist", "In the Mood for Love", "Gummo", "Requiem for a Dream"]
+    },
+    "mode": {
+      "role": "Haut nach außen — Panzer, Verlangen, Uniform, Identität",
+      "grammar": ["leather", "all-black", "techno-goth", "gender-fluid", "oversized-tailoring", "bandage-top", "raw-denim", "avant-garde-draping"],
+      "lead_gefuehle": ["wut", "lust", "subversion", "ohnmacht"],
+      "orbit_anchors": ["willychavarria", "voostore", "platte.berlin", "richertbeil", "hannibalstore", "iamlucaeck", "weeeirdos"],
+      "extern_korpus": ["Alexander McQueen", "Rick Owens", "Hood By Air", "Martine Rose", "Gareth Pugh", "Yohji Yamamoto", "G-Star RAW"]
+    },
+    "cross_medium_rules": [
+      "Foto stillt, Film bewegt, Mode berührt — ein Affekt, drei Geschwindigkeiten",
+      "SW-Foto + Color-Mode-Akzent = Borderline-Split erlaubt (bleak × subversive_joy — weave sauele oder Pour Cet Instant grey×red)",
+      "Film-Schnitt folgt ADHS-Logik nur wenn Dissoziation oder Ekstase Lead-Affekt ist",
+      "Mode-Leder verbindet Wut + Lust + Ohnmacht — Material ist Affekt",
+      "Aftermath ist Foto-Default; Ekstase ist Film-Default; Panzer ist Mode-Default"
+    ]
+  },
+
+  "affekt_kombinationen": {
+    "description": "Typische ORBIT-Affekt-Bündel — mindestens 2 Gefühle + 1 Strukturdefizit",
+    "aftermath_portrait": {
+      "gefuehle": ["einsamkeit", "katharsis", "sucht"],
+      "defizit": "allein_sein",
+      "media": ["fotografie", "film"],
+      "exemplar": "Lolsnake × Marquardt Metal Mag"
+    },
+    "door_ohnmacht": {
+      "gefuehle": ["ohnmacht", "wut", "einsamkeit"],
+      "defizit": "rassismus_ausgrenzung",
+      "media": ["film", "fotografie"],
+      "exemplar": "Berlin Bouncer + WEEEIRDOS platform response"
+    },
+    "club_dissociation": {
+      "gefuehle": ["dissoziation", "ekstase", "sucht"],
+      "defizit": "keine_mutter_kein_halt",
+      "media": ["film", "mode", "musik"],
+      "exemplar": "Säule red immersive + Enter the Void grammar"
+    },
+    "heartbroken_intensity": {
+      "gefuehle": ["einsamkeit", "wut", "ekstase", "ohnmacht"],
+      "defizit": "keine_mutter_kein_halt",
+      "media": ["film", "fotografie", "musik", "mode"],
+      "exemplar": "heartbroken_wagner"
+    },
+    "queer_subversive_joy": {
+      "gefuehle": ["ekstase", "lust", "wut"],
+      "defizit": "rassismus_ausgrenzung",
+      "media": ["mode", "film", "fotografie"],
+      "exemplar": "marquardt_sauele_weeeirdos"
+    },
+    "hyperfocus_fragment": {
+      "gefuehle": ["adhs", "ekstase", "lust"],
+      "media": ["film", "mode"],
+      "exemplar": "WEEEIRDOS flyer-maximal + Boiler Room cut"
+    }
+  },
+
+  "referenz_korpus_erweitert": {
+    "description": "Quellen außerhalb Berlin-Batch-01 — nach Affekt-Nähe sortiert, für Sammelphase",
+    "fotografie": [
+      { "name": "Nan Goldin", "affekt": ["sucht", "lust", "einsamkeit"], "work": "Ballad of Sexual Dependency" },
+      { "name": "Wolfgang Tillmans", "affekt": ["einsamkeit", "lust", "adhs"], "work": "Berlin nightlife; Freischwimmer" },
+      { "name": "Dana Lixenberg", "affekt": ["ohnmacht", "einsamkeit"], "work": "Imperial Courts" },
+      { "name": "Deana Lawson", "affekt": ["lust", "rassismus_ausgrenzung"], "work": "Staged Black domestic sacred" },
+      { "name": "Juergen Teller", "affekt": ["adhs", "wut"], "work": "Go-Sees; raw fashion" },
+      { "name": "Ren Hang", "affekt": ["lust", "einsamkeit"], "work": "Bodies; isolation intimacy" },
+      { "name": "Sally Mann", "affekt": ["keine_mutter_kein_halt"], "work": "Immediate Family" },
+      { "name": "Larry Fink", "affekt": ["ekstase", "sucht"], "work": "Social Graces; boxing clubs" }
+    ],
+    "film": [
+      { "name": "Gaspar Noé", "affekt": ["dissoziation", "sucht", "ekstase"], "work": "Enter the Void; Climax; Irreversible" },
+      { "name": "Jennie Livingston", "affekt": ["rassismus_ausgrenzung", "ekstase"], "work": "Paris Is Burning" },
+      { "name": "Todd Haynes", "affekt": ["dissoziation", "ohnmacht"], "work": "Safe" },
+      { "name": "Lars von Trier", "affekt": ["wut", "einsamkeit"], "work": "Antichrist; Melancholia" },
+      { "name": "Harmony Korine", "affekt": ["adhs", "keine_mutter_kein_halt"], "work": "Gummo; Spring Breakers" },
+      { "name": "Wong Kar-wai", "affekt": ["einsamkeit", "lust"], "work": "In the Mood for Love" },
+      { "name": "Ulrich Seidl", "affekt": ["ohnmacht", "sucht"], "work": "Paradise trilogy" },
+      { "name": "Christiane F.", "affekt": ["sucht", "keine_mutter_kein_halt"], "work": "Wir Kinder vom Bahnhof Zoo" }
+    ],
+    "mode": [
+      { "name": "Alexander McQueen", "affekt": ["wut", "katharsis"], "work": "Trauma tailoring; VOSS" },
+      { "name": "Rick Owens", "affekt": ["wut", "leere"], "work": "Dark draping; body armor" },
+      { "name": "Hood By Air", "affekt": ["rassismus_ausgrenzung", "subversion"], "work": "Queer Black avant-garde" },
+      { "name": "Martine Rose", "affekt": ["adhs", "subversion"], "work": "Club-to-runway fragment" },
+      { "name": "Willy Chavarria", "affekt": ["rassismus_ausgrenzung", "lust"], "handle": "willychavarria", "orbit_proximity": 84 },
+      { "name": "Gareth Pugh", "affekt": ["wut", "ekstase"], "work": "Sculptural dark" },
+      { "name": "Yohji Yamamoto", "affekt": ["leere", "einsamkeit"], "work": "Black void silhouette" }
+    ],
+    "literatur_theorie": [
+      { "name": "Julia Kristeva", "concept": "abject", "affekt": ["wut", "lust", "ohnmacht"] },
+      { "name": "Georges Bataille", "concept": "excess-transgression", "affekt": ["ekstase", "lust"] },
+      { "name": "Kimberlé Crenshaw", "concept": "intersectionality", "affekt": ["rassismus_ausgrenzung"] }
+    ]
+  },
+
+  "referenz_plattformen": {
+    "film": {
+      "arthaus": {
+        "file": "orbit_referenz_arthaus.json",
+        "url": "https://www.arthaus.de",
+        "label": "ARTHAUS — Besondere Filme (StudioCanal)",
+        "orbit_rolle": "Film-Identität + curator voice: arthaus_prinzipien (12 Operatoren)",
+        "affekt_lead": ["einsamkeit", "sucht", "dissoziation", "ohnmacht"],
+        "prinzipien_kern": ["besonderer_film", "kein_happy_end", "playlist_danach", "sorgsame_kuration", "geschichte_statt_hype"]
+      }
+    }
+  },
+
+  "integration": {
+    "kunst_prinzipien_map": {
+      "katharsis": ["sucht", "einsamkeit", "wut", "ohnmacht"],
+      "subversion": ["rassismus_ausgrenzung", "ekstase", "lust"],
+      "transzendenz": ["ekstase", "dissoziation"],
+      "synaesthesie": ["ekstase", "adhs", "sucht"],
+      "leere": ["einsamkeit", "ohnmacht", "keine_mutter_kein_halt"],
+      "koerper": ["lust", "wut", "dissoziation"],
+      "ritual": ["sucht", "ohnmacht", "ekstase"],
+      "gesamtwerk": ["heartbroken_intensity", "club_dissociation"]
+    },
+    "completion_checklist_affekt": [
+      "Welche 2+ Hauptgefühle sind aktiv?",
+      "Welches Strukturdefizit trägt die Komposition (Halt, Allein, Ausgrenzung)?",
+      "Foto/Film/Mode: gleicher Affekt, unterschiedliche Geschwindigkeit?",
+      "Borderline-Operator: Spannung ohne Mittelweg — oder glatt geworden?",
+      "Ethik: kein Trauma-Porn, kein BPD-Stigma, kein Gatekeeping-Romanticizing?",
+      "Affekt-Kombination benannt? (affekt_kombinationen)"
+    ],
+    "sammelphase_fields": {
+      "note": "Für berlin_club_gallery_profiles (Batch 01) und neue Referenzen — Operator-Tag, nicht Person-Score",
+      "columns_to_add": ["affekt_primary", "affekt_secondary", "struktur_defizit", "medium_lead"],
+      "example_row": "handle,name,...,affekt_primary=einsamkeit;lust,affekt_secondary=sucht,struktur_defizit=allein_sein,medium_lead=fotografie"
+    }
+  }
+}

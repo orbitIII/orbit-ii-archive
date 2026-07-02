@@ -1,0 +1,367 @@
+{
+  "source_xml": "/Users/alanwillson/Documents/rekordbox/CueConv/Export Log 6.8.1.0042 2026-06-05.xml",
+  "playlist_name": "DRIVING FLOW",
+  "exact_flow_playlist": false,
+  "profile": {
+    "track_count": 75,
+    "bpm": {
+      "min": 120.0,
+      "max": 136.0,
+      "mean": 127.18,
+      "median": 127.0,
+      "stdev": 2.85,
+      "p10": 124.0,
+      "p90": 130.02
+    },
+    "keys_top10": [
+      [
+        "Abm",
+        11
+      ],
+      [
+        "Am",
+        9
+      ],
+      [
+        "Gm",
+        6
+      ],
+      [
+        "Bbm",
+        6
+      ],
+      [
+        "Cm",
+        6
+      ],
+      [
+        "Dm",
+        4
+      ],
+      [
+        "A",
+        4
+      ],
+      [
+        "E",
+        4
+      ],
+      [
+        "F#m",
+        3
+      ],
+      [
+        "Dbm",
+        3
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Tech House",
+        14
+      ],
+      [
+        "Minimal",
+        14
+      ],
+      [
+        "House",
+        12
+      ],
+      [
+        "Minimal / Deep Tech",
+        12
+      ],
+      [
+        "Deep House",
+        10
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        5
+      ],
+      [
+        "Techno (Peak Time / Driving)",
+        4
+      ],
+      [
+        "Techno",
+        2
+      ],
+      [
+        "Electronica",
+        1
+      ],
+      [
+        "Minimal  Deep Tech",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Markus Suckut",
+        3
+      ],
+      [
+        "Youandewan",
+        2
+      ],
+      [
+        "Silverlining",
+        2
+      ],
+      [
+        "Wax",
+        2
+      ],
+      [
+        "Delano Smith, Brawther, D&B Productions",
+        2
+      ],
+      [
+        "Satoshi Tomiie",
+        2
+      ],
+      [
+        "Silat Beksi",
+        2
+      ],
+      [
+        "D'Julz",
+        2
+      ],
+      [
+        "Marco Carola",
+        2
+      ],
+      [
+        "Skudge",
+        2
+      ],
+      [
+        "Porter",
+        1
+      ],
+      [
+        "Black Jazz Consortium",
+        1
+      ],
+      [
+        "Kolter",
+        1
+      ],
+      [
+        "A1 Blind Box",
+        1
+      ],
+      [
+        "Disk",
+        1
+      ],
+      [
+        "Omni A.M.",
+        1
+      ],
+      [
+        "Mike Starr",
+        1
+      ],
+      [
+        "Terry Lee Brown Junior",
+        1
+      ],
+      [
+        "Red Pig Flower",
+        1
+      ],
+      [
+        "Malin Genie, Frits Wentink",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Phonogramme",
+        4
+      ],
+      [
+        "Sushitech",
+        3
+      ],
+      [
+        "Syncrophone",
+        3
+      ],
+      [
+        "Repeat",
+        3
+      ],
+      [
+        "Certain Circles",
+        2
+      ],
+      [
+        "Berg Audio",
+        2
+      ],
+      [
+        "SCKT",
+        2
+      ],
+      [
+        "Bobby Donny",
+        2
+      ],
+      [
+        "unknown",
+        2
+      ],
+      [
+        "Bass Culture Records",
+        2
+      ],
+      [
+        "De Vloer",
+        2
+      ],
+      [
+        "Rawax",
+        2
+      ],
+      [
+        "fabric Records (US)",
+        1
+      ],
+      [
+        "Blind Box Series",
+        1
+      ],
+      [
+        "Whiteloops",
+        1
+      ],
+      [
+        "Eclipser Chaser",
+        1
+      ],
+      [
+        "Euphoria Records",
+        1
+      ],
+      [
+        "Biotop",
+        1
+      ],
+      [
+        "Plastic City",
+        1
+      ],
+      [
+        "Silverlining Dubs",
+        1
+      ]
+    ],
+    "key_unique": 20,
+    "genre_unique": 10,
+    "artist_unique": 64,
+    "label_unique": 58
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 124.0,
+      "max": 130.02,
+      "weight": 0.3,
+      "description": "BPM between 124.0 and 130.02 (FLOW p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Tech House",
+        "Minimal",
+        "House",
+        "Minimal / Deep Tech",
+        "Deep House",
+        "Techno (Raw / Deep / Hypnotic)",
+        "Techno (Peak Time / Driving)",
+        "Techno"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent FLOW genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Abm",
+        "Am",
+        "Gm",
+        "Bbm",
+        "Cm",
+        "Dm",
+        "A",
+        "E"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent FLOW keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Phonogramme",
+        "Sushitech",
+        "Syncrophone",
+        "Repeat",
+        "Certain Circles",
+        "Berg Audio",
+        "SCKT",
+        "Bobby Donny",
+        "unknown",
+        "Bass Culture Records",
+        "De Vloer",
+        "Rawax",
+        "fabric Records (US)",
+        "Blind Box Series",
+        "Whiteloops"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent FLOW labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "A1 Blind Box",
+        "Black Jazz Consortium",
+        "D'Julz",
+        "Delano Smith, Brawther, D&B Productions",
+        "Disk",
+        "Kolter",
+        "Malin Genie, Frits Wentink",
+        "Marco Carola",
+        "Markus Suckut",
+        "Mike Starr",
+        "Omni A.M.",
+        "Porter",
+        "Red Pig Flower",
+        "Satoshi Tomiie",
+        "Silat Beksi",
+        "Silverlining",
+        "Skudge",
+        "Terry Lee Brown Junior",
+        "Wax",
+        "Youandewan"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 FLOW artists or exact match in corpus"
+    }
+  ]
+}

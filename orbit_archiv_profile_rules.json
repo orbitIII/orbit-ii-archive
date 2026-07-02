@@ -1,0 +1,378 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/archiv_snapshot.csv",
+  "playlist_name": "ORBIT ARCHIV",
+  "profile": {
+    "track_count": 202,
+    "bpm": {
+      "min": 120.0,
+      "max": 139.0,
+      "mean": 126.33,
+      "median": 126.0,
+      "stdev": 3.39,
+      "p10": 122.04,
+      "p90": 130.0
+    },
+    "keys_top10": [
+      [
+        "Am",
+        25
+      ],
+      [
+        "Gm",
+        22
+      ],
+      [
+        "Abm",
+        19
+      ],
+      [
+        "Fm",
+        18
+      ],
+      [
+        "F#m",
+        16
+      ],
+      [
+        "Ebm",
+        15
+      ],
+      [
+        "Em",
+        13
+      ],
+      [
+        "Dm",
+        12
+      ],
+      [
+        "Bbm",
+        10
+      ],
+      [
+        "Cm",
+        7
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Tech House",
+        60
+      ],
+      [
+        "House",
+        45
+      ],
+      [
+        "Minimal",
+        43
+      ],
+      [
+        "Deep House",
+        19
+      ],
+      [
+        "Techno",
+        10
+      ],
+      [
+        "Techno (Peak Time / Driving)",
+        6
+      ],
+      [
+        "Indie Dance",
+        6
+      ],
+      [
+        "Techno (Raw / Deep / Hypnotic)",
+        5
+      ],
+      [
+        "Minimal / Deep Tech",
+        3
+      ],
+      [
+        "Techno (Peak Time / Driving / Hard)",
+        2
+      ],
+      [
+        "Leftfield House & Techno",
+        1
+      ],
+      [
+        "Minimal  Deep Tech",
+        1
+      ],
+      [
+        "Trance (Raw / Deep / Hypnotic)",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "iO (Mulen)",
+        5
+      ],
+      [
+        "Pola",
+        4
+      ],
+      [
+        "Anton Kubikov",
+        3
+      ],
+      [
+        "Mathias Kaden",
+        3
+      ],
+      [
+        "Subb-an",
+        3
+      ],
+      [
+        "WALKER",
+        3
+      ],
+      [
+        "Unknown Artist",
+        3
+      ],
+      [
+        "Baku",
+        2
+      ],
+      [
+        "Oshana",
+        2
+      ],
+      [
+        "Varhat",
+        2
+      ],
+      [
+        "Los Hermanos",
+        2
+      ],
+      [
+        "Mark Broom",
+        2
+      ],
+      [
+        "Markus Suckut",
+        2
+      ],
+      [
+        "Moodena, Charles Levine",
+        2
+      ],
+      [
+        "NDA, Bryan Kessler, Ennio",
+        2
+      ],
+      [
+        "Nicola Cruz",
+        2
+      ],
+      [
+        "Phil Asher & James Massiah",
+        2
+      ],
+      [
+        "Soul Of Hex",
+        2
+      ],
+      [
+        "Soul of Hex",
+        2
+      ],
+      [
+        "Spencer Parker",
+        2
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Rekids",
+        20
+      ],
+      [
+        "Fabric",
+        19
+      ],
+      [
+        "All Inn",
+        6
+      ],
+      [
+        "Rawax",
+        5
+      ],
+      [
+        "Purple Print",
+        5
+      ],
+      [
+        "Certain Circles",
+        5
+      ],
+      [
+        "AE Recordings",
+        4
+      ],
+      [
+        "Holding Hands Records",
+        4
+      ],
+      [
+        "HOWL Label",
+        3
+      ],
+      [
+        "Kalahari Oyster Cult",
+        3
+      ],
+      [
+        "Repeat",
+        3
+      ],
+      [
+        "Blind Box Series",
+        3
+      ],
+      [
+        "Echocentric Records",
+        3
+      ],
+      [
+        "Baku",
+        2
+      ],
+      [
+        "BodyParts Vinyl",
+        2
+      ],
+      [
+        "Howl",
+        2
+      ],
+      [
+        "Mulen",
+        2
+      ],
+      [
+        "Mentor Records",
+        2
+      ],
+      [
+        "Buto Bayang",
+        2
+      ],
+      [
+        "DFTD",
+        2
+      ]
+    ],
+    "key_unique": 23,
+    "genre_unique": 13,
+    "artist_unique": 161,
+    "label_unique": 110
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 122.04,
+      "max": 130.0,
+      "weight": 0.3,
+      "description": "BPM between 122.04 and 130.0 (ORBIT ARCHIV p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Tech House",
+        "House",
+        "Minimal",
+        "Deep House",
+        "Techno",
+        "Techno (Peak Time / Driving)",
+        "Indie Dance",
+        "Techno (Raw / Deep / Hypnotic)"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent ORBIT ARCHIV genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Am",
+        "Gm",
+        "Abm",
+        "Fm",
+        "F#m",
+        "Ebm",
+        "Em",
+        "Dm"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent ORBIT ARCHIV keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Rekids",
+        "Fabric",
+        "All Inn",
+        "Rawax",
+        "Purple Print",
+        "Certain Circles",
+        "AE Recordings",
+        "Holding Hands Records",
+        "HOWL Label",
+        "Kalahari Oyster Cult",
+        "Repeat",
+        "Blind Box Series",
+        "Echocentric Records",
+        "Baku",
+        "BodyParts Vinyl"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent ORBIT ARCHIV labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Anton Kubikov",
+        "Baku",
+        "Los Hermanos",
+        "Mark Broom",
+        "Markus Suckut",
+        "Mathias Kaden",
+        "Moodena, Charles Levine",
+        "NDA, Bryan Kessler, Ennio",
+        "Nicola Cruz",
+        "Oshana",
+        "Phil Asher & James Massiah",
+        "Pola",
+        "Soul Of Hex",
+        "Soul of Hex",
+        "Spencer Parker",
+        "Subb-an",
+        "Unknown Artist",
+        "Varhat",
+        "WALKER",
+        "iO (Mulen)"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 ORBIT ARCHIV artists or exact match in corpus"
+    }
+  ]
+}

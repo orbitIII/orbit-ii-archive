@@ -1,0 +1,851 @@
+{
+  "version": 5,
+  "name": "ORBIT",
+  "updated": "2026-06-28",
+  "mission": "ORBIT ist am Ende deine künstlerische Identität — Persona, Werkzeug, Grammatik für Kleidung, Stimme, Musik, Kunst, Foto und Film. Archiv und DNA sind der Weg dorthin.",
+  "endziel": "orbit_identitaet.json",
+  "affekt_prinzipien": "orbit_affekt_prinzipien.json",
+  "identitaet": "orbit_identitaet.json",
+  "verflechtungen": "orbit_verflechtungen.json",
+  "verflechtungen_deep": "orbit_verflechtungen_deep.json",
+  "extraktion": "orbit_extraktion.json",
+  "orbit_center": "orbit_identitaet.json",
+
+  "referenz_fundament": {
+    "description": "Fundament = Prinzipien + gleichgewichtige Referenz-Säulen + eigenes Werk als Ziel. Keine Person ist ORBIT.",
+    "mittelpunkt": {
+      "identitaet": "orbit_identitaet.json",
+      "werk": "orbit_werk_pour_cet_instant.json",
+      "regel": "Du und dein Werk — Referenz dient der Destillation, nicht der Persona"
+    },
+    "saeulen": {
+      "berlin_club_gallery": {
+        "label": "Berlin — Club × Galerie",
+        "gewicht": "gleich",
+        "spatial_anchor": "Berlin",
+        "scan_batch": "ref_scan_berlin_club_gallery_01",
+        "entry_node": "svenmarquardt",
+        "entry_node_role": "Kartografier-Einstieg in Batch 01 — ein Knoten im Cluster gallery_photo, nicht DNA-Mittelpunkt",
+        "clusters": ["gallery_photo", "club_techno", "art_club"],
+        "files": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json", "orbit_verflechtungen.json", "orbit_verflechtungen_deep.json"]
+      },
+      "paris_moderne": {
+        "label": "Paris — Moderne & zeitgenössische Kunst",
+        "gewicht": "gleich",
+        "spatial_anchor": "Paris",
+        "file": "orbit_referenz_mam_paris.json",
+        "prinzipien": "mam_prinzipien"
+      },
+      "film_arthaus": {
+        "label": "Film — Arthouse / Kuration",
+        "gewicht": "gleich",
+        "file": "orbit_referenz_arthaus.json",
+        "prinzipien": "arthaus_prinzipien"
+      },
+      "eigenes_werk": {
+        "label": "Eigenes Werk",
+        "gewicht": "führend_bei_output",
+        "file": "orbit_werk_pour_cet_instant.json",
+        "regel": "Jede Referenz-Säule filtert durch identitaet_profil + dieses Werk — nicht umgekehrt"
+      }
+    },
+    "regel": "Marquardt = Berlin-Batch-01-Einstieg + gallery_photo-Cluster. MAM = Paris-Säule. Beides Operatoren — keine Helden.",
+    "tiefenanalyse": "orbit_fundament.json"
+  },
+
+  "reference_scan": {
+    "batch": "ref_scan_berlin_club_gallery_01",
+    "saeule": "berlin_club_gallery",
+    "entry_node": "svenmarquardt",
+    "role": "Erster Kartografier-Punkt in Batch 01 — dokumentierte Verflechtung, nicht ORBIT-Mittelpunkt (siehe referenz_fundament)"
+  },
+
+  "core_dna": {
+    "essence": "Nacht als Kunstform zwischen Club, Galerie, Mode und Film — analog, intim, institutionell-unterground. Berlin × Paris × eigenes Werk — nie glatt, nie mainstream.",
+    "origin": "Mehrere Wurzeln gleichgewichtig: Berlin Club/Galerie-Scan (Batch 01), Paris MAM (Moderne), ARTHAUS (Film), Pour Cet Instant (eigenes Werk) — nicht eine Person, nicht ein Stadt-Mythos allein",
+    "tension_axis": {
+      "label": "Bleak × Subversive Joy",
+      "pole_a": { "mood": "bleak", "visual": "analog-bw", "reference": "gallery_photo_cluster", "examples": ["svenmarquardt", "lars_murasch", "studioxnoire", "Rouault/Soutine (MAM)"] },
+      "pole_b": { "mood": "subversive-joy", "visual": "bold-color-accent", "reference": "weeeirdos" },
+      "bridge": {
+        "orbit_position": "bridge",
+        "rule": "Spannung zwischen Polen — mehrere Brücken gleichwertig, kein Default-Weave",
+        "cross_saeule": [
+          { "id": "grey_red_schwelle", "saeulen": ["eigenes_werk", "paris_moderne"], "werk": "pour_cet_instant", "principles": ["schwelle", "spaltung", "metamorphose"] },
+          { "id": "berlin_queer_institution", "saeule": "berlin_club_gallery", "weave_id": "marquardt_sauele_weeeirdos", "principles": ["subversion", "synaesthesie"] },
+          { "id": "wagner_club_gesamtwerk", "weave_id": "heartbroken_wagner", "principles": ["gesamtwerk", "transzendenz"] },
+          { "id": "paris_mur_immersion", "saeulen": ["paris_moderne", "berlin_club_gallery"], "principles": ["mur_gesamtwerk", "gesamtwerk"] }
+        ],
+        "detail": "orbit_fundament.json → cross_saeule_bridges"
+      },
+      "secondary_axis": {
+        "label": "Institution × Gesamtwerk",
+        "reference": "heartbroken_wagner",
+        "rule": "Foto × Musik × Raum als eine Einheit — NACHTBLENDE / Heartbroken Modell"
+      },
+      "tertiary_axis": {
+        "label": "Queer × Heteronormativ",
+        "orbit_position": "bridge",
+        "pole_a": {
+          "label": "heteronormativ",
+          "signals": ["default-couple-narrative", "mainstream-relationship-script", "PFW-hetero-editorial", "happy-couple-frame", "normative-body-roles"],
+          "reference_scan": "gstar_voo_11plus1, fashion_pfw, commercial-portrait"
+        },
+        "pole_b": {
+          "label": "queer",
+          "signals": ["queer-platform", "subversive-joy", "non-norm-body", "community-voice", "explicit-deviation"],
+          "reference_scan": "weeeirdos, saeule_berlin, _lolsnake_, queer_art_bridge"
+        },
+        "bridge": {
+          "label": "zwischen den Polen",
+          "orbit_meaning": "ORBIT steht bewusst zwischen queer und heteronormativ — weder reine Norm, noch reine Subversion als Dekor. Abweichung und Nähe zur Norm dürfen coexistieren; Spannung ist Identität.",
+          "operators": ["between-poles", "norm-adjacent-not-normative", "queer-signal-without-rainbow-wash", "hetero-form-queer-feeling-or-inverse"],
+          "forbidden": ["rainbow-washing", "hetero-only-default", "queer-as-gimmick", "either-pole-as-total-identity"]
+        },
+        "rule": "Position ist Mitte — nicht Kompromiss, sondern bewusste Spannung zwischen den Regimen"
+      },
+      "rule": "Beide Pole dürfen im selben Gesamtwerk coexistieren — Spannung ist Feature, nicht Bug"
+    },
+    "mood_axes": {
+      "primary": ["intimate", "bleak", "staged", "underground", "institutional", "timeless"],
+      "secondary": ["conceptual", "immersive", "editorial", "reduced", "body-as-subject", "subversive-joy"],
+      "forbidden": ["euphoric-pop", "festival-bro", "clean-influencer", "bright-commercial", "ironic-meme"]
+    },
+    "visual_grammar": {
+      "palette": ["black", "grey", "analog-bw", "single-accent-red-or-leather"],
+      "palette_exceptions": {
+        "subversive_joy": ["bold-color-accent", "yin-yang-maximal", "queer-portrait"],
+        "when": "club_techno + art_club + queer-platform (weeeirdos, saeule_berlin)"
+      },
+      "texture": ["grain", "high-contrast", "daylight-not-flash", "material-leather-cotton-concrete"],
+      "composition": ["portrait-close", "negative-space", "exhibition-doc", "no-busy-layout"]
+    },
+    "spatial_anchors": ["Berlin", "Paris", "NYC", "Tbilisi"],
+    "tone_of_voice": {
+      "de": "präzise, düster-warm, ohne Hype. Kurze Sätze. Kein Marketing-Sprech.",
+      "en": "precise, bleak-warm, no hype. Short sentences. No brand-speak."
+    },
+    "litmus_question": "Fühlt sich das an wie eine Galerie-Nacht (Berlin oder Paris) — oder wie PFW-Front-Row / Festival / Influencer-Content?"
+  },
+
+  "kunst_prinzipien": {
+    "description": "Philosophische Operatoren — wie ORBIT Kunst denkt und wirkt, nicht nur wie sie aussieht. Gilt für alle Zweige; der Kunst-Zweig ist Lead, nicht alleiniger Träger.",
+    "rule": "Jedes Gesamtwerk aktiviert mindestens zwei kunst_prinzipien + Ethik-Check. Affekt im Werk optional. Arbeitsweise (orbit_arbeitsweise.json) gilt immer für den Macher. Master-Register: orbit_prinzipien_index.json.",
+    "master_index": "orbit_prinzipien_index.json",
+    "principles": {
+      "alchemie": {
+        "label": "Alchemie",
+        "definition": "Verwandlung des Alltäglichen in etwas Kostbares durch Konzentration, Material und Prozess — nicht durch Zugabe.",
+        "orbit_meaning": "Aus wenigen Elementen (SW, Grain, Beton, Bass, Leder, eine Akzentfarbe) entsteht Intensität. Club-Nacht als Labor; NACHTBLENDE als Reaktionskammer.",
+        "operators": ["reduktion", "material-transformation", "konzentration-statt-addition", "prozess-sichtbar"],
+        "branch_signals": {
+          "aesthetics": ["grain", "high-contrast", "material-leather-cotton-concrete", "single-accent"],
+          "music": ["reduced", "dubby", "hypnotic", "ORBIT MOMENT DEEP"],
+          "art": ["installation-spec", "licht-reaktion", "club-as-gallery"],
+          "film": ["slow-or-hypnotic-cut", "grain", "loop-as-ritual"],
+          "marketing": ["curator voice", "kein Feature-Overload"]
+        },
+        "exemplars": ["NACHTBLENDE", "Decoder Alchemy EP (Berghain-Press)", "Heartbroken — dubby Wagner reduction", "Yves Klein — IKB / Anthropométries (MAM)", "Pierre Soulages — outrenoir (MAM)"],
+        "forbidden": ["wellness-esoterik", "dekoratives Mystik-Overlay", "maximalismus ohne Substanz"]
+      },
+      "transzendenz": {
+        "label": "Transzendenz",
+        "definition": "Heraustreten aus dem Profanen — der Moment, in dem Nacht, Raum und Körper mehr sind als Unterhaltung.",
+        "orbit_meaning": "Galerie-Nacht und Klubnacht als Erfahrung jenseits des Alltags; nicht religiös, aber ernst. Heartbroken: Opernhaus-Skala trifft Club-Dunkelheit.",
+        "operators": ["scale-shift", "temporal-suspension", "beyond-dancefloor", "institutional-gravity"],
+        "branch_signals": {
+          "aesthetics": ["timeless", "institutional", "exhibition-doc", "negative-space"],
+          "music": ["non-dancefloor-allowed", "emotional-introspective", "ORBIT MOMENT DEEP"],
+          "art": ["interdisciplinary-live", "opera-adjacent", "immersive"],
+          "film": ["institutional-camera-distance", "slow", "projected-stills"],
+          "marketing": ["festival-bridge-narrative", "dual-credit — kein Side-Act"]
+        },
+        "exemplars": ["Heartbroken / Felsenreitschule", "Disturbing Beauty", "KHIDI Goethe-Institut Show", "Matisse — La Danse (MAM)", "Yves Klein — void ritual (MAM)"],
+        "forbidden": ["euphoric-pop", "festival-bro", "spiritual-bypassing", "kitschy-opera"]
+      },
+      "gesamtwerk": {
+        "label": "Gesamtwerk",
+        "definition": "Foto × Musik × Raum × Licht als eine unteilbare Erfahrung — kein Medium dominiert, alle tragen.",
+        "orbit_meaning": "ORBIT-Projekt ist erst vollständig bei sichtbarer Zweig-Verknüpfung. Wagner-Logik: Bühnenbild + Klang + Bild gleichwertig.",
+        "operators": ["cross-medium-binding", "simultaneous-perception", "equal-credit", "no-side-act"],
+        "branch_signals": {
+          "aesthetics": "visual_grammar als Master",
+          "music": "Soundtrack kontextgebunden — nicht generisch",
+          "art": "Raum führt oder co-führt",
+          "film": "Dokumentiert Prozess, nicht nur Ergebnis",
+          "marketing": "Netzwerk als Content — Credits sichtbar"
+        },
+        "exemplars": ["heartbroken_wagner", "NACHTBLENDE", "Dettmann × Marquardt × Murasch", "Dufy — La Fée Électricité (MAM)", "Delaunay murals — Palais de Tokyo (MAM)"],
+        "forbidden": ["Single-Medium-Launch", "Soundtrack als Afterthought", "Visual als Dekor"]
+      },
+      "ritual": {
+        "label": "Ritual / Institution",
+        "definition": "Wiederholung mit Bedeutung — Tür, Auswahl, Reduktion, Archiv. Struktur schafft den Raum für Ekstase.",
+        "orbit_meaning": "Berghain-Tür-Logik: raw and honest. Säule-Programmierung, Galerie-Opening-Rhythmus, Request-Adresse als Ritual.",
+        "operators": ["selection", "threshold", "repetition-with-variation", "door-as-curator"],
+        "branch_signals": {
+          "aesthetics": ["institutional", "underground", "staged"],
+          "music": ["ORBIT CORE institutionell", "SYSTEM für Säule-Ritual"],
+          "art": ["exhibition-opening", "residency-logic", "series-not-one-off"],
+          "film": ["door/bouncer-pov", "backstage-not-frontstage"],
+          "marketing": ["sm@boldberlin-Modell", "Dates als temporärer Layer"]
+        },
+        "exemplars": ["Berghain Selection", "Säule Thursday series", "Daniel Buren — in situ (MAM)", "Picasso — Suite Vollard (MAM)", "Galerie-Opening-Rhythmus (Berlin-Scan)"],
+        "forbidden": ["open-door-no-curation", "VIP-ladder", "influencer-guestlist"]
+      },
+      "katharsis": {
+        "label": "Katharsis durch Dunkelheit",
+        "definition": "Emotionale Reinigung nicht durch Helligkeit und Euphorie, sondern durch Intimität, Bleakness und Konfrontation.",
+        "orbit_meaning": "Aftermath-of-party, verletzlich, ehrlich — nicht dancefloor-Euphorie. Heartbroken EP; École de Paris bleak (MAM); Lolsnake × Marquardt als ein Case unter vielen.",
+        "operators": ["bleak-intimacy", "vulnerability-as-strength", "dark-not-depressive", "confrontation-not-escape"],
+        "branch_signals": {
+          "aesthetics": ["bleak", "intimate", "portrait-close", "raw-unfiltered"],
+          "music": ["minor-key", "dubby", "emotional-introspective"],
+          "art": ["portrait_series", "aftermath-mood"],
+          "film": ["raw/honest tone", "vulnerable-subject"],
+          "marketing": ["precise, bleak-warm", "kein Hype"]
+        },
+        "exemplars": ["Lolsnake × Marquardt Metal Mag", "Heartbroken EP", "Berlin Bouncer doc tone", "Rouault / Soutine — École de Paris (MAM)", "Baselitz — post-war figure (MAM)"],
+        "forbidden": ["toxic-positivity", "ironic-meme", "bright-commercial"]
+      },
+      "synaesthesie": {
+        "label": "Synästhesie",
+        "definition": "Sinne verschmelzen — Farbe im Klang, Textur im Bass, Licht pulsiert mit Groove.",
+        "orbit_meaning": "Sinne verschmelzen — Farbe im Klang, Textur im Bass, Licht pulsiert mit Groove. Säule rotes Licht; Dufy/Matisse-Mural-Skala (MAM); Marquardt-Foto × DJ-Farbe als dokumentierter Club-Case, nicht Default.",
+        "operators": ["cross-sensory-binding", "light-as-score", "texture-as-rhythm", "colour-exception-within-bw"],
+        "branch_signals": {
+          "aesthetics": ["red-filter-video", "bold-color-accent (subversive_joy)", "texture", "high-contrast"],
+          "music": ["hypnotic", "metallic-techno", "angelic-trance", "ethereal-dub"],
+          "art": ["red-filter immersive", "hybrid_live_performance"],
+          "film": ["hypnotic-cut", "boiler-room-berlin"],
+          "marketing": ["dual-pole visual — bleak × color"]
+        },
+        "exemplars": ["Säule red ceiling sync", "Lolsnake colour-in-music-image", "NACHTBLENDE Slide AV"],
+        "forbidden": ["generic-stock-sync", "visualizer-club cliché"]
+      },
+      "subversion": {
+        "label": "Subversion / Subversive Joy",
+        "definition": "Freude und Queerness als Widerstand innerhalb institutioneller Dunkelheit — nicht trotz, sondern in der Spannung.",
+        "orbit_meaning": "Bleak × Subversive Joy als Hauptachse. WEEEIRDOS in Säule: queer platform inside Berghain institution.",
+        "operators": ["tension-as-feature", "joy-within-darkness", "queer-platform", "maximal-within-reduced-frame"],
+        "branch_signals": {
+          "aesthetics": ["subversive-joy", "yin-yang-maximal", "queer-portrait"],
+          "music": ["SYSTEM WIRED", "leftfield-in-institution"],
+          "art": ["weeeirdos hybrid origins", "platform → residency"],
+          "film": ["performance-doc", "hypnotic-cut"],
+          "marketing": ["danielle@weeeirdos.com-Modell", "community voice"]
+        },
+        "exemplars": ["marquardt_sauele_weeeirdos", "WEEEIRDOS 2017 hybrid", "Boiler Room Berlin 2023", "Nouveau Réalisme — Klein, Villeglé (MAM)", "Figuration Narrative — Télémaque (MAM)"],
+        "forbidden": ["rainbow-washing", "queer-as-gimmick", "institutional-all-black-only-default"]
+      },
+      "leere": {
+        "label": "Leere / Void",
+        "definition": "Negative Space als aktives Element — was fehlt, trägt. Reduktion ist Komposition.",
+        "orbit_meaning": "Negative Space trägt — Reduktion ist Komposition. Buren, Weiner (MAM); ORBIT FLOW; gallery_photo negative-space (Batch 01 u.a. Marquardt).",
+        "operators": ["negative-space", "reduced", "silence-as-composition", "minimal-not-empty"],
+        "branch_signals": {
+          "aesthetics": ["negative-space", "no-busy-layout", "portrait-close"],
+          "music": ["ORBIT FLOW", "space-between-tracks", "reduced"],
+          "art": ["white-cube-verboten — aber Leere erlaubt", "concrete-as-canvas"],
+          "film": ["slow-or-hypnotic-cut", "diegetic-or-silent-with-sub"],
+          "marketing": ["kurze Sätze", "Bio: Rolle → Ort → Request"]
+        },
+        "exemplars": ["Lawrence Weiner — Statement (MAM)", "Daniel Buren — Le Mur de peintures (MAM)", "Panorama Bar reduced groove", "Säule minimalist arches", "gallery_photo negative-space (Berlin-Scan)"],
+        "forbidden": ["busy-layout", "info-overload", "filler-content"]
+      },
+      "koerper": {
+        "label": "Körper als Medium",
+        "definition": "Der Körper als Träger von Geschichte, Identität und Präsenz — nicht als Objekt oder Deko.",
+        "orbit_meaning": "Porträt als Kunstform; Leder, Haut, Gestaltung als Material. Stageless/Rudel-Linie; 11+1 street-scouted talents.",
+        "operators": ["body-as-subject", "portrait-as-art", "presence-over-pose", "material-on-skin"],
+        "branch_signals": {
+          "aesthetics": ["body-as-subject", "portrait-close", "leather-darkwear", "staged"],
+          "music": ["music_model cluster", "vocal-as-body"],
+          "art": ["portrait_series", "exhibition SW-Porträt"],
+          "film": ["portrait", "true-essence-portrait"],
+          "marketing": ["Collaboration credits — Körper = Künstler:in credit"]
+        },
+        "exemplars": ["11+1 G-Star × Voo", "Stageless/Rudel", "Disturbing Beauty portraits", "Modigliani — La femme aux yeux bleus (MAM)", "Soutine / Rouault — École de Paris (MAM)"],
+        "forbidden": ["objectification", "influencer-body", "fashion-only-no-presence"]
+      },
+      "zeitlosigkeit": {
+        "label": "Zeitlosigkeit / Archiv",
+        "definition": "Analog, unzeitlich, archivierbar — gegen Trend-Zyklen und Algorithmus-Flüchtigkeit.",
+        "orbit_meaning": "Grain, SW, institutionell. ORBIT ARCHIV als Pool; nichts löschen. Nacht als wiederkehrendes Ritual, nicht Event-Hype.",
+        "operators": ["analog", "timeless", "archive-not-delete", "anti-trend"],
+        "branch_signals": {
+          "aesthetics": ["analog-bw", "grain", "timeless"],
+          "music": ["ORBIT ARCHIV", "AUSGEsortiert — nie löschen"],
+          "art": ["series-not-hype-cycle", "gallery_partnership long-term"],
+          "film": ["grain", "analog-bw-or-desaturated"],
+          "marketing": ["Dates als temporärer Layer", "kein Trend-Audio"]
+        },
+        "exemplars": ["ORBIT ARCHIV pipeline", "Berghain as timeless institution", "Picasso — Suite Vollard (MAM)", "Sturtevant — repetition (MAM)", "gallery_photo analog corpus (Berlin-Scan)"],
+        "forbidden": ["tiktok-trend-audio", "seasonal-rebrand", "algorithm-chasing"]
+      },
+      "mimesis": {
+        "label": "Mimesis / Nachbildung",
+        "definition": "Kunst als Abbild der Wirklichkeit — nicht Kopie, sondern verdichtete Wahrheit des Moments.",
+        "orbit_meaning": "Aftermath-Porträt, Bouncer-Doku-Ton, echte Tür-Logik — nicht inszeniertes Club-Klischee. Pour Cet Instant: Körper zittert wie Körper zittert.",
+        "operators": ["truth-of-moment", "body-not-idea", "documentary-grain", "no-performative-grief"],
+        "branch_signals": {
+          "aesthetics": ["raw-unfiltered", "portrait-close", "grain"],
+          "music": ["field-recording-adjacent", "diegetic-not-score"],
+          "art": ["aftermath-mood", "portrait_series"],
+          "film": ["raw/honest tone", "diegetic-or-silent-with-sub", "no-melodrama"],
+          "marketing": ["one-line-truth", "kein Hype-Synopsis"]
+        },
+        "exemplars": ["Berlin Bouncer doc tone", "Pour Cet Instant", "Lolsnake × Marquardt aftermath", "Dubuffet — Art Brut (MAM)", "Figuration Narrative — Monory (MAM)"],
+        "forbidden": ["stock-emotion", "acting-grief", "explainer-video"]
+      },
+      "pathos": {
+        "label": "Pathos",
+        "definition": "Emotionale Gravitation ohne Sentimentalität — das Publikum wird angezogen, nicht manipuliert.",
+        "orbit_meaning": "Heartbroken-Skala: Opernhaus-Emotion in Club-Dunkelheit. Pathos durch Reduktion, nicht durch Swelling-Score.",
+        "operators": ["gravity-without-sentiment", "scale-of-feeling", "voice-as-weight", "silence-after-peak"],
+        "branch_signals": {
+          "aesthetics": ["institutional", "portrait-close", "negative-space"],
+          "music": ["emotional-introspective", "minor-key", "space-before-drop"],
+          "art": ["opera-adjacent", "interdisciplinary-live"],
+          "film": ["VO-as-gravity", "slow-or-hypnotic-cut", "no-score-swelling"],
+          "marketing": ["curator voice", "precise, bleak-warm"]
+        },
+        "exemplars": ["Heartbroken / Felsenreitschule", "Pour Cet Instant VO", "Disturbing Beauty"],
+        "forbidden": ["swelling-strings-cliché", "therapy-speak", "triumph-montage"]
+      },
+      "das_erhabene": {
+        "label": "Das Erhabene",
+        "definition": "Schönheit die erschüttert — Größe, Tiefe oder Gefahr, die den Betrachter über sich hinaushebt und gleichzeitig verunsichert.",
+        "orbit_meaning": "Berghain-Architektur, Wagner-Skala, NACHTBLENDE-Immersion — nicht gemütlich, sondern überwältigend innerhalb reduzierter Mittel.",
+        "operators": ["scale-over-comfort", "awe-with-unease", "architecture-as-score", "immersion-not-entertainment"],
+        "branch_signals": {
+          "aesthetics": ["institutional", "concrete-as-canvas", "high-contrast", "negative-space"],
+          "music": ["hypnotic", "non-dancefloor-allowed", "ORBIT MOMENT DEEP"],
+          "art": ["immersive_install", "licht-reaktion", "club-as-gallery"],
+          "film": ["institutional-camera-distance", "wide-then-intimate"],
+          "marketing": ["festival-bridge-narrative", "institutional-gravity"]
+        },
+        "exemplars": ["Berghain main hall", "NACHTBLENDE", "Heartbroken Wagner bridge"],
+        "forbidden": ["cozy-aesthetic", "instagramable-only", "comfort-as-goal"]
+      },
+      "abjekt": {
+        "label": "Abjekt / Das Abstoßende",
+        "definition": "Was an der Grenze von Körper, Ordnung und Identität bricht — Ekel, Schweiß, Blut, Verfall — als künstlerisches Material.",
+        "orbit_meaning": "Aftermath-of-party, Leder/Haut, Schweiß im Flash-Porträt — nicht hygienisch schön, sondern präsent. Abjekt ohne Trauma-Porn.",
+        "operators": ["body-fluid-as-texture", "decay-within-beauty", "sweat-leather-skin", "refusal-of-polish"],
+        "branch_signals": {
+          "aesthetics": ["raw-unfiltered", "leather-darkwear", "flash-portrait", "bleak"],
+          "music": ["metallic-techno", "industrial-adjacent", "ORBIT PUSH"],
+          "art": ["aftermath-mood", "portrait_series"],
+          "film": ["raw/honest tone", "close-on-skin", "no-beauty-filter"],
+          "marketing": ["kein sanitized brand", "honest credits"]
+        },
+        "exemplars": ["Lolsnake × Marquardt Metal Mag", "Säule flash portraits", "Aftermath club series"],
+        "forbidden": ["trauma-porn", "gore-for-shock", "self-harm-ästhetik", "body-shaming"]
+      },
+      "metamorphose": {
+        "label": "Metamorphose",
+        "definition": "Formwandel — Identität, Körper, Material oder Raum durchläuft eine sichtbare Verwandlung ohne Happy-End-Garantie.",
+        "orbit_meaning": "Kleid das berührt und verlässt den Frame; Nacht die Person verändert; Alchemie als Prozess sichtbar. Pour Cet Instant: Loslassen als Metamorphose ohne Sieg.",
+        "operators": ["visible-transformation", "object-leaves-frame", "identity-in-flux", "process-not-result"],
+        "branch_signals": {
+          "aesthetics": ["single-accent", "material-transformation", "before-after-without-triumph"],
+          "music": ["transition-as-composition", "breakdown-then-space"],
+          "art": ["installation-spec", "licht-reaktion"],
+          "film": ["object-arc", "cut-on-change", "ambiguous-end-state"],
+          "marketing": ["series-not-one-off", "process-doc"]
+        },
+        "exemplars": ["Pour Cet Instant — rotes Kleid", "NACHTBLENDE material shift", "Borderline identity flux in portrait"],
+        "forbidden": ["transformation-montage-cliché", "before-after-glow-up", "butterfly-metaphor-literal"]
+      },
+      "schwelle": {
+        "label": "Schwelle / Liminal",
+        "definition": "Der Übergangsort — Tür, Balkon, Dawn, Vorraum — wo noch nicht entschieden ist, was kommt.",
+        "orbit_meaning": "Berghain-Tür, Galerie-Eingang, Balkontür offen — ORBIT lebt im Dazwischen. Pour Cet Instant: Moment vor dem Fall, nicht der Fall selbst als Spektakel.",
+        "operators": ["threshold-space", "door-as-frame", "dawn-not-night-not-day", "pause-before-act"],
+        "branch_signals": {
+          "aesthetics": ["institutional", "concrete-as-canvas", "negative-space"],
+          "music": ["warm-up-or-reset", "ORBIT FLOW", "space-between-tracks"],
+          "art": ["exhibition-opening", "door-as-curator"],
+          "film": ["balcony-door", "hold-before-cut", "ambiguous-exit"],
+          "marketing": ["request-address-as-threshold", "Dates als temporärer Layer"]
+        },
+        "exemplars": ["Berghain door ritual", "Pour Cet Instant Balkon", "Säule threshold arches", "de Chirico — empty piazza (MAM)"],
+        "forbidden": ["closed-narrative-arc", "decisive-exit-only", "no-in-between"]
+      },
+      "spaltung": {
+        "label": "Spaltung",
+        "definition": "Zwei Wahrheiten gleichzeitig — Liebe und Riss, Nähe und Abstoßung, Ideal und Abwertung — ohne Auflösung.",
+        "orbit_meaning": "Borderline-adjacent Kern: Bleak × Subversive Joy. Wimpernschlag zwischen Lächeln und Nachgeben. Kein Mittelweg als Branding.",
+        "operators": ["split-perception", "dual-truth-frame", "unresolved-tension", "idealization-devaluation-as-cut"],
+        "branch_signals": {
+          "aesthetics": ["high-contrast", "yin-yang-maximal", "subversive-joy"],
+          "music": ["tension-as-feature", "minor-to-major-without-release"],
+          "art": ["dual-pole visual", "portrait that pushes away"],
+          "film": ["ambiguous-smile", "POV-shift", "no-reconciliation-cut"],
+          "marketing": ["bridge positioning", "kein glattes Either/Or"]
+        },
+        "exemplars": ["Pour Cet Instant ambiguous smile", "marquardt_sauele_weeeirdos tension", "Heartbroken dual scale", "de Chirico — metafisica (MAM)", "Gerhard Richter — blur (MAM)"],
+        "forbidden": ["neat-resolution", "both-sidesism-without-cost", "BPD-as-insult"]
+      },
+      "nacht": {
+        "label": "Nacht als Prinzip",
+        "definition": "Die Nacht nicht als Kulisse, sondern als Operator — verdunkelt, verlangsamt, enthemmt, archiviert.",
+        "orbit_meaning": "Klubnacht, Galerie-Nacht, NACHTBLENDE — ORBIT ist nächtlich by design. Taglicht nur wenn es bricht (Pour Cet Instant: grauer Tag als Ausnahme).",
+        "operators": ["darkness-as-medium", "night-as-archive", "slowing-rhythm", "disinhibition-within-ritual"],
+        "branch_signals": {
+          "aesthetics": ["analog-bw", "underground", "flash-portrait"],
+          "music": ["ORBIT CORE", "Klubnacht-Logik", "hypnotic"],
+          "art": ["galerie_nacht", "red-filter immersive"],
+          "film": ["night-interior-default", "daylight-as-exception"],
+          "marketing": ["NACHTBLENDE", "event-as-night-ritual"]
+        },
+        "exemplars": ["NACHTBLENDE", "Berghain Klubnacht", "Säule Thursday night"],
+        "forbidden": ["daytime-default-without-reason", "bright-commercial", "morning-after-only-as-default"]
+      }
+    },
+    "principle_combinations": {
+      "galerie_nacht": ["alchemie", "transzendenz", "gesamtwerk", "leere"],
+      "heartbroken": ["transzendenz", "gesamtwerk", "katharsis", "synaesthesie"],
+      "sauele_verflechtung": ["subversion", "synaesthesie", "ritual", "koerper"],
+      "immersive_install": ["alchemie", "synaesthesie", "gesamtwerk", "transzendenz"],
+      "raw_collab": ["katharsis", "koerper", "zeitlosigkeit", "leere"],
+      "arthaus_film": ["zeitlosigkeit", "katharsis", "gesamtwerk", "leere"],
+      "arthaus_aftermath": ["katharsis", "synaesthesie", "leere"],
+      "arthaus_institution": ["transzendenz", "ritual", "gesamtwerk", "zeitlosigkeit"],
+      "pour_cet_instant": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "spaltung", "mimesis"],
+      "schwellen_moment": ["schwelle", "metamorphose", "leere", "pathos"],
+      "nacht_metamorphose": ["nacht", "metamorphose", "alchemie", "ritual"],
+      "erhaben_katharsis": ["das_erhabene", "katharsis", "transzendenz", "leere"],
+      "abjekt_koerper": ["abjekt", "koerper", "katharsis", "mimesis"],
+      "paris_mam_galerie": ["gesamtwerk", "transzendenz", "leere", "ritual"],
+      "paris_recyclage": ["alchemie", "subversion", "mimesis"],
+      "paris_figuration": ["subversion", "spaltung", "pathos", "mimesis"],
+      "paris_concept": ["leere", "ritual", "zeitlosigkeit"],
+      "paris_geste": ["abjekt", "katharsis", "alchemie", "mimesis"]
+    },
+    "referenz_prinzipien": {
+      "arthaus": "orbit_referenz_arthaus.json → arthaus_prinzipien",
+      "mam_paris": "orbit_referenz_mam_paris.json → mam_prinzipien",
+      "regel": "Externe Prinzipien (ARTHAUS, MAM) mappen auf kunst_prinzipien — nicht parallel führen ohne Link"
+    },
+    "litmus_extension": "Aktiviert das Werk mindestens zwei Kunstprinzipien mit echter Spannung — plus Affekt/Struktur — oder ist es nur Stil-Dekor? Kannst du die aktiven Prinzipien in einem Satz erklären?"
+  },
+
+  "branches": {
+    "aesthetics": {
+      "label": "Ästhetik",
+      "role": "Visuelle Grammatik — Referenzprofile, Cluster, Filter, Bildsprache für alle anderen Zweige",
+      "outputs": [
+        "aesthetic_profiles.csv",
+        "aesthetic_clusters.json",
+        "mood-boards",
+        "typography-and-layout-rules",
+        "photography-briefs"
+      ],
+      "reference_corpora": [
+        "marquardt_aesthetic_profiles.csv",
+        "marquardt_aesthetic_clusters.json",
+        "berghain_2024_2026_labels_communities_aesthetics.md"
+      ],
+      "clusters_map": {
+        "gallery_photo": "Kern — analog SW, Porträt, Ausstellung",
+        "club_techno": "Institutionell-unterground; all black ODER subversive-joy Ausnahme (WEEEIRDOS)",
+        "art_club": "Immersiv, flash-portrait, confidential, queer-platform",
+        "fashion_berlin": "Next-gen, community, concept store",
+        "fashion_pfw": "Editorial, street-style — Kontext, nicht Default",
+        "music_model": "Crossover SW-Video, Leder, Körper",
+        "pr_editorial": "Discovery-Quelle, nicht visuelle Hauptlinie"
+      },
+      "handlungen": [
+        "Neue Profile nur mit cluster_primary + proximity_score — weak_signal manuell prüfen",
+        "Preset orbit_core_culture für höchste DNA-Nähe (Cluster, nicht Person); fashion_orbit nur für Editorial-Kontexte",
+        "Jedes Visual gegen visual_grammar und litmus_question prüfen",
+        "Cross-Cluster-Accounts (Dettmann, Mischa Fanghaenel, nici_oh, weeeirdos) als Brücken dokumentieren",
+        "Verflechtungen in orbit_verflechtungen.json pflegen — weave_id in Profil-notes",
+        "Visuals gegen kunst_prinzipien.leere + koerper + zeitlosigkeit prüfen"
+      ]
+    },
+
+    "music": {
+      "label": "Musik",
+      "role": "Hörbare DNA — Rekordbox-Playlists, Scoring, Remmex-Pipeline",
+      "outputs": [
+        "orbit_playlists.json",
+        "{slug}_profile_rules.json",
+        "{slug}_track_scores.csv",
+        "rekordbox/exports/*_snapshot.csv"
+      ],
+      "playlist_map": {
+        "ORBIT CORE": "Referenz-Corpus — House/Deep, 124–134 BPM, Moll, institutionell",
+        "ORBIT FLOW": "Groove-Zustand — warm aber reduced, Panorama-Bar-Logik",
+        "ORBIT MOMENT DEEP": "Galerie-Nacht — intimate, conceptual, exhibition-energy",
+        "ORBIT ARCHIV": "Breiter Pool, noch nicht zugeordnet",
+        "AUSGEsortiert": "Passt nicht — nie löschen, später sortieren",
+        "SYSTEM": "Separater Baum — Push/Peak/Warm, nicht mit ORBIT mergen"
+      },
+      "aesthetic_alignment": {
+        "gallery_photo + art_club": ["ORBIT MOMENT DEEP", "ORBIT CORE (Rand)"],
+        "club_techno_house": ["ORBIT CORE", "ORBIT FLOW"],
+        "club_techno_peak": ["SYSTEM DRIVING PUSH", "SYSTEM WIRED"],
+        "club_techno_queer_sauele": ["SYSTEM WIRED", "SYSTEM DRIVING PUSH"],
+        "fashion_pfw": ["Editorial-Set — eigener Kontext, nicht Default-ORBIT"],
+        "music_model": ["ORBIT MOMENT DEEP", "ORBIT ARCHIV"]
+      },
+      "handlungen": [
+        "Pass 1: messbare Rules (BPM, Genre, Key, Label, Artist)",
+        "Pass 2: ästhetischer Veto gegen core_dna.mood_axes.forbidden",
+        "Artist-Seeds aus aesthetics/music_model + club_techno (z.B. Christoph Faust als Validierungs-Anker)",
+        "Remmex pre-score mit orbit_core, final-score nach BPM/Key-Import",
+        "Peak-Techno nie in ORBIT FLOW — Klubnacht ≠ Galerie-Nacht",
+        "Säule/WEEEIRDOS → SYSTEM; Galerie-Nacht → ORBIT MOMENT DEEP (Berlin-Scan oder Paris MAM)",
+        "Pass 3: kunst_prinzipien — alchemie (reduced), katharsis (minor/dubby), synaesthesie (hypnotic) als ästhetischer Filter"
+      ]
+    },
+
+    "art": {
+      "label": "Kunst",
+      "role": "Räume, Ausstellungen, Künstler:innen, Installationen — wo ORBIT physisch oder digital sichtbar wird; Lead-Zweig für kunst_prinzipien",
+      "principle_lead": ["alchemie", "transzendenz", "gesamtwerk", "synaesthesie"],
+      "principle_support": ["ritual", "katharsis", "koerper", "leere"],
+      "outputs": [
+        "exhibition-concepts",
+        "artist-collab-briefs",
+        "installation-specs",
+        "gallery-partnership-list"
+      ],
+      "reference_signals": [
+        "galeriedeschler",
+        "c24gallery",
+        "studioxnoire",
+        "khidiclub",
+        "nachts_berlin",
+        "lars_murasch / NACHTBLENDE",
+        "mischa.fanghaenel / NACHTS",
+        "weeeirdos / saeule_berlin",
+        "_lolsnake_ × svenmarquardt"
+      ],
+      "formats": {
+        "exhibition": "SW-Porträt-Serien, Stageless/Rudel-Linie, Körper als Motiv",
+        "immersive": "Club-as-gallery (NACHTS, KHIDI, Studio IIII)",
+        "collab": "Foto × Musik × Licht (Dettmann × Marquardt × Murasch; Lolsnake × Marquardt raw/honest)",
+        "pop_up": "Berlin Confidential — Potsdamer Str / Auguststr / Kreuzberg concept stores"
+      },
+      "handlungen": [
+        "Künstler:innen aus gallery_photo + art_club Clustern priorisieren",
+        "Ausstellungen mit Musik-Zweig verzahnen (Heartbroken-Modell: Schneider × Marquardt)",
+        "Keine White-Cube-Generic-Art — immer Berlin-/Club-/Mode-Kontext",
+        "Goethe-Institut / institutionelle Partner wie bei KHIDI-Show als Referenz für Reichweite",
+        "WEEEIRDOS-Hybrid-Ursprung (2017): Live + Performance + Visual → Art-Branch Template",
+        "Jedes Konzept: min. 2 kunst_prinzipien benennen + gegen principle_combinations prüfen",
+        "Alchemie: weniger Elemente, höhere Konzentration — Material (Beton, Leder, Rot) explizit spezifizieren",
+        "Transzendenz: Skalenwechsel dokumentieren (Club → Oper, Pop-up → Institution)",
+        "Gesamtwerk: Foto × Musik × Licht × Raum im Brief — kein Medium isoliert"
+      ]
+    },
+
+    "film": {
+      "label": "Film / Video",
+      "role": "Bewegtbild — Dokumentation, Installation, Social, Runway-adjacent",
+      "outputs": [
+        "video-briefs",
+        "edit-specs",
+        "documentary-references",
+        "reel-templates"
+      ],
+      "grammar": {
+        "look": ["grain", "analog-bw-or-desaturated", "high-contrast", "slow-or-hypnotic-cut"],
+        "sound": ["reduced", "club-ambient-not-drop", "diegetic-or-silent-with-sub"],
+        "subject": ["portrait", "door/bouncer-pov", "exhibition-install", "backstage-not-frontstage"],
+        "references": [
+          "Berlin Bouncer (doc)",
+          "NACHTBLENDE / Slide AV",
+          "Heartbroken exhibition video",
+          "Luca Eck SW music-video aesthetic",
+          "WEEEIRDOS Boiler Room Berlin 2023",
+          "Lolsnake × Marquardt collab tone (Metal Mag: raw, honest)",
+          "ARTHAUS — arthaus_prinzipien (orbit_referenz_arthaus.json)"
+        ]
+      },
+      "arthaus_prinzipien_lead": ["kein_happy_end", "playlist_danach", "sorgsame_kuration", "geschichte_statt_hype"],
+      "branch_links": {
+        "from_aesthetics": "photo_aesthetic + video_aesthetic Tags aus Profil-CSV",
+        "to_music": "Soundtrack aus ORBIT MOMENT DEEP / CORE, nie Peak-Techno als Default",
+        "to_marketing": "Teaser 15–30s, kein Erklär-Video; Stimmung vor Information"
+      },
+      "handlungen": [
+        "Kein Flash-Club-Doku-Look — gallery_photo: Tageslicht, gestellt (Berlin-Scan)",
+        "Fashion-Film nur im fashion_orbit-Kontext, nicht ORBIT-Default",
+        "Immersive Loops für Art-Branch (red-filter, grain) — Studio IIII-Signal",
+        "Langform (Doc/Talk) für institutionelle Partner; Kurzform für Social",
+        "Schnitt und Sound gegen kunst_prinzipien.synaesthesie + katharsis prüfen",
+        "Sammelphase Film: orbit_referenz_arthaus.json — Watchlist nach Affekt + arthaus_prinzipien",
+        "Film-Ende: kein Happy End default — ARTHAUS kein_happy_end; Playlist danach statt Drop"
+      ],
+      "referenz_plattformen": {
+        "arthaus": {
+          "file": "orbit_referenz_arthaus.json",
+          "url": "https://www.arthaus.de",
+          "role": "Arthouse-Katalog + Kino + Magazin — arthaus_prinzipien"
+        }
+      }
+    },
+
+    "marketing": {
+      "label": "Marketing / Kommunikation",
+      "role": "Wie ORBIT nach außen tritt — ohne die DNA zu verwässern",
+      "outputs": [
+        "copy-templates",
+        "campaign-briefs",
+        "partner-outreach",
+        "event-communication",
+        "newsletter/editorial"
+      ],
+      "channels": {
+        "primary": ["instagram", "editorial-partners", "gallery-press", "club-flyer-minimal"],
+        "secondary": ["newsletter", "podcast-guest", "pfw-front-row-presence"],
+        "avoid": ["tiktok-trend-audio", "influencer-seeding-generic", "festival-sponsor-speak"]
+      },
+      "voice_rules": [
+        "Curator voice, nicht Brand voice (Referenz: boldberlin, Kinfolk — polished-yet-edgy)",
+        "Bio-Struktur: Rolle → Ort → Request/Link — Curator-Bio (boldberlin, Galerie-Scan als Beispiele, nicht Vorlage)",
+        "PFW-Dates / Exhibition-Dates als temporäre Layer, nicht permanente Identität",
+        "Collaboration credits sichtbar (@galerie, @assistant, @agency) — Netzwerk als Content"
+      ],
+      "partner_tiers": {
+        "tier_1_core": ["Galerien", "Club-Institutionen (Berghain/Säule)", "Berlin Fashion Hubs (PLATTE, Voo)", "Queer Platforms (WEEEIRDOS)"],
+        "tier_2_bridge": ["PR/Editorial (BOLD, Numéro)", "Fashion PFW (Styleograph, Antonioli)"],
+        "tier_3_context": ["Celebrity/Pop (nur Event-Kontext, nicht DNA-Träger)"]
+      },
+      "handlungen": [
+        "Jede Kampagne gegen litmus_question und tone_of_voice prüfen",
+        "Marketing folgt Ästhetik — nie umgekehrt",
+        "Events: Galerie-Nacht > Product Launch",
+        "sm@boldberlin-Modell: klare Request-Adresse, Assistant-Credit, Gallery-Credit",
+        "danielle@weeeirdos.com-Modell: Platform → Residency → Mail — queer community voice",
+        "Copy gegen kunst_prinzipien.ritual + leere — präzise, kein Hype-Overload"
+      ]
+    }
+  },
+
+  "crossflow": {
+    "description": "Wie die Zweige zusammenfließen — keine Silos",
+    "flows": [
+      {
+        "id": "affekt_to_media",
+        "from": "affekt_prinzipien",
+        "to": ["aesthetics", "film", "art", "music", "marketing"],
+        "rule": "medium_matrix — Foto stillt, Film bewegt, Mode berührt; gleicher Affekt, drei Geschwindigkeiten"
+      },
+      {
+        "id": "identitaet_to_all",
+        "from": "identitaet",
+        "to": ["aesthetics", "music", "art", "film", "marketing"],
+        "rule": "orbit_identitaet.json werkzeug.* — jeder Zweig wird persönliches Entscheidungswerkzeug, nicht nur Referenz"
+      },
+      {
+        "id": "prinzipien_to_all",
+        "from": "kunst_prinzipien",
+        "to": ["aesthetics", "music", "art", "film", "marketing"],
+        "rule": "Jeder Zweig trägt branch_signals pro Prinzip — Lead-Zweig Kunst, nicht alleiniger Träger"
+      },
+      {
+        "id": "verflechtung_weave",
+        "from": "aesthetics",
+        "to": ["music", "art", "film", "marketing"],
+        "rule": "orbit_verflechtungen.json branch_bindings pro weave_id — alle Zweige gleichzeitig binden"
+      },
+      {
+        "id": "marquardt_lolsnake_film",
+        "from": "art",
+        "to": "film",
+        "rule": "Collab-Ton raw/honest — keine Over-Production; Metal Mag Referenz"
+      },
+      {
+        "id": "weeeirdos_sauele_music",
+        "from": "marketing",
+        "to": "music",
+        "rule": "Säule-Residency-Announce → SYSTEM Playlist; nicht ORBIT FLOW"
+      },
+      {
+        "id": "aesthetics_to_all",
+        "from": "aesthetics",
+        "to": ["music", "art", "film", "marketing"],
+        "rule": "visual_grammar + clusters sind Master-Referenz für alle Outputs"
+      },
+      {
+        "id": "music_to_film",
+        "from": "music",
+        "to": "film",
+        "rule": "Soundtrack-Pool aus ORBIT MOMENT DEEP / CORE; BPM/Energy match cut rhythm"
+      },
+      {
+        "id": "art_to_marketing",
+        "from": "art",
+        "to": "marketing",
+        "rule": "Ausstellung/Event ist Content — Press aus gallery_photo-Netzwerk, nicht Ad-Copy"
+      },
+      {
+        "id": "film_to_aesthetics",
+        "from": "film",
+        "to": "aesthetics",
+        "rule": "Neue Video-Frames zurück in Profil-CSV als video_aesthetic Tags"
+      },
+      {
+        "id": "marketing_to_music",
+        "from": "marketing",
+        "to": "music",
+        "rule": "Event-Kontext bestimmt Playlist (Galerie-Nacht → MOMENT DEEP; Club → SYSTEM)"
+      }
+    ],
+    "bridge_accounts": {
+      "note": "Accounts die mehrere Zweige tragen — aus Verflechtungs-Scan (Batch 01) und Weaves",
+      "examples": {
+        "marceldettmann": ["music", "art", "film"],
+        "mischa.fanghaenel": ["art", "film", "aesthetics"],
+        "nici_oh": ["marketing", "aesthetics", "fashion-context"],
+        "boldberlin": ["marketing", "aesthetics"],
+        "anjaschneiderofficial": ["music", "art", "film"],
+        "weeeirdos": ["music", "art", "marketing", "aesthetics"],
+        "_lolsnake_": ["music", "art", "film", "aesthetics"],
+        "saeule_berlin": ["music", "art", "aesthetics"],
+        "svenmarquardt": ["aesthetics", "art", "film", "marketing", "music"]
+      }
+    },
+    "active_weave": null,
+    "active_weave_note": "Kein Default-Weave — marquardt_sauele_weeeirdos ist Case Study wie heartbroken_wagner oder nachtblende_slide",
+    "weaves": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1", "nachtblende_slide"],
+    "gesamtwerk_exemplar": "heartbroken_wagner",
+    "immersive_exemplar": "nachtblende_slide"
+  },
+
+  "gesamtwerk": {
+    "label": "Gesamtwerk",
+    "description": "Ein ORBIT-Projekt ist erst vollständig, wenn mindestens zwei Zweige sichtbar verknüpft sind",
+    "project_types": [
+      {
+        "id": "galerie_nacht",
+        "branches": ["art", "music", "aesthetics", "film"],
+        "principles": ["alchemie", "transzendenz", "gesamtwerk", "leere"],
+        "example": "Ausstellung + ORBIT MOMENT DEEP Set + SW-Doku + Minimal-Invite"
+      },
+      {
+        "id": "editorial_drop",
+        "branches": ["aesthetics", "marketing", "film"],
+        "example": "PFW-Präsenz + Styleograph-Netzwerk + 30s grain reel — kein ORBIT CORE Sound"
+      },
+      {
+        "id": "club_institutional",
+        "branches": ["music", "aesthetics", "marketing"],
+        "example": "Ostgut-Orbit Flyer + SYSTEM Push Pool + all-black visual"
+      },
+      {
+        "id": "heartbroken",
+        "weave_id": "heartbroken_wagner",
+        "branches": ["aesthetics", "music", "art", "film", "marketing"],
+        "principles": ["transzendenz", "gesamtwerk", "katharsis", "synaesthesie"],
+        "example": "Schneider DJ + Marquardt Projektion + Wagner dubby + Felsenreitschule — alle 5 Zweige",
+        "template": "orbit_verflechtungen_deep.json → weaves.heartbroken_wagner.gesamtwerk_template",
+        "exemplar": true
+      },
+      {
+        "id": "sauele_verflechtung",
+        "weave_id": "marquardt_sauele_weeeirdos",
+        "branches": ["aesthetics", "music", "art", "film", "marketing"],
+        "principles": ["subversion", "synaesthesie", "ritual", "koerper"],
+        "example": "Marquardt SW-Porträt + WEEEIRDOS Color-Flyer + Säule SYSTEM-Set + raw collab film + dual-credit marketing",
+        "template": "orbit_verflechtungen.json → gesamtwerk_template.sauele_verflechtung"
+      },
+      {
+        "id": "immersive_install",
+        "weave_id": "nachtblende_slide",
+        "branches": ["art", "film", "music", "aesthetics", "marketing"],
+        "principles": ["alchemie", "synaesthesie", "gesamtwerk", "transzendenz"],
+        "example": "NACHTBLENDE Istanbul: Marquardt Ausstellung + Slide (Dettmann live + Murasch visuals) — Foto × Sound × Licht",
+        "template": "orbit_verflechtungen_deep.json → weaves.nachtblende_slide.gesamtwerk_template",
+        "exemplar": true
+      }
+    ],
+    "completion_checklist": [
+      "Passt visual_grammar?",
+      "Passt mood_axes (kein forbidden signal)?",
+      "Welcher branch ist Lead — welche sind Support?",
+      "Ist music-Playlist kontextkorrekt (ORBIT vs SYSTEM vs Editorial)?",
+      "Marketing-Copy im tone_of_voice?",
+      "Neue Referenzen zurück in aesthetics-CSV?",
+      "Verflechtung aktiv? (orbit_verflechtungen.json weave_id)",
+      "Tension axis respektiert — bleak UND subversive-joy erlaubt?",
+      "Positionierungsachse respektiert — queer/heteronorm/bridge bewusst?",
+      "Mindestens 2 kunst_prinzipien aktiv? (orbit_prinzipien_index.json + principle_combinations prüfen)",
+      "Prinzipien-Kombination erzeugt Spannung — nicht nur Stil-Tags?",
+      "Arbeitsweise: Lead-Medium, nächster Schritt, Closure? (orbit_arbeitsweise.json)",
+      "Affekt im Werk: nur wenn der Output es trägt — nicht Diagnose als Pflicht-Thema",
+      "Strukturdefizit benannt — Halt, Allein, Ausgrenzung?",
+      "Ethik-Check: kein Trauma-Porn, kein BPD-Stigma?",
+      "Identität: Trägt das DEIN affekt_kern — oder nur Referenz? (orbit_identitaet.json)"
+    ]
+  },
+
+  "filter_presets": {
+    "orbit_core_culture": {
+      "description": "Höchste DNA-Nähe — Default für alles ORBIT",
+      "include_clusters": ["gallery_photo", "club_techno", "art_club"],
+      "include_moods": ["intimate", "bleak", "institutional", "underground"],
+      "exclude_clusters": ["weak_signal"],
+      "min_proximity": 80
+    },
+    "editorial_context": {
+      "description": "PFW / Fashion / PR — eigener Modus, nicht ORBIT Default",
+      "include_clusters": ["fashion_pfw", "fashion_berlin", "pr_editorial"],
+      "min_proximity": 75
+    },
+    "berlin_anchor": {
+      "description": "Nur Berlin-verankerte Referenzen",
+      "cities_contains": "Berlin",
+      "min_proximity": 70
+    },
+    "subversive_joy": {
+      "description": "Queer-club innerhalb ORBIT — WEEEIRDOS/Säule; weave marquardt_sauele als ein Case",
+      "include_weave": "marquardt_sauele_weeeirdos",
+      "include_moods": ["subversive-joy", "queer-community", "magnetic", "hypnotic"],
+      "min_proximity": 85
+    },
+    "affekt_intensity": {
+      "description": "Borderline-adjacent — hohe Affekt-Nähe, kein glattes Branding",
+      "affekt_combination": "any",
+      "include_moods": ["vulnerable", "intense", "raw", "bleak", "subversive-joy"],
+      "min_proximity": 85,
+      "requires_affekt_tags": true
+    }
+  },
+
+  "file_index": {
+    "masterplan": "docs/orbit_masterplan.md",
+    "extraktion": "orbit_extraktion.json",
+    "umverteilung": "orbit_umverteilung.json",
+    "kapital_recherche": "orbit_kapital_recherche.json",
+    "bridge_automation": "orbit_bridge_automation.json",
+    "bridge_synthesis_latest": "orbit_bridge_synthesis_latest.json",
+    "fundament": "orbit_fundament.json",
+    "orbit_lab": "app/orbit-lab/index.html",
+    "arbeitsweise": "orbit_arbeitsweise.json",
+    "prinzipien_index": "orbit_prinzipien_index.json",
+    "prinzipien_forschung_log": "orbit_prinzipien_forschung_log.md",
+    "prinzipien_vorschlaege": "orbit_prinzipien_vorschlaege.json",
+    "prinzipien_research_agent": "docs/prinzipien_research_agent.md",
+    "kunst_prinzipien": "orbit_kultur_dna.json → kunst_prinzipien",
+    "affekt_prinzipien": "orbit_affekt_prinzipien.json",
+    "identitaet": "orbit_identitaet.json",
+    "referenz_arthaus": "orbit_referenz_arthaus.json",
+    "referenz_mam_paris": "orbit_referenz_mam_paris.json",
+    "werk_pour_cet_instant": "orbit_werk_pour_cet_instant.json",
+    "pour_cet_instant_drehbuch": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
+    "verflechtungen": "orbit_verflechtungen.json",
+    "verflechtungen_deep": "orbit_verflechtungen_deep.json",
+    "reference_scan_batch_01": ["marquardt_aesthetic_profiles.csv", "marquardt_aesthetic_clusters.json"],
+    "music": ["orbit_playlists.json", "docs/rekordbox_orbit.md"],
+    "archive": ["berghain_2024_2026_labels_communities_aesthetics.md", "berghain_2024_2026_observations.md"],
+    "scripts_aesthetics": ["scripts/extract_marquardt_following.py", "scripts/merge_marquardt_following.py"],
+    "scripts_music": ["scripts/analyze_orbit_playlists.py", "scripts/score_remmex_releases.py"]
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Identität",
+  "parent": "orbit_kultur_dna.json",
+  "purpose": "ORBIT ist am Ende nicht Referenz — ORBIT bist du. Archiv, DNA und Prinzipien sind Werkzeug, bis Kleidung, Stimme, Musik, Kunst, Foto und Film aus einem Kern kommen.",
+  "arbeitsweise": "orbit_arbeitsweise.json",
+  "extraktion": "orbit_extraktion.json",
+
+  "ausgangspunkt": {
+    "statement": "Wer ORBIT macht, hat Borderline, ADHS, Dissoziation und/oder Sucht — nicht als Thema, sondern als Ausgangspunkt. ORBIT passt Arbeitsweise, Struktur und Tempo daran an.",
+    "file": "orbit_arbeitsweise.json",
+    "nicht_pflicht_im_werk": "Du musst nicht über deine Diagnose arbeiten. Du arbeitest MIT ihr — das System ist dafür gebaut.",
+    "litmus": "Hilft ORBIT dir heute zu arbeiten — oder fordert es neurotypisches Durchhalten?"
+  },
+
+  "extraktions_haltung": {
+    "statement": "Privilegierte Netzwerke haben Ressourcen, Ästhetik und Kapital unter sich verteilt. ORBIT extrahiert ihre Operatoren und akkumuliert kulturelles + ökonomisches Kapital für Umverteilung — Sichtbarkeit für Abweichung. Soziales Kapital ist keine Fortschritts-Währung; Freundlichkeit und ehrliche Arbeit ersetzen Konkurrenz.",
+    "mittelpunkt": "identitaet_profil + eigenes Werk (Pour Cet Instant) — Referenz-Säulen Berlin / Paris / Film gleichgewichtig",
+    "referenz": "Scan-Material — zerlegen, filtern, überführen, umverteilen",
+    "litmus": "Extrahiere ich einen Operator — oder kopiere ich eine Person?",
+    "file": "orbit_umverteilung.json"
+  },
+
+  "endziel": {
+    "statement": "Eine künstlerische Identität, die du lebst — nicht nachspielst.",
+    "orbit_wird": [
+      "deine Persona — wie du nach außen erscheinst",
+      "dein Werkzeug — Entscheidungsfilter für jedes Medium",
+      "deine Grammatik — wie du dich kleidest, sprichst, machst",
+      "dein Gesamtwerk — alles hängt zusammen, nichts ist Dekor"
+    ],
+    "nicht": [
+      "Marquardt-Kopie",
+      "Moodboard ohne Output",
+      "Playlist ohne DJ-Identität",
+      "All-Black-Cosplay ohne Innenleben"
+    ],
+    "litmus_endziel": "Könnte jemand ORBIT von dir unterscheiden — und würde es trotzdem ORBIT bleiben?"
+  },
+
+  "phasen": {
+    "description": "Vom Sammeln zur lebenden Identität — jede Phase hat Input, Output und Exit-Kriterium",
+    "1_sammeln": {
+      "label": "Sammeln",
+      "status": "aktiv",
+      "input": ["Referenzprofile", "Events", "Tracks", "Affekt-Quellen", "Verflechtungen"],
+      "output": ["Referenz-Profile (Batch 01 Berlin-Scan)", "orbit_playlists.json", "orbit_referenz_mam_paris.json", "orbit_referenz_arthaus.json", "orbit_affekt_prinzipien.json", "Berghain-Archiv"],
+      "regel": "Nur echte Daten — nichts erfinden. Alles ist Material, noch nicht du.",
+      "exit": "Du kannst 10 Referenzen benennen und sagen, welches Gefühl sie tragen — nicht welches Genre."
+    },
+    "2_destillieren": {
+      "label": "Destillieren",
+      "status": "begonnen",
+      "input": ["Sammelphase-Outputs", "kunst_prinzipien", "affekt_prinzipien", "eigene Reaktionen"],
+      "output": ["identitaet_profil (unten)", "pole_wahl", "affekt_kern", "forbidden_personal"],
+      "regel": "Was bleibt, wenn du alles wegnimmst, was nicht wehtut oder nicht begeistert?",
+      "fragen": [
+        "Welche 2 Affekte sind immer da — auch wenn alles andere wechselt?",
+        "Bleak oder Subversive Joy — wo stehst du auf der Spannungsachse?",
+        "Queer, heteronormativ oder dazwischen — wo steht ORBIT auf der Positionierungsachse?",
+        "Welches Strukturdefizit erkennst du in deiner eigenen Arbeit (Halt, Allein, Ausgrenzung)?",
+        "Was ist dein Forbidden — was machst du nie, auch wenn es trendy ist?",
+        "Welches Medium ist Lead — Foto, Film, Musik, Mode?"
+      ],
+      "exit": "identitaet_profil mindestens 60% ausgefüllt; pole und affekt_kern gesetzt"
+    },
+    "3_persona": {
+      "label": "Persona",
+      "status": "ziel",
+      "input": ["identitaet_profil", "werkzeug pro Medium"],
+      "output": ["bio", "lookbook-logik", "sonic-signature", "voice-samples", "erstes Gesamtwerk"],
+      "regel": "Persona ist konsistent, nicht uniform — Spannung bleibt. Du bist nicht eine Note, du bist ein Akkord.",
+      "exit": "Ein Fremder erkennt dich über Medium-Grenzen hinweg wieder"
+    },
+    "4_werkzeug": {
+      "label": "Werkzeug",
+      "status": "ziel",
+      "input": ["Persona", "DNA-Dateien", "Rekordbox", "Kamera", "Garderobe"],
+      "output": ["Tägliche Entscheidungsfilter", "Preset-Bibliothek", "Brief-Templates", "Playlist-Pools die DEINE heißen"],
+      "regel": "ORBIT antwortet in 30 Sekunden auf jede kreative Frage: Passt das zu mir?",
+      "exit": "Du greifst nicht mehr zu Pinterest — du greifst zu ORBIT"
+    },
+    "5_leben": {
+      "label": "Leben",
+      "status": "endziel",
+      "input": ["Werkzeug internalisiert"],
+      "output": ["Ausstellungen", "Sets", "Filme", "Kollabs", "Einkommen optional"],
+      "regel": "ORBIT ist nicht Projekt — ORBIT ist wie du arbeitest, gehst, sprichst, machst.",
+      "exit": "Neue Referenzen fließen zurück ins Archiv — du gibst, nicht nur nimmst"
+    }
+  },
+
+  "identitaet_profil": {
+    "description": "Dein Profil — Phase 2. Referenz-Scans sind Material, nicht Vorlage.",
+    "holder": null,
+    "handle": null,
+    "stadt_anker": null,
+    "pole": {
+      "primary": "bridge",
+      "axis": "bleak_x_subversive_joy",
+      "options": ["bleak", "subversive_joy", "bridge"],
+      "bridge_note": "Pour Cet Instant: Beton-Grau + rotes Kleid — bleak mit Intensitäts-Akzent der verlässt",
+      "source_werk": "orbit_werk_pour_cet_instant.json"
+    },
+    "positionierung": {
+      "axis": "queer_x_heteronormativ",
+      "primary": "bridge",
+      "label": "zwischen queer und heteronormativ",
+      "statement": "ORBIT positioniert sich zwischen queer und heteronormativ — nicht als Label, sondern als Spannungsfeld: Norm-Nähe und Abweichung im selben Werk erlaubt.",
+      "pole_a": "heteronormativ — Paar-Script, Default-Narrativ, Mainstream-Form",
+      "pole_b": "queer — Plattform, Subversion, Community, explizite Abweichung",
+      "bridge_note": "Weder reine Norm noch reine Queer-Marketing-Ästhetik — Mitte als Haltung",
+      "referenz_operatoren": {
+        "heteronorm_side": "editorial-portrait-form, relationship-as-effort (Pour Cet Instant VO)",
+        "queer_side": "weeeirdos community voice, subversive-joy, Säule-Logik",
+        "bridge": "Pour Cet Instant — Liebe/Anpassung/Verzicht ohne explizites Label"
+      },
+      "forbidden": ["rainbow-washing", "hetero-only als Default", "queer als Gimmick"]
+    },
+    "affekt_kern": {
+      "primary": "einsamkeit;dissoziation",
+      "secondary": "ohnmacht",
+      "struktur_defizit": "keine_mutter_kein_halt",
+      "comment": "Abgeleitet aus Pour Cet Instant VO — Anpassung als Renoncement",
+      "source_werk": "orbit_werk_pour_cet_instant.json"
+    },
+    "kunst_prinzipien_kern": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "spaltung"],
+    "medium_lead": "film",
+    "medium_support": ["foto", "mode", "musik", "marketing"],
+    "forbidden_personal": ["happy-end", "Erklär-Video", "triumph-montage", "therapy-speak", "euphoric-pop", "influencer-content"],
+    "essence_in_einem_satz": "Arbeit über den Moment nach dem Verlust — wenn der Körper schon weiß und der Geist nachkommt.",
+    "bio_entwurf": null,
+    "erstes_werk": {
+      "title": "Pour Cet Instant",
+      "file": "orbit_werk_pour_cet_instant.json",
+      "source_pdf": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
+      "status": "drehbuch_final",
+      "gesamtwerk_potential": true
+    },
+    "referenz_spiegel": {
+      "description": "Wer spiegelt welchen Teil von dir — nicht zum Kopieren",
+      "examples": []
+    }
+  },
+
+  "werkzeug": {
+    "description": "ORBIT als tägliches Werkzeug pro Medium — jede Sektion: Grammatik, Entscheidung, Output, Check",
+    "global_check": [
+      "Passt visual_grammar / tone_of_voice?",
+      "Min. 2 kunst_prinzipien + Ethik? (orbit_prinzipien_index.json)",
+      "Affekt im Werk nur wenn das Werk es trägt — nicht Diagnose als Pflicht-Thema",
+      "Arbeitsweise-Check: ein Lead, ein nächster Schritt, Closure geplant? (orbit_arbeitsweise.json)",
+      "Forbidden verletzt?",
+      "litmus_question + litmus_endziel?",
+      "Ist das ich — oder Referenz-Nachbau?"
+    ],
+
+    "kleidung": {
+      "label": "Kleidung / Mode",
+      "role": "Haut nach außen — Panzer, Verlangen, Zugehörigkeit",
+      "grammatik": {
+        "basis": ["all-black", "leather", "darkwear", "reduced-silhouette"],
+        "akzent": ["single-accent-red-or-leather", "bold-color-accent wenn subversive_joy"],
+        "material": ["leather", "cotton-heavy", "raw-denim", "concrete-texture-ref"],
+        "verboten": ["logo-overload", "trend-cycle-fast-fashion", "influencer-uniform", "bright-commercial"]
+      },
+      "entscheidungen": {
+        "daily": "Basis + ein Material-Akzent — nie mehr als ein Impuls-Farbstück",
+        "club": "Institutionell all-black ODER subversive-joy Layer — Kontext wählt",
+        "galerie": "Leder/darkwear + staged — nicht casual-influencer",
+        "filter": "Liegt es auf der Spannungsachse (Bleak/Joy)? Auf der Positionierungsachse (queer/heteronorm/bridge)?"
+      },
+      "referenz_orbit": ["svenmarquardt", "willychavarria", "richertbeil", "soderbergofficial", "voostore", "platte.berlin"],
+      "outputs": ["capsule-wardrobe-list", "material-board", "lookbook-eigene-portraits"],
+      "check": "Mode trägt affekt_kern — Wut=Leder, Einsamkeit=oversized shell, Lust=Haut sichtbar mit Agency"
+    },
+
+    "sprechen": {
+      "label": "Sprechen / Stimme / Copy",
+      "role": "Curator voice — nicht Brand voice, nicht Influencer",
+      "grammatik": {
+        "de": "präzise, düster-warm, ohne Hype. Kurze Sätze.",
+        "en": "precise, bleak-warm, no hype. Short sentences.",
+        "struktur_bio": "Rolle → Ort → Request/Link — nie Feature-List",
+        "struktur_announce": "Was + Wo + Wann + Credit — kein Emoji-Overload"
+      },
+      "entscheidungen": {
+        "social": "Stimmung vor Information — Teaser 15–30s worth of words max",
+        "request": "Klare Adresse (sm@boldberlin-Modell) — Permission, nicht Betteln",
+        "kollab": "Dual credit sichtbar — Netzwerk als Content",
+        "verboten": ["festival-sponsor-speak", "tiktok-hype", "toxic-positivity", "ironic-meme"]
+      },
+      "referenz_orbit": ["boldberlin", "kinfolk", "danielle@weeeirdos.com-Modell"],
+      "arthaus_stimme": {
+        "file": "orbit_referenz_arthaus.json → arthaus_prinzipien.geschichte_statt_hype",
+        "regeln": ["Kontext vor Meinung", "Affekt benennen (Trauer, Verlorenheit)", "Top-5/Story-Format statt Clickbait", "Kein Happy End in der Copy"]
+      },
+      "outputs": ["bio-final", "copy-templates", "email-signatur", "podcast-intro-30s"],
+      "check": "Klingt es nach Galerie-Nacht — oder nach Product Launch?"
+    },
+
+    "musik": {
+      "label": "Musik / DJ / Produktion",
+      "role": "Hörbare DNA — deine sonic signature",
+      "grammatik": {
+        "orbit_pools": {
+          "ORBIT CORE": "dein institutionelles Fundament — House/Deep, 124–134, Moll",
+          "ORBIT FLOW": "dein Warm-up-Ich — reduced, Panorama-Logik",
+          "ORBIT MOMENT DEEP": "dein Galerie-Ich — intimate, dubby, emotional",
+          "SYSTEM": "dein Peak/Leftfield-Ich — Säule, nicht Default"
+        },
+        "produktion": ["minor-key", "reduced", "space-between-elements", "hypnotic-not-busy"],
+        "verboten": ["euphoric-pop", "festival-bro", "peak-in-flow-context"]
+      },
+      "entscheidungen": {
+        "kontext": "Galerie-Nacht → MOMENT DEEP; Klubnacht → CORE/FLOW; Säule → SYSTEM",
+        "track_wahl": "Pass 1 messbar (BPM, Key) → Pass 2 ästhetisch → Pass 3 Affekt",
+        "eigene_tracks": "ORBIT ARCHIV-Logik — nichts löschen, später sortieren",
+        "filter": "Passt der Track zu affekt_kern? Sucht=hypnotic loop, Einsamkeit=minor reduced"
+      },
+      "referenz_orbit": ["orbit_*_profile_rules.json", "rekordbox/exports/", "marceldettmann", "anjaschneiderofficial"],
+      "outputs": ["{dein_slug}_profile_rules.json", "eigene Playlists in Rekordbox", "sonic-mood-board"],
+      "check": "Würdest du diesen Track in 3 Jahren noch spielen — oder war es Trend?"
+    },
+
+    "kunst": {
+      "label": "Kunst / Raum / Installation",
+      "role": "Wo ORBIT physisch wird",
+      "grammatik": {
+        "formate": ["exhibition", "immersive", "collab", "pop_up"],
+        "regel": "Keine White-Cube-Generic — immer Kontext (Berlin/Club/Mode)",
+        "gesamtwerk": "Foto × Musik × Licht × Raum — min. 2 Zweige sichtbar verknüpft"
+      },
+      "entscheidungen": {
+        "konzept": "Min. 2 kunst_prinzipien + affekt_kombination benennen",
+        "partner": "gallery_photo + art_club Cluster — tier_1_core Partner",
+        "skala": "Pop-up → Galerie → Institution — Transzendenz wächst mit Skala",
+        "filter": "Trägt der Raum struktur_defizit? Beton ohne Halt = ORBIT-Raum"
+      },
+      "referenz_orbit": ["NACHTBLENDE", "heartbroken_wagner", "KHIDI", "studio1111berlin"],
+      "outputs": ["exhibition-concept", "artist-collab-brief", "installation-spec"],
+      "check": "Wäre das auch ohne deinen Namen ORBIT — oder generisch Kunst?"
+    },
+
+    "foto": {
+      "label": "Fotografie",
+      "role": "Stillstand des Affekts — der Moment nach dem Impuls",
+      "grammatik": {
+        "look": ["analog-bw", "high-contrast", "grain", "daylight-not-flash", "portrait-close", "negative-space"],
+        "subject": ["body-as-subject", "staged-not-candid-influencer", "true-essence-portrait"],
+        "verboten": ["flash-club-doc-default", "busy-layout", "bright-commercial", "filter-app-gloss"]
+      },
+      "entscheidungen": {
+        "shoot": "Aftermath > Peak — Einsamkeit und Katharsis default",
+        "licht": "Tageslicht gestellt — gallery_photo-Cluster (Batch 01); Pour Cet Instant: Sonne schräg, daylight-not-flash",
+        "serie": "Series-not-one-off — ORBIT ARCHIV-Denke",
+        "filter": "Würde das Bild in Galerie Deschler hängen — oder auf TikTok?"
+      },
+      "referenz_orbit": ["Pour Cet Instant (eigen)", "gallery_photo-Cluster: mischa.fanghaenel, photosintese", "MAM: Soutine, Modigliani, Rouault", "ingegrognard"],
+      "outputs": ["photography-brief-template", "eigene portrait-series", "exhibition-doc"],
+      "check": "Foto stillt — zeigt es was übrig bleibt wenn der Bass stoppt?"
+    },
+
+    "film": {
+      "label": "Film / Video",
+      "role": "Affekt in Zeit — Schnitt als emotionaler Rhythmus",
+      "grammatik": {
+        "look": ["grain", "analog-bw-or-desaturated", "slow-or-hypnotic-cut", "raw/honest"],
+        "sound": ["ORBIT MOMENT DEEP / CORE", "reduced", "club-ambient-not-drop"],
+        "subject": ["portrait", "backstage-not-frontstage", "door/bouncer-pov", "projected-stills"],
+        "verboten": ["Erklär-Video", "flash-club-doku-default", "peak-techno-soundtrack-default"]
+      },
+      "entscheidungen": {
+        "laenge": "Social 15–30s Stimmung; Langform institutional doc",
+        "schnitt": "ADHS-Logik nur wenn Affekt Lead; sonst slow/hypnotic",
+        "soundtrack": "Kontext wählt Pool — nie generisch",
+        "filter": "Metal Mag raw/honest — oder Over-Produced?"
+      },
+      "referenz_orbit": ["Pour Cet Instant", "orbit_referenz_arthaus.json", "Berlin Bouncer tone", "NACHTBLENDE", "MAM: de Chirico, Richter (Spaltung)"],
+      "sammelquellen": [
+        {
+          "name": "ARTHAUS",
+          "url": "https://www.arthaus.de",
+          "file": "orbit_referenz_arthaus.json",
+          "nutzen": "Watchlist, Kino, Magazin — arthaus_prinzipien als Film+Stimme-Operator"
+        },
+        {
+          "name": "MAM Paris",
+          "file": "orbit_referenz_mam_paris.json",
+          "nutzen": "Moderne Operatoren — figuration_narrative, mur_gesamtwerk, concept_comme_oeuvre"
+        }
+      ],
+      "arthaus_checks": [
+        "besonderer_film — passt litmus, nicht Mainstream?",
+        "sorgsame_kuration — weniger veröffentlichen, höhere Dichte?",
+        "kein_happy_end — bleibt Wunde offen?",
+        "playlist_danach — was hört/spürst du nach dem Cut?"
+      ],
+      "outputs": ["video-brief", "edit-spec", "reel-template", "documentary-pitch"],
+      "check": "Bewegt sich der Film wie du fühlst — oder wie Referenz es schon gemacht hat?"
+    }
+  },
+
+  "persona_synthese": {
+    "description": "Wie aus ORBIT-Archiv DEINE Identität wird",
+    "formel": "Eigenes Werk (Filter) × Affekt × Prinzip (2+ Säulen) × Entscheidung = Persona",
+    "formel_alt": "Referenz × Affekt × Prinzip — ohne Werk-Filter (veraltet)",
+    "fundament": "orbit_fundament.json → persona_formel_neu",
+    "schritte": [
+      {
+        "step": 1,
+        "action": "Affekt_kern wählen",
+        "source": "orbit_affekt_prinzipien.json → hauptgefuehle + struktur_defizite",
+        "output": "identitaet_profil.affekt_kern"
+      },
+      {
+        "step": 2,
+        "action": "Pole setzen",
+        "source": "core_dna.tension_axis",
+        "output": "identitaet_profil.pole"
+      },
+      {
+        "step": 3,
+        "action": "Medium Lead wählen",
+        "source": "werkzeug.* — wo machst du am meisten, am ehesten?",
+        "output": "identitaet_profil.medium_lead"
+      },
+      {
+        "step": 4,
+        "action": "Forbidden personal definieren",
+        "source": "core_dna.mood_axes.forbidden + ethik_rahmen + eigene Grenze",
+        "output": "identitaet_profil.forbidden_personal"
+      },
+      {
+        "step": 5,
+        "action": "Essence in einem Satz",
+        "source": "Alle obigen — ein Satz den du aufsagen kannst ohne zu stottern",
+        "output": "identitaet_profil.essence_in_einem_satz"
+      },
+      {
+        "step": 6,
+        "action": "Erstes Gesamtwerk planen",
+        "source": "gesamtwerk.project_types — wähle einen Typ der deine Pole trägt",
+        "output": "Konkretes Projekt mit 2+ Zweigen + Datum"
+      },
+      {
+        "step": 7,
+        "action": "Werkzeug aktivieren",
+        "source": "werkzeug.* — pro Medium ein Output in 30 Tagen",
+        "output": "7 Outputs: 1 Look, 1 Bio, 1 Set/Track, 1 Foto-Serie, 1 Video, 1 Post, 1 Raum/Konzept"
+      }
+    ],
+    "referenz_vs_identitaet": {
+      "referenz": "Scan-Batches (marquardt_*, Weaves) — Rohstoff. Superpowers extrahieren, Personen nicht verehren.",
+      "identitaet": "Was du machst, wenn niemand zuschaut — und trotzdem ORBIT bleibt",
+      "regel": "Referenz beantwortet: Welcher Operator? Identität beantwortet: Ist das ich?",
+      "file": "orbit_extraktion.json"
+    }
+  },
+
+  "gesamtwerk_als_identitaet": {
+    "description": "Dein erstes Gesamtwerk = Identitätsbeweis",
+    "empfohlene_einstiege": [
+      {
+        "id": "portrait_nacht",
+        "schwierigkeit": "niedrig",
+        "branches": ["foto", "musik", "marketing"],
+        "projekt": "SW-Porträt-Serie + ORBIT MOMENT DEEP Mini-Set + 3 Posts curator voice",
+        "beweist": "Look + Sound + Stimme = eine Person"
+      },
+      {
+        "id": "aftermath_film",
+        "schwierigkeit": "mittel",
+        "branches": ["film", "foto", "musik"],
+        "projekt": "60s grain video aftermath + Soundtrack + 5 Stills",
+        "beweist": "Affekt_kern sichtbar in Zeit und Bild"
+      },
+      {
+        "id": "galerie_nacht_eigen",
+        "schwierigkeit": "hoch",
+        "branches": ["kunst", "musik", "foto", "film", "marketing"],
+        "projekt": "Pop-up oder Club-As-Gallery mit eigenem Set + Doku + Invite",
+        "beweist": "ORBIT als lebende Persona, nicht Portfolio"
+      }
+    ]
+  },
+
+  "tages_werkzeug": {
+    "description": "ORBIT in 60 Sekunden — morgens oder vor jeder Entscheidung",
+    "fragen": [
+      "Welcher Affekt ist heute Lead?",
+      "Bleak, Joy oder Bridge?",
+      "Queer, heteronormativ oder Bridge — Positionierung?",
+      "Welches Medium arbeite ich heute?",
+      "Passt das zu forbidden_personal?",
+      "Würde ich das in 3 Jahren noch so machen?"
+    ],
+    "quick_filter": "orbit_identitaet.json → werkzeug.[medium] → check"
+  },
+
+  "completion_identitaet": {
+    "description": "ORBIT ist deine Identität wenn —",
+    "checklist": [
+      "identitaet_profil vollständig — Name, Pole, Affekt, Essence-Satz",
+      "Bio live — Rolle → Ort → Request",
+      "Garderobe definiert — capsule + Material-Regeln",
+      "Sonic signature — eigene Playlist-Regeln oder Tracks",
+      "Min. 1 Gesamtwerk veröffentlicht oder gezeigt",
+      "Fremder erkennt dich über Foto/Set/Outfit hinweg",
+      "Du gibst zurück — neue Referenz ins Archiv, nicht nur konsumieren",
+      "litmus_endziel bestanden"
+    ],
+    "phase_aktuell": "2_destillieren — Pour Cet Instant als erster Identitäts-Anker",
+    "erstes_werk": "orbit_werk_pour_cet_instant.json"
+  },
+
+  "integration": {
+    "files": {
+      "dna": "orbit_kultur_dna.json",
+      "prinzipien_index": "orbit_prinzipien_index.json",
+      "arbeitsweise": "orbit_arbeitsweise.json",
+      "prinzipien_research": "docs/prinzipien_research_agent.md",
+      "kunst_prinzipien": "orbit_kultur_dna.json → kunst_prinzipien",
+      "affekt": "orbit_affekt_prinzipien.json",
+      "identitaet": "orbit_identitaet.json",
+      "profile": "marquardt_aesthetic_profiles.csv",
+      "musik_rules": "orbit_{slug}_profile_rules.json"
+    },
+    "naechster_schritt": "identitaet_profil ausfüllen — Phase 2_destillieren starten"
+  }
+}

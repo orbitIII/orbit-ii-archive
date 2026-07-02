@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "type": "kurzfilm",
+  "title": "Pour Cet Instant",
+  "subtitle": "finale Arthouse-Fassung",
+  "format": "Kurzfilm",
+  "pages": 4,
+  "language": { "dialogue": "none", "voice_over": "fr", "subtitles": "en" },
+  "source": {
+    "file": "filme/pour_cet_instant/drehbuch-finale-arthouse-fassung.pdf",
+    "original_filename": "Pour Cet Instant – Drehbuch (finale Arthouse-fassung) 3.pdf",
+    "status": "drehbuch_final",
+    "shoot": "2026-08"
+  },
+  "role_in_orbit": "Erstes Identitäts-Werk — Proof dass ORBIT nicht nur Referenz ist, sondern Output. Phase 2→3 Brücke.",
+
+  "synopsis": {
+    "de": "Eine Frau in Beton-Grau sitzt in einem hellen Zimmer. Ein rotes Kleid hängt auf dem Balkon. Französisches Voice-over über Verlorenheit, Liebe als Anstrengung, Anpassung als Verzicht. Sie berührt das Kleid, tritt auf den Balkon, lässt es fallen — wir sehen nicht wohin. Leere Hand. Vielleicht ein Lächeln, vielleicht Nachgeben. Nichts passiert. Schwarz.",
+    "logline": "Ein Körper lernt, einen Moment ausreichen zu lassen — und etwas Intensives loszulassen, ohne es zu überwinden."
+  },
+
+  "dramaturgie": {
+    "struktur": ["zimmer-anker", "stuhl-ritual", "schwelle-balkon", "loslassen", "leere-hand", "nichts-passiert", "schwarz"],
+    "kein_dreijakter": "Kein Entschluss-Bogen — körperliche Verschiebung, nicht Heldenreise",
+    "ende": "SCHWARZ nach «Nichts passiert» — kein Happy End, kein Fall des Kleides, kein Blick nach unten",
+    "voice_over_arc": [
+      "J'ai appris à rester là où je me perdais",
+      "À confondre l'amour avec l'effort",
+      "À appeler adaptation ce qui était renoncement",
+      "Il y a un moment où le corps sait avant la pensée",
+      "Ce moment suffit"
+    ],
+    "stille": "Letzte Bilder ohne VO — Gesicht, Stadt, Luftzug; Raum reagiert noch ohne Stoff"
+  },
+
+  "visual_grammar_orbit": {
+    "palette": {
+      "dominant": ["grey-concrete", "daylight-real", "muted-city"],
+      "accent": ["red-dress-single-accent"],
+      "rule": "Exakt core_dna.visual_grammar — single-accent-red-or-leather"
+    },
+    "licht": "Sonnenlicht schräg — nicht weich, nicht hart, ganz real → daylight-not-flash",
+    "raum": "Innen (Stuhl, leer) ↔ Schwelle ↔ Außen (Balkon) — institutionelle Leere + Offenheit",
+    "material": ["grey-fabric-clear-lines", "red-fabric-alive", "flieder-fingernails"],
+    "komposition": ["negative-space", "empty-chair-after", "dress-exits-frame", "face-nah-ambiguous"]
+  },
+
+  "affekt_analyse": {
+    "hauptgefuehle": {
+      "einsamkeit": "Leerer Stuhl hinter ihr; Hand ins Nichts; «rester là où je me perdais»",
+      "dissoziation": "Körper weiß vor dem Denken; Zittern das nicht überwunden wird — nur nicht getragen",
+      "ohnmacht": "Liebe = Anstrengung; Anpassung = Verzicht — kein Halt, nur Erschöpfung",
+      "lust": "Rotes Kleid «fast zu lebendig» — Verlangen berührt, nicht gegriffen"
+    },
+    "struktur_defizit": "keine_mutter_kein_halt — Anpassung benannt als das was sie wirklich ist: Renoncement",
+    "borderline_operator": "Wimpernschlag Unsicherheit; Lächeln oder Nachgeben — nichts festgelegt; Spaltung ohne Auflösung",
+    "affekt_bundle": "aftermath_portrait + arthaus_emotional"
+  },
+
+  "kunst_prinzipien": {
+    "aktiv": ["metamorphose", "schwelle", "leere", "katharsis", "transzendenz", "spaltung", "mimesis", "alchemie"],
+    "kombination_id": "pour_cet_instant",
+    "begruendung": {
+      "metamorphose": "Rot verlässt den Frame — Loslassen als Formwandel ohne Sieg",
+      "schwelle": "Balkontür offen — Moment vor dem Act, nicht Spektakel des Falls",
+      "leere": "Leere Hand, leerer Stuhl, «Nichts passiert»",
+      "katharsis": "Loslassen ohne Triumph — Erschöpfung, nicht Entscheidung",
+      "transzendenz": "«Ce moment suffit» — profaner Raum wird Moment",
+      "spaltung": "Lächeln oder Nachgeben — zwei Wahrheiten, keine Auflösung",
+      "mimesis": "Finger zittern wie Finger zittern — Körper vor Idee",
+      "alchemie": "Aus Grau + einem Rot + Stille → Intensität ohne Addition"
+    }
+  },
+
+  "arthaus_prinzipien": {
+    "aktiv": [
+      "kein_happy_end",
+      "playlist_danach",
+      "sorgsame_kuration",
+      "besonderer_film",
+      "genre_präzision"
+    ],
+    "begruendung": {
+      "kein_happy_end": "Kein Blick nach unten, kein Zögern beim Fall — aber auch kein Sieg; ambiguous smile",
+      "playlist_danach": "Stadtgeräusche, Luftzug — Nachhall nach dem Bild; Film ENDET im Danach",
+      "sorgsame_kuration": "4 Seiten, ein Raum, ein Objekt, ein Akt — maximale Dichte, null Füllung",
+      "besonderer_film": "Französisch-VO Kurzfilm — arthouse, nicht Erklär-Video",
+      "genre_präzision": "Miniatur-Arthouse — nicht Drama, nicht Therapie-Film; «Pour Cet Instant» als Genre"
+    }
+  },
+
+  "spannungsachse": {
+    "aesthetic_pole": "bridge",
+    "aesthetic_note": "Beton-Grau + rotes Kleid — bleak mit Intensitäts-Akzent der verlässt",
+    "positionierung": {
+      "axis": "queer_x_heteronormativ",
+      "pole": "bridge",
+      "heteronorm_signals": ["Liebe als Anstrengung", "Anpassung als Renoncement", "Paar-Form ohne Happy End"],
+      "queer_signals": ["Körper vor Norm", "Loslassen ohne hetero-Script-Auflösung", "Abweichung ohne Label"],
+      "regel": "Französisch-VO und Körper-Drama — zwischen Regimen, nicht zugeordnet"
+    },
+    "bleak": "Beton-Grau, Verzicht, Erschöpfung, leerer Stuhl",
+    "accent": "Rot — Intensität die losgelassen wird",
+    "regel": "Rot erscheint, wird berührt, verlässt den Frame — Spannung ohne Coexistenz am Ende"
+  },
+
+  "production_orbit": {
+    "film": {
+      "look": ["grain-light-optional", "daylight-not-flash", "high-contrast-red-on-grey", "slow-or-hypnotic-cut"],
+      "sound": ["diegetic-city", "reduced", "ORBIT MOMENT DEEP optional under VO", "silence-final-30s-no-vo"],
+      "verboten": ["score-swelling-at-release", "slow-mo-dress-fall", "flashback-montage", "Erklär-Titel am Ende"]
+    },
+    "mode": {
+      "costume": "Beton-Grau Oberkörper — klare Linien; rotes Kleid als Objekt nicht getragen bis Schwelle",
+      "referenz": "single-accent-red-or-leather + concrete-as-canvas"
+    },
+    "musik": {
+      "pool": "ORBIT MOMENT DEEP",
+      "character": "dubby, minor, space — VO trägt; Musik nur wenn Stille zu hart",
+      "playlist_danach": "Walk-home-Track nach SCHWARZ — für echte «Playlist danach»-Reihe"
+    },
+    "marketing": {
+      "copy": "Französisch Titel + eine Zeile EN — kein Synopsis-Paragraph",
+      "beispiel": "Pour Cet Instant — This moment is enough.",
+      "ton": "curator voice — ARTHAUS geschichte_statt_hype ohne Hype"
+    },
+    "foto": {
+      "still": "Stuhl leer + Balkontür offen; oder Nah Hand flieder Nägel auf rotem Stoff — aftermath"
+    }
+  },
+
+  "identitaet_ableitung": {
+    "medium_lead": "film",
+    "medium_support": ["foto", "mode", "marketing"],
+    "pole": "bridge",
+    "affekt_kern": {
+      "primary": "einsamkeit;dissoziation",
+      "secondary": "ohnmacht",
+      "struktur_defizit": "keine_mutter_kein_halt"
+    },
+    "essence_kandidat": "Ich mache Arbeit über den Moment nach dem Verlust — wenn der Körper schon weiß und der Geist nachkommt.",
+    "forbidden_bestaetigt": ["happy-end", "Erklär-Video", "triumph-montage", "therapy-speak"]
+  },
+
+  "gesamtwerk_erweiterung": {
+    "description": "Pour Cet Instant als Kern — andere Zweige andocken",
+    "moeglichkeiten": [
+      { "branch": "musik", "output": "1 Track oder DJ-Intro 60s — «Ce moment suffit» Stimmung" },
+      { "branch": "foto", "output": "3 Stills: Stuhl / Hand auf Rot / Leere Hand am Geländer" },
+      { "branch": "mode", "output": "Lookbook: Beton-Grau Capsule + ein rotes Stück als Objekt" },
+      { "branch": "marketing", "output": "Bio-Zeile + Festival-Submit Copy curator voice" },
+      { "branch": "kunst", "output": "Installation: leerer Stuhl + rotes Kleid an Leine im Luftzug — Loop ohne Fall" }
+    ],
+    "project_type": "aftermath_film — orbit_identitaet.json gesamtwerk_als_identitaet"
+  },
+
+  "checklist_orbit": {
+    "visual_grammar": true,
+    "mood_axes_forbidden": true,
+    "kunst_prinzipien_2plus": true,
+    "affekt_2plus": true,
+    "arthaus_prinzipien_1plus": true,
+    "kein_happy_end": true,
+    "litmus_galerie_nacht_not_festival": true,
+    "identitaet_nicht_referenz_kopie": true
+  }
+}

@@ -1,0 +1,5 @@
+__pycache__/
+dropped_in_import_checkpoint.json
+dropped_in_track_cache.jsonl
+rekordbox/backups/
+remmex/downloads/

@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "anchor": "svenmarquardt",
+  "updated": "2026-06-27",
+  "following_status": {
+    "expected": 364,
+    "extracted_partial": 16,
+    "note": "Full list: python3 scripts/extract_marquardt_following.py --username YOUR_IG"
+  },
+  "clusters": {
+    "club_techno": {
+      "label": "Club / Techno / Berghain",
+      "description": "Berghain-Ostgut-Orbit, Residents, Kollektive, Club-Labels",
+      "aesthetic_signals": ["all-black", "minimal-design", "berlin-club", "techno-goth", "no-flash-club-doc"],
+      "cities": ["Berlin", "Tbilisi"],
+      "handles": [
+        "ostgut_ton",
+        "marceldettmann",
+        "ben_klock",
+        "rodhad_wsnwg",
+        "_lolsnake_",
+        "weeeirdos",
+        "mischa.fanghaenel",
+        "nachts_berlin",
+        "khidiclub",
+        "unarchivedwisdom",
+        "berghain_panoramabar",
+        "saeule_berlin",
+        "andregalluzzi_official",
+        "christoph__faust",
+        "iamlucaeck"
+      ]
+    },
+    "gallery_photo": {
+      "label": "Galerie / Foto / Analog",
+      "description": "Galerien, Ausstellungsorte, analoge SW-Porträtfotografie",
+      "aesthetic_signals": ["analog-bw", "high-contrast", "gallery-figurative", "exhibition-doc", "portrait"],
+      "cities": ["Berlin", "Hamburg", "NYC", "Tbilisi"],
+      "handles": [
+        "svenmarquardt",
+        "galeriedeschler",
+        "deichtorhallenhamburg",
+        "c24gallery",
+        "photosintese",
+        "lars_murasch",
+        "streetmoments.nyc",
+        "studioxnoire",
+        "ingegrognard"
+      ]
+    },
+    "fashion_pfw": {
+      "label": "Fashion PFW / Global Street Style",
+      "description": "Paris Fashion Week, Street Style, Luxury Retail, Runway-Orbit",
+      "aesthetic_signals": ["pfw", "street-style", "front-row", "luxury-street", "editorial-flash"],
+      "cities": ["Paris", "Milan", "NYC"],
+      "handles": [
+        "thestyleograph",
+        "jeremy.melloul",
+        "bestimageagency",
+        "antoniolieu",
+        "scovvv",
+        "willychavarria",
+        "maluma",
+        "michelgaubert",
+        "visualisation_",
+        "austral.paris",
+        "sabine_roethig",
+        "numero_netherlands",
+        "ingegrognard"
+      ]
+    },
+    "fashion_berlin": {
+      "label": "Fashion Berlin / Next Gen",
+      "description": "Berliner Mode-Community, Stores, Next-Gen-Designer, Concept Stores",
+      "aesthetic_signals": ["berlin-fashion", "next-gen-design", "concept-store", "community-fashion"],
+      "cities": ["Berlin"],
+      "handles": [
+        "platte.berlin",
+        "ankeschloeder",
+        "kerstingeffert",
+        "numeroberlin",
+        "blackbirdberlin",
+        "raufaser.atelier",
+        "voostore",
+        "rukhglobal",
+        "hannibalstore",
+        "soderbergofficial",
+        "richertbeil",
+        "numero_netherlands",
+        "salty.nacho"
+      ]
+    },
+    "art_club": {
+      "label": "Art Club / Immersive",
+      "description": "Art & Social Clubs, immersive Nächte, Berlin Confidential",
+      "aesthetic_signals": ["art-club", "flash-portrait", "immersive", "red-filter-video", "underground"],
+      "cities": ["Berlin"],
+      "handles": ["studio1111berlin", "weeeirdos", "_lolsnake_", "saeule_berlin"]
+    },
+    "pr_editorial": {
+      "label": "PR / Editorial / Kultur",
+      "description": "Agenturen, Magazine, Brand-Culture, Schreiben über Szene",
+      "aesthetic_signals": ["cultural-marketing", "editorial", "magazine", "brand-culture"],
+      "cities": ["Berlin", "NYC", "London"],
+      "handles": [
+        "boldberlin",
+        "nici_oh",
+        "kinfolk",
+        "itsdavidkane",
+        "sabine_roethig"
+      ]
+    },
+    "music_model": {
+      "label": "Musik / Model / Crossover",
+      "description": "Musiker und Models mit SW-Video- und Fashion-Ästhetik",
+      "aesthetic_signals": ["sw-video", "leather", "model-shoot", "band-promo"],
+      "cities": ["Berlin"],
+      "handles": [
+        "theuerkorn",
+        "anjaschneiderofficial",
+        "korbinianglacier",
+        "iamlucaeck",
+        "salty.nacho"
+      ]
+    },
+    "weak_signal": {
+      "label": "Schwach / Unbekannt",
+      "description": "Geringes Signal oder nur Mutual-Follower — manuell prüfen",
+      "aesthetic_signals": [],
+      "cities": ["Berlin"],
+      "handles": [
+        "karolinaahhhh",
+        "_atavem",
+        "cabbage742",
+        "5pnips.mp3",
+        "isabellebogomas",
+        "flieder_und_beton"
+      ]
+    }
+  },
+  "affekt_signals": {
+    "description": "Affekt-Tags aus orbit_affekt_prinzipien.json — für Profile-Scoring und Sammelphase",
+    "source": "orbit_affekt_prinzipien.json",
+    "by_cluster": {
+      "gallery_photo": {
+        "lead_gefuehle": ["einsamkeit", "katharsis", "lust", "ohnmacht"],
+        "medium_lead": "fotografie",
+        "extern_refs": ["Nan Goldin", "Juergen Teller", "Deana Lawson"]
+      },
+      "club_techno": {
+        "lead_gefuehle": ["sucht", "dissoziation", "ekstase", "ohnmacht"],
+        "medium_lead": "film",
+        "extern_refs": ["Enter the Void", "Berlin Bouncer", "Christiane F."]
+      },
+      "art_club": {
+        "lead_gefuehle": ["dissoziation", "ekstase", "adhs"],
+        "medium_lead": "film",
+        "extern_refs": ["Climax", "Paris Is Burning"]
+      },
+      "fashion_berlin": {
+        "lead_gefuehle": ["wut", "lust", "subversion"],
+        "medium_lead": "mode",
+        "extern_refs": ["Rick Owens", "Hood By Air", "Martine Rose"]
+      },
+      "fashion_pfw": {
+        "lead_gefuehle": ["lust", "ohnmacht", "einsamkeit"],
+        "medium_lead": "mode",
+        "extern_refs": ["Alexander McQueen", "Willy Chavarria"]
+      },
+      "music_model": {
+        "lead_gefuehle": ["wut", "dissoziation", "lust"],
+        "medium_lead": "film",
+        "extern_refs": ["Luca Eck", "Gaspar Noé music-video grammar"]
+      }
+    }
+  },
+  "cross_cluster": {
+    "boldberlin": ["pr_editorial", "fashion_berlin"],
+    "nici_oh": ["pr_editorial", "fashion_pfw"],
+    "kerstingeffert": ["fashion_berlin", "pr_editorial"],
+    "marceldettmann": ["club_techno", "gallery_photo"],
+    "mischa.fanghaenel": ["club_techno", "gallery_photo"],
+    "khidiclub": ["club_techno", "gallery_photo"],
+    "streetmoments.nyc": ["gallery_photo", "pr_editorial"],
+    "weeeirdos": ["club_techno", "art_club"],
+    "_lolsnake_": ["club_techno", "art_club"],
+    "saeule_berlin": ["club_techno", "art_club"],
+    "svenmarquardt": ["gallery_photo", "club_techno"]
+  },
+  "weaves": [
+    {
+      "id": "marquardt_sauele_weeeirdos",
+      "file": "orbit_verflechtungen.json",
+      "handles": ["svenmarquardt", "_lolsnake_", "weeeirdos", "saeule_berlin", "berghain_panoramabar", "ostgut_ton"],
+      "tension": "bleak × subversive-joy"
+    },
+    {
+      "id": "heartbroken_wagner",
+      "file": "orbit_verflechtungen.json",
+      "handles": ["svenmarquardt", "anjaschneiderofficial", "galeriedeschler"],
+      "tension": "wagnerian-institutional × bleak-club-dark",
+      "gesamtwerk_exemplar": true
+    },
+      {
+        "id": "gstar_voo_11plus1",
+        "file": "orbit_verflechtungen.json",
+        "handles": ["svenmarquardt", "voostore"],
+        "tension": "club-portrait × fashion-retail"
+      },
+      {
+        "id": "nachtblende_slide",
+        "file": "orbit_verflechtungen.json",
+        "handles": ["svenmarquardt", "marceldettmann", "lars_murasch", "ostgut_ton", "khidiclub"],
+        "tension": "gallery-exhibition × immersive-av",
+        "gesamtwerk_exemplar": "immersive_install"
+      }
+    ],
+  "filter_presets": {
+    "marquardt_core": {
+      "description": "Höchste Nähe zu Marquardts visueller DNA",
+      "clusters": ["gallery_photo", "club_techno", "art_club"],
+      "min_proximity": 85
+    },
+    "fashion_orbit": {
+      "description": "Mode + Editorial ohne reiner Techno-DJ",
+      "clusters": ["fashion_pfw", "fashion_berlin", "pr_editorial"],
+      "min_proximity": 75
+    },
+    "berlin_only": {
+      "description": "Nur Berlin-verankerte Accounts",
+      "cities_contains": "Berlin",
+      "min_proximity": 70
+    },
+    "subversive_joy": {
+      "description": "Queer-club Ausnahme — Farbe + Community innerhalb institutionell-underground",
+      "include_clusters": ["club_techno", "art_club"],
+      "include_moods": ["subversive-joy", "queer-community", "magnetic"],
+      "include_handles": ["weeeirdos", "_lolsnake_", "saeule_berlin"],
+      "min_proximity": 85
+    }
+  }
+}

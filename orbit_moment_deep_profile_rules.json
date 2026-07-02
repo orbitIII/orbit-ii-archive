@@ -1,0 +1,353 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/orbit_moment_deep_snapshot.csv",
+  "playlist_name": "ORBIT MOMENT DEEP",
+  "profile": {
+    "track_count": 25,
+    "bpm": {
+      "min": 122.98,
+      "max": 130.0,
+      "mean": 126.54,
+      "median": 126.0,
+      "stdev": 2.2,
+      "p10": 124.0,
+      "p90": 130.0
+    },
+    "keys_top10": [
+      [
+        "Am",
+        4
+      ],
+      [
+        "Dbm",
+        3
+      ],
+      [
+        "Fm",
+        3
+      ],
+      [
+        "Ebm",
+        2
+      ],
+      [
+        "Bb",
+        2
+      ],
+      [
+        "Gm",
+        2
+      ],
+      [
+        "Abm",
+        1
+      ],
+      [
+        "Bbm",
+        1
+      ],
+      [
+        "A",
+        1
+      ],
+      [
+        "E",
+        1
+      ]
+    ],
+    "genres_top15": [
+      [
+        "House",
+        7
+      ],
+      [
+        "Minimal",
+        4
+      ],
+      [
+        "Tech House",
+        4
+      ],
+      [
+        "Deep House",
+        4
+      ],
+      [
+        "Minimal / Deep Tech",
+        3
+      ],
+      [
+        "Techno",
+        2
+      ],
+      [
+        "Deep Tech",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Silat Beksi",
+        4
+      ],
+      [
+        "Oshana",
+        1
+      ],
+      [
+        "Skudge",
+        1
+      ],
+      [
+        "Burnski",
+        1
+      ],
+      [
+        "Eddie Fowlkes",
+        1
+      ],
+      [
+        "Mattias El Mansouri",
+        1
+      ],
+      [
+        "Halo Varga",
+        1
+      ],
+      [
+        "Soul Of Hex",
+        1
+      ],
+      [
+        "EyeofPsi",
+        1
+      ],
+      [
+        "Bambounou, Priori",
+        1
+      ],
+      [
+        "Moritz Piske",
+        1
+      ],
+      [
+        "Risk Assessment, KE, Franck Roger",
+        1
+      ],
+      [
+        "Philip Chernikov",
+        1
+      ],
+      [
+        "Cosmjn",
+        1
+      ],
+      [
+        "Stephen Brown",
+        1
+      ],
+      [
+        "Bastien",
+        1
+      ],
+      [
+        "Nathan Coles",
+        1
+      ],
+      [
+        "Sweely",
+        1
+      ],
+      [
+        "sanXero featuring Mr. V & Louie Vega",
+        1
+      ],
+      [
+        "Red Pig Flower",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "BodyParts Vinyl",
+        1
+      ],
+      [
+        "Skudge Records",
+        1
+      ],
+      [
+        "Constant Sound",
+        1
+      ],
+      [
+        "City Boy Music (US)",
+        1
+      ],
+      [
+        "Phonica Recordings",
+        1
+      ],
+      [
+        "All Inn Records",
+        1
+      ],
+      [
+        "Freerange Records",
+        1
+      ],
+      [
+        "DESSERT",
+        1
+      ],
+      [
+        "Rawax",
+        1
+      ],
+      [
+        "Afterhours",
+        1
+      ],
+      [
+        "Raru Movement",
+        1
+      ],
+      [
+        "Bambe",
+        1
+      ],
+      [
+        "Opossum Recordings",
+        1
+      ],
+      [
+        "Reel People Music",
+        1
+      ],
+      [
+        "down2earth",
+        1
+      ],
+      [
+        "PATH",
+        1
+      ],
+      [
+        "LF RMX",
+        1
+      ],
+      [
+        "DMN TRAXX",
+        1
+      ],
+      [
+        "Is This",
+        1
+      ],
+      [
+        "Display",
+        1
+      ]
+    ],
+    "key_unique": 15,
+    "genre_unique": 7,
+    "artist_unique": 22,
+    "label_unique": 25
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 124.0,
+      "max": 130.0,
+      "weight": 0.3,
+      "description": "BPM between 124.0 and 130.0 (ORBIT MOMENT DEEP p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "House",
+        "Minimal",
+        "Tech House",
+        "Deep House",
+        "Minimal / Deep Tech",
+        "Techno",
+        "Deep Tech"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent ORBIT MOMENT DEEP genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Am",
+        "Dbm",
+        "Fm",
+        "Ebm",
+        "Bb",
+        "Gm",
+        "Abm",
+        "Bbm"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent ORBIT MOMENT DEEP keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "BodyParts Vinyl",
+        "Skudge Records",
+        "Constant Sound",
+        "City Boy Music (US)",
+        "Phonica Recordings",
+        "All Inn Records",
+        "Freerange Records",
+        "DESSERT",
+        "Rawax",
+        "Afterhours",
+        "Raru Movement",
+        "Bambe",
+        "Opossum Recordings",
+        "Reel People Music",
+        "down2earth"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent ORBIT MOMENT DEEP labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Bambounou, Priori",
+        "Bastien",
+        "Burnski",
+        "Cosmjn",
+        "Eddie Fowlkes",
+        "EyeofPsi",
+        "Halo Varga",
+        "Mattias El Mansouri",
+        "Moritz Piske",
+        "Nathan Coles",
+        "Oshana",
+        "Philip Chernikov",
+        "Red Pig Flower",
+        "Risk Assessment, KE, Franck Roger",
+        "Silat Beksi",
+        "Skudge",
+        "Soul Of Hex",
+        "Stephen Brown",
+        "Sweely",
+        "sanXero featuring Mr. V & Louie Vega"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 ORBIT MOMENT DEEP artists or exact match in corpus"
+    }
+  ]
+}

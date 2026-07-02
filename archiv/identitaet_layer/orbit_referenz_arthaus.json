@@ -1,0 +1,350 @@
+{
+  "version": 2,
+  "updated": "2026-06-27",
+  "name": "ARTHAUS Referenz",
+  "url": "https://www.arthaus.de",
+  "parent": "orbit_identitaet.json",
+  "operator": "STUDIOCANAL GmbH",
+  "tagline": "Besondere Filme — Independent, Klassiker, deutscher und europäischer Film",
+
+  "was_ist_arthaus": {
+    "typ": "Arthouse-Label / Kino- & Home-Entertainment-Plattform — keine Galerie, kein Club",
+    "kanaele": ["Im Kino", "DVD & Blu-ray", "Streaming (ARTHAUS+)", "Shop", "Magazin"],
+    "inhalt": "Kuratiertes Programm: Independent Cinema, europäischer Autorenfilm, Klassiker, deutsche Filmgeschichte",
+    "orbit_relevanz": "Film-Zweig + Identitäts-Werkzeug — Referenzkorpus für Schnitt, Ton, Affekt und curator voice"
+  },
+
+  "orbit_alignment": {
+    "passt_weil": [
+      "Besondere Filme = ORBIT litmus: Galerie-Nacht, nicht Festival-Bro",
+      "Europäisch-institutionell — Transzendenz ohne Hollywood-Glanz",
+      "Magazin-Ton: Bildung + Stimmung, kein Hype-Marketing",
+      "Themen wie Trauer, Verzweiflung, kein Happy End — Affekt-Schicht",
+      "Science Fiction Noir, Lynch, Fassbinder-Erbe — bleak × conceptual"
+    ],
+    "nicht_verwechseln": [
+      "Kein Berliner Galerie-Orbit (dafür: galeriedeschler, Auguststr)",
+      "Kein Club-DNA-Träger — Kino ist Kontext, nicht Default-Soundtrack",
+      "Kommerzieller Shop — Sammeln ja, Branding kopieren nein"
+    ],
+    "kunst_prinzipien": ["transzendenz", "katharsis", "zeitlosigkeit", "leere"],
+    "affekt_schwerpunkte": ["einsamkeit", "sucht", "dissoziation", "ohnmacht", "keine_mutter_kein_halt"],
+    "arthaus_prinzipien_kern": ["besonderer_film", "sorgsame_kuration", "kein_happy_end", "kanalübergreifend", "geschichte_statt_hype"]
+  },
+
+  "arthaus_prinzipien": {
+    "description": "Abgeleitet aus ARTHAUS-Programm, Über-uns, ARTHAUS+, Magazin-Editorial (1994–2026). Nicht Marketing kopieren — Operatoren für ORBIT Film + Stimme + Identität.",
+    "quellen": [
+      "https://www.arthaus.de/ueber_arthaus",
+      "https://www.arthausplus.de/",
+      "https://de.wikipedia.org/wiki/Arthaus_Filmvertrieb",
+      "Magazin-Slugs: kein_happy_end, playlist_danach, wiederentdeckt, science_fiction_noir"
+    ],
+    "rule": "ARTHAUS-Prinzipien ergänzen kunst_prinzipien — min. 1 ARTHAUS + 1 ORBIT-Kernprinzip pro Filmprojekt",
+    "principles": {
+      "besonderer_film": {
+        "label": "Besonderer Film",
+        "definition": "Qualität abseits der Blockbusterwelt — nicht Nische als Pose, sondern Kuratierung mit Anspruch.",
+        "arthaus_original": "Herausragende Independent-Filme, Klassiker, Dokumentarfilme, umstrittene Meisterwerke — Öffentlichkeit fernab der Blockbusterwelt (Über ARTHAUS, 1994)",
+        "operators": ["anti-mainstream", "qualitaetsstempel", "nicht-fuer-alle", "anspruch-vor-reichweite"],
+        "orbit_kunst_prinzipien": ["transzendenz", "zeitlosigkeit", "ritual"],
+        "orbit_affekte": ["ohnmacht", "einsamkeit"],
+        "branch_signals": {
+          "film": "Kein Erklär-Video, kein TikTok-Clip — Langform oder 30s Stimmung",
+          "marketing": "ORBIT litmus_question — Galerie-Nacht, nicht Festival-Bro",
+          "musik": "ORBIT MOMENT DEEP / CORE — nie euphoric-pop",
+          "identitaet": "forbidden_personal = ARTHAUS-Gegenteil"
+        },
+        "forbidden": ["blockbuster-speak", "algorithm-chasing", "festival-bro", "influencer-content"]
+      },
+      "sorgsame_kuration": {
+        "label": "Sorgsame Kuration",
+        "definition": "Weniger Titel, höhere Dichte — jedes Werk trägt Gewicht; nicht überladen.",
+        "arthaus_original": "Sorgsam kuratiertes Angebot — Geschmack über Mainstream hinaus, nicht zu überladen (ARTHAUS+, Presse STUDIOCANAL)",
+        "operators": ["select-not-flood", "each-title-matters", "shortcut-to-quality", "density-over-volume"],
+        "orbit_kunst_prinzipien": ["leere", "alchemie", "zeitlosigkeit"],
+        "orbit_affekte": ["einsamkeit", "leere"],
+        "branch_signals": {
+          "film": "ORBIT ARCHIV — sammeln, sortieren, nicht alles veröffentlichen",
+          "marketing": "Kurze Sätze — kein Feature-Overload (Marquardt-Bio-Modell)",
+          "identitaet": "Capsule wardrobe, nicht Trend-Zyklen"
+        },
+        "forbidden": ["content-flood", "busy-layout", "playlist-merge-alles", "info-overload"]
+      },
+      "kanalübergreifend": {
+        "label": "Kanalübergreifendes Gesamtwerk",
+        "definition": "Derselbe Film als Kino, Restaurierung, DVD/4K, Streaming — ein Werk, viele Einstiege.",
+        "arthaus_original": "Hochwertiger Filmgenuss kanalübergreifend — Kino, aufwändige HE-Edition, ARTHAUS CLASSICS-Wiederaufführung, ARTHAUS+ (Kalle Friz, STUDIOCANAL)",
+        "operators": ["multi-channel-one-work", "format-adapt-not-dilute", "cinema-first-option", "restoration-as-respect"],
+        "orbit_kunst_prinzipien": ["gesamtwerk", "ritual", "zeitlosigkeit"],
+        "orbit_affekte": ["ekstase", "transzendenz"],
+        "branch_signals": {
+          "film": "Kurzform Social + Langform Doc — gleicher Affekt, verschiedene Kanäle",
+          "kunst": "Heartbroken-Modell: Live + EP + Doc + Press",
+          "marketing": "Galerie-Nacht Invite + Teaser + Editorial — ein Event, mehrere Formate"
+        },
+        "forbidden": ["single-channel-dump", "social-only-no-depth", "soundtrack-as-afterthought"]
+      },
+      "erhalt_wiederentdeckung": {
+        "label": "Erhalt & Wiederentdeckung",
+        "definition": "Filmkunst bewahren — Klassiker restaurieren, vergessene Werke zurückholen.",
+        "arthaus_original": "Engagement für Erhalt der Filmkunst; ARTHAUS Classics: 4K-Restaurierung, OV/OmU, Regisseur-Specials, thematische Reihen (Der Himmel über Berlin, Apocalypse Now, Außer Atem …)",
+        "operators": ["archive-not-delete", "restore-with-care", "rediscovery", "director-series"],
+        "orbit_kunst_prinzipien": ["zeitlosigkeit", "ritual", "transzendenz"],
+        "orbit_affekte": ["einsamkeit", "nostalgie-adjacent"],
+        "branch_signals": {
+          "film": "Grain, analog — nicht digital glatt",
+          "musik": "AUSGEsortiert nie löschen; ORBIT ARCHIV",
+          "identitaet": "Series-not-one-off; Marquardt portrait series"
+        },
+        "forbidden": ["trend-cycle-discard", "remaster-to-death", "nostalgia-kitsch"]
+      },
+      "autorenfilm": {
+        "label": "Autorenfilm / Regisseur als Marke",
+        "definition": "Regisseur:in, Epoche, Werklogik — nicht Cast-Hype.",
+        "arthaus_original": "Filmverlag der Autoren-Meisterwerke + junge Regisseure; Regisseur-Specials; Magazin: Fellini, Lynch, Schlöndorff, von Trotta, Jarmusch",
+        "operators": ["director-as-author", "thematic-series", "filmography-logic", "young-auteur-platform"],
+        "orbit_kunst_prinzipien": ["gesamtwerk", "ritual", "koerper"],
+        "orbit_affekte": ["wut", "ohnmacht"],
+        "branch_signals": {
+          "film": "Institutional camera distance — Autor-Perspektive",
+          "marketing": "Dual credit — Regisseur × Visual Lead (Heartbroken-Modell)",
+          "kunst": "Künstler:innen aus gallery_photo priorisieren"
+        },
+        "forbidden": ["celebrity-over-author", "franchise-logic", "influencer-cast"]
+      },
+      "kein_happy_end": {
+        "label": "Kein Happy End",
+        "definition": "Emotionale Ehrlichkeit — kein erzwungenes Closure, kein toxisches Auflösungsversprechen.",
+        "arthaus_original": "Volker Schlöndorff: Kein Freund von Happyends; viele Freiheiten und kein Happy End; Bruno Ganz: zielgerichtete Verlorenheit",
+        "operators": ["no-forced-closure", "verlorenheit-allowed", "trauer-endures", "open-wound-not-bow"],
+        "orbit_kunst_prinzipien": ["katharsis", "leere", "transzendenz"],
+        "orbit_affekte": ["einsamkeit", "ohnmacht", "katharsis"],
+        "branch_signals": {
+          "film": "No happy resolution cut — Berlin Bouncer tone",
+          "marketing": "Kein Hype-Ende — precise, bleak-warm",
+          "musik": "Non-dancefloor emotional — Heartbroken EP character"
+        },
+        "forbidden": ["toxic-positivity", "euphoric-pop-ending", "brand-speak-closure"]
+      },
+      "umstritten_erlaubt": {
+        "label": "Umstritten erlaubt",
+        "definition": "Meisterwerke auch wenn sie stören — Kontroverse ist Feature, nicht Fehler.",
+        "arthaus_original": "Umstrittene Meisterwerke explizit im Programm (Über ARTHAUS, Wikipedia)",
+        "operators": ["controversy-as-feature", "disturb-not-shock-for-shock", "debate-invited", "no-sanitized-catalog"],
+        "orbit_kunst_prinzipien": ["subversion", "katharsis", "koerper"],
+        "orbit_affekte": ["wut", "lust", "dissoziation"],
+        "branch_signals": {
+          "film": "Antichrist/Irreversible-Nähe — mit Kontext, nicht Edgelord",
+          "kunst": "Disturbing Beauty — Wagnerian dark",
+          "ethik": "Ethik-Rahmen: kein Trauma-Porn — aber Konfrontation erlaubt"
+        },
+        "forbidden": ["shock-without-substance", "cancel-culture-avoidance-only", "safe-default"]
+      },
+      "geschichte_statt_hype": {
+        "label": "Geschichte statt Hype",
+        "definition": "Magazin erzählt Kontext, Entstehung, Hintergrund — Filmgeschichte als lebendige Erzählung.",
+        "arthaus_original": "Besondere Filme und ihre Geschichten; Kultfilm-Storys; Erinnerungen an Dreharbeiten; Mit Mary Ellen Mark am Set",
+        "operators": ["context-before-opinion", "making-of-as-art", "film-history-narrative", "names-and-dates"],
+        "orbit_kunst_prinzipien": ["zeitlosigkeit", "ritual", "gesamtwerk"],
+        "orbit_affekte": ["einsamkeit", "sucht"],
+        "branch_signals": {
+          "marketing": "Curator voice — Rolle → Ort → Request; Credits sichtbar",
+          "film": "Langform doc für institutionelle Partner",
+          "identitaet": "referenz_spiegel — wer spiegelt welchen Teil"
+        },
+        "forbidden": ["clickbait-title", "emoji-hype", "influencer-unboxing-tone"]
+      },
+      "playlist_danach": {
+        "label": "Die Playlist danach",
+        "definition": "Was bleibt wenn der Abspann läuft — Nachhall, Synästhesie, Aftermath.",
+        "arthaus_original": "Magazin-Reihe: Die Playlist danach — Himmel über Berlin, Leon der Profi, Roads, Monsieur Hulot …",
+        "operators": ["aftermath-default", "soundtrack-as-echo", "what-lingers", "night-after-film"],
+        "orbit_kunst_prinzipien": ["synaesthesie", "katharsis", "leere"],
+        "orbit_affekte": ["einsamkeit", "sucht", "dissoziation", "ekstase"],
+        "branch_signals": {
+          "film": "Soundtrack ORBIT MOMENT DEEP — kontextgebunden",
+          "musik": "Walk-home-Playlist — nicht Peak",
+          "foto": "Aftermath-of-party — Lolsnake × Marquardt default"
+        },
+        "forbidden": ["drop-as-ending", "immediate-next-content", "no-resonance"]
+      },
+      "freiheit_nehmen": {
+        "label": "Freiheit nehmen",
+        "definition": "Nach wahren Begebenheiten — aber künstlerische Freiheit vor dokumentarischer Enge.",
+        "arthaus_original": "Ein Film der sich die Freiheit nimmt (Rosa Luxemburg); Nach wahren Begebenheiten — nicht wörtliche Wahrheit",
+        "operators": ["truth-as-material-not-cage", "adaptation-freedom", "poetic-license", "based-on-not-copy"],
+        "orbit_kunst_prinzipien": ["alchemie", "subversion", "transzendenz"],
+        "orbit_affekte": ["wut", "ohnmacht"],
+        "branch_signals": {
+          "film": "Heartbroken — Wagner nicht wörtlich, dubby reinterpretation",
+          "kunst": "Club-as-gallery — Raum frei interpretiert",
+          "ethik": "Echte Daten in Archiv — künstlerische Freiheit im Werk"
+        },
+        "forbidden": ["doc-washing", "biopic-literalism", "invented-DNA-in-archive"]
+      },
+      "genre_präzision": {
+        "label": "Genre-Präzision",
+        "definition": "Hybride benennen wenn Standard-Genre lügt — Science Fiction Noir, nicht nur SF.",
+        "arthaus_original": "Infiniti: Nennen wir es Science Fiction Noir — präzise Benennung statt Marketing-Genre",
+        "operators": ["hybrid-label", "name-the-tension", "genre-as-description-not-shelf", "atmospheric-tag"],
+        "orbit_kunst_prinzipien": ["synaesthesie", "alchemie", "subversion"],
+        "orbit_affekte": ["dissoziation", "adhs"],
+        "branch_signals": {
+          "marketing": "Bleak × Subversive Joy — Spannungsachse benennen",
+          "musik": "metallic-techno + angelic-trance — maelstrom of textures",
+          "film": "Science Fiction Noir = ORBIT conceptual tag"
+        },
+        "forbidden": ["generic-genre-tag", "algorithm-category-only", "one-word-mood"]
+      },
+      "deutsche_filmkultur": {
+        "label": "Deutsche Filmkultur",
+        "definition": "Regional verankert — FFA, junge Regisseure, Berlin als Kulturraum.",
+        "arthaus_original": "Besonderes Engagement für deutschen Film; Förderung deutscher Filmkultur; FFA-Preisträger; Berlin-Magazin (Himmel über Berlin, durch Berlin mit von Trotta)",
+        "operators": ["regional-anchor", "emerging-platform", "institution-support", "berlin-as-cultural-radius"],
+        "orbit_kunst_prinzipien": ["ritual", "transzendenz", "gesamtwerk"],
+        "orbit_affekte": ["ohnmacht", "keine_mutter_kein_halt"],
+        "branch_signals": {
+          "spatial": "Berlin, Paris, NYC, Tbilisi — ORBIT spatial_anchors",
+          "kunst": "Goethe-Institut / KHIDI Reichweite",
+          "identitaet": "stadt_anker in identitaet_profil"
+        },
+        "forbidden": ["placeless-global-brand", "berlin-as-prop-only"]
+      }
+    },
+    "principle_combinations": {
+      "arthaus_kern": ["besonderer_film", "sorgsame_kuration", "geschichte_statt_hype"],
+      "arthaus_emotional": ["kein_happy_end", "playlist_danach", "umstritten_erlaubt"],
+      "arthaus_institutionell": ["kanalübergreifend", "erhalt_wiederentdeckung", "autorenfilm", "deutsche_filmkultur"],
+      "orbit_heartbroken_adjacent": ["kein_happy_end", "kanalübergreifend", "freiheit_nehmen", "autorenfilm"],
+      "orbit_aftermath": ["playlist_danach", "sorgsame_kuration", "kein_happy_end"],
+      "orbit_conceptual_tag": ["genre_präzision", "besonderer_film", "freiheit_nehmen"]
+    },
+    "orbit_kunst_prinzipien_map": {
+      "gesamtwerk": ["kanalübergreifend", "autorenfilm"],
+      "katharsis": ["kein_happy_end", "playlist_danach", "umstritten_erlaubt"],
+      "zeitlosigkeit": ["erhalt_wiederentdeckung", "sorgsame_kuration", "geschichte_statt_hype"],
+      "transzendenz": ["besonderer_film", "deutsche_filmkultur", "freiheit_nehmen"],
+      "leere": ["sorgsame_kuration", "kein_happy_end", "playlist_danach"],
+      "subversion": ["umstritten_erlaubt", "freiheit_nehmen", "genre_präzision"],
+      "synaesthesie": ["playlist_danach", "genre_präzision"],
+      "alchemie": ["freiheit_nehmen", "genre_präzision"],
+      "ritual": ["kanalübergreifend", "erhalt_wiederentdeckung", "deutsche_filmkultur"]
+    },
+    "litmus": "Ist das besonders — oder nur laut? Bleibt etwas danach — oder nur Consumption?"
+  },
+
+  "plattform_nutzung": {
+    "sammelphase": {
+      "unsere_filme": "https://www.arthaus.de/unsere_filme — Katalog nach Regisseur, Cast, Thema",
+      "genres": "https://www.arthaus.de/genres — Affekt-Mapping (s.u.)",
+      "themen": "https://www.arthaus.de/themen — emotionale Cluster",
+      "detailsuche": "Filter: Regisseur, Jahr, Genre — für Watchlist-Archiv",
+      "kino": "https://www.arthaus.de/kino — Arthouse-Kinos in Berlin/Nähe (Galerie-Nacht-Adjacent)"
+    },
+    "destillieren": {
+      "regel": "Pro Affekt 3 Filme notieren: Was am Schnitt? Was am Ton? Was bleibt danach?",
+      "output": "Eigene orbit_watchlist.csv — Spalten: titel, regisseur, affekt, schnitt_notiz, orbit_naehe"
+    },
+    "identitaet": {
+      "regel": "Filme die wehtun oder tragen → identitaet_profil.referenz_spiegel",
+      "film_werkzeug": "orbit_identitaet.json → werkzeug.film — ARTHAUS als Gegenpol zu TikTok-Clip"
+    }
+  },
+
+  "affekt_genre_map": {
+    "description": "ARTHAUS-Genres/Themen → ORBIT-Hauptgefühle (Detailsuche nutzen)",
+    "sucht": {
+      "genres": ["Drama", "Biografie"],
+      "themen": ["Drogen", "Sucht", "Untergrund"],
+      "orbit_refs": ["Christiane F.", "Requiem for a Dream", "Amores Perros"],
+      "magazin": "deutscher_film_er_akzeptierte_nur_verzweiflung"
+    },
+    "dissoziation": {
+      "genres": ["Science Fiction", "Experimental"],
+      "themen": ["Traum", "Identität", "Erinnerung"],
+      "orbit_refs": ["Enter the Void", "Safe", "Lost Highway"],
+      "magazin": "top_5_david_lynch_singt; infiniti_nennen_wir_es_science_fiction_noir"
+    },
+    "einsamkeit": {
+      "genres": ["Drama", "Liebesfilm"],
+      "themen": ["Abschied", "Melancholie"],
+      "orbit_refs": ["In the Mood for Love", "Melancholia", "Lost in Translation"],
+      "magazin": "bruno_ganz_zielgerichtete_verlorenheit; nicolas_roeg_wenn_das_kino_trauer_traegt"
+    },
+    "wut": {
+      "genres": ["Drama", "Kriegsfilm", "Politfilm"],
+      "themen": ["Gewalt", "Revolution", "Familie"],
+      "orbit_refs": ["Antichrist", "Die Dritte Generation", "Irreversible"],
+      "magazin": "die_dritte_generation_blutiges_gesellschaftsspiel"
+    },
+    "ohnmacht": {
+      "genres": ["Drama", "Historienfilm"],
+      "themen": ["Unterdrückung", "System", "Macht"],
+      "orbit_refs": ["Paradise trilogy", "Son of Saul", "Das Leben der Anderen"],
+      "magazin": "volker_schloendorff_viele_freiheiten_und_kein_happy_end"
+    },
+    "ekstase": {
+      "genres": ["Musikfilm", "Tanzfilm"],
+      "themen": ["Leidenschaft", "Rausch", "Nacht"],
+      "orbit_refs": ["Climax", "Paris Is Burning", "Caravaggio"],
+      "magazin": "top_5-am_pool"
+    },
+    "keine_mutter_kein_halt": {
+      "genres": ["Drama", "Coming-of-Age"],
+      "themen": ["Familie", "Kindheit", "Verlust"],
+      "orbit_refs": ["Christiane F.", "Gummo", "Tschick"],
+      "magazin": "tschick_vom_roman_zum_drehbuch; guillermo_arriaga_geschichten_von_tod_und_liebe"
+    }
+  },
+
+  "magazin_als_stimme": {
+    "description": "ARTHAUS Magazin = curator voice Referenz für Marketing-Zweig",
+    "ton": "Sachlich-warm, filmhistorisch, ohne Clickbait — nah an ORBIT tone_of_voice",
+    "url": "https://www.arthaus.de/magazin",
+    "orbit_lernen": [
+      "Titel mit Spannung, nicht mit Hype",
+      "Kontext vor Meinung — Regisseur, Epoche, Material",
+      "Affekt benennen: Trauer, Verzweiflung, Verlorenheit — nicht cool-kurz"
+    ],
+    "starter_artikel": [
+      { "slug": "bruno_ganz_zielgerichtete_verlorenheit", "affekt": "einsamkeit" },
+      { "slug": "nicolas_roeg_wenn_das_kino_trauer_traegt", "affekt": "katharsis" },
+      { "slug": "infiniti_nennen_wir_es_science_fiction_noir", "affekt": "dissoziation" },
+      { "slug": "volker_schloendorff_viele_freiheiten_und_kein_happy_end", "affekt": "ohnmacht" },
+      { "slug": "deutscher_film_er_akzeptierte_nur_verzweiflung", "affekt": "sucht" }
+    ]
+  },
+
+  "starter_watchlist": {
+    "description": "Einstieg für ORBIT Film-Identität — nach Affekt, nicht nach Ranking",
+    "filme": [
+      { "titel": "Wir Kinder vom Bahnhof Zoo", "affekt": ["sucht", "keine_mutter_kein_halt"], "orbit_grund": "Berlin-Untergrund, kein Halt, Katharsis" },
+      { "titel": "In the Mood for Love", "affekt": ["einsamkeit", "lust"], "orbit_grund": "Slow, negative space, unerfülltes Verlangen" },
+      { "titel": "Paris Is Burning", "affekt": ["rassismus_ausgrenzung", "ekstase"], "orbit_grund": "Ausgrenzung + Subversive Joy — WEEEIRDOS-Linie" },
+      { "titel": "Melancholia", "affekt": ["einsamkeit", "dissoziation", "ohnmacht"], "orbit_grund": "Depression als Landschaft — Heartbroken-Skala" },
+      { "titel": "Climax", "affekt": ["ekstase", "dissoziation", "sucht"], "orbit_grund": "Ein Take, Trance, Zusammenbruch — Säule-Synästhesie" },
+      { "titel": "Safe", "affekt": ["dissoziation", "ohnmacht"], "orbit_grund": "Körper vs. System — Todd Haynes" },
+      { "titel": "Antichrist", "affekt": ["wut", "katharsis"], "orbit_grund": "Grief-Rage-Split — nicht dancefloor" },
+      { "titel": "Gummo", "affekt": ["adhs", "keine_mutter_kein_halt"], "orbit_grund": "Fragment, kein Plot-Halt" }
+    ],
+    "hinweis": "Verfügbarkeit auf arthaus.de prüfen — Katalog wechselt; Detailsuche nutzen"
+  },
+
+  "berlin_verknuepfung": {
+    "spatial": "Arthouse-Kinos Berlin = Galerie-Nacht-Adjacent (nicht Berghain, aber institutionell-kulturell)",
+    "orbit_achse": "Auguststr Galerie (Deschler 61) ↔ Mitte/Kino — selber kultureller Radius",
+    "nutzen": "kino-Finder auf arthaus.de — Watchlist + Ausgang kombinieren"
+  },
+
+  "integration": {
+    "files": [
+      "orbit_kultur_dna.json → kunst_prinzipien + branches.film",
+      "orbit_affekt_prinzipien.json → referenz_plattformen.film.arthaus",
+      "orbit_identitaet.json → werkzeug.film + werkzeug.sprechen",
+      "orbit_referenz_arthaus.json → arthaus_prinzipien"
+    ],
+    "regel": "Filmprojekt: min. 1 arthaus_prinzipien + 1 kunst_prinzipien + 1 affekt",
+    "naechster_schritt": "3 ARTHAUS-Filme schauen → pro Film: arthaus_prinzip + affekt + Schnitt-Notiz → orbit_watchlist.csv"
+  }
+}

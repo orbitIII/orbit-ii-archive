@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "name": "ORBIT Kapital-Recherche",
+  "parent": "orbit_umverteilung.json",
+  "purpose": "Gesammelte Quellen und Modelle für kulturelle Umverteilung — Sichtbarkeit, ökonomisches Kapital, Solidarity. Laufend erweitern.",
+
+  "solidarity_oekonomie": [
+    {
+      "id": "mutual_aid_arts",
+      "name": "Mutual Aid in the Arts",
+      "url": "https://www.malloryshotwell.com/post/mutual-aid-in-the-arts-a-framework-for-collective-support-and-resistance",
+      "operator": ["solidarity-not-charity", "bypass-gatekeeping", "emergency-relief", "sliding-scale"],
+      "orbit_nutzen": "Direkte Geld-/Ressourcen-Umverteilung ohne Grant-Theater",
+      "extrahieren": "Welche Mechanik funktioniert für Einzelkünstler:innen ohne Netzwerk?"
+    },
+    {
+      "id": "art_coop",
+      "name": "Art.coop — Remember the Future / Solidarity Economy",
+      "url": "https://www.shareable.net/remember-the-future-podcast-why-we-moved-90k-to-arts-collectives-cooperatives/",
+      "operator": ["90k-redistribution", "artist-coops", "peer-learning", "community-control"],
+      "orbit_nutzen": "Vorbild für ORBIT als Hub — Geld + Wissen umlenken",
+      "extrahieren": "RTF Fellowship-Logik; Kooperative statt Investor"
+    },
+    {
+      "id": "giarts_solidarity",
+      "name": "Grantmakers in the Arts — Solidarity Not Charity",
+      "url": "https://www.giarts.org/solidarity-not-charity",
+      "operator": ["community-ownership", "democratic-governance", "trust-based-funding", "intermediaries-not-gatekeepers"],
+      "orbit_nutzen": "Förderlogik ohne Macht-Broker",
+      "extrahieren": "Wie Ressourcen ohne Hierachie fließen können"
+    },
+    {
+      "id": "lumbung_ruangrupa",
+      "name": "ruangrupa — Lumbung (documenta 15)",
+      "url": "https://www.resilience.org/stories/2022-08-03/ruangrupa-introduces-the-spirit-of-lumbung-to-international-art/",
+      "operator": ["shared-rice-barn", "surplus-pooling", "livelihood-not-commission", "democratic-assemblies"],
+      "orbit_nutzen": "ORBIT-Speicher = Lumbung-Metapher — extrahiertes Kapital gemeinsam nutzen",
+      "extrahieren": "Geld als Anerkennung von Beziehung, nicht Markt-Transaction"
+    },
+    {
+      "id": "ietm_good_story",
+      "name": "IETM Good Story Compass 2026 — Solidarity & Fair Practice",
+      "url": "https://www.ietm.org/sites/default/files/attachements/publications/IETM_2026_Good%20Story%20Compass_04.pdf",
+      "operator": ["power-redistribution", "multi-thematic-interventions", "community-before-profit", "GUDSKUL-ecosystem"],
+      "orbit_nutzen": "Policy-Ebene — was funktioniert kombiniert",
+      "extrahieren": "Solidarity + Ressourcen + Community Engagement zusammen"
+    }
+  ],
+
+  "berlin_care_queer_gegenmodelle": [
+    {
+      "id": "we_are_village",
+      "name": "We Are Village Berlin",
+      "url": "https://wearevillage.org/en/",
+      "operator": ["queer-meeting-creating", "loneliness-programming", "donation-community", "safer-spaces"],
+      "orbit_nutzen": "Community ohne Konkurrenz — Village-Metapher",
+      "scan_priority": "hoch"
+    },
+    {
+      "id": "queer_art_bridge",
+      "name": "Queer Art Bridge Berlin",
+      "url": "https://wearevillage.org/en/village-quartiere/queer-art-bridge",
+      "operator": ["free-program", "networking-convivial", "funding-workshops", "popup-exhibitions", "bridge-not-gate"],
+      "orbit_nutzen": "Sichtbarkeit für Abweichung + Migrant:innen — Brücke statt Tür",
+      "scan_priority": "hoch"
+    },
+    {
+      "id": "queerberg_collective",
+      "name": "QueerBerg Collective",
+      "url": "https://www.queerberg-collective.com/",
+      "operator": ["BIPOC-trans-sanctuary", "houses-care-model", "care-fest", "mutual-care-solidarity"],
+      "orbit_nutzen": "Care als Institution — Gegenpol Berghain-Tür",
+      "scan_priority": "hoch"
+    },
+    {
+      "id": "ida_nowhere",
+      "name": "IDA NOWHERE Neukölln",
+      "url": "https://www.ida-nowhere.com/",
+      "operator": ["community-driven", "mutual-aid", "underrepresented-voices", "accessible-infrastructure"],
+      "orbit_nutzen": "Grassroots Kultur-Raum — Umverteilung physisch",
+      "scan_priority": "mittel"
+    },
+    {
+      "id": "prince_peach",
+      "name": "Prince Peach Berlin",
+      "url": "https://www.princepeach.de/",
+      "operator": ["warmth-community", "guests-as-community", "support-hub", "queerness-beyond-nightlife"],
+      "orbit_nutzen": "Freundlichkeit + Zugehörigkeit ohne Aggression",
+      "scan_priority": "mittel"
+    },
+    {
+      "id": "weeeirdos_ref",
+      "name": "WEEEIRDOS (bereits im Scan 01)",
+      "url": "https://www.instagram.com/weeeirdos/",
+      "operator": ["queer-platform-2017", "saeule-residency", "community-mail", "subversive-joy"],
+      "orbit_nutzen": "Positiv-Operator im Marquardt-Scan — community voice",
+      "file": "orbit_verflechtungen.json → marquardt_sauele_weeeirdos"
+    }
+  ],
+
+  "extrahierte_operatoren_fuer_orbit": {
+    "sichtbarkeit": [
+      "discoverability-assets",
+      "relational-not-broadcast",
+      "bridge-not-gate",
+      "dual-credit-without-hierarchy",
+      "serie-not-one-off",
+      "popup-before-opera-house"
+    ],
+    "oekonomie": [
+      "lumbung-pool",
+      "mutual-aid-direct",
+      "livelihood-support-not-commission-only",
+      "sliding-scale",
+      "solidarity-not-charity"
+    ],
+    "community": [
+      "care-fest-logic",
+      "sanctuary-small-cozy",
+      "freundlichkeit-as-praxis",
+      "anti-racism-representation",
+      "peer-groups-not-ranking"
+    ],
+    "verwerfen_aus_privileg_scan": [
+      "door-as-status",
+      "social-capital-as-currency",
+      "competition-as-default",
+      "peak-performance-visibility",
+      "trauma-porn"
+    ]
+  },
+
+  "naechste_sammlung_tasks": [
+    "Batch 04: Profile CSV für wearevillage, queer_art_bridge, queerberg, ida_nowhere anlegen",
+    "Quiet-Marketing/Discoverability-Regeln in orbit_identitaet.json → werkzeug.marketing",
+    "Lumbung-Metapher in orbit_extraktion.json → orbit_als_speicher",
+    "Pour Cet Instant: Visual Brief (Abweichung + Umverteilung)"
+  ]
+}

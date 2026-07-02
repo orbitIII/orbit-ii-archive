@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "updated": "2026-06-27",
+  "description": "Verflechtungen — Case Studies aus Referenz-Scan ref_scan_berlin_club_gallery_01. Knoten/Kanten/Gesamtwerk-Bindings zum Extrahieren von Operatoren — nicht ORBIT-Mittelpunkt. Paris/ARTHAUS: orbit_fundament.json → paris_case_bundles.",
+
+  "case_study_regel": {
+    "gewicht": "alle gleich — kein active_weave",
+    "saeule": "berlin_club_gallery",
+    "marquardt_hinweis": "svenmarquardt = häufiger Knoten wegen Batch-01-Dichte — nicht Projekt-Owner",
+    "fundament": "orbit_fundament.json → weave_katalog"
+  },
+
+  "weaves": [
+    {
+      "id": "marquardt_sauele_weeeirdos",
+      "label": "Bleak × Subversive Joy",
+      "summary": "Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.",
+      "tension": {
+        "pole_a": { "mood": "bleak", "signal": "analog-bw", "anchor": "svenmarquardt" },
+        "pole_b": { "mood": "subversive-joy", "signal": "bold-color-accent", "anchor": "weeeirdos" },
+        "synthesis": "Institutionell-unterground bleibt; Farbe und Queerness sind gültige Ausnahme innerhalb des ORBIT-Spektrums — nicht Widerspruch, sondern Spannungsbogen."
+      },
+      "nodes": [
+        {
+          "handle": "svenmarquardt",
+          "name": "Sven Marquardt",
+          "branches": ["aesthetics", "art", "film", "marketing"],
+          "cluster": ["gallery_photo", "club_techno"],
+          "proximity": 100
+        },
+        {
+          "handle": "_lolsnake_",
+          "name": "Lolsnake / Danielle Lumma Rahal",
+          "branches": ["music", "art", "film", "aesthetics"],
+          "cluster": ["club_techno", "art_club"],
+          "proximity": 88,
+          "roles": ["dj", "visual_artist", "weeeirdos_founder"]
+        },
+        {
+          "handle": "weeeirdos",
+          "name": "WEEEIRDOS ☯",
+          "branches": ["music", "art", "marketing", "aesthetics"],
+          "cluster": ["club_techno", "art_club"],
+          "proximity": 86,
+          "roles": ["queer_party_platform"]
+        },
+        {
+          "handle": "saeule_berlin",
+          "name": "Säule Berlin",
+          "branches": ["music", "art", "aesthetics"],
+          "cluster": ["club_techno", "art_club"],
+          "proximity": 90,
+          "roles": ["berghain_room", "weeeirdos_residency"]
+        },
+        {
+          "handle": "berghain_panoramabar",
+          "name": "Berghain / Panorama Bar",
+          "branches": ["music", "aesthetics", "marketing"],
+          "cluster": ["club_techno"],
+          "proximity": 93,
+          "roles": ["club_official"]
+        },
+        {
+          "handle": "ostgut_ton",
+          "name": "Ostgut Ton",
+          "branches": ["music", "aesthetics"],
+          "cluster": ["club_techno"],
+          "proximity": 90,
+          "roles": ["label_berghain"]
+        }
+      ],
+      "edges": [
+        {
+          "from": "svenmarquardt",
+          "to": "_lolsnake_",
+          "type": "creative_collab",
+          "source": "Metal Magazine",
+          "note": "Via Social Media; raw, honest, free-flowing — keine Over-Structuring"
+        },
+        {
+          "from": "_lolsnake_",
+          "to": "weeeirdos",
+          "type": "founded",
+          "since": 2017
+        },
+        {
+          "from": "weeeirdos",
+          "to": "saeule_berlin",
+          "type": "residency",
+          "note": "Donnerstag-Nächte, queer platform"
+        },
+        {
+          "from": "saeule_berlin",
+          "to": "berghain_panoramabar",
+          "type": "physical_space",
+          "note": "Raum innerhalb Berghain"
+        },
+        {
+          "from": "svenmarquardt",
+          "to": "berghain_panoramabar",
+          "type": "institutional",
+          "note": "Türsteher seit 2004; Ostgut-Ton Visual Identity seit 2007"
+        },
+        {
+          "from": "svenmarquardt",
+          "to": "ostgut_ton",
+          "type": "visual_identity",
+          "since": 2007
+        }
+      ],
+      "branch_bindings": {
+        "aesthetics": {
+          "lead_handles": ["svenmarquardt", "weeeirdos"],
+          "shared_tags": ["berlin-club", "high-contrast", "portrait", "institutional"],
+          "pole_a_tags": ["analog-bw", "leather-darkwear", "daylight-not-flash"],
+          "pole_b_tags": ["yin-yang-branding", "bold-color-accent", "queer-portrait", "flyer-maximal"],
+          "rule": "Beide Pole im selben Frame erlaubt — Spannung statt Einheitslook"
+        },
+        "music": {
+          "marquardt_orbit": ["ORBIT MOMENT DEEP", "ORBIT CORE"],
+          "weeeirdos_orbit": ["SYSTEM WIRED", "SYSTEM DRIVING PUSH"],
+          "shared_energy": "hypnotic, reduced, institutional — unterschiedliche BPM-Schicht",
+          "artist_seeds": ["_lolsnake_", "Christoph Faust", "Ellen Allien", "Schacke"],
+          "rule": "Säule-Nacht ≠ Panorama-Bar-Flow; Kontext wählt Playlist"
+        },
+        "art": {
+          "formats": ["hybrid_live_performance", "portrait_series", "boiler_room_doc"],
+          "references": ["Heartbroken (Schneider × Marquardt)", "WEEEIRDOS 2017 hybrid origins", "NACHTBLENDE"],
+          "rule": "Club-as-gallery + queer platform — KHIDI/Studio IIII-Logik mit subversive-joy Layer"
+        },
+        "film": {
+          "marquardt_look": ["grain", "analog-bw", "gestellt", "tageslicht"],
+          "weeeirdos_look": ["boiler-room-berlin", "performance-doc", "hypnotic-cut"],
+          "collab_look": "raw + honest — Metal Mag; Haus der Visionäre; aftermath-of-party mood",
+          "collab_credits": "Danny Muster / Saskia Krause / Hardy Paetke",
+          "deep": "orbit_verflechtungen_deep.json → collab_lolsnake_metal_mag"
+        },
+        "marketing": {
+          "marquardt_voice": "Gallery → Assistant → Request → Dates (sm@boldberlin-Modell)",
+          "weeeirdos_voice": "Platform → Residency @saeule → danielle@weeeirdos.com → Emoji-sparse",
+          "shared": "Curator not brand; Credits sichtbar; Community vor Hype",
+          "rule": "Joint Announcement: zwei Stimmen, ein institutioneller Ort (Berghain/Säule)"
+        }
+      },
+      "gesamtwerk_template": {
+        "id": "sauele_verflechtung",
+        "title": "Säule-Nacht: Marquardt × WEEEIRDOS",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "checklist": [
+          "Visual: SW-Porträt (Marquardt) + Color-Accent-Flyer (WEEEIRDOS) im selben Set",
+          "Musik: SYSTEM für Säule-Set; ORBIT MOMENT DEEP für Pre/After in Galerie-Stimmung",
+          "Art: Live/Performance-Element oder Portrait-Ausstellung im Raum",
+          "Film: 30s grain teaser — collab tone raw/honest, nicht Erklärvideo",
+          "Marketing: Dual-Credit (@svenmarquardt @_lolsnake_ @weeeirdos @saeule_berlin)"
+        ],
+        "anti_patterns": [
+          "Nur all-black ohne queer signal",
+          "Nur bunt ohne institutional anchor",
+          "ORBIT FLOW auf Säule-Peak-Nacht",
+          "Festival-Marketing-Sprech"
+        ]
+      }
+    },
+    {
+      "id": "heartbroken_wagner",
+      "label": "Wagner × Electronic × Portrait",
+      "summary": "Anja Schneider × Marquardt — Salzburg Easter Festival. Fotoprojektion + DJ-Set + Oper als ein Gesamtwerk. ORBIT-Gesamtwerk-Exemplar.",
+      "tension": {
+        "pole_a": { "mood": "wagnerian-institutional", "signal": "operatic-scale", "anchor": "anjaschneiderofficial" },
+        "pole_b": { "mood": "bleak-club-dark", "signal": "projected-sw-portrait", "anchor": "svenmarquardt" },
+        "synthesis": "Festivaltradition trifft Berghain-Dunkel — dubby technoid, nicht oper kitsch"
+      },
+      "nodes": [
+        { "handle": "svenmarquardt", "name": "Sven Marquardt", "branches": ["aesthetics", "art", "film", "music"], "cluster": ["gallery_photo", "club_techno"], "proximity": 100, "roles": ["visual_lead"] },
+        { "handle": "anjaschneiderofficial", "name": "Anja Schneider", "branches": ["music", "art", "film"], "cluster": ["music_model", "gallery_photo"], "proximity": 92, "roles": ["music_lead"] },
+        { "handle": "galeriedeschler", "name": "Galerie Deschler", "branches": ["art", "aesthetics", "marketing"], "cluster": ["gallery_photo"], "proximity": 95, "roles": ["gallery_orbit"] }
+      ],
+      "edges": [
+        { "from": "anjaschneiderofficial", "to": "svenmarquardt", "type": "creative_collab", "source": "Salzburg Easter Festival / Sous Music", "note": "Heartbroken — named together; Disturbing Beauty triggered invite" },
+        { "from": "svenmarquardt", "to": "galeriedeschler", "type": "gallery_representation", "note": "Stageless, Rudel, NYC/22 exhibitions" }
+      ],
+      "branch_bindings": {
+        "aesthetics": { "lead_handles": ["svenmarquardt"], "tags": ["wagnerian-portrait", "dark-space", "disturbing-beauty"], "rule": "Disturbing Beauty als Referenz-Show" },
+        "music": { "primary": ["ORBIT MOMENT DEEP"], "avoid": ["SYSTEM peak", "ORBIT FLOW"], "tags": ["dubby", "technoid", "non-dancefloor"] },
+        "art": { "format": "live_interdisciplinary", "reference": "NACHTBLENDE Dettmann×Marquardt" },
+        "film": { "look": "institutional-doc", "venue": "Felsenreitschule Salzburg" },
+        "marketing": { "narrative": "festival-tradition-meets-club", "dual_billing": true }
+      },
+      "gesamtwerk_template": {
+        "id": "heartbroken",
+        "title": "Heartbroken — Wagner × Club × Galerie",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "deep_spec": "orbit_verflechtungen_deep.json → weaves.heartbroken_wagner"
+      },
+      "premiere": "2026-04-02",
+      "venue": "Felsenreitschule Salzburg"
+    },
+    {
+      "id": "gstar_voo_11plus1",
+      "label": "Club Portrait × Fashion Retail",
+      "summary": "G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.",
+      "nodes": [
+        { "handle": "svenmarquardt", "branches": ["aesthetics", "art", "marketing"], "proximity": 100 },
+        { "handle": "voostore", "branches": ["fashion_berlin", "art", "marketing"], "proximity": 83 }
+      ],
+      "deep_spec": "orbit_verflechtungen_deep.json → weaves.gstar_voo_11plus1"
+    },
+    {
+      "id": "nachtblende_slide",
+      "label": "Foto × Sound × Licht — Slide AV",
+      "summary": "NACHTBLENDE Istanbul 2023 — Marquardt Ausstellung + Slide (Dettmann live + Murasch visuals). Vorläufer von Heartbroken; ORBIT immersive_install Exemplar.",
+      "tension": {
+        "pole_a": { "mood": "gallery-exhibition", "signal": "25-years-club-doc", "anchor": "svenmarquardt" },
+        "pole_b": { "mood": "immersive-av", "signal": "digital-composition-slide", "anchor": "lars_murasch" },
+        "synthesis": "Analoge Club-Fotografie trifft experimentelles Live-AV — Foto und Sound fließen zusammen (harmony between music and image)"
+      },
+      "nodes": [
+        { "handle": "svenmarquardt", "name": "Sven Marquardt", "branches": ["aesthetics", "art", "film", "music"], "cluster": ["gallery_photo", "club_techno"], "proximity": 100, "roles": ["photographer", "exhibition_lead"] },
+        { "handle": "marceldettmann", "name": "Marcel Dettmann", "branches": ["music", "art", "film"], "cluster": ["club_techno", "gallery_photo"], "proximity": 91, "roles": ["slide_live_dj", "portrait_subject"] },
+        { "handle": "lars_murasch", "name": "Lars Murasch", "branches": ["art", "film", "aesthetics"], "cluster": ["gallery_photo"], "proximity": 86, "roles": ["lighting_designer", "slide_visuals"] },
+        { "handle": "ostgut_ton", "name": "Ostgut Ton", "branches": ["music", "aesthetics"], "cluster": ["club_techno"], "proximity": 90, "roles": ["label_context"] }
+      ],
+      "edges": [
+        { "from": "svenmarquardt", "to": "marceldettmann", "type": "creative_collab", "source": "NACHTBLENDE / Black Box", "note": "Second major AV collab after Black Box (Lagos, Vancouver, Polygon Gallery)" },
+        { "from": "marceldettmann", "to": "lars_murasch", "type": "slide_av", "project": "Slide", "note": "Experimental live — music + digital image composition" },
+        { "from": "svenmarquardt", "to": "lars_murasch", "type": "slide_av", "project": "Slide", "note": "Photography flows with sound; human connection + passage of time" },
+        { "from": "svenmarquardt", "to": "khidiclub", "type": "institutional_parallel", "note": "Both Goethe-Institut club-as-gallery exhibitions" }
+      ],
+      "branch_bindings": {
+        "aesthetics": { "tags": ["analog-bw", "club-doc-25-years", "east-berlin-1987", "portrait-subject"], "rule": "Gallery by day (10-19) — exhibition not club flash" },
+        "music": { "opening": "Dettmann Slide live — experimental not peak", "exhibition": "ORBIT MOMENT DEEP", "avoid": ["ORBIT FLOW", "commercial house"] },
+        "art": { "format": "solo_exhibition + opening_av", "venue": "Yapı Kredi bomontiada Istanbul", "partner": "Goethe-Institut Istanbul" },
+        "film": { "look": "slide-teaser", "subject": "multisensory-journey", "references": ["Black Box AV doc"] },
+        "marketing": { "narrative": "25 years Berlin club culture — free admission", "credits": "Marquardt + Dettmann + Murasch equal on opening night" }
+      },
+      "gesamtwerk_template": {
+        "id": "nachtblende",
+        "title": "NACHTBLENDE + Slide",
+        "branches_required": ["aesthetics", "music", "art", "film", "marketing"],
+        "deep_spec": "orbit_verflechtungen_deep.json → weaves.nachtblende_slide",
+        "exemplar": "immersive_install"
+      },
+      "dates": { "opening": "2023-11-09", "run": "2023-11-09 — 2023-11-26", "city": "Istanbul" }
+    }
+  ],
+
+  "deep_layer": "orbit_verflechtungen_deep.json",
+
+  "index_by_handle": {
+    "svenmarquardt": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "gstar_voo_11plus1", "nachtblende_slide"],
+    "_lolsnake_": ["marquardt_sauele_weeeirdos"],
+    "weeeirdos": ["marquardt_sauele_weeeirdos"],
+    "saeule_berlin": ["marquardt_sauele_weeeirdos"],
+    "berghain_panoramabar": ["marquardt_sauele_weeeirdos"],
+    "ostgut_ton": ["marquardt_sauele_weeeirdos", "nachtblende_slide"],
+    "anjaschneiderofficial": ["heartbroken_wagner"],
+    "galeriedeschler": ["heartbroken_wagner"],
+    "voostore": ["gstar_voo_11plus1"],
+    "marceldettmann": ["nachtblende_slide"],
+    "lars_murasch": ["nachtblende_slide"],
+    "khidiclub": ["nachtblende_slide"]
+  }
+}

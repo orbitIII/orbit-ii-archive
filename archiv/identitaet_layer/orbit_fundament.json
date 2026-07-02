@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "updated": "2026-06-28",
+  "name": "ORBIT Fundament — Tiefenanalyse",
+  "parent": "orbit_kultur_dna.json → referenz_fundament",
+  "purpose": "Wie Referenz, Prinzipien und eigenes Werk zusammenpassen — ohne Personen-Mittelpunkt",
+
+  "schichtenmodell": {
+    "description": "Von innen nach außen — jede Schicht filtert die nächste",
+    "schicht_0_mittelpunkt": {
+      "label": "Du",
+      "files": ["orbit_identitaet.json", "orbit_arbeitsweise.json"],
+      "regel": "Affekt, Tempo, Grenzen — nicht aus Scan übernommen"
+    },
+    "schicht_1_werk": {
+      "label": "Eigenes Werk",
+      "file": "orbit_werk_pour_cet_instant.json",
+      "regel": "Proof of Output — jede Referenz muss durch dieses Werk passieren können, nicht umgekehrt",
+      "filter_frage": "Würde Pour Cet Instant diese Operator-Zusage tragen — oder nur ein Moodboard?"
+    },
+    "schicht_2_prinzipien": {
+      "label": "Kunst- + Affekt-Operatoren",
+      "files": ["orbit_kultur_dna.json → kunst_prinzipien", "orbit_affekt_prinzipien.json", "orbit_prinzipien_index.json"],
+      "regel": "Abstraktionsebene — keine Namen, nur Operatoren (schwelle, recyclage_poetique, …)"
+    },
+    "schicht_3_saeulen": {
+      "label": "Referenz-Säulen gleichgewichtig",
+      "saeulen": ["berlin_club_gallery", "paris_moderne", "film_arthaus"],
+      "gewicht": "gleich",
+      "regel": "Stadt/Institution/Medium — nicht Person. Berlin-Batch-01 ≠ ganzes ORBIT."
+    },
+    "schicht_4_case_studies": {
+      "label": "Weaves & Gesamtwerk-Templates",
+      "file": "orbit_verflechtungen.json",
+      "regel": "Dokumentierte Verflechtungen zum Extrahieren — kein Default-Weave, kein Helden-Narrativ"
+    },
+    "schicht_5_rohdaten": {
+      "label": "Scan-Rohmaterial",
+      "beispiele": ["marquardt_aesthetic_profiles.csv", "berghain_2024_2026_*.csv", "Paris Musées"],
+      "regel": "Historische Dateinamen (marquardt_*) = Batch-01-Label, nicht Identität"
+    }
+  },
+
+  "bias_audit": {
+    "description": "Wo Marquardt noch dominant wirkt — und wie es einzuordnen ist",
+    "klassifikation": {
+      "batch_01_technisch": "Dateiname/Script — umbenennen später, funktional OK",
+      "knoten_im_netz": "Ein Handle unter vielen in Weaves — OK wenn nicht alleiniger Lead",
+      "operator_leak": "Personenname dort wo Operator reichen würde — zu bereinigen",
+      "strukturell_gelöst": "referenz_fundament, active_weave null, gallery_photo_cluster"
+    },
+    "befunde": [
+      {
+        "ort": "marquardt_aesthetic_*.csv / extract_marquardt_*.py",
+        "typ": "batch_01_technisch",
+        "massnahme": "Phase 2: alias berlin_club_gallery_profiles.csv — Inhalt unverändert"
+      },
+      {
+        "ort": "orbit_verflechtungen — 4/4 Weaves enthalten svenmarquardt",
+        "typ": "knoten_im_netz",
+        "massnahme": "Weaves = Berlin-Batch Case Studies; Paris/ARTHAUS eigene case_bundles (unten); nicht neue Weaves erfinden"
+      },
+      {
+        "ort": "orbit_affekt_prinzipien — viele Marquardt in orbit_signals",
+        "typ": "operator_leak",
+        "massnahme": "Signals auf Operatoren umstellen: «gallery_photo door grammar» statt «Marquardt door»"
+      },
+      {
+        "ort": "orbit_identitaet werkzeug.foto — «Tageslicht (Marquardt)»",
+        "typ": "operator_leak",
+        "massnahme": "→ gallery_photo + Pour Cet Instant Licht-Spec"
+      },
+      {
+        "ort": "core_dna.tension_axis.bridge — weave marquardt_sauele",
+        "typ": "strukturell_gelöst",
+        "massnahme": "cross_saeule_bridges ergänzt (siehe unten)"
+      }
+    ],
+    "regel": "Marquardt darf in Batch-01-Weaves vorkommen — nicht in Schicht 0–2 als Definition"
+  },
+
+  "saeulen_tiefenanalyse": {
+    "berlin_club_gallery": {
+      "was_es_ist": "Netzwerk-Scan Club × Galerie × Mode — Kartografie, nicht Vorbild",
+      "operatoren_extrahierbar": ["ritual", "gesamtwerk", "subversion", "koerper", "synaesthesie", "katharsis"],
+      "cluster": ["gallery_photo", "club_techno", "art_club"],
+      "spatial": "Berlin",
+      "case_studies": ["marquardt_sauele_weeeirdos", "heartbroken_wagner", "nachtblende_slide", "gstar_voo_11plus1"],
+      "nicht_extrahieren": ["Türsteher-Mythos", "Berghain-Zugang simulieren", "Persona-Kopie"],
+      "pour_cet_instant_bruecke": {
+        "passt": ["schwelle", "katharsis", "leere", "mimesis", "aftermath-stimmung"],
+        "nicht": ["club-flash", "bouncer-pov als Default", "all-black-only"]
+      }
+    },
+    "paris_moderne": {
+      "was_es_ist": "Institutionelle Moderne — Bewegungen, Murals, Concept — Palais de Tokyo / MAM",
+      "operatoren_extrahierbar": ["mur_gesamtwerk", "recyclage_poetique", "figuration_narrative", "serie_in_situ", "geste_matiere", "concept_comme_oeuvre"],
+      "file": "orbit_referenz_mam_paris.json",
+      "spatial": "Paris",
+      "case_bundles": ["paris_mur_gesamtwerk", "paris_recyclage", "paris_figuration", "paris_concept", "paris_geste"],
+      "nicht_extrahieren": ["White-Cube-Generic", "PFW als Kunst-Default", "Museum als Prestige-Logo"],
+      "pour_cet_instant_bruecke": {
+        "passt": ["schwelle (de Chirico)", "spaltung (Richter/Monory)", "leere (Weiner/Buren)", "metamorphose", "pathos ohne Sentiment (Modigliani)"],
+        "nicht": ["mural-scale als Pflicht", "politische Figuration als Slogan"]
+      }
+    },
+    "film_arthaus": {
+      "was_es_ist": "Kurator-Stimme, kein Happy End, sorgsame Dichte — Film als Affekt-Zeit",
+      "operatoren_extrahierbar": ["kein_happy_end", "sorgsame_kuration", "besonderer_film", "playlist_danach", "kanalübergreifend"],
+      "file": "orbit_referenz_arthaus.json",
+      "pour_cet_instant_bruecke": {
+        "passt": ["kein_happy_end", "playlist_danach", "VO-as-gravity", "SCHWARZ-Ende"],
+        "bereits_aktiv": "orbit_werk_pour_cet_instant.json → arthaus_prinzipien.aktiv"
+      }
+    },
+    "eigenes_werk": {
+      "was_es_ist": "Destillations-Ziel — Filter für alle Säulen",
+      "file": "orbit_werk_pour_cet_instant.json",
+      "führt_bei": ["output", "litmus", "principle_combinations.pour_cet_instant"],
+      "regel": "Referenz die nicht durch Pour Cet Instant erklärbar ist → ARCHIV, nicht DNA"
+    }
+  },
+
+  "cross_saeule_bridges": {
+    "description": "Spannungsachsen ohne Marquardt als einzige Brücke",
+    "bridges": [
+      {
+        "id": "grey_red_schwelle",
+        "saeulen": ["eigenes_werk", "paris_moderne"],
+        "spannung": "Beton-Grau × rotes Kleid — bleak × Intensitäts-Akzent",
+        "operatoren": ["schwelle", "metamorphose", "spaltung", "leere"],
+        "exemplar": "Pour Cet Instant",
+        "nicht": "Marquardt-Farbe-Paradox"
+      },
+      {
+        "id": "berlin_queer_institution",
+        "saeulen": ["berlin_club_gallery"],
+        "spannung": "bleak × subversive-joy in Institution",
+        "weave": "marquardt_sauele_weeeirdos",
+        "operatoren": ["subversion", "ritual", "synaesthesie", "koerper"],
+        "hinweis": "Ein Berlin-Case — nicht ORBIT-Gesamtdefinition"
+      },
+      {
+        "id": "wagner_club_gesamtwerk",
+        "saeulen": ["berlin_club_gallery", "film_arthaus"],
+        "spannung": "Institution × Gesamtwerk — Opernhaus-Skala × Club-Dunkel",
+        "weave": "heartbroken_wagner",
+        "operatoren": ["gesamtwerk", "transzendenz", "pathos", "katharsis"]
+      },
+      {
+        "id": "paris_mur_immersion",
+        "saeulen": ["paris_moderne", "berlin_club_gallery"],
+        "spannung": "Mural-Raum × Live-AV — Dufy/Matisse-Skala trifft NACHTBLENDE-Logik",
+        "referenzen": ["Dufy La Fée Électricité (MAM)", "nachtblende_slide"],
+        "operatoren": ["mur_gesamtwerk", "gesamtwerk", "synaesthesie", "transzendenz"]
+      },
+      {
+        "id": "paris_figuration_spaltung",
+        "saeulen": ["paris_moderne", "eigenes_werk"],
+        "spannung": "Urteil × Figur — politische Analyse ohne Auflösung",
+        "operatoren": ["figuration_narrative", "spaltung", "mimesis"],
+        "exemplar_berührung": "Pour Cet Instant — Lächeln oder Nachgeben"
+      },
+      {
+        "id": "film_kein_happy_end",
+        "saeulen": ["film_arthaus", "eigenes_werk"],
+        "spannung": "Emotionale Ehrlichkeit ohne Closure",
+        "operatoren": ["katharsis", "leere", "schwelle"],
+        "exemplar": "Pour Cet Instant SCHWARZ"
+      }
+    ]
+  },
+
+  "weave_katalog": {
+    "description": "Gleichgewicht — kein active_weave; jeder Eintrag mit Säule + Extraktionsziel",
+    "regel": "Weave = Berlin-Batch Case Study. Paris case_bundles = principle_combinations ohne Netzwerk-Graph.",
+    "berlin_weaves": [
+      {
+        "id": "marquardt_sauele_weeeirdos",
+        "gewicht": "gleich",
+        "saeule": "berlin_club_gallery",
+        "principle_lead": ["subversion", "synaesthesie", "ritual"],
+        "marquardt_rolle": "Knoten pole_a — nicht Projekt-Owner",
+        "extrahiere": "Institution × queer platform; dual-pole visual; SYSTEM vs MOMENT DEEP",
+        "pour_cet_filter": "Subversion ja — Berghain-Tourismus nein"
+      },
+      {
+        "id": "heartbroken_wagner",
+        "gewicht": "gleich",
+        "saeule": "berlin_club_gallery",
+        "principle_lead": ["gesamtwerk", "transzendenz", "pathos"],
+        "marquardt_rolle": "visual_lead neben Schneider — gleichwertig",
+        "extrahiere": "Cross-medium live; festival-bridge ohne kitsch",
+        "pour_cet_filter": "Pathos ohne Sentiment — passt"
+      },
+      {
+        "id": "nachtblende_slide",
+        "gewicht": "gleich",
+        "saeule": "berlin_club_gallery",
+        "principle_lead": ["gesamtwerk", "synaesthesie", "alchemie"],
+        "marquardt_rolle": "exhibition_lead — Dettmann/Murasch co-equal opening",
+        "extrahiere": "Foto × Sound × Licht; immersive_install template",
+        "pour_cet_filter": "Immersion ohne Club-Flash — passt als Skala-Referenz"
+      },
+      {
+        "id": "gstar_voo_11plus1",
+        "gewicht": "gleich",
+        "saeule": "berlin_club_gallery",
+        "principle_lead": ["koerper", "ritual"],
+        "marquardt_rolle": "Porträt-Operator — Mode-Kontext, nicht ORBIT-Default",
+        "extrahiere": "Street-scouted body; editorial_context preset only",
+        "pour_cet_filter": "Körper als Subject ja — Fashion-Launch nein"
+      }
+    ],
+    "paris_case_bundles": [
+      {
+        "id": "paris_mur_gesamtwerk",
+        "gewicht": "gleich",
+        "saeule": "paris_moderne",
+        "principle_combination": "paris_mam_galerie",
+        "extrahiere": "Raum frisst Bild — Heartbroken/NACHTBLENDE-Skala ohne Berlin-Pflicht"
+      },
+      {
+        "id": "paris_recyclage",
+        "gewicht": "gleich",
+        "saeule": "paris_moderne",
+        "principle_combination": "paris_recyclage",
+        "extrahiere": "Alltag als Material — Flyer, Stadt, Detritus"
+      },
+      {
+        "id": "paris_figuration",
+        "gewicht": "gleich",
+        "saeule": "paris_moderne",
+        "principle_combination": "paris_figuration",
+        "extrahiere": "Analyse-Malerei — Spannung, nicht Meinung"
+      }
+    ]
+  },
+
+  "prinzipien_matrix": {
+    "description": "Jeder ORBIT-Kernoperator — welche Säule liefert Exemplare (min. 2 Säulen wo möglich)",
+    "regel": "Exemplar-Reihenfolge: eigenes Werk → Paris/Berlin/Film rotierend — nicht eine Person zuerst",
+    "matrix": {
+      "schwelle": { "eigenes_werk": "Pour Cet Instant Balkon", "paris": "de Chirico", "berlin": "Berghain door ritual", "film": "In the Mood for Love" },
+      "spaltung": { "eigenes_werk": "ambiguous smile", "paris": "Richter blur, Monory", "berlin": "bleak × subversive-joy", "film": "Pour Cet Instant" },
+      "leere": { "eigenes_werk": "leere Hand, leerer Stuhl", "paris": "Weiner, Buren", "berlin": "negative-space grammar", "film": "ARTHAUS sorgsame_kuration" },
+      "gesamtwerk": { "eigenes_werk": "VO + Bild + Raum + Stille", "paris": "Dufy/Matisse murals", "berlin": "NACHTBLENDE, Heartbroken", "film": "ARTHAUS kanalübergreifend" },
+      "katharsis": { "eigenes_werk": "Loslassen ohne Triumph", "paris": "Soutine, Rouault", "berlin": "aftermath-portrait", "film": "kein_happy_end" },
+      "subversion": { "eigenes_werk": "Anpassung = Renoncement", "paris": "Nouveau Réalisme, Figuration Narrative", "berlin": "WEEEIRDOS/Säule", "film": "umstritten_erlaubt" },
+      "koerper": { "eigenes_werk": "Finger zittern", "paris": "Modigliani", "berlin": "gallery_photo portrait", "film": "true-essence-portrait" },
+      "metamorphose": { "eigenes_werk": "Kleid verlässt Frame", "paris": "Fontana tagli", "berlin": "NACHTBLENDE material shift", "film": "object-arc" },
+      "alchemie": { "eigenes_werk": "Grau + Rot + Stille", "paris": "Klein IKB", "berlin": "reduced club elements", "film": "grain not gloss" },
+      "transzendenz": { "eigenes_werk": "Ce moment suffit", "paris": "Matisse La Danse", "berlin": "Heartbroken scale", "film": "besonderer_film" },
+      "ritual": { "eigenes_werk": "Stuhl-Ritual", "paris": "Buren in situ", "berlin": "Säule series", "film": "series-not-one-off" },
+      "mimesis": { "eigenes_werk": "Körper vor Idee", "paris": "Dubuffet Art Brut", "berlin": "Bouncer doc tone", "film": "raw/honest" },
+      "synaesthesie": { "eigenes_werk": "Rot «fast zu lebendig»", "paris": "Delaunay, Léger", "berlin": "Säule red light", "film": "hypnotic-cut" },
+      "pathos": { "eigenes_werk": "VO gravity", "paris": "Modigliani eyes", "berlin": "Heartbroken", "film": "no swelling score" },
+      "zeitlosigkeit": { "eigenes_werk": "ARCHIV — Werk bleibt", "paris": "Suite Vollard", "berlin": "ORBIT ARCHIV pipeline", "film": "erhalt_wiederentdeckung" },
+      "nacht": { "eigenes_werk": "Ausnahme: grauer Tag", "paris": "Soulages outrenoir", "berlin": "Klubnacht default", "film": "night-interior-default" }
+    }
+  },
+
+  "destillations_pipeline": {
+    "description": "Wie Material aus jeder Säule in ORBIT übergeht — 6 Schritte (aus orbit_extraktion.json erweitert)",
+    "pro_saeule": {
+      "berlin_club_gallery": {
+        "input": ["CSV profiles", "Weaves", "Berghain-Archiv"],
+        "zerlegen": "Cluster-Tag + Operator — Handle in notes, nicht in definition",
+        "filtern": "pour_cet_instant + affekt_kern + forbidden_personal",
+        "output_typisch": ["playlist rules", "weave templates", "bridge_accounts"],
+        "verwerfen": ["Proximity=100 als heilig", "Persona-Mythos", "Gatekeeping simulieren"]
+      },
+      "paris_moderne": {
+        "input": ["orbit_referenz_mam_paris.json", "mam_prinzipien"],
+        "zerlegen": "Bewegung → Operator — Künstler:in als Exemplar in Matrix",
+        "filtern": "Kein Museum-Prestige ohne Operator; PFW raus",
+        "output_typisch": ["principle_combinations paris_*", "Kunst-Zweig briefs"],
+        "verwerfen": ["White-cube copy", "Arte Povera als Deko ohne Material"]
+      },
+      "film_arthaus": {
+        "input": ["orbit_referenz_arthaus.json"],
+        "zerlegen": "arthaus_prinzipien → map auf kunst_prinzipien",
+        "filtern": "Film-Ende, Kuration, Stimme",
+        "output_typisch": ["film werkzeug checks", "Pour Cet Instant arthaus_prinzipien"],
+        "verwerfen": ["Blockbuster-Speak", "Shop-Marketing kopieren"]
+      }
+    },
+    "synthese_regel": "Erst wenn 2+ Säulen denselben Operator tragen → in kunst_prinzipien.exemplars aufnehmen"
+  },
+
+  "persona_formel_neu": {
+    "alt": "Referenz × Affekt × Prinzip × Entscheidung = Persona",
+    "neu": "Eigenes Werk (Filter) × Affekt × Prinzip (2+ Säulen) × Entscheidung = Persona",
+    "nicht": "Marquardt × Affekt × Stil = Persona"
+  },
+
+  "completion_checklist_erweiterung": [
+    "Welche Säule(n) liefern die Operatoren — min. 2 oder eigenes Werk + 1 Säule?",
+    "Trägt Pour Cet Instant (oder nächstes Werk) die Kombination?",
+    "Ist irgendwo eine Person Lead statt Operator?",
+    "Berlin-only ohne Grund? Paris/MAM-Alternative geprüft?"
+  ],
+
+  "naechste_bau_schritte": [
+    {
+      "prio": 1,
+      "task": "orbit_affekt_prinzipien — orbit_signals von Personennamen auf Operatoren",
+      "status": "offen"
+    },
+    {
+      "prio": 2,
+      "task": "orbit_identitaet werkzeug.* — referenz_orbit pro Medium aus prinzipien_matrix",
+      "status": "begonnen"
+    },
+    {
+      "prio": 3,
+      "task": "Datei-Alias berlin_club_gallery_profiles.csv (optional rename batch 01)",
+      "status": "offen"
+    },
+    {
+      "prio": 4,
+      "task": "orbit_verflechtungen — branch_bindings marquardt_* keys → berlin_gallery_*",
+      "status": "offen"
+    },
+    {
+      "prio": 5,
+      "task": "Zweites eigenes Werk — Fundament braucht 2 Werk-Anker langfristig",
+      "status": "zukunft"
+    }
+  ],
+
+  "integration": {
+    "dna": "orbit_kultur_dna.json",
+    "extraktion": "orbit_extraktion.json",
+    "identitaet": "orbit_identitaet.json",
+    "mam": "orbit_referenz_mam_paris.json",
+    "arthaus": "orbit_referenz_arthaus.json",
+    "werk": "orbit_werk_pour_cet_instant.json",
+    "verflechtungen": "orbit_verflechtungen.json",
+    "prinzipien_index": "orbit_prinzipien_index.json"
+  }
+}

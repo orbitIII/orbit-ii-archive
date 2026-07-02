@@ -1,0 +1,348 @@
+{
+  "source": "/Users/alanwillson/orbit-ii-archive/rekordbox/exports/moment_deep_snapshot.csv",
+  "playlist_name": "MOMENT DEEP (SYSTEM)",
+  "profile": {
+    "track_count": 33,
+    "bpm": {
+      "min": 121.0,
+      "max": 130.0,
+      "mean": 125.95,
+      "median": 125.01,
+      "stdev": 2.48,
+      "p10": 123.2,
+      "p90": 129.8
+    },
+    "keys_top10": [
+      [
+        "Gm",
+        7
+      ],
+      [
+        "Am",
+        4
+      ],
+      [
+        "Fm",
+        4
+      ],
+      [
+        "Em",
+        3
+      ],
+      [
+        "F#m",
+        3
+      ],
+      [
+        "Bm",
+        2
+      ],
+      [
+        "Bbm",
+        2
+      ],
+      [
+        "A",
+        2
+      ],
+      [
+        "Ab",
+        1
+      ],
+      [
+        "Ebm",
+        1
+      ]
+    ],
+    "genres_top15": [
+      [
+        "Deep House",
+        13
+      ],
+      [
+        "House",
+        10
+      ],
+      [
+        "Minimal / Deep Tech",
+        6
+      ],
+      [
+        "Tech House",
+        2
+      ],
+      [
+        "Minimal  Deep Tech",
+        1
+      ],
+      [
+        "House, Deep House/Deep Tech",
+        1
+      ]
+    ],
+    "artists_top20": [
+      [
+        "Chris Stussy",
+        2
+      ],
+      [
+        "Jake Childs, Paul Dyne",
+        1
+      ],
+      [
+        "Nina Kraviz",
+        1
+      ],
+      [
+        "Mike Starr",
+        1
+      ],
+      [
+        "Silat Beksi",
+        1
+      ],
+      [
+        "Tuccillo, Kindbud",
+        1
+      ],
+      [
+        "Daniel Solar, Delano Smith",
+        1
+      ],
+      [
+        "Jody Watley",
+        1
+      ],
+      [
+        "Franck Roger",
+        1
+      ],
+      [
+        "Saison",
+        1
+      ],
+      [
+        "DJ QU",
+        1
+      ],
+      [
+        "DJ Merci",
+        1
+      ],
+      [
+        "Oleg Poliakov",
+        1
+      ],
+      [
+        "Shonky & Alexander Skancke",
+        1
+      ],
+      [
+        "Phil Weeks",
+        1
+      ],
+      [
+        "Soul Of Hex",
+        1
+      ],
+      [
+        "Wreal",
+        1
+      ],
+      [
+        "Mihai Popoviciu",
+        1
+      ],
+      [
+        "Gemini",
+        1
+      ],
+      [
+        "Alexander East",
+        1
+      ]
+    ],
+    "labels_top20": [
+      [
+        "Large Music",
+        2
+      ],
+      [
+        "Undergroove",
+        1
+      ],
+      [
+        "Nina Kraviz Music",
+        1
+      ],
+      [
+        "Biotop",
+        1
+      ],
+      [
+        "Silat Beksi Music",
+        1
+      ],
+      [
+        "House of Tucci",
+        1
+      ],
+      [
+        "Kolour Recordings",
+        1
+      ],
+      [
+        "Defected",
+        1
+      ],
+      [
+        "Seasons Limited",
+        1
+      ],
+      [
+        "Big Love Music",
+        1
+      ],
+      [
+        "Syncrophone",
+        1
+      ],
+      [
+        "I'm In Love",
+        1
+      ],
+      [
+        "Bass Culture Records",
+        1
+      ],
+      [
+        "Stoned Pilot",
+        1
+      ],
+      [
+        "Robsoul Recordings",
+        1
+      ],
+      [
+        "Freerange Records",
+        1
+      ],
+      [
+        "Layers Label",
+        1
+      ],
+      [
+        "Berg Audio",
+        1
+      ],
+      [
+        "Cyclo Recordings",
+        1
+      ],
+      [
+        "Afterhours",
+        1
+      ]
+    ],
+    "key_unique": 14,
+    "genre_unique": 6,
+    "artist_unique": 32,
+    "label_unique": 32
+  },
+  "rules": [
+    {
+      "id": "bpm_within_p10_p90",
+      "type": "numeric_range",
+      "field": "bpm",
+      "min": 123.2,
+      "max": 129.8,
+      "weight": 0.3,
+      "description": "BPM between 123.2 and 129.8 (MOMENT DEEP (SYSTEM) p10–p90)"
+    },
+    {
+      "id": "genre_in_top8",
+      "type": "categorical_set",
+      "field": "genre",
+      "allowed": [
+        "Deep House",
+        "House",
+        "Minimal / Deep Tech",
+        "Tech House",
+        "Minimal  Deep Tech",
+        "House, Deep House/Deep Tech"
+      ],
+      "weight": 0.25,
+      "description": "Genre matches one of the 8 most frequent MOMENT DEEP (SYSTEM) genres"
+    },
+    {
+      "id": "key_in_top8",
+      "type": "categorical_set",
+      "field": "key",
+      "allowed": [
+        "Gm",
+        "Am",
+        "Fm",
+        "Em",
+        "F#m",
+        "Bm",
+        "Bbm",
+        "A"
+      ],
+      "weight": 0.15,
+      "description": "Tonality matches one of the 8 most frequent MOMENT DEEP (SYSTEM) keys"
+    },
+    {
+      "id": "label_in_top15",
+      "type": "categorical_set",
+      "field": "label",
+      "allowed": [
+        "Large Music",
+        "Undergroove",
+        "Nina Kraviz Music",
+        "Biotop",
+        "Silat Beksi Music",
+        "House of Tucci",
+        "Kolour Recordings",
+        "Defected",
+        "Seasons Limited",
+        "Big Love Music",
+        "Syncrophone",
+        "I'm In Love",
+        "Bass Culture Records",
+        "Stoned Pilot",
+        "Robsoul Recordings"
+      ],
+      "weight": 0.15,
+      "description": "Label matches one of the 15 most frequent MOMENT DEEP (SYSTEM) labels"
+    },
+    {
+      "id": "artist_in_flow_corpus",
+      "type": "artist_membership",
+      "field": "artist",
+      "allowed": [
+        "Alexander East",
+        "Chris Stussy",
+        "DJ Merci",
+        "DJ QU",
+        "Daniel Solar, Delano Smith",
+        "Franck Roger",
+        "Gemini",
+        "Jake Childs, Paul Dyne",
+        "Jody Watley",
+        "Mihai Popoviciu",
+        "Mike Starr",
+        "Nina Kraviz",
+        "Oleg Poliakov",
+        "Phil Weeks",
+        "Saison",
+        "Shonky & Alexander Skancke",
+        "Silat Beksi",
+        "Soul Of Hex",
+        "Tuccillo, Kindbud",
+        "Wreal"
+      ],
+      "weight": 0.15,
+      "description": "Artist appears among top-25 MOMENT DEEP (SYSTEM) artists or exact match in corpus"
+    }
+  ]
+}

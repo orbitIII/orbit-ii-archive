@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "updated": "2026-06-28",
+  "name": "MAM Paris — Moderne & zeitgenössische Kunst",
+  "full_name": "Musée d'Art Moderne de la Ville de Paris",
+  "short": "MAM Paris",
+  "url": "https://www.mam.paris.fr",
+  "collections_url": "https://www.parismuseescollections.paris.fr/en/recherche/type/oeuvre/musee/musee-d-art-moderne-de-paris",
+  "parent": "orbit_kultur_dna.json",
+  "spatial_anchor": "Paris",
+
+  "was_ist_mam": {
+    "typ": "Städtisches Museum für Kunst des 20. und 21. Jahrhunderts — Palais de Tokyo (Ostflügel)",
+    "gegruendet": 1961,
+    "bestand": "~15.000 Werke (~16.558 online katalogisiert, Paris Musées)",
+    "orbit_relevanz": "Paris als spatial_anchor; Galerie-Nacht-Skala; institutionelle Schwere × avantgardistische Subversion — Referenz für Kunst-Zweig"
+  },
+
+  "orbit_alignment": {
+    "passt_weil": [
+      "Paris-Schule + École de Paris — ORBIT spatial_anchors Paris",
+      "Institution × Gesamtwerk — Murals (Matisse La Danse, Dufy La Fée Électricité), Raum als Score",
+      "Bleak × Subversive Joy — Nouveau Réalisme, Figuration Narrative, Yves Klein",
+      "Nacht als Prinzip — Club-as-gallery-Parallele (KHIDI, NACHTBLENDE)",
+      "Körper als Medium — Modigliani, Soutine, Rouault, Porträt-Tradition"
+    ],
+    "kunst_prinzipien": ["transzendenz", "gesamtwerk", "alchemie", "subversion", "koerper", "leere", "zeitlosigkeit"],
+    "nicht_verwechseln": [
+      "Nicht Musée National d'Art Moderne (Centre Pompidou) — das ist das staatliche Schwestermuseum im selben Palais de Tokyo",
+      "PFW-Editorial ist Kontext, nicht Default-ORBIT — fashion_pfw ≠ MAM-Kunst",
+      "White-Cube-Generic — MAM ist immer Paris-/Bewegungs-verankert"
+    ]
+  },
+
+  "quellen": [
+    "https://www.mam.paris.fr/fr/nouveau-parcours",
+    "https://www.mam.paris.fr/fr/un-lieu-une-collection",
+    "https://www.mam.paris.fr/en/venue-hire",
+    "https://www.mam.paris.fr/fr/institutions-culturelles",
+    "https://www.mam.paris.fr/en/expositions/exhibitions-extending-collections",
+    "https://www.parismuseescollections.paris.fr"
+  ],
+
+  "meilensteine_sammlung": {
+    "1953": "Legs Maurice Girardin — >500 Werke (Fauvismus, Kubismus, Rouault, Soutine, Modigliani, Buffet)",
+    "1954": "Électricité de France — Raoul Dufy, La Fée Électricité (600 m² Mural)",
+    "1937": "Exposition Internationale — Ankäufe Matisse, Bonnard, Delaunay, Derain, Léger, Lhote, Vuillard; Möbel Chareau, Arbus, Ruhlmann",
+    "1939": "Salon des Réalités Nouvelles — Murals Robert & Sonia Delaunay, Albert Gleizes, Jacques Villon",
+    "2011": "Legs Giorgio de Chirico — 61 Werke",
+    "2012": "Donation Michael Werner",
+    "2014": "Otto Freundlich, Composition 1911",
+    "seit_2007": ">800 Neuerwerbungen — u.a. Peter Doig, Christopher Wool, Douglas Gordon, Philippe Parreno, Gilles Barbier, Sturtevant"
+  },
+
+  "kuenstler_nach_bewegung": {
+    "abstraction_lyrique_apres_guerre": {
+      "label": "Abstraction lyrique (après-guerre)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Hans Hartung",
+        "Pierre Soulages",
+        "Simon Hantaï",
+        "Zao Wou-Ki",
+        "Christopher Wool",
+        "Jean Degottex",
+        "Judit Reigl"
+      ]
+    },
+    "fauvisme_post_impressionnisme": {
+      "label": "Fauves, post-impressionnistes et coloristes",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Maurice de Vlaminck",
+        "Raoul Dufy",
+        "Henri Matisse",
+        "André Derain",
+        "Kees van Dongen",
+        "Albert Marquet",
+        "Pierre Bonnard",
+        "Edouard Vuillard",
+        "Georges Rouault"
+      ]
+    },
+    "cubisme": {
+      "label": "Cubisme — de Cézanne au papier peint",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Georges Braque",
+        "Juan Gris",
+        "Pablo Picasso",
+        "Albert Gleizes",
+        "Jacques Villon",
+        "Robert Delaunay",
+        "Sonia Delaunay",
+        "Jean Metzinger",
+        "André Lhote",
+        "Fernand Léger"
+      ]
+    },
+    "cosmogonies_abstraites": {
+      "label": "Cosmogonies abstraites (1920–1930)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Jean Crotti",
+        "František Kupka",
+        "Enrico Prampolini"
+      ]
+    },
+    "ecole_de_paris": {
+      "label": "École de Paris",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Marc Chagall",
+        "Chaïm Soutine",
+        "Amedeo Modigliani",
+        "Henri Matisse",
+        "Pierre Bonnard",
+        "Raoul Dufy",
+        "Albert Marquet",
+        "Edouard Vuillard"
+      ]
+    },
+    "grands_independants": {
+      "label": "Les grands Indépendants (Petit-Palais 1937)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Henri Matisse",
+        "Edouard Vuillard",
+        "Pierre Bonnard",
+        "Raoul Dufy",
+        "Albert Marquet"
+      ]
+    },
+    "realisme_surrealisme_dada": {
+      "label": "Réalisme, Surréalisme, Dada",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Francis Picabia",
+        "Giorgio de Chirico",
+        "Jean Crotti",
+        "Georges Rouault",
+        "Bernard Buffet",
+        "Jean Fautrier"
+      ]
+    },
+    "spontaneistes_automatistes": {
+      "label": "Spontanéistes et automatistes / matiéristes (1950–1960)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Jean Dubuffet",
+        "Etienne-Martin",
+        "Lucio Fontana"
+      ]
+    },
+    "nouveau_realisme": {
+      "label": "Nouveau Réalisme",
+      "permanent_parcours": true,
+      "linie": "Marcel Duchamp — recyclage poétique du réel (Pierre Restany)",
+      "kuenstler": [
+        "Arman",
+        "Gérard Deschamps",
+        "Raymond Hains",
+        "Yves Klein",
+        "Martial Raysse",
+        "Daniel Spoerri",
+        "Jacques Villeglé"
+      ]
+    },
+    "abstraction_geometrique": {
+      "label": "Abstraction géométrique",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Martin Barré",
+        "François Morellet",
+        "Aurélie Nemours",
+        "Daniel Buren"
+      ]
+    },
+    "art_conceptuel": {
+      "label": "Art conceptuel",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Art & Language",
+        "Victor Burgin",
+        "Hamish Fulton",
+        "Jenny Holzer",
+        "Barbara Kruger",
+        "Lawrence Weiner",
+        "Cerith Wyn Evans"
+      ]
+    },
+    "figuration_narrative": {
+      "label": "Figuration Narrative",
+      "permanent_parcours": true,
+      "orbit_signal": "Politische Analyse × figurative Malerei — MAM Pionier (Mythologies quotidiennes 1964)",
+      "kuenstler": [
+        "Gilles Aillaud",
+        "Eduardo Arroyo",
+        "Antonio Recalcati",
+        "Bernard Rancillac",
+        "Hervé Télémaque",
+        "Jacques Monory",
+        "Bernard Dufour"
+      ]
+    },
+    "peinture_allemande": {
+      "label": "Peinture allemande (post-guerre → 1980er)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Gerhard Richter",
+        "Georg Baselitz",
+        "Sigmar Polke",
+        "Albert Oehlen",
+        "Per Kirkeby",
+        "Markus Lüpertz",
+        "A. R. Penck",
+        "Christopher Wool",
+        "Marthe Wéry"
+      ]
+    },
+    "supports_surfaces": {
+      "label": "Supports/Surfaces",
+      "permanent_parcours": false,
+      "note": "Ensemble in Sammlung — MAM nennt Bewegung explizit",
+      "kuenstler": [
+        "Claude Viallat",
+        "Daniel Dezeuze"
+      ]
+    },
+    "arte_povera": {
+      "label": "Arte Povera",
+      "permanent_parcours": false,
+      "note": "Bewegung vertreten — einzelne Künstler:innen über Ausstellungen/Neuerwerbungen; keine vollständige Namensliste in MAM-Publikationen",
+      "kuenstler": []
+    },
+    "jeune_scene_acquisitions": {
+      "label": "Jeune scène / Neuerwerbungen (2007–)",
+      "permanent_parcours": true,
+      "kuenstler": [
+        "Peter Doig",
+        "Douglas Gordon",
+        "Philippe Parreno",
+        "Gilles Barbier",
+        "Sturtevant",
+        "Mathieu Mercier",
+        "Farah Atassi",
+        "Alex Israel",
+        "Harold Ancart"
+      ]
+    },
+    "skulptur_mobilier": {
+      "label": "Skulptur & Arts décoratifs (Sammlungsstärken)",
+      "permanent_parcours": false,
+      "kuenstler": [
+        "Jacques Lipchitz",
+        "Otto Freundlich",
+        "Gaston Suisse",
+        "Pierre Chareau",
+        "André Arbus",
+        "Émile-Jacques Ruhlmann"
+      ]
+    }
+  },
+
+  "chef_doeuvre_anker": [
+    { "werk": "La Danse", "kuenstler": "Henri Matisse", "signal": "transzendenz, gesamtwerk, koerper" },
+    { "werk": "La Fée Électricité", "kuenstler": "Raoul Dufy", "signal": "gesamtwerk, synaesthesie, alchemie" },
+    { "werk": "La femme aux yeux bleus", "kuenstler": "Amedeo Modigliani", "signal": "koerper, leere, pathos" },
+    { "werk": "Le Mur de peintures", "kuenstler": "Daniel Buren", "signal": "ritual, institution, leere" },
+    { "werk": "Les disques", "kuenstler": "Fernand Léger", "signal": "synaesthesie, nacht" },
+    { "werk": "Suite Vollard (100 gravures)", "kuenstler": "Pablo Picasso", "signal": "zeitlosigkeit, koerper" },
+    { "werk": "Monochrome bleu / IKB", "kuenstler": "Yves Klein", "signal": "alchemie, transzendenz, void" },
+    { "werk": "Statement (Installation)", "kuenstler": "Lawrence Weiner", "signal": "leere, konzept" }
+  ],
+
+  "kuenstler_flat": {
+    "count": 89,
+    "note": "Dedupliziert über alle Bewegungen — für Suche/Filter",
+    "liste": [
+      "A. R. Penck",
+      "Albert Gleizes",
+      "Albert Marquet",
+      "Albert Oehlen",
+      "Alex Israel",
+      "Amedeo Modigliani",
+      "André Derain",
+      "André Lhote",
+      "Antonio Recalcati",
+      "Arman",
+      "Art & Language",
+      "Aurélie Nemours",
+      "Barbara Kruger",
+      "Bernard Buffet",
+      "Bernard Dufour",
+      "Bernard Rancillac",
+      "Cerith Wyn Evans",
+      "Chaïm Soutine",
+      "Christopher Wool",
+      "Claude Viallat",
+      "Daniel Buren",
+      "Daniel Dezeuze",
+      "Daniel Spoerri",
+      "Douglas Gordon",
+      "Edouard Vuillard",
+      "Eduardo Arroyo",
+      "Enrico Prampolini",
+      "Etienne-Martin",
+      "Farah Atassi",
+      "Fernand Léger",
+      "Francis Picabia",
+      "François Morellet",
+      "František Kupka",
+      "Gaston Suisse",
+      "Georg Baselitz",
+      "Georges Braque",
+      "Georges Rouault",
+      "Gerhard Richter",
+      "Gérard Deschamps",
+      "Gilles Aillaud",
+      "Gilles Barbier",
+      "Giorgio de Chirico",
+      "Hamish Fulton",
+      "Hans Hartung",
+      "Harold Ancart",
+      "Henri Matisse",
+      "Hervé Télémaque",
+      "Jacques Lipchitz",
+      "Jacques Monory",
+      "Jacques Villeglé",
+      "Jacques Villon",
+      "Jean Crotti",
+      "Jean Degottex",
+      "Jean Dubuffet",
+      "Jean Fautrier",
+      "Jean Metzinger",
+      "Jenny Holzer",
+      "Juan Gris",
+      "Judit Reigl",
+      "Kees van Dongen",
+      "Lawrence Weiner",
+      "Lucio Fontana",
+      "Marc Chagall",
+      "Martial Raysse",
+      "Martin Barré",
+      "Markus Lüpertz",
+      "Mathieu Mercier",
+      "Maurice de Vlaminck",
+      "Otto Freundlich",
+      "Pablo Picasso",
+      "Per Kirkeby",
+      "Peter Doig",
+      "Philippe Parreno",
+      "Pierre Bonnard",
+      "Pierre Chareau",
+      "Pierre Soulages",
+      "Raoul Dufy",
+      "Raymond Hains",
+      "Robert Delaunay",
+      "Simon Hantaï",
+      "Sonia Delaunay",
+      "Sturtevant",
+      "Victor Burgin",
+      "Yves Klein",
+      "Zao Wou-Ki",
+      "André Arbus",
+      "Émile-Jacques Ruhlmann",
+      "Marthe Wéry",
+      "Sigmar Polke"
+    ]
+  },
+
+  "orbit_branch_use": {
+    "art": "Kollaborations-Shortlist — Figuration Narrative + Nouveau Réalisme für subversion; École de Paris für koerper",
+    "aesthetics": "Matisse/Dufy-Farbe als subversive_joy-Ausnahme; Rouault/Soutine für bleak",
+    "film": "Institutional-camera-distance — MAM-Raum als Referenz für Galerie-Nacht-Doku",
+    "marketing": "Curator voice — Biennale de Paris-Erbe, nicht PFW-Hype"
+  },
+
+  "prinzipien_analyse": {
+    "description": "Nach welchen Operatoren die MAM-Sammlung arbeitet — gemappt auf ORBIT kunst_prinzipien",
+    "regel": "Kein neues Parallel-Vokabular ohne Link — siehe mam_prinzipien + orbit_kunst_prinzipien",
+    "bewegungen": {
+      "fauvisme_cubisme": {
+        "operator": "Farbe/Geste als Wahrheit — nicht Abbild, sondern Energie (Matisse, Derain, Vlaminck); Fragmentierung der Wirklichkeit (Picasso, Braque, Gris)",
+        "orbit_map": ["alchemie", "synaesthesie", "koerper", "subversion"],
+        "orbit_gap": "Maximalismus in reduziertem Frame — ORBIT hat subversive_joy-Ausnahme, MAM liefert historisches Vorbild",
+        "uebernehmen": "Farbe als bewusste Ausnahme innerhalb SW-Grammatik — nicht Default"
+      },
+      "ecole_de_paris": {
+        "operator": "Körper trägt Geschichte — Modigliani, Soutine, Chagall: Präsenz vor Pose; Elend/Schönheit ohne Sentimentalität",
+        "orbit_map": ["koerper", "pathos", "katharsis", "abjekt", "mimesis"],
+        "orbit_gap": "ORBIT-Kern Porträt — MAM École de Paris + Berlin gallery_photo parallel",
+        "uebernehmen": "Porträt-Serien mit pathos + abjekt — Rouault/Soutine als Referenz für bleak-intimacy"
+      },
+      "abstraction_cosmogonie": {
+        "operator": "Weltentstehung ohne Figur — Kupka, Delaunay, Gleizes: mystische/geometrische Ordnung; Hartung/Soulages: Geste als letzte Wahrheit",
+        "orbit_map": ["transzendenz", "leere", "alchemie", "das_erhabene", "nacht"],
+        "orbit_gap": "Cosmogonie-Operator fehlt explizit — deckt sich >70% mit transzendenz + alchemie",
+        "uebernehmen": "Soulages outrenoir / Hartung-Geste als synaesthesie + katharsis ohne Bild"
+      },
+      "surrealisme_dada_metafisica": {
+        "operator": "Logik bricht — Picabia, de Chirico: Schwelle zwischen Traum und Alltag; Spaltung ohne Auflösung",
+        "orbit_map": ["schwelle", "spaltung", "nacht", "metamorphose"],
+        "orbit_gap": "Pour Cet Instant deckt schwelle/spaltung — MAM liefert kanonische Vorbilder",
+        "uebernehmen": "de Chirico-Räume als schwellen_moment-Referenz für Film/Installation"
+      },
+      "matieristes_dubuffet": {
+        "operator": "Rohmaterial, Art Brut, Automatisme — Wahrheit des Gestes, nicht der Technik (Dubuffet, Fautrier, Fontana tagli)",
+        "orbit_map": ["abjekt", "mimesis", "katharsis", "alchemie"],
+        "orbit_gap": "geste_matiere als MAM-Operator — maps_to bestehend, siehe mam_prinzipien.geste_matiere",
+        "uebernehmen": "Refusal-of-polish — Dubuffet/Fautrier neben Lolsnake aftermath"
+      },
+      "nouveau_realisme": {
+        "operator": "Recyclage poétique du réel — Alltag, Werbung, Müll werden Material (Restany); Aktion auf Realität, nicht Darstellung",
+        "orbit_map": ["alchemie", "subversion", "mimesis", "ritual"],
+        "orbit_gap": "ORBIT hat club-material — MAM formalisiert recyclage als Prinzip",
+        "uebernehmen": "mam_prinzipien.recyclage_poetique — Flyer, Poster, Club-Detritus als Werkstoff"
+      },
+      "figuration_narrative": {
+        "operator": "Malerei als politische Analyse — Alltagsmythen entlarven (Mythologies quotidiennes 1964); Figur bleibt, Bedeutung bricht",
+        "orbit_map": ["subversion", "mimesis", "spaltung", "pathos"],
+        "orbit_gap": "Kein ORBIT-Operator für «Analyse-Malerei» — mam_prinzipien.figuration_narrative",
+        "uebernehmen": "Nicht Propaganda — Spannung zwischen Bild und Urteil; Télémaque/Monory als Film-Still-Logik"
+      },
+      "abstraction_geometrique_concept": {
+        "operator": "Serie, Format, Support, Sprache — Emotion wird verbannt (Morellet, Barré); Konzept genügt (Weiner, Holzer, Kruger)",
+        "orbit_map": ["leere", "ritual", "gesamtwerk", "zeitlosigkeit"],
+        "orbit_gap": "concept_comme_oeuvre + serie_in_situ als MAM-Operatoren",
+        "uebernehmen": "Buren-Streifen-Logik für institutionelle Räume; Weiner-Text für Minimal-Invite"
+      },
+      "peinture_allemande": {
+        "operator": "Nachkriegs-Schuld, Figur verkehrt, Material zerrissen (Baselitz, Richter, Polke) — Pathos ohne Triumph",
+        "orbit_map": ["katharsis", "spaltung", "abjekt", "pathos", "metamorphose"],
+        "orbit_gap": "Deckt Heartbroken + Pour Cet Instant — deutsche Linie als zweite Säule neben Berlin",
+        "uebernehmen": "Richter-Blur / Wool-Stencil als zeitlosigkeit + leere in Film"
+      },
+      "jeune_scene": {
+        "operator": "Relational, post-studio, Wiederholung/Sturtevant — Raum und Beziehung statt Objekt (Parreno, Gordon, Doig)",
+        "orbit_map": ["gesamtwerk", "ritual", "schwelle", "zeitlosigkeit"],
+        "orbit_gap": "ORBIT Gesamtwerk bereits — MAM liefert zeitgenössische Validierung",
+        "uebernehmen": "Parreno/Gordon-Logik für interdisciplinary-live — nicht Einzelwerk-Launch"
+      }
+    },
+    "matrix_kuenstler_prinzip": [
+      { "kuenstler": "Henri Matisse", "prinzip": "Geste + Farbe = Ekstase ohne Euphorie", "orbit": ["transzendenz", "koerper", "subversion"] },
+      { "kuenstler": "Raoul Dufy", "prinzip": "Murals als Gesamtwerk — Raum frisst Bild", "orbit": ["gesamtwerk", "synaesthesie", "alchemie"] },
+      { "kuenstler": "Yves Klein", "prinzip": "Void + Ritual (Anthropométries) — Leere als Farbe", "orbit": ["leere", "transzendenz", "alchemie", "ritual"] },
+      { "kuenstler": "Jacques Villeglé", "prinzip": "Décollage — Stadt als Palette", "orbit": ["recyclage_poetique", "subversion", "mimesis"] },
+      { "kuenstler": "Daniel Buren", "prinzip": "In situ — Institution wird Werk", "orbit": ["ritual", "leere", "serie_in_situ"] },
+      { "kuenstler": "Lawrence Weiner", "prinzip": "Sprache = Skulptur", "orbit": ["concept_comme_oeuvre", "leere"] },
+      { "kuenstler": "Jean Dubuffet", "prinzip": "Art Brut — Abjekt ohne Romantik", "orbit": ["abjekt", "mimesis", "geste_matiere"] },
+      { "kuenstler": "Hervé Télémaque", "prinzip": "Alltagsmythos zerreißen", "orbit": ["figuration_narrative", "spaltung", "subversion"] },
+      { "kuenstler": "Giorgio de Chirico", "prinzip": "Metafisica — Schwelle, Stille, Spaltung", "orbit": ["schwelle", "spaltung", "nacht"] },
+      { "kuenstler": "Pierre Soulages", "prinzip": "Outrenoir — Licht aus Dunkel", "orbit": ["nacht", "alchemie", "leere"] },
+      { "kuenstler": "Gerhard Richter", "prinzip": "Wahrheit verschwimmt — kein sicheres Bild", "orbit": ["spaltung", "mimesis", "katharsis"] },
+      { "kuenstler": "Philippe Parreno", "prinzip": "Relational — Werk = Situation", "orbit": ["gesamtwerk", "schwelle", "ritual"] }
+    ]
+  },
+
+  "mam_prinzipien": {
+    "description": "Abgeleitet aus MAM Paris Sammlung + permanentem Parcours. Ergänzen kunst_prinzipien — nicht ersetzen.",
+    "quellen": [
+      "https://www.mam.paris.fr/fr/nouveau-parcours",
+      "Pierre Restany — Nouveau Réalisme",
+      "Gérald Gassiot-Talabot — Figuration Narrative (1965)",
+      "MAM — Mythologies quotidiennes (1964)"
+    ],
+    "rule": "Min. 1 mam_prinzip + 1 ORBIT-Kernprinzip pro Paris-/Kunst-Projekt mit MAM-Bezug",
+    "principles": {
+      "recyclage_poetique": {
+        "label": "Recyclage poétique du réel",
+        "definition": "Alltägliches, Urbane, Industrielles wird durch Künstlerakt zum Werk — nicht zitiert, transformiert.",
+        "mam_original": "Nouveau Réalisme (Restany): recyclage poétique du réel urbain, industriel, publicitaire — Duchamp-Linie",
+        "kuenstler": ["Yves Klein", "Arman", "Jacques Villeglé", "Raymond Hains", "Daniel Spoerri", "Martial Raysse"],
+        "operators": ["found-object-as-material", "urban-debris-poetic", "action-on-reality", "advertising-skin-peel"],
+        "orbit_kunst_prinzipien": ["alchemie", "subversion", "mimesis"],
+        "orbit_affekte": ["ekstase", "wut"],
+        "branch_signals": {
+          "art": "Club-Detritus, Poster, Ticket-Stubs in Installation — nicht Deko",
+          "aesthetics": "Décollage-Logik — Layer, Tear, Palimpsest",
+          "marketing": "Flyer als Artefakt — nicht werben, archivieren",
+          "film": "Street texture, grain on found footage"
+        },
+        "forbidden": ["stock-collage", "vintage-filter-without-material", "gentrification-aesthetic"]
+      },
+      "figuration_narrative": {
+        "label": "Figuration Narrative",
+        "definition": "Figurative Malerei als analytische Waffe — Gesellschaft lesen, nicht schmücken; Spannung Bild ↔ Urteil.",
+        "mam_original": "MAM Pionier Mythologies quotidiennes (1964); Gassiot-Talabot 1965 — Alltagsmythen, Vietnam, Kolonialismus, Konsum",
+        "kuenstler": ["Gilles Aillaud", "Hervé Télémaque", "Jacques Monory", "Eduardo Arroyo", "Bernard Dufour"],
+        "operators": ["everyday-myth-exposed", "figure-as-evidence", "political-without-poster", "split-judgment-frame"],
+        "orbit_kunst_prinzipien": ["subversion", "mimesis", "spaltung", "pathos"],
+        "orbit_affekte": ["wut", "ohnmacht", "rassismus_ausgrenzung"],
+        "branch_signals": {
+          "film": "Tableau vivant — still, dann Schnitt; kein Erklär-VO",
+          "art": "Serie statt Einzelbild — Zyklus wie A Passion in the Desert",
+          "marketing": "Curator voice mit Haltung — nicht neutral"
+        },
+        "forbidden": ["propaganda-flat", "ironic-meme-politics", "both-sidesism-without-cost"]
+      },
+      "concept_comme_oeuvre": {
+        "label": "Concept comme œuvre",
+        "definition": "Die Idee genügt — Sprache, Anweisung oder Konzept trägt das Werk; Objekt optional.",
+        "mam_original": "Art conceptuel MAM: Weiner, Holzer, Kruger, Art & Language — «language as sufficient condition»",
+        "kuenstler": ["Lawrence Weiner", "Jenny Holzer", "Barbara Kruger", "Art & Language", "Victor Burgin"],
+        "operators": ["text-as-sculpture", "instruction-as-work", "wall-text-is-art", "idea-over-object"],
+        "orbit_kunst_prinzipien": ["leere", "ritual", "zeitlosigkeit"],
+        "orbit_affekte": ["einsamkeit", "leere"],
+        "branch_signals": {
+          "marketing": "Ein Satz Invite — Weiner-Logik; kein Feature-List",
+          "art": "Exhibition statement = Werkteil",
+          "film": "Titelkarte / Sub als Komposition — nicht Info-Overlay"
+        },
+        "forbidden": ["explainer-video", "busy-layout", "brand-speak-manifesto"]
+      },
+      "geste_matiere": {
+        "label": "Geste & Matière",
+        "definition": "Material und Handlung vor Bild — Automatisme, Brut, Schnitt, Outrenoir: Wahrheit im Vorgang.",
+        "mam_original": "Abstraction lyrique + Dubuffet + Fontana — geste rapide, matiériste, outrenoir",
+        "kuenstler": ["Hans Hartung", "Pierre Soulages", "Jean Dubuffet", "Lucio Fontana", "Simon Hantaï"],
+        "operators": ["gesture-as-truth", "material-before-image", "outrenoir-light-from-dark", "cut-as-event"],
+        "orbit_kunst_prinzipien": ["abjekt", "katharsis", "alchemie", "mimesis"],
+        "orbit_affekte": ["wut", "ekstase", "sucht"],
+        "branch_signals": {
+          "aesthetics": "Texture-as-rhythm — Grain, Leather, Sweat",
+          "music": "Hypnotic + metallic — Geste sync to BPM",
+          "film": "Close on skin/material — no beauty filter"
+        },
+        "forbidden": ["digital-polish-default", "wellness-craft-aesthetic", "gore-for-shock"]
+      },
+      "serie_in_situ": {
+        "label": "Série & In situ",
+        "definition": "Wiederholung mit Variation am Ort — Serie, Format, Raum sind Teil des Werks, nicht Rahmen.",
+        "mam_original": "Buren in situ; Morellet series; Picasso Suite Vollard; Sturtevant repetition; MAM Raumarchitektur 1937",
+        "kuenstler": ["Daniel Buren", "François Morellet", "Pablo Picasso", "Sturtevant", "Martin Barré"],
+        "operators": ["repetition-with-variation", "site-specific-not-portable", "series-not-one-off", "architecture-as-frame"],
+        "orbit_kunst_prinzipien": ["ritual", "leere", "zeitlosigkeit", "gesamtwerk"],
+        "orbit_affekte": ["dissoziation", "einsamkeit"],
+        "branch_signals": {
+          "art": "Residency series — Säule Thursday Modell",
+          "marketing": "Dates als temporärer Layer — Serie bleibt",
+          "film": "Loop-as-ritual — NACHTBLENDE"
+        },
+        "forbidden": ["one-off-hype-drop", "instagram-single-frame", "white-cube-generic"]
+      },
+      "mur_gesamtwerk": {
+        "label": "Mur / Gesamtwerk",
+        "definition": "Architektur frisst Werk — Mural, Dekoration, Raum und Bild untrennbar.",
+        "mam_original": "Dufy La Fée Électricité (600 m²); Matisse La Danse; Delaunay murals — Palais de Tokyo als Körper",
+        "kuenstler": ["Raoul Dufy", "Henri Matisse", "Robert Delaunay", "Sonia Delaunay", "Albert Gleizes"],
+        "operators": ["architecture-as-canvas", "mural-scale", "room-eats-image", "decorative-not-decorative"],
+        "orbit_kunst_prinzipien": ["gesamtwerk", "transzendenz", "das_erhabene", "synaesthesie"],
+        "orbit_affekte": ["ekstase", "transzendenz"],
+        "branch_signals": {
+          "art": "NACHTBLENDE / Heartbroken — Projektion × Raum × Sound",
+          "film": "Wide institutional shot — then intimate",
+          "music": "Non-dancefloor allowed at mural scale"
+        },
+        "forbidden": ["portable-decor", "projection-as-afterthought", "cozy-aesthetic"]
+      }
+    }
+  },
+
+  "uebernahme_orbit": {
+    "status": "uebernommen",
+    "datum": "2026-06-28",
+    "strategie": "MAM-Operatoren als Referenz-Schicht (wie ARTHAUS) — Kern-DNA bleibt Berlin; Paris erweitert Kunst-Zweig + principle_combinations",
+    "bereits_deckung": [
+      "koerper, katharsis, pathos — École de Paris",
+      "gesamtwerk, transzendenz — Murals Matisse/Dufy",
+      "subversion — Nouveau Réalisme + Klein",
+      "leere, ritual — Buren, Weiner",
+      "schwelle, spaltung — de Chirico, Richter, Figuration Narrative"
+    ],
+    "neu_als_mam_prinzipien": [
+      "recyclage_poetique",
+      "figuration_narrative",
+      "concept_comme_oeuvre",
+      "geste_matiere",
+      "serie_in_situ",
+      "mur_gesamtwerk"
+    ],
+    "principle_combinations_neu": {
+      "paris_mam_galerie": ["mur_gesamtwerk", "serie_in_situ", "transzendenz", "leere"],
+      "paris_recyclage": ["recyclage_poetique", "alchemie", "subversion", "mimesis"],
+      "paris_figuration": ["figuration_narrative", "spaltung", "pathos", "mimesis"],
+      "paris_concept": ["concept_comme_oeuvre", "leere", "ritual", "zeitlosigkeit"],
+      "paris_geste": ["geste_matiere", "abjekt", "katharsis", "alchemie"]
+    },
+    "konkret_fuer_zweige": {
+      "kunst": "Residency-Serie (serie_in_situ) + Raum-Mural-Logik (mur_gesamtwerk) — nicht White-Cube-Einzelwerk",
+      "aesthetics": "Matisse/Dufy-Farbe als subversive_joy-Ausnahme; Default = visual_grammar (analog-bw, grain, single-accent) — nicht eine Person",
+      "film": "Figuration Narrative = Tableau-Schnitt; Richter-Blur für spaltung; institutional wide wie MAM-Saal",
+      "marketing": "Weiner-Ein-Satz-Invite; Flyer als recyclage_poetique-Artefakt",
+      "musik": "Soulages outrenoir ↔ ORBIT MOMENT DEEP — Geste ohne Melodie"
+    },
+    "nicht_uebernehmen": [
+      "PFW-Editorial als ORBIT-Default",
+      "Pop-Art-Oberfläche ohne Subversion-Rahmen",
+      "Concept Art als Ersatz für Körper/Präsenz — immer min. koerper oder geste_matiere dazu",
+      "Politische Figuration als Instagram-Slogan — figuration_narrative braucht Spannung, nicht Meinung"
+    ]
+  }
+}

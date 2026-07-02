@@ -1,0 +1,26 @@
+{
+  "anchor": "svenmarquardt",
+  "source": "browser_cdp_partial_scroll",
+  "extracted": "2026-06-26",
+  "expected_following": 364,
+  "count": 16,
+  "note": "Incomplete — full list requires extract_marquardt_following.py with instaloader login",
+  "handles": [
+    {"handle": "korbinianglacier", "name": "Korbinian Glacier"},
+    {"handle": "soderbergofficial", "name": "SÖDERBERG"},
+    {"handle": "iamlucaeck", "name": "Luca Eck", "is_verified": true},
+    {"handle": "kerstingeffert", "name": "Kerstin Geffert", "is_verified": true},
+    {"handle": "richertbeil", "name": "RICHERT BEIL"},
+    {"handle": "sabine_roethig", "name": "Sabine Röthig"},
+    {"handle": "salty.nacho", "name": "Salty Nacho", "is_verified": true},
+    {"handle": "ingegrognard", "name": "Inge Grognard"},
+    {"handle": "christoph__faust", "name": "Christoph Faust", "is_verified": true},
+    {"handle": "raufaser.atelier", "name": "Raufaser Atelier"},
+    {"handle": "andregalluzzi_official", "name": "André Galluzzi", "is_verified": true},
+    {"handle": "berghain_panoramabar", "name": "Berghain / Panorama Bar", "is_verified": true},
+    {"handle": "voostore", "name": "Voo Store"},
+    {"handle": "rukhglobal", "name": "Rukh Global"},
+    {"handle": "flieder_und_beton", "name": "SOFTMOTIV"},
+    {"handle": "numero_netherlands", "name": "Numéro Netherlands"}
+  ]
+}

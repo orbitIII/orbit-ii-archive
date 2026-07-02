@@ -1,0 +1,69 @@
+{
+  "version": "2026-06-28",
+  "active_layer": "digging_platform",
+  "layers": {
+    "digging_platform": {
+      "status": "active",
+      "description": "Rekordbox-Analyse, Kuratierung, Berghain-Sammlung, Remmex",
+      "docs": [
+        "docs/digging_platform.md",
+        "docs/rekordbox_orbit.md",
+        "docs/automation_plan.md"
+      ],
+      "config": ["orbit_playlists.json"],
+      "app": "app/orbit-digging/",
+      "serve": "scripts/serve_orbit_digging.py",
+      "scripts": [
+        "scripts/analyze_orbit_playlists.py",
+        "scripts/rekordbox_orbit.py",
+        "scripts/curate_orbit_flow.py",
+        "scripts/curate_to_ausgesortiert.py",
+        "scripts/curate_moment_deep.py",
+        "scripts/curate_moment_vocal.py",
+        "scripts/curate_driving_push.py",
+        "scripts/collect_to_ausgesortiert.py",
+        "scripts/sort_ausgesortiert.py",
+        "scripts/unsort_ausgesortiert.py",
+        "scripts/score_remmex_releases.py",
+        "scripts/import_dropped_in.py",
+        "scripts/import_trackid_sets.py",
+        "scripts/analyze_tracklists.py",
+        "scripts/analyze_rekordbox_flow.py"
+      ],
+      "data_dirs": ["rekordbox/", "berghain/", "remmex/"],
+      "berghain_csv": [
+        "berghain_2024_2026_events.csv",
+        "berghain_2024_2026_press_texts.csv",
+        "berghain_2024_2026_artist_frequency.csv",
+        "berghain_2024_2026_observations.md"
+      ],
+      "analysis_reports": [
+        "ORBIT_CORE_ANALYSIS_REPORT.md",
+        "ORBIT_FLOW_ANALYSIS_REPORT.md",
+        "ORBIT_ARCHIV_ANALYSIS_REPORT.md",
+        "ORBIT_MOMENT_DEEP_ANALYSIS_REPORT.md",
+        "SYSTEM_MOMENT_DEEP_ANALYSIS_REPORT.md",
+        "SYSTEM_MOMENT_DRIVING_ANALYSIS_REPORT.md",
+        "SYSTEM_DRIVING_PUSH_ANALYSIS_REPORT.md",
+        "DRIVING_FLOW_ANALYSIS_REPORT.md",
+        "SYSTEM_WARM_ANALYSIS_REPORT.md",
+        "SYSTEM_WARM_HYPNOTIC_ANALYSIS_REPORT.md",
+        "FLOW_FOLDER_ANALYSIS_REPORT.md",
+        "FLOW_COMPARISON_REPORT.md",
+        "CORE_ARCHIV_COMPARISON_REPORT.md",
+        "TRACKID_IMPORT_ANALYSIS_REPORT.md"
+      ],
+      "remmex_scored": [
+        "remmex/releases-2026-06-25_scored_orbit_core.csv",
+        "remmex/releases-2026-06-25_scored_orbit_flow.csv"
+      ]
+    },
+    "identitaet_layer": {
+      "status": "archived_paused",
+      "path": "archiv/identitaet_layer/",
+      "description": "Film, Marquardt, Künstler-Mood, Prinzipien, Identität — nicht aktiv",
+      "readme": "archiv/identitaet_layer/README.md",
+      "note": "Wieder aktivieren erst nach stabilem Digging-Fundament; keine Cross-Imports in digging_scripts"
+    }
+  }
+}

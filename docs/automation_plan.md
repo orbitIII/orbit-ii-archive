@@ -9,6 +9,8 @@ We run three collaborating automations during the current collection phase:
 | Trend Agent | Follows each Archive run | Appends summary to `observations.md`, generates new Markdown entry in `labels_communities_aesthetics.md`, optionally writes a short vision snippet | Examines collected data for recurring rooms/artists/labels, cross-checks known tools, identifies future-looking signals. |
 | Contrarian Agent | Runs after Trend | Updates `observations.md` with validations, notes gaps, and proposes next Archive refinements | Checks for mismatches, missing sources, automation friction and records a recommendation line (preface with `Contrarian note:`). |
 
+Identitäts-/Prinzipien-Automatisierung liegt pausiert unter `archiv/identitaet_layer/` (siehe `docs/digging_platform.md`).
+
 
 ## Triggering the First Run
 1. **Manual initiation** – run the Archive Agent once to index events for 2024. Launch the automation from Cursor’s Automations tab and select the newly drafted prompt (see `docs/agent_prompts.md`).

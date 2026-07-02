@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ORBIT Digging — Test App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/digging.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">ORBIT</span>
+      <span class="brand-sub">Digging · Test App</span>
+    </div>
+    <nav class="nav" id="main-nav" aria-label="Hauptnavigation"></nav>
+    <button type="button" class="btn-reload" id="btn-reload" title="Daten neu laden">↻</button>
+  </header>
+
+  <div class="status-bar" id="status-bar" aria-live="polite"></div>
+
+  <main id="app" class="app">
+    <section class="view active">
+      <p class="loading">Lade Playlist-Daten …</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Repo-Daten · Kein Live-Rekordbox · <code>python3 scripts/serve_orbit_digging.py</code></p>
+  </footer>
+
+  <script type="module" src="js/app.js?v=3"></script>
+</body>
+</html>

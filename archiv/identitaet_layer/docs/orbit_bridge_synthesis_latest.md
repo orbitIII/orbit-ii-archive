@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,48 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03 (cron, 02:02 UTC)  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task §8:** 1. Visual Brief *Pour Cet Instant* → `filme/pour_cet_instant/visual_brief.md` — **offen** (Datei fehlt; Verzeichnis `filme/` nicht vorhanden)  
+**§8 Task 2:** referenz_spiegel → `orbit_identitaet.json` → `referenz_spiegel.examples` — **offen** (leer)  
+**§8 Task 3:** Sound-Entscheidung — **blockiert** bis Task 1+2 done
+
+### Masterplan-Alignment
+
+| Prüfpunkt | Ergebnis |
+|---|---|
+| Phase-Gate offen? | **Nein** — Visual Brief + referenz_spiegel fehlen |
+| Bridge füttert aktuellen Task? | **Ja** — `form_queer_feeling` + `visual_tension` direkt auf Visual Brief anwendbar |
+| Mittelpunkt = Identität? | **Ja** — Pour Cet Instant + `identitaet_profil.positionierung` (bridge) |
+| Forbidden strip? | **Ja** — alle 6 Strip-Operatoren verwerfen |
+
+### Best of both worlds
+
+- **Hetero-Operatoren:** `editorial-portrait-form` (institutionelle Form, Tageslicht-Porträt) · `analog-bw` (SW-Base, gallery_photo-Grammatik)
+- **Queer-Operatoren:** `bold-color-accent` (ein rotes Objekt als Intensität) · `body-before-norm` (Körper weiß vor dem Denken)
+- **Bridge-Satz:** SW-Base + ein Akzent — Editorial-Form trägt queer Gefühl; Pour Cet Instant hält Spannung ohne Label oder Kompromiss.
+
+### Bridge-Litmus (Synthese)
+
+| Frage | Antwort |
+|---|---|
+| Von BEIDEN Polen genommen? | **Ja** — hetero Form/Institution + queer Subversion/Plattform |
+| Bridge, nicht Kompromiss? | **Ja** — Beton-Grau + rotes Kleid; nicht „halb queer, halb hetero“ |
+| Passt zu `identitaet_profil`? | **Ja** — `positionierung.primary: bridge`, Affekt-Kern Einsamkeit/Dissoziation |
+| werk_binding Pour Cet Instant? | **Ja** — heteronorm (Anpassung als Renoncement) + queer (Loslassen ohne Script) |
+
+### Nächster Schritt (max. 1)
+
+**Visual Brief schreiben** — 1 Seite aus `orbit_werk_pour_cet_instant.json` → `visual_grammar_orbit` + `production_orbit`, mit Bridge-Regeln `visual_tension` (grey-concrete + red-dress-single-accent) und `form_queer_feeling` (Editorial-Form, Abweichungs-Gefühl). Gate blockiert Weave/Scrape; dieser Task ist der Gate-Exit.
+
+### Entscheidungsfilter §10
+
+| Filter | Antwort |
+|---|---|
+| Affekt Lead? | Einsamkeit, Dissoziation — aftermath, nicht Peak |
+| Bleak / Joy / Bridge? | **Bridge** — Beton-Grau + rotes Kleid |
+| Film-Lead? | **Ja** — Medium Lead = film |
+| `forbidden_personal` verletzt? | **Nein** |
+| 3-Jahre-Test? | **Ja** — Essence-Satz trägt; kein Trend-Operator |
+| Ich oder Mythos? | **Ich** — Operatoren dienen Pour Cet Instant; Referenz-Scan ist Rohstoff, nicht Mittelpunkt |
 

@@ -140,7 +140,43 @@
     },
     "referenz_spiegel": {
       "description": "Wer spiegelt welchen Teil von dir — nicht zum Kopieren",
-      "examples": []
+      "examples": [
+        {
+          "operator": "exhibition-opening",
+          "quelle": "Scan-Batch 01 — gallery_photo-Cluster",
+          "spiegelt": "Bedarf an institutioneller Form und Sichtbarkeit — Galerie-Ritual ohne Exklusion",
+          "bridge_regel": "institution_community",
+          "nicht": "door-as-status; nicht Bewunderung einer Galerie-Person"
+        },
+        {
+          "operator": "ritual-selection / Tür-Logik",
+          "quelle": "marquardt_sauele_weeeirdos — institutionelle Mechanik",
+          "spiegelt": "struktur_defizit keine_mutter_kein_halt — ich erkenne Gate-Mechanik, baue eigene ORBIT-Regel",
+          "bridge_regel": "institution_community",
+          "nicht": "Berghain-Kopie; nicht mein Film-Inhalt"
+        },
+        {
+          "operator": "narrative_bridge — Anpassung/Verzicht ohne Label",
+          "quelle": "Pour Cet Instant (eigenes Werk)",
+          "spiegelt": "affekt_kern einsamkeit;dissoziation — Körper weiß vor dem Denken; essence-Satz",
+          "bridge_regel": "narrative_bridge",
+          "nicht": "Referenz-Nachbau; nicht Paar-Script mit Happy End"
+        },
+        {
+          "operator": "subversive-joy",
+          "quelle": "marquardt_sauele_weeeirdos — WEEEIRDOS-Operator",
+          "spiegelt": "pole bridge — rotes Kleid als Intensitäts-Akzent der verlässt; bleak × joy",
+          "bridge_regel": "visual_tension",
+          "nicht": "queer-as-gimmick; nicht Farbe als Dekor ohne Affekt"
+        },
+        {
+          "operator": "dual-credit + curator-voice",
+          "quelle": "Scan-Batch 01 — editorial/marketing-Cluster",
+          "spiegelt": "Umverteilung — Credits sichtbar, Freundlichkeit statt Netzwerk-Spiel",
+          "bridge_regel": "credit_kindness",
+          "nicht": "social-capital-as-currency; nicht proximity als Heiligkeit"
+        }
+      ]
     }
   },
 

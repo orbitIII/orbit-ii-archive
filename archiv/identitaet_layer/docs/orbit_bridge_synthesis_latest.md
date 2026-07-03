@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen** (`orbit_identitaet.json` → `examples` leer) · 3. Sound-Entscheidung — **offen**
+
+### Masterplan
+- Gate eingehalten: **ja** — kein Weave, kein Scrape, kein JSON-Layer; Arbeit am §8-Task Visual Brief mit direktem Pour-Cet-Instant-Bezug
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (Grau-Base + rotes Akzent) im Brief verankert
+
+### Best of both worlds
+- **Hetero genommen:** editorial-portrait-form, institutional-distance (negative space, staged, daylight-not-flash)
+- **Queer genommen:** body-before-norm, bold-color-accent (ein rotes Objekt das den Frame verlässt)
+- **Bridge:** Galerie-Porträt-Disziplin trägt Körper-Drama ohne Label — Spannung zwischen Norm-Form und Abweichungs-Gefühl, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` (Bridge-Regeln: `institution_community`, `credit_kindness`; Operatoren, keine Personen-Verehrung)
+
+### Litmus §10
+Ich — der Brief destilliert aus eigenem Werk und `identitaet_profil`, nicht Marquardt-Mythos. Affekt Lead: Einsamkeit/Dissoziation. Pole: Bridge. Medium: Film. Forbidden sauber. 3-Jahre-Test: ja.
 

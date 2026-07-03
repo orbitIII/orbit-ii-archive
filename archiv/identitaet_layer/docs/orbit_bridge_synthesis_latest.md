@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief *Pour Cet Instant* — **offen** (`filme/pour_cet_instant/visual_brief.md` fehlt; `filme/` nicht im Repo)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein neuer Weave, kein Instagram-Scrape, kein JSON-Layer, keine Foto-Spec ohne PCI-Bezug; Synthese + Review only
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + Abweichungs-Gefühl) und `visual_tension` (Grau/SW-Base + ein rotes Akzent) decken Visual-Brief-Anforderungen aus `visual_grammar_orbit` + `production_orbit` ab
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (Galerie-Licht, negative space — Form ohne Club-Flash)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (rotes Kleid als lebendiges Objekt; Körper vor Label)
+- **Bridge:** Beton-Grau in editorialer Stille — ein rotes Objekt das den Frame verlässt; Spannung zwischen Norm-Form und Abweichungs-Gefühl, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+Visual Brief schreiben → `filme/pour_cet_instant/visual_brief.md` (1 Seite: Licht, Palette, 3 Stills, Verboten) — direkt aus Bridge-Regeln `visual_tension` + `form_queer_feeling` und `orbit_werk_pour_cet_instant.json`
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Mittelpunkt ist Pour Cet Instant (Beton-Grau, rotes Kleid, VO-Verzicht); extrahierte Operatoren (Editorial-Form, Farbakzent) dienen dem eigenen Affekt, nicht Marquardt/WEEEIRDOS als Persona.
 

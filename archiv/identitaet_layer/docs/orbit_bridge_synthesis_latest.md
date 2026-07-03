@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,29 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 2. **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` · **offen** (Task 1 Visual Brief **done** in diesem Lauf)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein Weave, kein Scrape, keine Foto-Spec-Recherche; nur erlaubte Bridge-Synthese + §8 Task 1 (Visual Brief)
+- Phase-Gate gesamt: **noch geschlossen** — `referenz_spiegel` fehlt weiterhin (§7)
+- Bridge füttert Task: **ja** — `form_queer_feeling` + `visual_tension` direkt in `filme/pour_cet_instant/visual_brief.md` überführt; für nächsten Task bereit: `institution_community`, `credit_kindness`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `analog-bw` / institutional-distance (Form + SW-Base)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (ein Akzent, Körper vor Norm)
+- **Bridge:** Editorial-Komposition trägt das Bild — ein rotes Objekt und Loslassen ohne Label erzeugen Abweichungs-Gefühl, nicht Paar-Script und nicht Queer-Gimmick.
+
+### Bridge-Prüfung (Litmus)
+- Beide Pole: **ja** — hetero-Operatoren (Form, Institution) + queer-Operatoren (Subversion, Plattform) in `bridge_synthesis`
+- Kein Kompromiss: **ja** — z. B. `visual_tension` = SW-Base + ein Akzent, nicht beide Pole voll
+- Strip angewendet: **ja** — alle 6 `forbidden_strip`-Einträge aktiv
+- Passt zu identitaet_profil / Pour Cet Instant: **ja** — `werk_binding` deckt heteronorm/queer-Signale des Drehbuchs
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples`: welcher **Operator** (nicht Person) spiegelt welchen Teil von dir — z. B. Scan-Batch Ritual-Logik vs. Pour Cet Instant als Kern vs. WEEEIRDOS = subversive-joy-Operator. Bridge-Regeln `institution_community` + `credit_kindness` als Leitfaden.
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Mittelpunkt bleibt Pour Cet Instant und `identitaet_profil.positionierung` (Bridge); Referenz liefert Grammatik (Licht, Ritual, Credit), nicht Persona.
 

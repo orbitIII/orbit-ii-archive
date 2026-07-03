@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief Pour Cet Instant — **done** (dieser Lauf: `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein neuer Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; nur Synthese, Review und §8-Task Visual Brief
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer Körper-Gefühl) und `visual_tension` (SW-Base + ein rotes Akzent) direkt in Brief übernommen
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — Galerie-Porträt-Grammatik, daylight-not-flash, negative space
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein rotes Objekt als Intensität; Körper weiß vor Norm-Script
+- **Bridge:** Beton-Grau institutionell klar, rotes Kleid subversiv lebendig — beide Pole voll ausgeschöpft, nicht halbiert; Spannung bis Leere Hand
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` (Bridge-Regeln: `institution_community`, `credit_kindness`)
+
+### Litmus §10
+**Ich** — Mittelpunkt ist Pour Cet Instant + `identitaet_profil.positionierung` (Bridge); extrahierte Operatoren dienen dem eigenen Werk, nicht Marquardt als Persona. Affekt Lead: Einsamkeit/Dissoziation. Bridge auf beiden Achsen. Film-Lead. Kein `forbidden_personal` verletzt. 3-Jahre-Test: ja.
 

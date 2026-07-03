@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (dieser Lauf: `filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen** (`orbit_identitaet.json` → `examples` leer) · 3. Sound-Entscheidung — **offen**
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, kein neuer JSON-Layer; Visual Brief direkt aus Anker-Werk + Bridge-Regeln
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer-Gefühl) und `visual_tension` (Grau-Base + ein Rot-Akzent) im Visual Brief verankert
+
+### Best of both worlds
+- **Hetero genommen:** editorial-portrait-form, institutional-distance (negative space, daylight-not-flash, Galerie-Leere)
+- **Queer genommen:** bold-color-accent, body-before-norm (Körper vor Denken, Loslassen ohne hetero-Script-Auflösung)
+- **Bridge:** Editorial-Disziplin trägt das Bild — Abweichung trägt den Affekt; Grau hält, Rot stört einmal und verlässt den Frame (Spannung, kein 50/50-Kompromiss)
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` eintragen (welcher Operator spiegelt welchen Teil von dir; Bridge-Regeln: `institution_community`, `credit_kindness`). Beispiel: Marquardt-Scan = Ritual/Tür-Logik (Operator, nicht Film); Pour Cet Instant = Kern; WEEEIRDOS = subversive-joy-Operator.
+
+### Litmus §10
+Ich — der Visual Brief kommt aus Pour Cet Instant + `identitaet_profil`, nicht aus Marquardt-Mythos. Operatoren extrahiert, Person nicht verehrt.
 

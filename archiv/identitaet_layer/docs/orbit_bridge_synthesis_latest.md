@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-03
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-03  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`filme/pour_cet_instant/visual_brief.md`); 2. referenz_spiegel — **offen** (`orbit_identitaet.json` → `examples` leer)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein Weave, Scrape oder Foto-Spec außerhalb Pour Cet Instant; Visual Brief aus Werk-Spec + Bridge geschrieben
+- Bridge füttert Task: **ja** — `form_queer_feeling` (editorial-form × queer-gaze) und `visual_tension` (analog-bw × bold-color-accent) direkt im Visual Brief verankert; nächster Task referenz_spiegel wird durch `institution_community` + `credit_kindness` gefüttert
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — gerahmte Form, Galerie-Leere, daylight-not-flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein rotes Objekt, Körper vor Norm-Script
+- **Bridge:** Beton-Grau hält institutionelle Distanz; ein rotes Kleid trägt Intensität die verlässt — Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel:** 5 Einträge in `orbit_identitaet.json` — welcher **Operator** spiegelt welchen Teil von dir (z. B. Ritual/Tür-Logik aus Scan ≠ dein Film; WEEEIRDOS = subversive-joy-Operator; Pour Cet Instant = Kern). Bridge-Regeln: `institution_community`, `credit_kindness`.
+
+### Litmus §10
+Ich — der Brief leitet aus eigenem Werk und Affekt-Kern ab; Referenz liefert nur Operatoren (Licht, Ritual, Credit), keine Person als Mittelpunkt.
 

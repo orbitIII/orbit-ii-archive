@@ -139,8 +139,44 @@
       "gesamtwerk_potential": true
     },
     "referenz_spiegel": {
-      "description": "Wer spiegelt welchen Teil von dir — nicht zum Kopieren",
-      "examples": []
+      "description": "Welcher Operator spiegelt welchen Teil von dir — nicht zum Kopieren",
+      "examples": [
+        {
+          "operator": "Pour Cet Instant (eigen)",
+          "operator_id": "narrative_bridge",
+          "quelle": "orbit_werk_pour_cet_instant.json",
+          "spiegelt": "Essence-Kern — Körper vor Denken, Anpassung als Renoncement, «Ce moment suffit»",
+          "nicht": "nicht extrahieren — das IST dein Output, Mittelpunkt"
+        },
+        {
+          "operator": "ritual-schwelle / selection-mechanic",
+          "operator_id": "institution_community",
+          "quelle": "Scan Batch 01 — weave ritual, nicht Person",
+          "spiegelt": "Schwelle-Balkon, Stuhl-Ritual — Moment vor dem Act; struktur_defizit keine_mutter_kein_halt",
+          "nicht": "nicht Marquardt-Film, nicht Tür-as-Status (door-as-status verwerfen)"
+        },
+        {
+          "operator": "subversive-joy",
+          "operator_id": "visual_tension",
+          "quelle": "marquardt_sauele_weeeirdos — WEEEIRDOS-Operator",
+          "spiegelt": "Rotes Kleid als lebendiger Akzent in bleak Raum — Bridge Intensität",
+          "nicht": "nicht queer-as-gimmick oder Regenbogen-Dekor"
+        },
+        {
+          "operator": "exhibition-opening + community-voice",
+          "operator_id": "institution_community",
+          "quelle": "hetero: exhibition-hours-not-club-flash + queer: community-voice",
+          "spiegelt": "Galerie-Ritual ohne Exklusion — Raum der bleibt, nicht Club-Flash-Tourismus",
+          "nicht": "nicht Door-Culture bewundern, nicht social-capital-as-currency"
+        },
+        {
+          "operator": "dual-credit + curator-voice",
+          "operator_id": "credit_kindness",
+          "quelle": "Bridge synthesis — credit_kindness",
+          "spiegelt": "Freundlichkeit und sichtbare Credits in Kollab — Umverteilung statt Netzwerk-Spiel",
+          "nicht": "nicht competition-as-default, nicht Personen-Mittelpunkt"
+        }
+      ]
     }
   },
 

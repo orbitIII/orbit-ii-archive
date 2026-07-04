@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,26 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** Visual Brief *Pour Cet Instant* → `filme/pour_cet_instant/visual_brief.md` — **offen** (Datei fehlt)  
+**Weitere §8:** referenz_spiegel (`examples: []`) — offen · Sound-Entscheidung — blockiert bis referenz_spiegel
+
+### Masterplan
+- Gate eingehalten: **ja** — kein Weave, kein Scrape, kein Foto-Spec ohne PCI-Bezug, kein JSON-Layer
+- Phase-Gate Status: **zu** — Visual Brief + `referenz_spiegel` stehen noch nicht; Expansion (§9) bleibt gesperrt
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Porträtform + queer-Gaze → Gefühl aus Abweichung) und `visual_tension` (analog-bw/Grau-Base + `bold-color-accent`/rotes Kleid — ein Akzent, nicht beide Pole voll) mappen direkt auf `visual_grammar_orbit` + `production_orbit`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (Galerie-Leere, Tageslicht gestellt — nicht Club-Flash)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (Körper weiß vor Norm; Loslassen ohne Label)
+- **Bridge:** Beton-Grau und institutionelle Form tragen das Bild; ein lebendiges Rot verlässt den Frame — Spannung zwischen Regimen, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+Visual Brief schreiben (1 Seite: Licht, Palette, Stills, Verboten) — aus `orbit_werk_pour_cet_instant.json`, explizit mit Bridge-Regeln `form_queer_feeling` + `visual_tension` als Leitplanken; kein Marquardt-Lookbook-Kopieren
+
+### Litmus §10
+**Ich** — Mittelpunkt bleibt Pour Cet Instant + `identitaet_profil.positionierung` (bridge); extrahierte Operatoren dienen dem eigenen Werk, nicht dem Mythos einer Referenz-Person.
+
+**Entscheidungsfilter:** Affekt Lead = Einsamkeit/Dissoziation · Pole = Bridge (Bleak-Grau + roter Joy-Akzent) · Medium = Film · `forbidden_personal` unverletzt · 3-Jahre-Test = ja
 

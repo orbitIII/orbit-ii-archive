@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,23 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief Pour Cet Instant — **in Arbeit** (`filme/pour_cet_instant/visual_brief.md` angelegt, noch nicht committed)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, kein JSON-Layer; Arbeit direkt am §8-Task mit Pour-Cet-Instant-Bezug
+- Phase-Gate aktiv: **ja** — `referenz_spiegel` noch offen (`examples: []`); Marquardt-Recherche bleibt pausiert
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + queer-gaze/Abweichung) und `visual_tension` (analog-bw Base + bold-color-accent Rot)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — gestellte Portraits, Galerie-Rhythmus, daylight-not-flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot als Impuls; Körper vor Norm, Loslassen ohne Label
+- **Bridge:** SW-Base + ein Akzent — Form aus Editorial, Gefühl aus Abweichung; Spannung zwischen Regimen, kein Kompromiss (nicht beide Pole halb)
+
+### Nächster Schritt (max. 1)
+Visual Brief gegen Shoot-Realität prüfen und committen; danach §8 Task 2 **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` (nicht Personen)
+
+### Litmus §10
+**Ich** — Pour Cet Instant als Mittelpunkt; Operatoren dienen dem eigenen Affekt (Einsamkeit, Dissoziation, Verzicht), nicht Marquardt-/WEEEIRDOS-Mythos. Film-Lead, Bridge-Pole, keine `forbidden_personal`-Verletzung.
 

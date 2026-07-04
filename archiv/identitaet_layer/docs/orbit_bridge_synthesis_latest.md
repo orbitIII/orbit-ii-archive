@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,41 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04 (23:00 UTC, cron)  
+**Phase:** 2 — Destillieren (AKTIV)
+
+### §8 Status
+
+| Task | Status |
+|---|---|
+| 1. Visual Brief | **done** — `filme/pour_cet_instant/visual_brief.md` |
+| 2. referenz_spiegel | **offen** — `orbit_identitaet.json` → `referenz_spiegel.examples` leer |
+| 3. Sound-Entscheidung | offen |
+| 4. Marquardt-Recherche | pausiert (Gate) |
+
+**Nächster Task §8:** referenz_spiegel — 5 Operatoren (nicht Personen)
+
+### Masterplan-Alignment
+
+- **Phase-Gate:** teilweise — Visual Brief steht; Gate bleibt zu bis `referenz_spiegel` (5 Einträge) fertig
+- **Bridge füttert Task:** **ja** — `form_queer_feeling` + `visual_tension` direkt in Visual Brief übernommen (Editorial-Form + SW-Base/ein Akzent)
+
+### Best of both worlds
+
+- **Hetero:** `editorial-portrait-form`, `institutional-distance` (daylight-not-flash, negative space)
+- **Queer:** `bold-color-accent`, `body-before-norm` (Rot als lebendiges Objekt; Körper vor Norm-Script)
+- **Bridge (1 Satz):** Form aus Editorial-Porträt und institutioneller Leere — Intensität aus einem roten Akzent der den Frame verlässt, ohne Label oder Kompromiss.
+
+### Nächster Schritt (max. 1)
+
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json`: welcher **Operator** spiegelt welchen Teil von dir (z.B. Ritual/Tür-Logik aus Scan, subversive-joy, Pour Cet Instant = Kern). Bridge-Regeln `institution_community` + `credit_kindness` füttern diesen Task.
+
+### Litmus §10
+
+- Affekt Lead: Einsamkeit + Dissoziation (Bridge: bleak + roter Akzent)
+- Pole: Bridge — queer × heteronormativ, nicht either-pole-as-total
+- Medium Lead: Film
+- `forbidden_personal`: nicht verletzt
+- 3-Jahre-Test: ja — Essence-Satz trägt, kein Referenz-Nachbau
+- **Ich oder Mythos?** Ich — Mittelpunkt bleibt Pour Cet Instant + `identitaet_profil`, Operatoren extrahiert nicht verehrt
 

@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief Pour Cet Instant — **in Arbeit** (Draft: `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; nur Bridge-Synthese + Visual-Brief-Draft
+- Bridge füttert Task: **ja** — `form_queer_feeling` (editorial-portrait-form × queer-gaze → gestelltes Tageslicht + Körper-Abweichung) und `visual_tension` (analog-bw × bold-color-accent → Beton-Grau + rotes Kleid)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — gestelltes Tageslicht, curator distance, negative space
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein rotes Objekt das lebt; Körper vor Norm, Loslassen ohne Label
+- **Bridge:** Pour Cet Instant hält Editorial-Form (heller Raum, Stuhl-Ritual) und queer Gefühl (Spaltung, Abweichung ohne Auflösung) im selben Frame — Spannung, kein Kompromiss.
+
+### Nächster Schritt (max. 1)
+Visual Brief finalisieren und committen; danach §8 Task 2 `referenz_spiegel` — 5 Operatoren in `orbit_identitaet.json` (nicht Personen).
+
+### Litmus §10
+**Ich** — Operatoren dienen Pour Cet Instant und `identitaet_profil.positionierung` (Bridge); kein Marquardt-Mythos als Mittelpunkt.
 

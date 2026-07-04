@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — **offen** (Visual Brief **done** → `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein neuer Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; Visual Brief committed in diesem Lauf
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (Grau-Base + rotes Akzent) direkt in Visual Brief übernommen
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — gestellte Nähe, negative space, daylight-not-flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein rotes Objekt als Intensität; Körper vor Norm, Ambiguität ohne Label
+- **Bridge:** Editorial-Rahmen trägt das Bild, Abweichung trägt das Gefühl — Grau institutionell, Rot lebendig; Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+`referenz_spiegel` in `orbit_identitaet.json` — 5 Operatoren (nicht Personen): z. B. Ritual/Tür-Logik (Scan), Pour Cet Instant = Kern, WEEEIRDOS = subversive-joy; Bridge-Regeln `institution_community` + `credit_kindness` als Filter
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Brief leitet aus eigenem Werk und `identitaet_profil` ab; Referenz liefert nur Operatoren (Form, Licht, Akzent), Mittelpunkt bleibt Pour Cet Instant.
 

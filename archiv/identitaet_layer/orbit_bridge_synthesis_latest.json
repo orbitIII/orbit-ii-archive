@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28",
+  "generated": "2026-07-04",
   "masterplan": {
     "path": "docs/orbit_masterplan.md",
     "found": true,
@@ -124,89 +124,7 @@
       "curator-voice",
       "G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs."
     ],
-    "profile_hits": [
-      {
-        "handle": "svenmarquardt",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "analog-bw;high-contrast;portrait;daylight",
-        "mood": "bleak;intimate;staged;underground"
-      },
-      {
-        "handle": "galeriedeschler",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "figurative-art;sw-portrait;exhibition-doc",
-        "mood": "established;figurative;body-as-art"
-      },
-      {
-        "handle": "boldberlin",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "editorial-mix;curated-lifestyle",
-        "mood": "polished-yet-edgy;curator-voice"
-      },
-      {
-        "handle": "nici_oh",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "editorial;y3-campaign",
-        "mood": "professional;club-fashion-bridge"
-      },
-      {
-        "handle": "bestimageagency",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "celebrity-fashion;pfw",
-        "mood": "commercial-fashion"
-      },
-      {
-        "handle": "scovvv",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "pfw-candid",
-        "mood": "pfw"
-      },
-      {
-        "handle": "isabellebogomas",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "",
-        "mood": ""
-      },
-      {
-        "handle": "visualisation_",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "",
-        "mood": ""
-      },
-      {
-        "handle": "voostore",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "store-editorial;visual-culture",
-        "mood": "kreuzberg;curated"
-      }
-    ],
+    "profile_hits": [],
     "weaves": [
       "gstar_voo_11plus1"
     ]
@@ -228,44 +146,7 @@
       "analog-bw",
       "Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution."
     ],
-    "profile_hits": [
-      {
-        "handle": "svenmarquardt",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "analog-bw;high-contrast;portrait;daylight",
-        "mood": "bleak;intimate;staged;underground"
-      },
-      {
-        "handle": "_lolsnake_",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "sw-portrait;texture-contrast;color-in-music-image;haus-visionaere",
-        "mood": "intense;queer-techno;subversive-joy;vulnerable-post-set"
-      },
-      {
-        "handle": "weeeirdos",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "yin-yang-branding;bold-color-accent;flyer-maximal;queer-portrait",
-        "mood": "subversive-joy;queer-community;magnetic;hypnotic"
-      },
-      {
-        "handle": "saeule_berlin",
-        "clusters": [
-          null,
-          null
-        ],
-        "photo_aesthetic": "red-filter-lighting;concrete-pillar;monochrome-hue;experimental-leftfield",
-        "mood": "institutional;underground;hypnotic;red-immersive"
-      }
-    ],
+    "profile_hits": [],
     "weaves": [
       "marquardt_sauele_weeeirdos"
     ]

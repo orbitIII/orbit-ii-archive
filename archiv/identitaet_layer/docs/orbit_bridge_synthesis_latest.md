@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,23 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 2. **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` (Status: **offen**; Task 1 Visual Brief **done** → `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, keine Foto-Spec ohne Pour-Cet-Bezug; Visual Brief aus Werk-JSON + Bridge-Regeln geschrieben
+- **Gate geschlossen:** ja — `referenz_spiegel` fehlt noch (§2 Phase-Gate)
+- **Bridge füttert Task:** ja — `form_queer_feeling` + `visual_tension` direkt in Visual Brief (Palette, Raum, Bridge-Check); für nächsten Task bereit: `institution_community`, `credit_kindness`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (gestellte Portraits, negative space, daylight-not-flash)
+- **Queer genommen:** `subversive-joy` / `body-before-norm`, `bold-color-accent` (ein lebendiges Rot, Körper vor Norm, kein Label)
+- **Bridge:** Editorial-Disziplin trägt den Frame — Abweichung sitzt im Körper und im einzelnen Rot, nicht als Kompromiss zwischen zwei vollen Looks.
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples`: welcher **Operator** (nicht Person) spiegelt welchen Teil von dir — z. B. Pour Cet Instant = Kern; Scan-Batch Ritual-Logik; WEEEIRDOS = subversive-joy; Galerie-Opening = institution_community; dual-credit = credit_kindness.
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Mittelpunkt bleibt Pour Cet Instant + `identitaet_profil.positionierung`; Referenz liefert Grammatik (Licht, Ritual, Credit), nicht Persona.
 

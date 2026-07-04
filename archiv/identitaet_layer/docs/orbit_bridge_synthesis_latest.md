@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-04
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-04  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief Pour Cet Instant — **in Arbeit** (`filme/pour_cet_instant/visual_brief.md` angelegt, Review ausstehend)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; Synthese + Visual Brief sind §8-erlaubt
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer-gaze) und `visual_tension` (analog-bw-Base + bold-color-accent als ein Rot) direkt in Brief übernommen
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — negative space, curator-distance, daylight-not-flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot-Objekt; Körper zittert vor dem Denken, Loslassen ohne Label
+- **Bridge:** Editorial-Kühle trägt das Grau; ein rotes Kleid als Intensität die verlässt — Spannung zwischen Regimen, kein Kompromiss aus halb queer / halb hetero
+
+### Nächster Schritt (max. 1)
+Visual Brief finalisieren und committen; danach §8 Task 2 `referenz_spiegel` — 5 Operatoren in `orbit_identitaet.json` (z. B. Ritual/Tür-Logik, subversive-joy, Pour Cet Instant als Kern)
+
+### Litmus §10
+**Ich** — der Brief leitet aus eigenem Werk und `identitaet_profil` ab; Referenz liefert nur Operatoren (Licht, Form), nicht Marquardt als Mittelpunkt.
 

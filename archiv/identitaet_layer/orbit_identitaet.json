@@ -139,8 +139,39 @@
       "gesamtwerk_potential": true
     },
     "referenz_spiegel": {
-      "description": "Wer spiegelt welchen Teil von dir — nicht zum Kopieren",
-      "examples": []
+      "description": "Welcher Operator spiegelt welchen Teil von dir — nicht welche Person du bewunderst",
+      "examples": [
+        {
+          "operator": "aftermath_portrait — Körper vor Norm",
+          "spiegelt": "Dein Kern: Einsamkeit, Dissoziation, Loslassen ohne Label — Pour Cet Instant ist Output, nicht Referenz",
+          "nicht": "Marquardt-Porträt kopieren — Affekt kommt aus eigenem VO und Werk",
+          "quelle": "orbit_werk_pour_cet_instant.json"
+        },
+        {
+          "operator": "exhibition-hours-not-club-flash + daylight-not-flash",
+          "spiegelt": "Licht- und Raum-Logik: Galerie-Leere, Tageslicht gestellt — Stuhl als Objekt im hellen Zimmer",
+          "nicht": "Tür-Logik / Door-Culture — kein Bouncer-POV, kein Gatekeeping als Status",
+          "quelle": "Scan-Batch 01, gallery_photo-Cluster"
+        },
+        {
+          "operator": "subversive-joy + bold-color-accent",
+          "spiegelt": "Rotes Kleid «fast zu lebendig» — Intensität die berührt wird und geht, nicht bleibt",
+          "nicht": "WEEEIRDOS als Persona oder queer-Marketing-Gimmick — nur Farb-Akzent-Operator",
+          "quelle": "marquardt_sauele_weeeirdos (Operator-Extraktion)"
+        },
+        {
+          "operator": "editorial-portrait-form + negative-space",
+          "spiegelt": "Kompositions-Disziplin: Nah-Gesicht, leerer Stuhl, Frame-Verlass — Form aus Editorial",
+          "nicht": "PFW-Front-Row oder Mode-Kampagnen-Narrativ — kein Paar-Script im Bild",
+          "quelle": "gstar_voo_11plus1 (Form-Operator)"
+        },
+        {
+          "operator": "dual-credit + curator-voice",
+          "spiegelt": "Credits sichtbar, Freundlichkeit statt Netzwerk-Spiel — Marketing-Ton für Festival-Submit",
+          "nicht": "Social-capital-as-currency — kein Name-Dropping als Zugangssimulation",
+          "quelle": "orbit_bridge_synthesis → credit_kindness"
+        }
+      ]
     }
   },
 

@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-05
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-05  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen**
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, kein JSON-Layer; Arbeit nur an §8 Task 1 (Pour Cet Instant)
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (SW-Base + ein Rot-Akzent) direkt in Visual Brief übernommen
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (gestellte Portraits, negative space, daylight-not-flash)
+- **Queer genommen:** `body-before-norm`, `bold-color-accent` (Körper vor Norm, ein lebendiges Rot als Objekt)
+- **Bridge:** Editorial-Rahmen trägt Körper-Drama ohne Label — Spannung zwischen Regimen, kein Kompromiss (nicht halb SW halb Regenbogen)
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` (Bridge-Regeln: `institution_community`, `credit_kindness`; Operatoren, keine Personen-Verehrung)
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Essence, Affekt und Verboten kommen aus Pour Cet Instant; Referenz liefert nur Grammatik (Licht, Form), nicht Persona.
 

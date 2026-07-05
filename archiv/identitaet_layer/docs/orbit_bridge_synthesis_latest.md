@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-05
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-05  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`archiv/identitaet_layer/filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen**
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; Visual Brief direkt aus Werk-Spec + Bridge
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + Abweichungs-Gefühl) und `visual_tension` (SW-Base + ein Rot-Akzent) im Brief verankert
+
+### Best of both worlds
+- **Hetero genommen:** editorial-portrait-form, daylight-not-flash, institutional-distance (negative space, leerer Stuhl)
+- **Queer genommen:** bold-color-accent (rotes Kleid als lebendiges Objekt), body-before-norm (Finger zittern, Körper vor Norm)
+- **Bridge:** Beton-Grau trägt die editorial-institutionelle Form; ein rotes Objekt bringt Intensität die den Frame verlässt — Spannung zwischen Regimen, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json`: welcher **Operator** (nicht Person) spiegelt welchen Teil von dir; Bridge-Regeln `institution_community` + `credit_kindness` als Filter
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — der Brief leitet aus Pour Cet Instant und `identitaet_profil` ab; Referenz liefert nur Operatoren (Licht, Form), Mittelpunkt bleibt das eigene Werk
 

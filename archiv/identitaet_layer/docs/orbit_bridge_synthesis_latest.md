@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-05
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-05  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — **offen** (Visual Brief **done** → `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, keine Foto-Spec außerhalb Pour Cet Instant; Visual Brief als erlaubter §8-Task umgesetzt
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + Abweichungsgefühl) und `visual_tension` (Grau-Base + ein rotes Akzent) direkt im Visual Brief verankert
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `exhibition-hours-not-club-flash` — institutionelle Porträt-Grammatik, Tageslicht statt Club-Flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot als Objekt; Körper entscheidet vor dem Script
+- **Bridge:** Galerie-Nähe in der Form, Abweichung im Gefühl — Beton-Grau hält die editorial distance, das rote Kleid trägt Intensität die den Frame verlässt, ohne dass ein Pol den anderen halbiert
+
+### Nächster Schritt (max. 1)
+`referenz_spiegel` in `orbit_identitaet.json` — 5 Operatoren (nicht Personen): `institution_community` + `credit_kindness` aus Bridge; Pour Cet Instant = Kern; Scan-Batch = Mechanik zum Spiegeln, nicht zum Kopieren
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Affekt und Essence kommen aus Pour Cet Instant VO; Referenz liefert nur Licht/Raum-Operatoren, Mittelpunkt bleibt Identität + Werk
 

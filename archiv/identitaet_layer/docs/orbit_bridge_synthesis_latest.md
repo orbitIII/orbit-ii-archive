@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-05
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-05  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — **offen** (Visual Brief **done** → `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, kein JSON-Layer; Gate bleibt **teilweise geschlossen** bis `referenz_spiegel` (5 Operatoren) in `orbit_identitaet.json` steht
+- **Bridge füttert Task:** ja — für nächsten §8-Task `referenz_spiegel` liefern `institution_community` (Galerie-Ritual ohne Exklusion) und `credit_kindness` (Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel); Visual Brief war gefüttert durch `form_queer_feeling` + `visual_tension`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form` + `institutional-distance` — Form/Editorial ohne Person-Mittelpunkt
+- **Queer genommen:** `subversive-joy` + `bridge-not-gate` — Community/Plattform ohne Rainbow-Washing
+- **Bridge:** Editorial-Komposition und institutionelle Distanz tragen das Bild — Körper-Abweichung und Loslassen ohne Label tragen das Gefühl; Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+`referenz_spiegel` in `orbit_identitaet.json` — 5 Einträge: welcher **Operator** (nicht Person) spiegelt welchen Teil von dir; z. B. Scan-Batch Ritual/Tür-Logik, Pour Cet Instant = Kern, WEEEIRDOS = subversive-joy-Operator
+
+### Litmus §10
+**Ich — nicht Mythos:** Synthese bindet an Pour Cet Instant + `identitaet_profil.positionierung` (Bridge); Operatoren dienen dem August-Shoot, nicht Marquardt als Idol. Affekt Lead = Einsamkeit/Dissoziation · Pole = Bridge · Medium = Film · kein `forbidden_personal` verletzt.
 

@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,33 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — 5 Operatoren in `orbit_identitaet.json` → **offen**  
+**§8 Status:** Visual Brief **done** (`filme/pour_cet_instant/visual_brief.md`) · referenz_spiegel **offen** · Sound-Entscheidung **offen**
+
+### Masterplan
+- **Gate eingehalten:** teilweise — kein Weave/Scrape/CI-Recherche; Phase-Gate bleibt bis `referenz_spiegel` steht
+- **Bridge füttert Task:** ja — für referenz_spiegel: `institution_community` (Galerie-Ritual ohne Exklusion), `credit_kindness` (Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel); Visual Brief umgesetzt mit `visual_tension` + `form_queer_feeling`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (Form/Editorial, nicht Person)
+- **Queer genommen:** `bold-color-accent`, `community-voice` (Subversion/Plattform, nicht Gimmick)
+- **Bridge:** SW-Base + ein rotes Akzent — Editorial-Form trägt Körper-Drama zwischen Regimen, ohne beide Pole halb zu machen.
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples`: welcher **Operator** (Ritual, dual-credit, subversive-joy, …) spiegelt welchen Teil von **dir** — nicht welche Person du bewunderst.
+
+### Litmus §10
+**Ist das ich — oder extrahiere ich nur ihren Mythos?** Ich: Pour Cet Instant und `identitaet_profil` sind Mittelpunkt; Operatoren aus Scan-Batch 01 dienen der Bridge-Form, nicht der Personen-Verehrung.
+
+### Entscheidungsfilter §10 (Kurz)
+| Filter | Antwort |
+|---|---|
+| Affekt Lead | Einsamkeit, Dissoziation |
+| Bleak / Joy / Bridge | Bridge (Beton-Grau + rotes Kleid) |
+| Medium Lead | Film |
+| forbidden_personal | nicht verletzt |
+| 3-Jahre-Test | ja — Visual Brief aligned mit Shoot Aug 2026 |
+| Ich oder Mythos | Ich — Werk als Kern, Operatoren als Werkzeug |
 

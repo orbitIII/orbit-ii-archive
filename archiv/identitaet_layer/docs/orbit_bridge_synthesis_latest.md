@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 2. **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` · **offen** (Task 1 Visual Brief **done** → `filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein neuer Weave, kein Scrape, keine Foto-Spec ohne Pour-Cet-Instant-Bezug; Visual Brief mit August-Shoot-Anker erstellt
+- **Bridge füttert Task:** ja — `institution_community` (Galerie-Ritual ohne Exklusion), `credit_kindness` (Credits sichtbar, Freundlichkeit statt Netzwerk-Spiel) für referenz_spiegel; Phase-2-Basis `visibility`, `narrative_bridge`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `curator-voice` — Form und institutionelle Distanz als Operatoren, nicht als Personen-Mittelpunkt
+- **Queer genommen:** `community-voice`, `dual-credit` — Plattform-Stimme und sichtbare Kollaboration ohne Gate-Logik
+- **Bridge:** Editorial-Form trägt das Bild, Community-Credit trägt die Ethik — Spannung zwischen Norm-Nähe und Abweichung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel:** 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` — welcher **Operator** (Ritual/Tür-Logik, subversive-joy, Pour-Cet-Kern) spiegelt welchen Teil von **dir**, nicht welche Person du bewunderst
+
+### Litmus §10
+**Ich** — Mittelpunkt bleibt Identität + Pour Cet Instant; Referenz liefert Operatoren (Licht, Ritual, Credit), nicht Mythos-Kopie. Affekt Lead: Einsamkeit/Dissoziation · Bridge · Film · forbidden sauber · 3-Jahre-Test: ja.
 

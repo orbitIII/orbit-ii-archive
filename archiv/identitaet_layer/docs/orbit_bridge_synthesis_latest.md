@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -7,10 +7,10 @@
 - **Quelle:** `docs/orbit_masterplan.md` · Stand 2026-06-27
 - **Phase:** 2 — Destillieren (AKTIV)
 - **Phase-Gate:** Kein neuer Marquardt-Weave, kein Instagram-Scrape, keine Foto-Spec-Recherche **ohne Bezug zu Pour Cet Instant** — bis Visual Brief + `referenz_spiegel` stehen.
-- **Nächster Task (§8):** 1. **Visual Brief** für *Pour Cet Instant* schreiben (aus `orbit_werk_pour_cet_instant.json` → `visual_grammar_orbit` + `production_orbit`)
+- **Nächster Task (§8):** 2. **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` · Task 1 Visual Brief **done** (`filme/pour_cet_instant/visual_brief.md`)
 - **Bridge für diesen Task:**
-  - `form_queer_feeling` — Form aus Editorial — Gefühl aus Abweichung
-  - `visual_tension` — SW-Base + ein Akzent — nicht beide Pole voll
+  - `institution_community` — Galerie-Ritual ohne Exklusion
+  - `credit_kindness` — Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel
 
 ## Aus heteronormativ (Form, Institution, Editorial)
 
@@ -21,16 +21,6 @@
 - institutional-distance
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
 
 ## Aus queer (Community, Subversion, Plattform)
 
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,33 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — 5 Operatoren in `orbit_identitaet.json` → `referenz_spiegel.examples` · **offen**  
+**Vorheriger Task:** Visual Brief → `filme/pour_cet_instant/visual_brief.md` · **done** (dieser Lauf)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, kein JSON-Layer; Visual Brief direkt aus Werk + Bridge-Regeln, August-Shoot-Bezug
+- **Bridge füttert Task:** ja — `visual_tension` (SW-Base + rotes Kleid) und `form_queer_feeling` (Editorial-Form + Abweichungs-Gefühl) in Visual Brief umgesetzt; `werk_binding` passt (Beton-Grau, Körper vor Norm, zwischen Regimen)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (negative space, gallery_photo-Licht, curator voice Ton)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (ein Rot als Lebendigkeit, Loslassen ohne hetero-Script-Auflösung)
+- **Bridge:** Editorial-Klarheit trägt Grau und Raum; ein roter Akzent und Körper-Drama halten Abweichung sichtbar — Spannung, kein 50/50-Kompromiss.
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel:** 5 Einträge in `orbit_identitaet.json` — welcher **Operator** (nicht Person) spiegelt welchen Teil von dir; Bridge-Regeln `institution_community` + `credit_kindness` als Leitfaden (Galerie-Ritual ohne Exklusion, Credits sichtbar).
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Brief kommt aus Pour Cet Instant + `identitaet_profil` (Einsamkeit, Dissoziation, Bridge-Pole); Referenz liefert nur Operatoren (Licht, Form), nicht Marquardt als Mittelpunkt.
+
+### Entscheidungsfilter §10 (Kurz)
+| Filter | Antwort |
+|---|---|
+| Affekt Lead | Einsamkeit, Dissoziation |
+| Bleak / Joy / Bridge | Bridge (Beton-Grau + rotes Kleid) |
+| Medium Lead | Film |
+| forbidden_personal | nicht verletzt |
+| 3-Jahre-Test | ja — aftermath-Arthouse, kein Trend |
+| Ich oder Mythos | Ich |
 

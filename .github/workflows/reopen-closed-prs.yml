@@ -2,6 +2,10 @@ name: Reopen wrongly closed PRs
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/reopen-closed-prs.yml
 
 permissions:
   contents: write

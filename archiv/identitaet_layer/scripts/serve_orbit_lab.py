@@ -6,6 +6,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HOST = os.environ.get("ORBIT_LAB_HOST", "0.0.0.0")
 PORT = int(os.environ.get("ORBIT_LAB_PORT", "8765"))
 
 
@@ -20,11 +21,11 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main():
     os.chdir(ROOT)
-    url = f"http://127.0.0.1:{PORT}/app/orbit-lab/"
+    url = f"http://{HOST}:{PORT}/app/orbit-lab/"
     print(f"ORBIT Lab → {url}")
     print(f"Serving repo root: {ROOT}")
     print("Ctrl+C to stop")
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

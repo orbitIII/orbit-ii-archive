@@ -28,11 +28,6 @@ is_duplicate() {
   is_keep "$ref" && return 1
   [[ "$ref" == cursor/bridge-synthese-* ]] && return 0
   [[ "$ref" == cursor/bc-* ]] && return 0
-  [[ "$ref" == cursor/agent-prompts-* ]] && return 0
-  [[ "$ref" == cursor/berghain-* ]] && return 0
-  [[ "$ref" == cursor/top-50-* ]] && return 0
-  [[ "$ref" == cursor/delete-inactive-automations-* ]] && return 0
-  [[ "$ref" == cursor/delete-duplicate-pushes-* ]] && return 0
   return 1
 }
 

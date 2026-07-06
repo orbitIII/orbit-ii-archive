@@ -11,6 +11,10 @@ on:
         options:
           - "true"
           - "false"
+      days:
+        description: "Only close bridge automation PRs created within this many days"
+        required: false
+        default: "5"
 
 permissions:
   contents: write
@@ -22,46 +26,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Close duplicate cursor automation PRs
+      - name: Close recent bridge-synthese duplicate PRs only
         env:
           GH_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ inputs.dry_run }}
+          DAYS: ${{ inputs.days }}
         run: |
           set -euo pipefail
-          KEEP_REFS=(
-            cursor/orbit-physics-prompt-0450
+          CUTOFF_EPOCH=$(date -u -d "${DAYS} days ago" +%s)
+
+          is_recent_bridge_duplicate() {
+            local ref="$1" created_at="$2"
+            [[ "$ref" == cursor/bridge-synthese-* || "$ref" == cursor/bc-* ]] || return 1
+            local created_epoch
+            created_epoch=$(date -u -d "$created_at" +%s)
+            (( created_epoch >= CUTOFF_EPOCH ))
+          }
+
+          mapfile -t rows < <(
+            gh pr list --state open --limit 500 \
+              --json number,headRefName,createdAt \
+              --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)\t\(.createdAt)"'
           )
 
-          is_keep() {
-            local ref="$1"
-            for k in "${KEEP_REFS[@]}"; do
-              [[ "$ref" == "$k" ]] && return 0
-            done
-            return 1
-          }
-
-          is_duplicate() {
-            local ref="$1"
-            is_keep "$ref" && return 1
-            [[ "$ref" == cursor/bridge-synthese-* ]] && return 0
-            [[ "$ref" == cursor/bc-* ]] && return 0
-            [[ "$ref" == cursor/agent-prompts-* ]] && return 0
-            [[ "$ref" == cursor/berghain-* ]] && return 0
-            [[ "$ref" == cursor/top-50-* ]] && return 0
-            [[ "$ref" == cursor/delete-inactive-automations-* ]] && return 0
-            [[ "$ref" == cursor/delete-duplicate-pushes-* ]] && return 0
-            return 1
-          }
-
-          mapfile -t nums < <(gh pr list --state open --limit 500 --json number,headRefName --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)"')
-
           closed=0
-          for line in "${nums[@]}"; do
+          for line in "${rows[@]}"; do
             num="${line%%$'\t'*}"
-            ref="${line#*$'\t'}"
-            is_duplicate "$ref" || continue
+            rest="${line#*$'\t'}"
+            ref="${rest%%$'\t'*}"
+            created_at="${rest#*$'\t'}"
+            is_recent_bridge_duplicate "$ref" "$created_at" || continue
             if [[ "$DRY_RUN" == "true" ]]; then
-              echo "Would close #$num ($ref)"
+              echo "Would close #$num ($ref, created $created_at)"
               continue
             fi
             gh pr close "$num" --delete-branch || gh pr close "$num" || true
@@ -69,4 +65,4 @@ jobs:
             echo "Closed #$num ($ref)"
           done
 
-          echo "Closed $closed duplicate PR(s)."
+          echo "Closed $closed duplicate PR(s) from the last ${DAYS} day(s)."

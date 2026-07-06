@@ -1,0 +1,50 @@
+name: Reopen wrongly closed PRs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  reopen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore branches and reopen legitimate PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          while IFS='|' read -r num ref sha; do
+            [[ -n "$num" ]] || continue
+            echo "Restoring #$num $ref @ $sha"
+            git push origin "${sha}:refs/heads/${ref}" || true
+            state=$(gh pr view "$num" --json state --jq .state 2>/dev/null || echo missing)
+            if [[ "$state" == "CLOSED" ]]; then
+              gh pr reopen "$num" && echo "Reopened #$num" || echo "Could not reopen #$num"
+            else
+              echo "#$num state=$state"
+            fi
+          done <<'EOF'
+          1|cursor/agent-prompts-docs-0e78|e8ff2730e91d105dd8e36a419678d9fb60191788
+          3|cursor/berghain-2024-2026-events-c7c8|b76a181dad9783b7dc626aad2de2c7e1aecf3f9a
+          4|cursor/berghain-event-data-e723|4b3f7e08adcacdf2032f868c9951037ace85beb7
+          5|cursor/agent-prompts-docs-ab78|80a675359d8e714766ea7cf8a38e5f020b8a2574
+          6|cursor/top-50-panorama-bar-track-berschneidungen-e812|d17d2e8f144dde53b9b2348da832380074978dd1
+          7|cursor/top-50-act-track-overlaps-4046|6d45bd4046b8ee5b67225c69dcb97742da0f45e2
+          98|cursor/delete-inactive-automations-312a|8b3e8f6f994d495816574265ea22593e6e2b3f94
+          EOF
+
+      - name: Close consolidated restore PR (superseded)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh pr view 111 --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            gh pr close 111 --comment "Superseded: original PRs reopened individually."
+            echo "Closed #111"
+          fi

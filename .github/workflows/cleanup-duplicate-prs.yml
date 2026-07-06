@@ -1,0 +1,72 @@
+name: Cleanup duplicate automation PRs
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "List matches only (no close/delete)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Close duplicate cursor automation PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          KEEP_REFS=(
+            cursor/orbit-physics-prompt-0450
+            cursor/delete-inactive-automations-312a
+            cursor/delete-duplicate-pushes-594d
+          )
+
+          is_keep() {
+            local ref="$1"
+            for k in "${KEEP_REFS[@]}"; do
+              [[ "$ref" == "$k" ]] && return 0
+            done
+            return 1
+          }
+
+          is_duplicate() {
+            local ref="$1"
+            is_keep "$ref" && return 1
+            [[ "$ref" == cursor/bridge-synthese-* ]] && return 0
+            [[ "$ref" == cursor/bc-* ]] && return 0
+            [[ "$ref" == cursor/agent-prompts-* ]] && return 0
+            [[ "$ref" == cursor/berghain-* ]] && return 0
+            [[ "$ref" == cursor/top-50-* ]] && return 0
+            return 1
+          }
+
+          mapfile -t nums < <(gh pr list --state open --json number,headRefName --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)"')
+
+          closed=0
+          for line in "${nums[@]}"; do
+            num="${line%%$'\t'*}"
+            ref="${line#*$'\t'}"
+            is_duplicate "$ref" || continue
+            if [[ "$DRY_RUN" == "true" ]]; then
+              echo "Would close #$num ($ref)"
+              continue
+            fi
+            gh pr close "$num" --delete-branch || gh pr close "$num" || true
+            closed=$((closed + 1))
+            echo "Closed #$num ($ref)"
+          done
+
+          echo "Closed $closed duplicate PR(s)."

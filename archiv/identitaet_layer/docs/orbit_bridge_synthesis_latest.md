@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,33 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 2. **referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` · Status: **offen**  
+_(Task 1 Visual Brief: **done** — `filme/pour_cet_instant/visual_brief.md`)_
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, keine Foto-CI-Recherche; Visual Brief direkt aus Pour Cet Instant + Bridge-Regeln geschrieben
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (Grau-Base + rotes Akzent) in Visual Brief umgesetzt; `werk_binding` deckt sich mit `spannungsachse.positionierung`
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (daylight-not-flash, negative space, Galerie-Leere)
+- **Queer genommen:** `bold-color-accent` (ein rotes Objekt), `body-before-norm` (Körper vor Script, Loslassen ohne Label)
+- **Bridge:** Form aus Editorial-Haltung — Intensität aus Abweichung; Grau hält den Raum, Rot verlässt den Frame — Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel:** 5 Einträge in `orbit_identitaet.json` → `identitaet_profil.referenz_spiegel.examples` — Operatoren (Ritual/Tür-Logik, subversive-joy, Pour Cet Instant als Kern), nicht Personen-Verehrung; Bridge-Regeln `institution_community` + `credit_kindness` als Leitfaden
+
+### Litmus §10
+**Ich** — Visual Brief leitet aus eigenem Werk und `identitaet_profil` ab; Referenz-Scan liefert nur Operatoren (Licht, Ritual, Akzent), kein Marquardt-Mittelpunkt.
+
+### Entscheidungsfilter §10 (Kurz)
+| Filter | Antwort |
+|---|---|
+| Affekt Lead | Einsamkeit + Dissoziation (aftermath) |
+| Bleak / Joy / Bridge | Bridge — Beton-Grau + rotes Kleid |
+| Medium Lead | Film |
+| forbidden_personal | nicht verletzt |
+| 3-Jahre-Test | ja — grain, daylight, single-accent bleiben ORBIT-DNA |
+| Ich oder Mythos? | Ich — Operator extrahiert, nicht Person kopiert |
 

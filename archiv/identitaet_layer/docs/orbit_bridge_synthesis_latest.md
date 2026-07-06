@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,29 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — **offen** (`examples: []` in `orbit_identitaet.json`)  
+**§8 erledigt diese Session:** Visual Brief → **done** (`filme/pour_cet_instant/visual_brief.md`)
+
+### Masterplan
+- **Gate eingehalten:** ja — kein Weave, kein Scrape, kein JSON-Layer; Arbeit nur am §8-Task mit Pour-Cet-Instant-Bezug
+- **Gate noch teilweise geschlossen:** `referenz_spiegel` fehlt weiterhin (Phase-Gate §2/§7)
+- **Bridge füttert Task:** ja — `form_queer_feeling` (Editorial-Form + Körper/Abweichung) und `visual_tension` (SW-Base + ein Rot-Akzent) direkt in Visual Brief überführt
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` (gestelltes Portrait, negative space, Galerie-Leere)
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` (ein lebendiges Rot; Körper vor Norm, Loslassen ohne Label)
+- **Bridge:** Editorial-Rahmen trägt heteronorme Form — das Gefühl kommt aus queerer Abweichung; Rot ist Impuls, der den Frame verlässt, kein Kompromiss aus „halb SW, halb Regenbogen“.
+
+### Nächster Schritt (§8)
+**referenz_spiegel** — 5 Einträge in `orbit_identitaet.json`: welcher **Operator** spiegelt welchen Teil von dir (nicht welche Person). Bridge-Regeln: `institution_community`, `credit_kindness`.
+
+### Litmus §10
+- Affekt Lead: Einsamkeit / Dissoziation — Brief fokussiert aftermath, leerer Stuhl, leere Hand
+- Pole: Bridge (Beton-Grau + rotes Kleid)
+- Medium Lead: Film — Brief ist Shoot-Spec, kein Side-Quest
+- `forbidden_personal`: eingehalten (kein Happy End, kein Erklär-Look)
+- 3-Jahre-Test: daylight-not-flash + single-accent hält über Trends
+- **Ist das ich — oder Mythos?** Ich — Pour Cet Instant als Identitäts-Anker; Operatoren extrahiert, nicht Marquardt-Kopie
 

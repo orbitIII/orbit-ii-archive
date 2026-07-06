@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** referenz_spiegel — 5 Operatoren in `orbit_identitaet.json` → **offen** (Visual Brief **done**)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, keine Foto-Spec ohne Pour-Cet-Instant-Bezug; Visual Brief erstellt, Gate bleibt teilweise bis `referenz_spiegel` steht
+- Bridge füttert Task: **ja** — `institution_community` (Galerie-Ritual ohne Exklusion), `credit_kindness` (Credits sichtbar — Freundlichkeit statt Netzwerk-Spiel)
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — Form und Leere aus Editorial/Galerie, nicht Person
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein Farbimpuls, Körper vor Norm-Script
+- **Bridge:** SW-Base + ein rotes Objekt — Editorial-Rahmen trägt Abweichung ohne Label oder Gimmick
+
+### Nächster Schritt (max. 1)
+`referenz_spiegel`: 5 Einträge in `orbit_identitaet.json` — welcher **Operator** spiegelt welchen Teil von dir (z. B. Ritual/Tür-Logik aus Scan ≠ dein Film; Pour Cet Instant = Kern; WEEEIRDOS = subversive-joy-Operator)
+
+### Litmus §10
+Ist das ich — oder extrahiere ich nur ihren Mythos? **Ich** — Bridge-Operatoren fließen in eigenes Werk (Beton-Grau + Rot, aftermath, keine Referenz-Person als Mittelpunkt); Extraktion dient Pour Cet Instant, nicht Marquardt-Nachbau.
 

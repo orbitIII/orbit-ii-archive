@@ -1,4 +1,4 @@
-# ORBIT Bridge Synthesis — 2026-06-28
+# ORBIT Bridge Synthesis — 2026-07-06
 
 **Position:** zwischen queer und heteronormativ (Bridge — best of both worlds)
 
@@ -22,16 +22,6 @@
 - curator-voice
 - G-Star × Marquardt × Voo Store — 11+1 portrait series, Berlin Art Week. Mode-Zweig des Marquardt-Hubs.
 
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@galeriedeschler` — 
-- `@boldberlin` — 
-- `@nici_oh` — 
-- `@bestimageagency` — 
-- `@scovvv` — 
-- `@isabellebogomas` — 
-- `@visualisation_` — 
-
 ## Aus queer (Community, Subversion, Plattform)
 
 - queer-platform
@@ -48,12 +38,6 @@ Profile-Hits:
 - bleak
 - analog-bw
 - Marquardts analog-bleak Galerie-Club-DNA trifft auf Lolsnake/WEEEIRDOS — queer, farbig, Säule — über dokumentierte Kollaboration und dieselbe Berghain-Institution.
-
-Profile-Hits:
-- `@svenmarquardt` — 
-- `@_lolsnake_` — 
-- `@weeeirdos` — 
-- `@saeule_berlin` — 
 
 ## Bridge — das Beste aus beiden
 
@@ -92,5 +76,22 @@ Profile-Hits:
 
 ## Agent-Review
 
-_Platz für Cursor-Automation / manuellen Review._
+**Datum:** 2026-07-06  
+**Phase:** 2 — Destillieren (AKTIV)  
+**Nächster Task (§8):** 1. Visual Brief — **done** (`filme/pour_cet_instant/visual_brief.md`) · 2. referenz_spiegel — **offen** (`orbit_identitaet.json` → `examples: []`)
+
+### Masterplan
+- Gate eingehalten: **ja** — kein neuer Weave, kein Scrape, kein JSON-Layer; Arbeit nur an §8-Task Pour Cet Instant
+- Bridge füttert Task: **ja** — `form_queer_feeling` (Editorial-Form + queer Gefühl) und `visual_tension` (Grau-Base + ein Rot-Akzent) direkt in Visual Brief überführt
+
+### Best of both worlds
+- **Hetero genommen:** `editorial-portrait-form`, `institutional-distance` — negative space, staged, daylight-not-flash
+- **Queer genommen:** `bold-color-accent`, `body-before-norm` — ein lebendiges Rot, Körper vor Norm-Script
+- **Bridge:** Desaturiertes institutionelles Grau trägt die Form; ein rotes Objekt und körperliche Ambiguität tragen das Gefühl — Spannung, kein 50/50-Kompromiss
+
+### Nächster Schritt (max. 1)
+**referenz_spiegel** — 5 Operatoren in `orbit_identitaet.json` eintragen (welcher Operator spiegelt welchen Teil von dir; Bridge-Regeln `institution_community`, `credit_kindness`)
+
+### Litmus §10
+**Ich** — Operatoren füttern Pour Cet Instant und `identitaet_profil.positionierung`; kein Marquardt-Mythos als Mittelpunkt.
 

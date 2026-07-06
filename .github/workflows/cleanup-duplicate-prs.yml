@@ -3,6 +3,8 @@ name: Cleanup duplicate automation PRs
 on:
   push:
     branches: [main]
+    paths:
+      - .github/workflows/cleanup-duplicate-prs.yml
   workflow_dispatch:
     inputs:
       dry_run:
@@ -50,6 +52,8 @@ jobs:
             [[ "$ref" == cursor/agent-prompts-* ]] && return 0
             [[ "$ref" == cursor/berghain-* ]] && return 0
             [[ "$ref" == cursor/top-50-* ]] && return 0
+            [[ "$ref" == cursor/delete-inactive-automations-* ]] && return 0
+            [[ "$ref" == cursor/delete-duplicate-pushes-* ]] && return 0
             return 1
           }
 

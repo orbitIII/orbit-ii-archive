@@ -31,6 +31,8 @@ is_duplicate() {
   [[ "$ref" == cursor/agent-prompts-* ]] && return 0
   [[ "$ref" == cursor/berghain-* ]] && return 0
   [[ "$ref" == cursor/top-50-* ]] && return 0
+  [[ "$ref" == cursor/delete-inactive-automations-* ]] && return 0
+  [[ "$ref" == cursor/delete-duplicate-pushes-* ]] && return 0
   return 1
 }
 

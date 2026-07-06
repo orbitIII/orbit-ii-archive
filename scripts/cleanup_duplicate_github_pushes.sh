@@ -13,8 +13,6 @@ fi
 
 KEEP_REFS=(
   cursor/orbit-physics-prompt-0450
-  cursor/delete-inactive-automations-312a
-  cursor/delete-duplicate-pushes-594d
 )
 
 is_keep() {
@@ -37,7 +35,7 @@ is_duplicate() {
 }
 
 echo "==> Scanning open cursor/* PRs"
-mapfile -t rows < <(gh pr list --state open --json number,headRefName,title --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)\t\(.title)"')
+mapfile -t rows < <(gh pr list --state open --limit 500 --json number,headRefName,title --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)\t\(.title)"')
 
 duplicates=()
 for row in "${rows[@]}"; do

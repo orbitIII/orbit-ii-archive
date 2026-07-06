@@ -32,8 +32,6 @@ jobs:
           set -euo pipefail
           KEEP_REFS=(
             cursor/orbit-physics-prompt-0450
-            cursor/delete-inactive-automations-312a
-            cursor/delete-duplicate-pushes-594d
           )
 
           is_keep() {
@@ -55,7 +53,7 @@ jobs:
             return 1
           }
 
-          mapfile -t nums < <(gh pr list --state open --json number,headRefName --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)"')
+          mapfile -t nums < <(gh pr list --state open --limit 500 --json number,headRefName --jq '.[] | select(.headRefName | startswith("cursor/")) | "\(.number)\t\(.headRefName)"')
 
           closed=0
           for line in "${nums[@]}"; do

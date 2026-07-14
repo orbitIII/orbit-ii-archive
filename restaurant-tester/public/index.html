@@ -3,34 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1419" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>Restauranttester</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icon.svg" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <div class="app">
     <header class="header">
       <div class="brand">
-        <span class="logo">🍽️</span>
+        <span class="logo" aria-hidden="true">🍽️</span>
         <div>
           <h1>Restauranttester</h1>
-          <p class="subtitle">Ergebnisse eintragen &amp; per Link gemeinsam bearbeiten</p>
+          <p class="subtitle">Offline speichern · Exportieren · per Link teilen</p>
         </div>
       </div>
       <div class="header-actions">
+        <span id="onlineBadge" class="online-badge online">Online</span>
         <button id="newSessionBtn" class="btn btn-secondary" type="button">Neue Runde</button>
         <button id="shareBtn" class="btn btn-primary" type="button">Link teilen</button>
       </div>
     </header>
 
     <main>
-      <section id="homeView" class="card home-card">
-        <h2>Neue Testrunde starten</h2>
-        <p>Erstelle eine Runde, trage Restaurants ein und teile den Link mit deinem Team.</p>
-        <label class="field">
-          <span>Name der Runde</span>
-          <input id="newTitleInput" type="text" placeholder="z.B. Berlin Mitte – März 2026" />
-        </label>
-        <button id="createSessionBtn" class="btn btn-primary" type="button">Runde erstellen</button>
+      <section id="homeView" class="home">
+        <div class="card home-card">
+          <h2>Neue Testrunde starten</h2>
+          <p>Ergebnisse werden lokal auf diesem Gerät gespeichert und funktionieren auch offline.</p>
+          <label class="field">
+            <span>Name der Runde</span>
+            <input id="newTitleInput" type="text" placeholder="z.B. Berlin Mitte – März 2026" />
+          </label>
+          <button id="createSessionBtn" class="btn btn-primary" type="button">Runde erstellen</button>
+          <div class="home-tools">
+            <button id="importHomeBtn" class="btn btn-secondary" type="button">Backup importieren</button>
+            <input id="importFileInput" type="file" accept="application/json,.json" class="hidden" />
+          </div>
+        </div>
+
+        <section class="card archive-card">
+          <div class="card-head">
+            <h2>Gespeicherte Runden</h2>
+            <span id="archiveCount" class="badge">0</span>
+          </div>
+          <div id="archiveList" class="archive-list"></div>
+          <p id="archiveEmpty" class="empty">Noch keine lokale Runde – erstellte Runden bleiben hier gespeichert.</p>
+        </section>
       </section>
 
       <section id="sessionView" class="hidden">
@@ -43,6 +65,13 @@
             <span id="syncStatus" class="sync idle">Bereit</span>
             <span id="updatedAt" class="muted"></span>
           </div>
+        </div>
+
+        <div class="toolbar card">
+          <button id="exportJsonBtn" class="btn btn-secondary" type="button">JSON exportieren</button>
+          <button id="exportCsvBtn" class="btn btn-secondary" type="button">CSV exportieren</button>
+          <button id="importSessionBtn" class="btn btn-secondary" type="button">Importieren</button>
+          <button id="installBtn" class="btn btn-secondary hidden" type="button">App installieren</button>
         </div>
 
         <div class="grid">

@@ -81,11 +81,73 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.home {
+  display: grid;
+  gap: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 .home-card {
-  max-width: 520px;
-  margin: 60px auto;
   display: grid;
   gap: 16px;
+}
+
+.home-tools {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.online-badge {
+  align-self: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.online-badge.online {
+  color: var(--accent-2);
+}
+
+.online-badge.offline {
+  color: var(--accent);
+}
+
+.archive-list {
+  display: grid;
+  gap: 10px;
+}
+
+.archive-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.archive-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.archive-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .grid {

@@ -60,10 +60,12 @@ app.get("/api/info", (req, res) => {
 });
 
 app.post("/api/sessions", (req, res) => {
-  const id = uuidv4().slice(0, 8);
+  const requestedId = typeof req.body?.id === "string" ? req.body.id.trim().slice(0, 32) : "";
+  const id = requestedId || uuidv4().slice(0, 8);
   const title = (req.body?.title || "Neue Testrunde").trim().slice(0, 120);
-  const session = defaultSession(id, title);
-  writeSession(session);
+  const existing = readSession(id);
+  const session = existing || defaultSession(id, title);
+  if (!existing) writeSession(session);
   res.json(session);
 });
 
@@ -77,15 +79,18 @@ app.get("/api/sessions/:id", (req, res) => {
 
 app.put("/api/sessions/:id", (req, res) => {
   const existing = readSession(req.params.id);
-  if (!existing) {
+  const { title, entries, createdAt, upsert } = req.body || {};
+
+  if (!existing && !upsert) {
     return res.status(404).json({ error: "Session nicht gefunden" });
   }
 
-  const { title, entries } = req.body || {};
+  const base = existing || defaultSession(req.params.id, "Neue Testrunde");
   const session = {
-    ...existing,
-    title: typeof title === "string" ? title.trim().slice(0, 120) : existing.title,
-    entries: Array.isArray(entries) ? entries : existing.entries,
+    ...base,
+    title: typeof title === "string" ? title.trim().slice(0, 120) : base.title,
+    entries: Array.isArray(entries) ? entries : base.entries,
+    createdAt: createdAt || base.createdAt,
     updatedAt: new Date().toISOString(),
   };
 

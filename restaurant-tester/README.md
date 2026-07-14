@@ -2,16 +2,16 @@
 
 Eigenständiges Side-Projekt – nicht Teil von Orbit.
 
-Kleine Web-App zum Eintragen von Restaurant-Testergebnissen. Per Link teilen und gemeinsam bearbeiten.
+Ergebnisse eintragen, **offline nutzen**, **lokal langfristig speichern**, per Link teilen.
 
 ## Features
 
-- Testrunde erstellen mit Name
-- Restaurants bewerten (Essen, Service, Ambiente, Preis-Leistung)
-- Notizen und Tester-Name
-- Link teilen – alle mit dem Link sehen dieselben Daten
-- Automatisches Speichern & Live-Aktualisierung alle 3 Sekunden
-- Öffentlicher Tunnel beim Start (für Mobile / ohne Port-Forwarding)
+- Testrunde erstellen und Restaurants bewerten
+- **Local-first:** alles landet im Browser (`localStorage`) – bleibt nach Reload erhalten
+- **Offline:** Service Worker / PWA – App weiter nutzbar ohne Netz
+- **Export:** JSON-Backup + CSV-Download
+- **Import:** Backup-Datei wieder einlesen
+- Optionaler Server-Sync / Cloudflare-Tunnel zum Teilen
 
 ## Starten
 
@@ -21,25 +21,20 @@ npm install
 npm start
 ```
 
-`npm start` startet den Server auf `0.0.0.0:3847` und legt einen öffentlichen Tunnel an.
-Die URL erscheint in der Konsole als `Öffentlicher Link: https://…`.
+`npm start` startet Server + öffentlichen Tunnel.  
+Nur lokal: `npm run start:local` → `http://localhost:3847`
 
-Nur lokal (ohne Tunnel):
+## Offline & langfristig speichern
 
-```bash
-npm run start:local
-```
+1. App einmal online öffnen (installiert den Service Worker)
+2. Optional: **App installieren** (Button / Browser-Menü → Zum Home-Bildschirm)
+3. Einträge werden automatisch **lokal** gespeichert
+4. Für echte Langzeit-Sicherung: **JSON exportieren** und die Datei speichern (Files/Drive/Mail)
+5. Später: **Backup importieren** auf demselben oder anderem Gerät
 
-Dann im Browser: `http://localhost:3847`
+Ohne Export bleiben Daten im Browser-Speicher des Geräts (überleben Reload, nicht zwingend App-/Browser-Datenlöschung).
 
 ## Link teilen
 
-Nach dem Erstellen einer Runde „Link teilen“ klicken.
-Der geteilte Link zeigt auf die öffentliche Tunnel-URL (falls aktiv), z. B.:
-
-`https://xxxxx.trycloudflare.com/s/abc12345`
-
-## Hinweise
-
-- Daten liegen in `restaurant-tester/data/` (JSON pro Runde)
-- Tunnel-URLs können sich nach Neustart ändern
+„Link teilen“ kopiert die aktuelle URL (Tunnel/Host + `/s/<id>`).  
+Andere Bearbeiter brauchen Online-Zugang zum Server; deine lokale Kopie bleibt unabhängig davon erhalten.

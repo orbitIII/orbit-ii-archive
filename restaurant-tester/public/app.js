@@ -540,6 +540,7 @@ async function openSession(id, { preferLocal = false } = {}) {
   renderEntries();
   $("updatedAt").textContent = `Lokal: ${formatDate(session.updatedAt)}`;
   setSyncStatus(state.online ? "saved" : "saving", state.online ? "Bereit" : "Offline-Modus");
+  updateShareBanner();
   startPolling();
 
   if (state.online && (!remote || new Date(session.updatedAt) > new Date(remote.updatedAt || 0))) {
@@ -609,19 +610,8 @@ function bindEvents() {
     showHomeView();
   });
 
-  $("shareBtn").addEventListener("click", async () => {
-    if (!state.sessionId) {
-      showToast("Zuerst eine Runde öffnen");
-      return;
-    }
-    const url = `${state.publicBaseUrl}/s/${state.sessionId}`;
-    try {
-      await navigator.clipboard.writeText(url);
-      showToast(state.online ? "Link kopiert!" : "Lokaler Link kopiert (Online zum Teilen)");
-    } catch {
-      prompt("Link kopieren:", url);
-    }
-  });
+  $("shareBtn").addEventListener("click", copyShareUrl);
+  $("copyShareBannerBtn").addEventListener("click", copyShareUrl);
 
   $("sessionTitle").addEventListener("input", (event) => {
     if (!state.session) return;
@@ -714,8 +704,34 @@ function bindEvents() {
   });
 }
 
+function currentShareUrl() {
+  if (state.sessionId) return `${state.publicBaseUrl}/s/${state.sessionId}`;
+  return state.publicBaseUrl;
+}
+
+function updateShareBanner() {
+  const url = currentShareUrl();
+  $("shareBannerUrl").textContent = url;
+  $("shareBannerHint").textContent = state.sessionId
+    ? "Diesen Link kannst du versenden – gemeinsame Bearbeitung dieser Runde."
+    : "Basis-Link der App. Nach dem Erstellen einer Runde wird der Runden-Link angezeigt.";
+}
+
+async function copyShareUrl() {
+  const url = currentShareUrl();
+  try {
+    await navigator.clipboard.writeText(url);
+    showToast("Link kopiert – bereit zum Versenden");
+  } catch {
+    prompt("Link kopieren:", url);
+  }
+}
+
 async function loadPublicInfo() {
-  if (!state.online) return;
+  if (!state.online) {
+    updateShareBanner();
+    return;
+  }
   try {
     const res = await fetch("/api/info");
     if (!res.ok) return;
@@ -726,6 +742,7 @@ async function loadPublicInfo() {
   } catch {
     // ignore
   }
+  updateShareBanner();
 }
 
 function registerServiceWorker() {

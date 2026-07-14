@@ -81,6 +81,26 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.share-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.share-banner code {
+  display: block;
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  word-break: break-all;
+  color: var(--accent-2);
+  font-size: 0.92rem;
+}
+
 .home {
   display: grid;
   gap: 20px;

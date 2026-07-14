@@ -21,8 +21,12 @@ npm install
 npm start
 ```
 
-`npm start` startet Server + öffentlichen Tunnel.  
+`npm start` startet Server + öffentlichen Tunnel (**Pinggy**, Fallback localtunnel – kein Cloudflare).  
+In der Konsole bzw. im App-Banner erscheint `TEILBARER LINK`.
+
 Nur lokal: `npm run start:local` → `http://localhost:3847`
+
+Hinweis: Gratis-Tunnel können nach einiger Zeit ablaufen. Für Dauerbetrieb lokal `npm start` laufen lassen und den aktuellen Link teilen.
 
 ## Offline & langfristig speichern
 

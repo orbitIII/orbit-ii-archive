@@ -13,6 +13,16 @@ if (!fs.existsSync(DATA_DIR)) {
 }
 
 app.use(express.json({ limit: "1mb" }));
+
+// Allow opening/sharing from any origin (tunnel hosts, mobile browsers).
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  if (req.method === "OPTIONS") return res.status(204).end();
+  next();
+});
+
 app.use(express.static(path.join(__dirname, "public")));
 
 function sessionPath(id) {

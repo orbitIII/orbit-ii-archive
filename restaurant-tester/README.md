@@ -11,6 +11,7 @@ Kleine Web-App zum Eintragen von Restaurant-Testergebnissen. Per Link teilen und
 - Notizen und Tester-Name
 - Link teilen – alle mit dem Link sehen dieselben Daten
 - Automatisches Speichern & Live-Aktualisierung alle 3 Sekunden
+- Öffentlicher Tunnel beim Start (für Mobile / ohne Port-Forwarding)
 
 ## Starten
 
@@ -20,12 +21,25 @@ npm install
 npm start
 ```
 
-Dann im Browser öffnen: `http://localhost:3847`
+`npm start` startet den Server auf `0.0.0.0:3847` und legt einen öffentlichen Tunnel an.
+Die URL erscheint in der Konsole als `Öffentlicher Link: https://…`.
+
+Nur lokal (ohne Tunnel):
+
+```bash
+npm run start:local
+```
+
+Dann im Browser: `http://localhost:3847`
 
 ## Link teilen
 
-Nach dem Erstellen einer Runde erscheint die URL z. B. als:
+Nach dem Erstellen einer Runde „Link teilen“ klicken.
+Der geteilte Link zeigt auf die öffentliche Tunnel-URL (falls aktiv), z. B.:
 
-`http://localhost:3847/s/abc12345`
+`https://xxxxx.trycloudflare.com/s/abc12345`
 
-Diesen Link an andere schicken – alle können gleichzeitig Einträge hinzufügen oder bearbeiten.
+## Hinweise
+
+- Daten liegen in `restaurant-tester/data/` (JSON pro Runde)
+- Tunnel-URLs können sich nach Neustart ändern

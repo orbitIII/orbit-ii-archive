@@ -4,7 +4,8 @@ const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 
 const app = express();
-const PORT = process.env.PORT || 3847;
+const PORT = Number(process.env.PORT || 3847);
+const HOST = process.env.HOST || "0.0.0.0";
 const DATA_DIR = path.join(__dirname, "data");
 
 if (!fs.existsSync(DATA_DIR)) {
@@ -41,6 +42,22 @@ function defaultSession(id, title = "Neue Testrunde") {
     entries: [],
   };
 }
+
+function publicBaseUrl(req) {
+  const fromEnv = (process.env.PUBLIC_BASE_URL || "").trim().replace(/\/$/, "");
+  if (fromEnv) return fromEnv;
+  const proto = req.get("x-forwarded-proto") || req.protocol || "http";
+  const host = req.get("x-forwarded-host") || req.get("host");
+  return `${proto}://${host}`;
+}
+
+app.get("/api/info", (req, res) => {
+  res.json({
+    port: PORT,
+    host: HOST,
+    publicBaseUrl: publicBaseUrl(req),
+  });
+});
 
 app.post("/api/sessions", (req, res) => {
   const id = uuidv4().slice(0, 8);
@@ -80,6 +97,14 @@ app.get("*", (_req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.listen(PORT, () => {
-  console.log(`Restauranttester läuft auf http://localhost:${PORT}`);
+const server = app.listen(PORT, HOST, () => {
+  console.log(`Restauranttester läuft auf http://${HOST}:${PORT}`);
+  if (process.env.PUBLIC_BASE_URL) {
+    console.log(`Öffentliche URL: ${process.env.PUBLIC_BASE_URL}`);
+  }
+});
+
+server.on("error", (err) => {
+  console.error("Serverfehler:", err.message);
+  process.exit(1);
 });

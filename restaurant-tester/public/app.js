@@ -8,6 +8,7 @@ const state = {
   pollTimer: null,
   lastRemoteUpdate: null,
   dirty: false,
+  publicBaseUrl: window.location.origin,
 };
 
 const ratingFields = [
@@ -314,7 +315,8 @@ function bindEvents() {
   });
 
   $("shareBtn").addEventListener("click", async () => {
-    const url = window.location.href;
+    const path = state.sessionId ? `/s/${state.sessionId}` : window.location.pathname;
+    const url = `${state.publicBaseUrl}${path === "/" ? "" : path}` || window.location.href;
     try {
       await navigator.clipboard.writeText(url);
       showToast("Link kopiert!");
@@ -362,10 +364,24 @@ function bindEvents() {
   $("cancelEditBtn").addEventListener("click", resetForm);
 }
 
+async function loadPublicInfo() {
+  try {
+    const res = await fetch("/api/info");
+    if (!res.ok) return;
+    const info = await res.json();
+    if (info.publicBaseUrl) {
+      state.publicBaseUrl = info.publicBaseUrl.replace(/\/$/, "");
+    }
+  } catch {
+    // ignore – fallback is window.location.origin
+  }
+}
+
 async function init() {
   bindRatingOutputs();
   bindEvents();
   resetForm();
+  await loadPublicInfo();
 
   const id = getSessionIdFromUrl();
   if (id) {

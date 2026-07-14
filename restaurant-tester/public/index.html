@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1419" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Restauranttester</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icon.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <span class="logo" aria-hidden="true">🍽️</span>
+        <div>
+          <h1>Restauranttester</h1>
+          <p class="subtitle">Offline speichern · Exportieren · per Link teilen</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span id="onlineBadge" class="online-badge online">Online</span>
+        <button id="newSessionBtn" class="btn btn-secondary" type="button">Neue Runde</button>
+        <button id="shareBtn" class="btn btn-primary" type="button">Link teilen</button>
+      </div>
+    </header>
+
+    <section id="shareBanner" class="card share-banner">
+      <div>
+        <strong>Teilbarer Link</strong>
+        <p id="shareBannerHint" class="muted">Wird geladen…</p>
+        <code id="shareBannerUrl">–</code>
+      </div>
+      <button id="copyShareBannerBtn" class="btn btn-primary" type="button">Link kopieren</button>
+    </section>
+
+    <main>
+      <section id="homeView" class="home">
+        <div class="card home-card">
+          <h2>Neue Testrunde starten</h2>
+          <p>Ergebnisse werden lokal auf diesem Gerät gespeichert und funktionieren auch offline.</p>
+          <label class="field">
+            <span>Name der Runde</span>
+            <input id="newTitleInput" type="text" placeholder="z.B. Berlin Mitte – März 2026" />
+          </label>
+          <button id="createSessionBtn" class="btn btn-primary" type="button">Runde erstellen</button>
+          <div class="home-tools">
+            <button id="importHomeBtn" class="btn btn-secondary" type="button">Backup importieren</button>
+            <input id="importFileInput" type="file" accept="application/json,.json" class="hidden" />
+          </div>
+        </div>
+
+        <section class="card archive-card">
+          <div class="card-head">
+            <h2>Gespeicherte Runden</h2>
+            <span id="archiveCount" class="badge">0</span>
+          </div>
+          <div id="archiveList" class="archive-list"></div>
+          <p id="archiveEmpty" class="empty">Noch keine lokale Runde – erstellte Runden bleiben hier gespeichert.</p>
+        </section>
+      </section>
+
+      <section id="sessionView" class="hidden">
+        <div class="card session-meta">
+          <label class="field grow">
+            <span>Rundenname</span>
+            <input id="sessionTitle" type="text" />
+          </label>
+          <div class="meta-info">
+            <span id="syncStatus" class="sync idle">Bereit</span>
+            <span id="updatedAt" class="muted"></span>
+          </div>
+        </div>
+
+        <div class="toolbar card">
+          <button id="exportJsonBtn" class="btn btn-secondary" type="button">JSON exportieren</button>
+          <button id="exportCsvBtn" class="btn btn-secondary" type="button">CSV exportieren</button>
+          <button id="importSessionBtn" class="btn btn-secondary" type="button">Importieren</button>
+          <button id="installBtn" class="btn btn-secondary hidden" type="button">App installieren</button>
+        </div>
+
+        <div class="grid">
+          <section class="card">
+            <div class="card-head">
+              <h2>Restaurant eintragen</h2>
+            </div>
+            <form id="entryForm" class="entry-form">
+              <label class="field">
+                <span>Restaurant</span>
+                <input id="restaurantName" type="text" required placeholder="Name des Restaurants" />
+              </label>
+
+              <label class="field">
+                <span>Datum</span>
+                <input id="visitDate" type="date" />
+              </label>
+
+              <div class="ratings">
+                <div class="rating-row">
+                  <label>Essen</label>
+                  <input id="ratingFood" type="range" min="1" max="5" step="1" value="4" />
+                  <output id="ratingFoodOut">4</output>
+                </div>
+                <div class="rating-row">
+                  <label>Service</label>
+                  <input id="ratingService" type="range" min="1" max="5" step="1" value="4" />
+                  <output id="ratingServiceOut">4</output>
+                </div>
+                <div class="rating-row">
+                  <label>Ambiente</label>
+                  <input id="ratingAmbience" type="range" min="1" max="5" step="1" value="4" />
+                  <output id="ratingAmbienceOut">4</output>
+                </div>
+                <div class="rating-row">
+                  <label>Preis-Leistung</label>
+                  <input id="ratingValue" type="range" min="1" max="5" step="1" value="4" />
+                  <output id="ratingValueOut">4</output>
+                </div>
+              </div>
+
+              <label class="field">
+                <span>Notizen</span>
+                <textarea id="notes" rows="3" placeholder="Was war gut? Was nicht?"></textarea>
+              </label>
+
+              <label class="field">
+                <span>Getestet von</span>
+                <input id="testerName" type="text" placeholder="Dein Name" />
+              </label>
+
+              <div class="form-actions">
+                <button id="submitEntryBtn" class="btn btn-primary" type="submit">Eintrag speichern</button>
+                <button id="cancelEditBtn" class="btn btn-secondary hidden" type="button">Abbrechen</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="card">
+            <div class="card-head">
+              <h2>Ergebnisse</h2>
+              <span id="entryCount" class="badge">0</span>
+            </div>
+            <div id="entriesList" class="entries-list"></div>
+            <p id="emptyState" class="empty">Noch keine Einträge – fang mit dem ersten Restaurant an.</p>
+          </section>
+        </div>
+
+        <section class="card summary-card">
+          <h2>Übersicht</h2>
+          <div id="summary" class="summary-grid"></div>
+        </section>
+      </section>
+    </main>
+
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

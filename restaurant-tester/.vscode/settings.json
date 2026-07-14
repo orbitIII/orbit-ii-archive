@@ -1,0 +1,10 @@
+{
+  "remote.autoForwardPorts": true,
+  "remote.portsAttributes": {
+    "3847": {
+      "label": "Restauranttester",
+      "onAutoForward": "notify",
+      "requireLocalPort": true
+    }
+  }
+}
